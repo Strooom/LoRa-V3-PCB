@@ -18127,7 +18127,7 @@
 			(uuid "64608a28-ce76-4613-8f97-470616cae5cd")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R4")
 					(unit 1)
@@ -18248,7 +18248,7 @@
 			(uuid "55ff706b-560f-40f8-9587-a269a486cb1d")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C33")
 					(unit 1)
@@ -18377,7 +18377,7 @@
 			(uuid "38881a6f-da34-4df0-ae13-1f01b7e847c4")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C5")
 					(unit 1)
@@ -18514,7 +18514,7 @@
 			(uuid "56606c38-ea40-41b5-b270-27bf622a38c1")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC9")
 					(unit 1)
@@ -18628,7 +18628,7 @@
 			(uuid "55c134e0-73a2-4c97-89c3-d70a2dee8156")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R5")
 					(unit 1)
@@ -18693,7 +18693,7 @@
 			(uuid "5daaec86-6e9d-4326-bcb0-bc672311a420")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR06")
 					(unit 1)
@@ -18765,7 +18765,7 @@
 			(uuid "2e77dea0-a580-41bf-b0aa-ee96e9b023ef")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR02")
 					(unit 1)
@@ -18883,7 +18883,7 @@
 			(uuid "9ad25e80-881e-401d-9d37-019c79bbaa7f")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "JP1")
 					(unit 1)
@@ -19012,7 +19012,7 @@
 			(uuid "26017bd1-4bfb-4b0d-ac82-06c52ca1ccdf")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C24")
 					(unit 1)
@@ -19135,7 +19135,7 @@
 			(uuid "08a4ebbd-6e1c-465f-b9b6-cf1ad1ed3887")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C2")
 					(unit 1)
@@ -19265,7 +19265,7 @@
 			(uuid "f3796fbe-4626-4b25-a951-6fd267819ab8")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "SW2")
 					(unit 1)
@@ -19375,7 +19375,7 @@
 			)
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "F3")
 					(unit 1)
@@ -19447,7 +19447,7 @@
 			(uuid "1c600991-7bd3-4ac5-baa5-5805bf3c7c6a")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR09")
 					(unit 1)
@@ -19576,7 +19576,7 @@
 			(uuid "122ddd14-8492-4339-a5fa-b0e63913ed77")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C21")
 					(unit 1)
@@ -19692,7 +19692,7 @@
 			(uuid "003f8721-4cfc-4493-984a-1da61a02cc3e")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "CONN3")
 					(unit 1)
@@ -19817,7 +19817,7 @@
 			(uuid "a9a7099b-276b-4a17-be2f-f970b44141f8")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "CONN8")
 					(unit 1)
@@ -19933,7 +19933,7 @@
 			)
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "F2")
 					(unit 1)
@@ -20006,7 +20006,7 @@
 			(uuid "06f1c205-da0b-49c6-a851-58b96ad88122")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#FLG02")
 					(unit 1)
@@ -20126,7 +20126,7 @@
 			(uuid "934e1f35-5f75-4d44-aa42-4977fd9f1384")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR08")
 					(unit 1)
@@ -20240,7 +20240,7 @@
 			(uuid "8b7fad95-f36d-4e0a-b72d-31e5c76f3271")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "L1")
 					(unit 1)
@@ -20346,7 +20346,7 @@
 			)
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "H1")
 					(unit 1)
@@ -20469,7 +20469,7 @@
 			(uuid "a369fad2-13b9-4309-9965-b040759c3cdc")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C14")
 					(unit 1)
@@ -20541,7 +20541,7 @@
 			(uuid "b2214ccb-947b-48de-8d9a-a82b908defba")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#FLG04")
 					(unit 1)
@@ -20742,7 +20742,7 @@
 			(uuid "33940645-af45-4338-b13d-bd2f837cb565")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC1")
 					(unit 1)
@@ -20875,7 +20875,7 @@
 			(uuid "ec30fee9-6266-4b4d-8cd4-773e11c82136")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "Q1")
 					(unit 1)
@@ -21002,7 +21002,7 @@
 			(uuid "7613f738-0eff-454f-be65-8d3cb1e540b7")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C34")
 					(unit 1)
@@ -21129,7 +21129,7 @@
 			(uuid "0101dd8b-866b-428f-bf89-54b85b82c61f")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R3")
 					(unit 1)
@@ -21266,7 +21266,7 @@
 			(uuid "4bae4ea9-1ccb-4794-8179-edf3573caab0")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC10")
 					(unit 1)
@@ -21390,7 +21390,7 @@
 			(uuid "fe3ce999-7962-45e4-af88-da71319cc2bc")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "CONN2")
 					(unit 1)
@@ -21566,7 +21566,7 @@
 			(uuid "981aa2ba-5beb-454e-be27-d0f6435d18ae")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC12")
 					(unit 1)
@@ -21632,7 +21632,7 @@
 			(uuid "da35b381-1b7f-4b14-981a-a60ab1ced825")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#FLG03")
 					(unit 1)
@@ -21761,7 +21761,7 @@
 			(uuid "97928d6b-ec40-444a-a72f-bb6b4323fcb5")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "Q2")
 					(unit 1)
@@ -21827,7 +21827,7 @@
 			(uuid "e7e5ee3f-6c3c-430b-9291-6ee570fc4ef0")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR012")
 					(unit 1)
@@ -21933,7 +21933,7 @@
 			)
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "H2")
 					(unit 1)
@@ -22047,7 +22047,7 @@
 			(uuid "8c6a5325-5513-4241-8cd1-7a6e7fb7e217")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R11")
 					(unit 1)
@@ -22180,7 +22180,7 @@
 			(uuid "da0c8c99-be83-4943-8522-71e8b1b0886f")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC5")
 					(unit 1)
@@ -22328,7 +22328,7 @@
 			(uuid "a24badb9-0b9f-412e-bef4-8255a0e1f1f6")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC13")
 					(unit 1)
@@ -22456,7 +22456,7 @@
 			(uuid "f69a3d6a-45ea-4b38-b73a-e97e4f0b7cf6")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "CONN7")
 					(unit 1)
@@ -22585,7 +22585,7 @@
 			(uuid "611bd35c-fc34-4c81-bff6-50304e9fb945")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C12")
 					(unit 1)
@@ -22714,7 +22714,7 @@
 			(uuid "7382918b-d2f5-4c19-9624-21ccae62f685")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C11")
 					(unit 1)
@@ -22780,7 +22780,7 @@
 			(uuid "20e232ce-949d-423d-8cf3-a9929f87f790")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR017")
 					(unit 1)
@@ -22909,7 +22909,7 @@
 			(uuid "47a9fd1c-e77c-41fd-92b0-5257a0031504")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R12")
 					(unit 1)
@@ -23035,7 +23035,7 @@
 			(uuid "c870f9d1-5db7-40cd-a1db-12292e7e7da0")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR022")
 					(unit 1)
@@ -23157,7 +23157,7 @@
 			(uuid "8da973ef-6803-4225-82d8-277c89e627aa")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "CONN5")
 					(unit 1)
@@ -23277,7 +23277,7 @@
 			(uuid "ffbce98b-37f9-4c75-ad32-b535405f9c00")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R16")
 					(unit 1)
@@ -23398,7 +23398,7 @@
 			(uuid "b2eb9d08-330a-4965-abfc-131934f1ade4")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C31")
 					(unit 1)
@@ -23535,7 +23535,7 @@
 			(uuid "cbf967ea-af82-4f69-ae90-e7205913a9c7")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC11")
 					(unit 1)
@@ -23719,7 +23719,7 @@
 			(uuid "60864d0c-9c3a-4974-bd53-f07dd5bdea1d")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC2")
 					(unit 1)
@@ -23851,7 +23851,7 @@
 			(uuid "50736678-5dea-4a1a-834a-03e67894d400")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC7")
 					(unit 1)
@@ -23965,7 +23965,7 @@
 			(uuid "e7e89199-af9b-4c23-a5a5-9159ba1ac82b")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R14")
 					(unit 1)
@@ -24088,7 +24088,7 @@
 			(uuid "0f0b9472-290b-4470-93f7-fefdb6957871")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C23")
 					(unit 1)
@@ -24211,7 +24211,7 @@
 			(uuid "389253b3-c959-4d67-94b0-f26f348eef54")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C13")
 					(unit 1)
@@ -24330,7 +24330,7 @@
 			(uuid "317bb59a-fb7e-4d43-a611-109d534ed04c")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "D2")
 					(unit 1)
@@ -24459,7 +24459,7 @@
 			(uuid "e5daa3a7-5daa-4e41-b28b-ba6c760252aa")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R9")
 					(unit 1)
@@ -24596,7 +24596,7 @@
 			(uuid "4b8141df-d99d-46c3-9282-88869036ea72")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC8")
 					(unit 1)
@@ -24724,7 +24724,7 @@
 			(uuid "dcfa1710-11b0-4bcd-a951-fadf846d6c9c")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "D1")
 					(unit 1)
@@ -24853,7 +24853,7 @@
 			(uuid "5c4e8e36-412b-45cf-9fd1-fecb36adb33c")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R15")
 					(unit 1)
@@ -24980,7 +24980,7 @@
 			(uuid "904a33c5-b75e-4dba-8492-41aa57ca1073")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC6")
 					(unit 1)
@@ -25046,7 +25046,7 @@
 			(uuid "2c25b959-f211-44c8-866f-e54b95d2225c")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR05")
 					(unit 1)
@@ -25175,7 +25175,7 @@
 			(uuid "ea54a02c-43a5-4e79-aa19-d22791680d92")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C3")
 					(unit 1)
@@ -25302,7 +25302,7 @@
 			(uuid "9f3bdd4a-2fe3-40ff-870b-0f3c13222a80")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C35")
 					(unit 1)
@@ -25429,7 +25429,7 @@
 			(uuid "08ae7386-2330-4c81-a0bc-4a9ac16270ca")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C15")
 					(unit 1)
@@ -25593,7 +25593,7 @@
 			(uuid "2b202f49-a503-4cac-afcd-1bcace7567e5")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "CONN1")
 					(unit 1)
@@ -25664,7 +25664,7 @@
 			(uuid "d9f6b0c6-81b4-4fc2-b9a4-1a591df56112")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR010")
 					(unit 1)
@@ -25736,7 +25736,7 @@
 			(uuid "8d7f295a-d4de-4259-9b12-cf3465b80326")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR015")
 					(unit 1)
@@ -25926,7 +25926,7 @@
 			(uuid "1ca59e10-e335-4ff5-b223-042870496de8")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "CONN6")
 					(unit 1)
@@ -26055,7 +26055,7 @@
 			(uuid "8763f698-b9be-468f-ba7a-0e15eef8dd6d")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C7")
 					(unit 1)
@@ -26178,7 +26178,7 @@
 			(uuid "3bb794b9-ba66-4ce5-a3a3-4b10456e7aab")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R6")
 					(unit 1)
@@ -26299,7 +26299,7 @@
 			(uuid "a40fb245-3148-41b3-9f19-f9f231bd7edc")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "CONN4")
 					(unit 1)
@@ -26365,7 +26365,7 @@
 			(uuid "e1134e65-ac8c-444f-b9df-5c3499d6eb04")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR011")
 					(unit 1)
@@ -26485,7 +26485,7 @@
 			(uuid "72ac29e7-b8d3-4bda-876d-d5205daec2bb")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "Q4")
 					(unit 1)
@@ -26608,7 +26608,7 @@
 			(uuid "d02307d9-8872-4787-b591-3cbfd5b2cc4c")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C10")
 					(unit 1)
@@ -26680,7 +26680,7 @@
 			(uuid "31833433-5fd6-4a67-93c9-287638c08b48")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR01")
 					(unit 1)
@@ -26801,7 +26801,7 @@
 			(uuid "2a24de8c-e13b-41c6-8810-a865d066050d")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "L2")
 					(unit 1)
@@ -26901,7 +26901,7 @@
 			)
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "H3")
 					(unit 1)
@@ -27024,7 +27024,7 @@
 			(uuid "c80f1796-bcd3-443b-95b6-9de6b3affabe")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R7")
 					(unit 1)
@@ -27153,7 +27153,7 @@
 			(uuid "1540b9a4-ba37-4027-86ac-478a6e287556")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R2")
 					(unit 1)
@@ -27276,7 +27276,7 @@
 			(uuid "171d91f5-4dc3-4f20-bdf2-a3da1e797ac3")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C25")
 					(unit 1)
@@ -27399,7 +27399,7 @@
 			(uuid "f61d968f-9ab9-41c1-a1a9-b08833a822ef")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R17")
 					(unit 1)
@@ -27522,7 +27522,7 @@
 			(uuid "12d04ce0-6a82-48f2-8451-bf911c111c17")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R18")
 					(unit 1)
@@ -27594,7 +27594,7 @@
 			(uuid "087685b4-e111-4af9-bf5d-918636cb530a")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR013")
 					(unit 1)
@@ -27715,7 +27715,7 @@
 			(uuid "dce23d80-3769-4b62-9282-0b1d58f9a366")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "SW1")
 					(unit 1)
@@ -27836,7 +27836,7 @@
 			(uuid "825f4da8-ec79-41db-865b-50f7ad320edc")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C30")
 					(unit 1)
@@ -27972,7 +27972,7 @@
 			(uuid "729b58eb-9aa1-4625-8700-acc86dd39703")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "IC3")
 					(unit 1)
@@ -28082,7 +28082,7 @@
 			)
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "F1")
 					(unit 1)
@@ -28210,7 +28210,7 @@
 			(uuid "c25b9beb-4e5d-42a4-8b6e-cddfdbd03e78")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "D3")
 					(unit 1)
@@ -28335,7 +28335,7 @@
 			(uuid "d49bfc9d-0c0a-4fbb-9fc3-f3a60fd37882")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR018")
 					(unit 1)
@@ -28458,7 +28458,7 @@
 			(uuid "d53aa2e4-d42c-4f9a-9597-b37cf6a8742f")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C22")
 					(unit 1)
@@ -28587,7 +28587,7 @@
 			(uuid "10f35fb8-d13a-4654-acc6-1a2795f95597")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C8")
 					(unit 1)
@@ -28707,7 +28707,7 @@
 			(uuid "b4e3268b-0fe5-456c-b59e-0b2427e483d7")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "Q3")
 					(unit 1)
@@ -28828,7 +28828,7 @@
 			(uuid "0c4a40e4-cf05-4870-9223-169792772b14")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C32")
 					(unit 1)
@@ -28955,7 +28955,7 @@
 			(uuid "bf146419-06bb-4ffb-b980-49c0341c1bde")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C37")
 					(unit 1)
@@ -29084,7 +29084,7 @@
 			(uuid "7255bb71-14fe-4220-9d60-7e9b87cce9b2")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C4")
 					(unit 1)
@@ -29207,7 +29207,7 @@
 			(uuid "e39598f4-87ef-4cd2-97ab-1e127c03662b")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R13")
 					(unit 1)
@@ -29279,7 +29279,7 @@
 			(uuid "9250d325-d54b-448a-adee-369f42b93e76")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR014")
 					(unit 1)
@@ -29406,7 +29406,7 @@
 			(uuid "c4e86c4f-d742-4109-a4b6-b1877992c3a7")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C36")
 					(unit 1)
@@ -29535,7 +29535,7 @@
 			(uuid "bd197bdd-2842-44f1-8134-ed5cc5e44a8d")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C6")
 					(unit 1)
@@ -29658,7 +29658,7 @@
 			(uuid "f2abb4a6-1603-40bd-b33a-27535cf5a68b")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R10")
 					(unit 1)
@@ -29730,7 +29730,7 @@
 			(uuid "50bd7044-562b-44bf-a35a-0f0ac4529645")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR031")
 					(unit 1)
@@ -29853,7 +29853,7 @@
 			(uuid "22623df9-ca53-48b4-bf88-d98b87f7cc9a")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C20")
 					(unit 1)
@@ -29953,7 +29953,7 @@
 			)
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "H4")
 					(unit 1)
@@ -30076,7 +30076,7 @@
 			(uuid "77dc741e-ebd8-41fa-8792-7b611adc9975")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R8")
 					(unit 1)
@@ -30202,7 +30202,7 @@
 			(uuid "1320a887-cfd8-4aa0-a8bd-2e5bf0c38a37")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR03")
 					(unit 1)
@@ -30268,7 +30268,7 @@
 			(uuid "4a4fa179-0ac1-4791-a81d-9910e1cca578")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "#PWR07")
 					(unit 1)
@@ -30391,7 +30391,7 @@
 			(uuid "86e7231e-8125-44d7-a169-ed6ca125e967")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "R1")
 					(unit 1)
@@ -30520,7 +30520,7 @@
 			(uuid "0807570c-7bc9-4ef0-9736-7460f22313c8")
 		)
 		(instances
-			(project "lorav3"
+			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
 					(reference "C1")
 					(unit 1)
