@@ -1,0 +1,162 @@
+(footprint "SOT-323_PJC7400"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-323, SC-70")
+	(tags "SOT-323 SC-70")
+	(property "Reference" "Q1"
+		(at -0.05 -1.95 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "98c52220-0e47-4e1c-9573-06747571b812")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PJC7400"
+		(at -0.05 2.5 180)
+		(layer "F.Fab")
+		(uuid "d44f0fd1-f52d-4a9d-9446-64ff4bb5177d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SOT-323_PJC7400"
+		(at 0 6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "588876f0-33d0-434f-85a4-9f91900bb9e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1beb4ebe-cdd1-4a9b-a850-7acc0fc49d78")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec8f7ebe-c600-4c2a-902f-5c5dba1c6dab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -1.25)
+		(end 1.75 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebdd6083-3fb7-4367-94dc-d9aad1fa39a9")
+	)
+	(fp_line
+		(start -1.75 1.25)
+		(end -1.75 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18b4be57-eae3-4ad3-9bed-9cb59aba3b24")
+	)
+	(fp_line
+		(start 1.75 -1.25)
+		(end 1.75 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e4b75af-3aa9-4263-814c-36969f5c1a67")
+	)
+	(fp_line
+		(start 1.75 1.25)
+		(end -1.75 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a10ff875-67fe-4891-8820-8324ab03f3a3")
+	)
+	(fp_rect
+		(start -0.626 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "641cc8bf-36ff-4bf8-9176-48bae5434377")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.5 0)
+		(layer "F.Fab")
+		(uuid "cce6da9d-3b25-4f0e-9a8b-d8f2b5fdd458")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.925 -0.65 270)
+		(size 0.66 0.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "fd5ebb2b-20a8-466a-acac-3a239b3c4f3f")
+	)
+	(pad "2" smd roundrect
+		(at -0.925 0.65 270)
+		(size 0.66 0.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "485480da-fdcc-4887-873a-8092196b8ef9")
+	)
+	(pad "3" smd roundrect
+		(at 0.925 0 270)
+		(size 0.66 0.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "3db26e77-eb7a-432b-9c02-f70706e8954e")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

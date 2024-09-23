@@ -1,0 +1,141 @@
+(footprint "L_TDK_VLS3010CX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "6e0ac730-cb54-41b8-ae1d-403a6cb0c8e6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_TDK_VLS3010CX"
+		(at 0 4.572 0)
+		(layer "F.Fab")
+		(uuid "5304b0e2-8d23-4a06-a5e5-f9210d47d2a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "L_TDK_VLS3010CX"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faaef1a6-5dde-4382-bc78-ac9f262d687e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e5a7952-7415-4d34-9907-caf9b50e435f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba8ff1bb-ad1c-4045-910a-5ac00b9ae418")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3dacad56-a226-4eba-a854-836362d8ff71")
+	)
+	(fp_line
+		(start -1.75 -1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7068f9f-b230-48c1-8d72-0a2b5ab0a3f9")
+	)
+	(fp_line
+		(start 1.75 -1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d82a83e7-2639-4c4d-b550-863394f1a790")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14a351d0-9b60-4fae-89fd-234b65e004b5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.064 0)
+		(layer "F.Fab")
+		(uuid "3022ac50-5141-45eb-b30b-7a3e8fd8629d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 0)
+		(size 1 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "72e67b1f-185a-414f-8e3b-1e64297cd919")
+	)
+	(pad "2" smd roundrect
+		(at 1 0)
+		(size 1 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "1723d504-c512-4e93-9557-b4bea16cf510")
+	)
+	(model "${KIPRJMOD}/projectlibraries/inputs/VLS3010CX-470M-1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

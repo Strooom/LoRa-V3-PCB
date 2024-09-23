@@ -1,0 +1,156 @@
+(footprint "WR-SMA SMA PCB THT Jack"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7e5db4a8-7f9f-4f17-9913-69b51792a3a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WR-SMA SMA PCB THT Jack"
+		(at -0.25 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f16bfe5-594a-4a91-b3f5-c1709dcdd7b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "WR-SMA SMA PCB THT Jack"
+		(at 0 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06a105f8-5429-45a4-8b4d-4ed87261036d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ea95f75-f8e6-4652-bbcd-9c5dfcc56dd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5342887-b319-406b-bf52-66c632c5f32e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.25 -4.25)
+		(end 4.25 4.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c891f4f6-3057-4c70-bd78-fb4bdfc4473d")
+	)
+	(fp_rect
+		(start -3.5 -3.5)
+		(end 3.5 11.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "c372ba62-e224-4728-a4eb-38ada8bd07b7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "45cb2a16-d2c9-404e-8f4f-87213250009b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d15a289-ea48-4645-9848-0f7b31cfe05a")
+	)
+	(pad "2" thru_hole roundrect
+		(at -2.575 -2.575)
+		(size 2.75 2.75)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "b21c86f3-49ef-4dc1-955a-22fc2bb78c38")
+	)
+	(pad "2" thru_hole roundrect
+		(at -2.575 2.575)
+		(size 2.75 2.75)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "6137070c-f66f-4a3a-9ffa-140c00eb2ecc")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.575 -2.575)
+		(size 2.75 2.75)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "da099923-824e-43c2-a7b2-8f19169f4de8")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.575 2.575)
+		(size 2.75 2.75)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "8064b6c9-48e8-4752-8f9c-78a5a3177af2")
+	)
+	(model "${KIPRJMOD}/projectlibraries/1project3dmodels/PCB.SMAFRA.HT.stp"
+		(offset
+			(xyz 0 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

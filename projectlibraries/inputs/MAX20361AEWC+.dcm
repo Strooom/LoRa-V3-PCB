@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX20361AEWC+
+D Small, Single-/Multi-Cell Solar Harvester with MPPT and Harvest Counter, WLP-12
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX20361.pdf
+$ENDCMP
+#
+#End Doc Library

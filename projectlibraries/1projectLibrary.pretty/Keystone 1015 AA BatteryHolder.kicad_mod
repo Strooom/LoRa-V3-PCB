@@ -1,0 +1,150 @@
+(footprint "Keystone 1015 AA BatteryHolder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "1015 ")
+	(property "Reference" "REF**"
+		(at 0 1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "537b0b05-36f4-499a-af69-424a1fca0521")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Keystone 1015 AA BatteryHolder"
+		(at 0 -11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "37e7b718-b38e-48f7-9005-a2b62fd33223")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Keystone 1015 AA BatteryHolder"
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbe336e3-5473-47f3-aabf-5f81b3c67463")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7b56585-fe03-4d23-a935-2ba8b021fa5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19d48561-e24e-4a9f-bbfd-561a0880c279")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.62132 -7.8994)
+		(end -2.656281 -7.8994)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afd05a9a-7f1e-4c1c-826f-920623751813")
+	)
+	(fp_rect
+		(start -30.25 -8)
+		(end 30.25 8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "eea06be6-d13c-4406-b251-8e3ecd9bfb01")
+	)
+	(fp_rect
+		(start -30 -7.75)
+		(end 30 7.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "5bb1b677-8b17-482b-a9e1-7c2cf943c064")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d2a04ce0-459b-4736-bc00-7f1cdcea5022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -27.242 -6.731)
+		(size 1.9812 1.9812)
+		(drill 1.9812)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6640e35b-b4b8-4319-8e04-512791799c39")
+	)
+	(pad "1" thru_hole roundrect
+		(at -27.242 0)
+		(size 2.5 2.5)
+		(drill 1.1938)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 0)
+		(uuid "faffafe6-9b64-4790-b9c5-12b0079a71ee")
+	)
+	(pad "2" thru_hole circle
+		(at 27.242 0)
+		(size 2.5 2.5)
+		(drill 1.1938)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
+		(uuid "de9cd1bb-0be2-4aa3-a697-5fad53bdcb54")
+	)
+	(model "${KIPRJMOD}/projectlibraries/1project3dmodels/1015.stp"
+		(offset
+			(xyz -1.75 1 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

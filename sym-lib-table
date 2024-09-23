@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "1projectLibrary")(type "KiCad")(uri "${KIPRJMOD}/projectlibraries/1projectLibrary.kicad_sym")(options "")(descr ""))
+  (lib (name "cp2102n-axx-xqfn24")(type "KiCad")(uri "C:/Users/pasca/Documents/Projects/Electronica/MoovrHw/cp2102n-axx-xqfn24.kicad_sym")(options "")(descr ""))
+  (lib (name "molex-2171790001")(type "KiCad")(uri "C:/Users/pasca/Documents/Projects/Electronica/MoovrHw/molex-2171790001.kicad_sym")(options "")(descr ""))
+  (lib (name "usblc6-2p6")(type "KiCad")(uri "C:/Users/pasca/Documents/Projects/Electronica/MoovrHw/usblc6-2p6.kicad_sym")(options "")(descr ""))
+)
