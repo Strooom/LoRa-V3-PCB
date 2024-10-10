@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.csv filter=bom_csv
+*.html filter=bom_html
+*.gbr filter=gerber
+*.gbrjob filter=gbrjob
+*.xml filter=xml
+*.kicad_pcb filter=kicad_pcb_f
+*.net filter=net_filter

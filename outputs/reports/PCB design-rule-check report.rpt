@@ -1,0 +1,62 @@
+** Drc report for LoRa-V3-PCB.kicad_pcb **
+** Created on 2024-10-10T19:19:13+0000 **
+
+** Found 16 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(166.5 mm, 81.0 mm): Footprint CONN3
+    @(145.0 mm, 81.0 mm): Footprint CONN2
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(173.0 mm, 75.0 mm): Footprint H2
+    @(145.0 mm, 81.0 mm): Footprint CONN2
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(145.0 mm, 81.0 mm): Footprint CONN2
+    @(117.0 mm, 75.0 mm): Footprint H1
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(141.75 mm, 97.5 mm): Footprint IC9
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(115.75 mm, 107.5 mm): Footprint SW1
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(132.25 mm, 90.75 mm): Footprint Q4
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(173.5 mm, 109.48995 mm): Footprint IC6
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(134.75 mm, 107.25 mm): Footprint Q3
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(134.75 mm, 97.5 mm): Footprint IC11
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(138.25 mm, 97.5 mm): Footprint IC10
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(145.25 mm, 97.5 mm): Footprint IC8
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(164.75 mm, 117.5 mm): Footprint SW2
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(159.0 mm, 109.5 mm): Footprint Q2
+[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
+    ; warning
+    @(172.25 mm, 109.48995 mm): Footprint IC7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(173.0 mm, 89.0 mm): Reference 'F3'
+[silk_overlap]: Silkscreen overlap
+    ; warning
+    @(135.75 mm, 117.5 mm): Reference 'F1'
+    @(133.81 mm, 117.185 mm): Segment on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
