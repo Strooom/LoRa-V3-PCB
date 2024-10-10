@@ -38,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -50,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +64,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -222,7 +225,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "cd9c2f83-2e08-4548-926f-06e9fe61bbc0")
 	)
-	(model "${KIPRJMOD}/projectlibraries/1project3dmodels/73391-0080.stp"
+	(model "${KIPRJMOD}/inputs/3dmodels/73391-0080.stp"
 		(offset
 			(xyz -24.5 0 10)
 		)

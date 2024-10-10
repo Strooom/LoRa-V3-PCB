@@ -2868,7 +2868,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -12.7 10.16 0)
 					(length 2.54)
 					(name "VBAT"
@@ -9513,6 +9513,10 @@
 		(uuid "6de389f0-4049-48e7-ba4c-70d5538812aa")
 	)
 	(no_connect
+		(at 350.52 93.98)
+		(uuid "72c5cc6f-7556-48d2-81ae-36b19ab98ecd")
+	)
+	(no_connect
 		(at 73.66 240.03)
 		(uuid "84c184fe-526e-459a-986e-526a2e1ed27e")
 	)
@@ -12909,16 +12913,6 @@
 			(type default)
 		)
 		(uuid "a628038c-32ab-49ec-8d87-de66597ea2d9")
-	)
-	(wire
-		(pts
-			(xy 335.28 93.98) (xy 350.52 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a64fd2ae-638f-4613-8715-cdf5c0debae7")
 	)
 	(wire
 		(pts
@@ -17075,28 +17069,6 @@
 			)
 		)
 	)
-	(global_label "UART1-RX"
-		(shape bidirectional)
-		(at 335.28 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4446e1c5-2d1c-4006-8dc8-435fa2e6fcad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.2654 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI2-SCK"
 		(shape input)
 		(at 544.83 114.3 180)
@@ -18049,7 +18021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 200.152 116.84 90)
 			(effects
 				(font
@@ -18161,7 +18133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 513.08 144.78 0)
 			(effects
 				(font
@@ -18290,7 +18262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 211.7852 375.92 0)
 			(effects
 				(font
@@ -18550,7 +18522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 140.97 88.138 90)
 			(effects
 				(font
@@ -18925,7 +18897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 385.7752 48.26 0)
 			(effects
 				(font
@@ -19048,7 +19020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 376.8852 139.7 0)
 			(effects
 				(font
@@ -19302,7 +19274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 565.15 345.44 0)
 			(effects
 				(font
@@ -19489,7 +19461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 56.8452 97.79 0)
 			(effects
 				(font
@@ -19860,7 +19832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 565.15 340.36 0)
 			(effects
 				(font
@@ -20382,7 +20354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 186.3852 190.5 0)
 			(effects
 				(font
@@ -20576,7 +20548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:LoRa-E5"
+		(property "Footprint" "1projectLibrary:LoRa-E5"
 			(at 336.804 98.552 0)
 			(effects
 				(font
@@ -20585,7 +20557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://files.seeedstudio.com/products/114993120/Wio-E5-LE%20module%20datasheet_v1.0.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf"
 			(at 342.646 98.044 0)
 			(effects
 				(font
@@ -20594,7 +20566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Wio-E5-LE-HF"
+		(property "Description" "Sub-GHz Modules LoRa-E5 Wireless Module"
 			(at 334.772 98.806 0)
 			(effects
 				(font
@@ -20621,7 +20593,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "713-114993121"
+		(property "mouserPartNumber" "713-317990687"
 			(at 331.216 99.06 0)
 			(effects
 				(font
@@ -20649,6 +20621,24 @@
 			)
 		)
 		(property "MPN" "114993121"
+			(at 368.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturerPartNumber" "317990687"
+			(at 323.088 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OctoPartURL" ""
 			(at 368.3 99.06 0)
 			(effects
 				(font
@@ -20915,7 +20905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 530.86 127 0)
 			(effects
 				(font
@@ -21042,7 +21032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 159.512 198.12 90)
 			(effects
 				(font
@@ -21969,7 +21959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 140.97 83.058 90)
 			(effects
 				(font
@@ -22294,6 +22284,15 @@
 				(hide yes)
 			)
 		)
+		(property "manufacturerPartNumber" "MCP73123T-22SI/MF"
+			(at 187.325 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "60f55ed6-795a-4c23-a17d-1a082bb5944a")
 		)
@@ -22498,7 +22497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 209.2452 120.65 0)
 			(effects
 				(font
@@ -22627,7 +22626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 169.8752 110.49 0)
 			(effects
 				(font
@@ -22822,7 +22821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 498.348 140.97 90)
 			(effects
 				(font
@@ -23199,7 +23198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 140.97 93.218 90)
 			(effects
 				(font
@@ -23311,7 +23310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 541.02 93.98 0)
 			(effects
 				(font
@@ -23887,7 +23886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 140.97 77.978 90)
 			(effects
 				(font
@@ -24001,7 +24000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 73.3552 130.81 0)
 			(effects
 				(font
@@ -24124,7 +24123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 154.6352 190.5 0)
 			(effects
 				(font
@@ -24372,7 +24371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 341.122 337.82 90)
 			(effects
 				(font
@@ -24766,7 +24765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 143.002 241.3 90)
 			(effects
 				(font
@@ -25088,7 +25087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 53.0352 377.19 0)
 			(effects
 				(font
@@ -25215,7 +25214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 530.86 132.08 0)
 			(effects
 				(font
@@ -25342,7 +25341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 492.76 92.4052 0)
 			(effects
 				(font
@@ -25968,7 +25967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 279.0952 375.92 0)
 			(effects
 				(font
@@ -26091,7 +26090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 80.518 242.57 90)
 			(effects
 				(font
@@ -26521,7 +26520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 398.4752 78.74 0)
 			(effects
 				(font
@@ -26937,7 +26936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 84.328 242.57 90)
 			(effects
 				(font
@@ -27066,7 +27065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 77.47 79.502 90)
 			(effects
 				(font
@@ -27189,7 +27188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 199.0852 302.26 0)
 			(effects
 				(font
@@ -27312,7 +27311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 497.078 48.26 90)
 			(effects
 				(font
@@ -27435,7 +27434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 170.688 293.37 90)
 			(effects
 				(font
@@ -27749,7 +27748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 530.86 91.44 0)
 			(effects
 				(font
@@ -28009,7 +28008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 565.15 335.28 0)
 			(effects
 				(font
@@ -28371,7 +28370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 482.2952 132.08 0)
 			(effects
 				(font
@@ -28500,7 +28499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 314.6552 375.92 0)
 			(effects
 				(font
@@ -28741,7 +28740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 502.92 144.78 0)
 			(effects
 				(font
@@ -28868,7 +28867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 530.86 142.24 0)
 			(effects
 				(font
@@ -28997,7 +28996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 117.8052 377.19 0)
 			(effects
 				(font
@@ -29120,7 +29119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 143.002 209.55 90)
 			(effects
 				(font
@@ -29319,7 +29318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 530.86 137.16 0)
 			(effects
 				(font
@@ -29448,7 +29447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 246.0752 375.92 0)
 			(effects
 				(font
@@ -29571,7 +29570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 346.202 337.82 90)
 			(effects
 				(font
@@ -29766,7 +29765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 50.4952 97.79 0)
 			(effects
 				(font
@@ -29989,7 +29988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 336.042 337.82 90)
 			(effects
 				(font
@@ -30304,7 +30303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:R_0603_nominal"
+		(property "Footprint" "1projectLibrary:R_0603_nominal"
 			(at 485.902 140.97 90)
 			(effects
 				(font
@@ -30433,7 +30432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0603_nominal"
 			(at 389.5852 78.74 0)
 			(effects
 				(font

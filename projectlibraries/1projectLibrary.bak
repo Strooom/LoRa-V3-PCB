@@ -1044,7 +1044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1projectLibrary:QFN24 - CP2102N"
+		(property "Footprint" "1projectLibrary:QFN-24-1EP_4x4mm_P0.5mm_EP2.15x2.15mm-epeas"
 			(at 31.75 -26.67 0)
 			(effects
 				(font
