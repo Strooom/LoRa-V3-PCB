@@ -1,0 +1,58 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,manufacturerName,mouserPartNumber,octopartUrl,digikeyPartNumber,MPN,GPN,remark,supplier1Name,supplier1PartNumber,supplier1PartURL,checked,has3Dmodel,manufacturerPartNumber
+1,10uF,C,C20 C21 C22 C23 C24 C25,C0603C106M8PACTU,C_0603_nominal,6, ,https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser,KEMET,80-C0603C106M8PACTU,https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp,399-14945-1-ND,C0603C106M8PACTU,GPC0603475-10-X7S,,,,,,,
+2,4.7uF,C,C10 C11 C12 C13 C14 C15,C1608X7S1A475K080AC,C_0603_nominal,6, ,https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser,TDK,810-C1608X7S1A475KAC,https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp,445-14258-1-ND,C1608X7S1A475K080AC,GPC0603475-10-X7S,,,,,,,
+3,1uF,C_Small,C30 C31 C32 C33 C34 C35 C36 C37,CGA3E1X7R1E105K080AC,C_0603_nominal,8, ,https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser,TDK,810-CGA3E1X7R1E105K,https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp,445-6931-1-ND,CGA3E1X7R1E105K080AC,GPC0603105-25,,,,,,,
+4,100nF,C,C1 C2 C3 C4 C5 C6 C7 C8,CGA3E2X7R1E104K080AA,C_0603_nominal,8, ,https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser,TDK,810-CGA3E2X7R1E104K,https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp,445-5667-1-ND,CGA3E2X7R1E104K080AA,GPC0603104-25-X7R,,,,,,,
+5,AA-BatteryHolder,Battery_Cell,CONN2,1015,Keystone 1015 AA BatteryHolder,1, ,https://www.keyelco.com/userAssets/file/M65p22.pdf,KeyStone,534-1015,https://octopart.com/1015-keystone-8129901?r=sp,36-1015-ND,1015,,,,,,,,
+6,ePaper,displayConnector_24p_FPC,CONN6,2-1734839-4,TE_2-1734839-4_1x24-1MP_P0.5mm_Horizontal,1, ,https://www.mouser.be/datasheet/2/418/7/ENG_CD_1734839_C_C_1734839-2017341.pdf,TE Connectivity,571-2-1734839-4,https://octopart.com/2-1734839-4-te+connectivity-40196932?r=sp,A100299CT-ND,2-1734839-4,,,,,,,,
+7,USB-C Receptable,Molex-2171790001,CONN1,217179-0001,Molex-2171790001,1, ,https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/217/217179/2171790001_sd.pdf,Molex,538-217179-0001,https://octopart.com/217179-0001-molex-117190526?r=sp,900-2171790001CT-ND,217179-0001,,,,,,,,
+8,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",SMA-Antenna-Connector-THT-90,CONN5,73391-0080,Molex 73391-0080,1, ,https://www.molex.com/en-us/products/part-detail/733910080?display=pdf,Molex,538-73391-0080,https://octopart.com/73391-0080-molex-776539?r=sp&pdp=73391-0080-molex-776539&currency=EUR,WM4088-ND,73391-0080,,,,,,,,
+9,External Battery,Connector_2p_Battery,CONN3,B2B-XH-A(LF)(SN),JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1, ,https://www.farnell.com/datasheets/2057209.pdf,JST,NA,https://octopart.com/b2b-xh-a%28lf%29%28sn%29-jst-7424860?r=sp,455-2247-ND,B2B-XH-A(LF)(SN),,,,,,,,
+10,SolarPanel,Connector_2p_Battery,CONN4,NA,PinHeader_1x02_P2.54mm_Vertical,1, ,https://www.farnell.com/datasheets/2057209.pdf,JST,NA,https://octopart.com/b2b-xh-a%28lf%29%28sn%29-jst-7424860?r=sp,455-2247-ND,B2B-XH-A(LF)(SN),,,,,,,,
+11,DEBUG-SWD,Conn_01x06_Pin,CONN8,NA,DebugPort-6P-2.54,1, ,NA,Amphenol FCI,NA,NA,,NA,,,,,,,,
+12,Qwiic,Qwiic,CONN7,SM04B-SRSS-TB(LF)(DN)(P),JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,1, ,https://www.mouser.be/datasheet/2/813/eSH-2487316.pdf,Sparkfun - JST,306-SM04BSRSSTBLFDNP,https://octopart.com/sm04b-srss-tb%28lf%29%28dn%29%28p%29-jst-154671066?r=sp,455-SM04B-SRSS-TBCT-ND,SM04B-SRSS-TB(LF)(DN)(P),,,,,,,,
+13,Schottky-diode,SDM05U40CSP-7,D1 D2 D3,MSS1P3HM3_A/H,MSS1P3,3, ,https://www.mouser.be/datasheet/2/115/SDM05U40CSP-3216160.pdf,MSS1P3HM3_A/H,MSS1P3HM3_A/H,https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp,SDM05U40CSP-7DICT-ND MSS1P3HM3_A/HGICT-ND,MSS1P3HM3_A/H,,,,,,,,
+14,Sub-GHz Modules LoRa-E5 Wireless Module,SeeedStudio_Wio-E5,IC1,114993121,LoRa-E5,1, ,https://www.mouser.be/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf,Seeed Technology,713-317990687,https://octopart.com/114993121-seeed+studio-142683940?r=sp,1597-114993121-ND,114993121,,,,,,,,317990687
+15,energy harvester,AEM00920,IC12,AEM00920,QFN-24-1EP_4x4mm_P0.5mm_EP2.15x2.15mm-epeas,1, ,https://e-peas.com/wp-content/uploads/2024/01/e-peas_AEM00920_datasheet_solar_energy_harvestingDS_AEM00920_v0.3_a.pdf,e-Peas,NA,NA,,AEM00920,,,,,,,,
+16,BME680,BME680,IC5,BME680,BME680,1, ,https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf,Bosch Sensortec,262-BME680,https://octopart.com/bme680-bosch+tools-84623084?r=sp,828-1077-1-ND,BME680,,,,,,,,
+17,EEPROM SERIAL EEPROM,BR24G1MFVT,IC8 IC9 IC10 IC11,BR24G1MFVT-5AE2,BR24G1M-TSSOP-B8,4, ,https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf,ROHM,755-BR24G1MFVT-5AE2,https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp,846-BR24G1MFVT-5AE2CT-ND,BR24G1MFVT-5AE2,,,,,,,,
+18,"USB to UART master bridge, QFN-24",CP2102N-Axx-xQFN24,IC2,CP2102N-Axx-xQFN24,QFN-24-1EP_4x4mm_P0.5mm_EP2.15x2.15mm-epeas,1, ,https://www.mouser.be/datasheet/2/368/cp2102n_datasheet-1634912.pdf,Silicon Labs,634-CP2102NA02QFN24R,https://octopart.com/cp2102n-a02-gqfn24r-silicon+labs-99772192?r=sp,336-5888-1-ND,CP2102N-A02-GQFN24R,,,,,,,,
+19,Battery Management Sngl cel OVP LiFEPO4 battery charger,MCP73123T,IC13,MCP73123T-22SI/MF,DFN10_MCP73123,1, ,https://www.mouser.be/datasheet/2/268/MCHPS04151_1-2520685.pdf,MICROCHIP,579-MCP73123T-22SIMF,https://octopart.com/mcp73123t-22si%2Fmf-microchip-17627238?r=sp,MCP73123T-22SI/MFCT-ND,MCP73123T-22SI/MF,,,,,,,,MCP73123T-22SI/MF
+20,SHT40,SHT40,IC6,SHT40-BD1B-R2,SHT4X,1, ,https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf,Sensirion,403-SHT40-AD1F-R2,https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp,1649-SHT40-BD1B-R2CT-ND,SHT40-BD1B-R2,,,,,,,,
+21,TSL25911,TSL2591,IC7,TSL25911FN,TSL2591,1, ,https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80,ams Osram,985-TSL25911FN,https://octopart.com/tsl25911fn-osram-126135547?r=sp,TSL25911FNCT-ND,TSL25911FN,,,,,,,,
+22,ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap,USBLC6-2P6,IC3,USBLC6-2P6,SOT-23-6L-USBLC6-2,1, ,https://datasheet.lcsc.com/szlcsc/STMicroelectronics-USBLC6-2P6_C15999.pdf,STMicroelectronics,511-USBLC6-2P6,https://octopart.com/usblc6-2p6-stmicroelectronics-347175?r=sp,497-5026-1-ND,USBLC6-2P6,,,,,,,,
+23,22 uH,L,L2,VLS3010CX-220M-1,L_TDK_VLS3010CX,1, ,https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf?ref_disty=mouser,TDK,810-VLS3010CX220M1,https://octopart.com/vls3010cx-220m-1-tdk-108018957?r=sp,445-VLS3010CX-220M-1CT-ND,VLS3010CX-220M-1,,,,,,,,
+24,47uH,VLS3010CX-470M-1,L1,VLS3010CX-470M-1,L_TDK_VLS3010CX,1, ,https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3010cx-1_en.pdf?ref_disty=mouser,TDK,810-VLS3010CX470M1,https://octopart.com/vls3010cx-470m-1-tdk-110194027?r=sp,445-VLS3010CX-470M-1CT-ND,VLS3010CX-470M-1,,,,,,,,
+25,PJC7400,Q_NMOS_GSD,Q1,PJC7400_R1_00001,SOT-323_PJC7400,1, ,https://www.mouser.be/datasheet/2/1057/PJC7400-1868968.pdf,Panjit,241-PJC7400_R1_00001,https://octopart.com/pjc7400_r1_00001-panjit-112852220?r=sp,3757-PJC7400_R1_00001CT-ND,PJC7400_R1_00001,,,,,,,,
+26,P-Channel MOSFET,Si2367DS,Q2 Q3 Q4,Si2367DS,SI2367DS-SOT-23,3, ,https://www.vishay.com/docs/65015/si2367ds.pdf,Vishay Siliconix,781-SI2367DS-GE3,https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp,SI2367DS-T1-GE3CT-ND,SI2367DS-T1-GE3,,,,,,,,
+27,1K,R,R3,CR0603-FX-1001ELF,R_0603_nominal,1, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-1001ELF,https://octopart.com/cr0603-fx-1001elf-bourns-2326646?r=sp,CR0603-FX-1001ELFCT-ND,CR0603-JW-102ELF,GPR06031K,,,,,,,
+28,10K,R,R12,CR0603-FX-1002ELF,R_0603_nominal,1, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-1002ELF,https://octopart.com/cr0603-fx-1002elf-bourns-2326648?r=sp,CR0603-FX-1002ELFCT-ND,CR0603-JW-103ELF,GPR060310K,,,,,,,
+29,1M,R,R17 R18,CR0603-FX-1004ELF,R_0603_nominal,2, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-1004ELF,https://octopart.com/cr0603-fx-1004elf-bourns-3899435?r=sp,CR0603-FX-1004ELFCT-ND,CR0603-FX-1004ELF,GPR06031M,,,,,,,
+30,220K,R,R16,CR0603-FX-2203ELF,R_0603_nominal,1, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-2203ELF,https://octopart.com/cr0603-fx-2203elf-bourns-3825387?r=sp,CR0603-FX-2203ELFCT-ND,CR0603FX-2203ELF,,,,,,,,
+31,22K1,R,R13,CR0603-FX-2212ELF,R_0603_nominal,1, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-2212ELF,https://octopart.com/cr0603-fx-2212elf-bourns-2326654?r=sp,CR0603-FX-2212ELFCT-ND,CR0603FX-2212ELF,GPR060322K1,,,,,,,
+32,3K3,R,R4 R5,CR0603-FX-3301ELF,R_0603_nominal,2, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-3301ELF,https://octopart.com/cr0603-fx-3301elf-bourns-2326656?r=sp,CR0603-FX-3301ELFCT-ND,CR0603JW-332ELF,,,,,,,,
+33,37K4,R,R14,CR0603-FX-3742ELF,R_0603_nominal,1, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-3742ELF,https://octopart.com/cr0603-fx-3742elf-bourns-6075679?r=sp,118-CR0603-FX-3742ELFCT-ND,CR0603FX-3752ELF,,,,,,,,
+34,47K5,R,R15,CR0603-FX-4752ELF,R_0603_nominal,1, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-4752ELF,https://octopart.com/cr0603-fx-4752elf-bourns-6075378?r=sp,CR0603-FX-4752ELFCT-ND,CR0603FX-4752ELF,GPR060347K5,,,,,,,
+35,5K1,R,R6 R7 R8 R9 R10,CR0603-FX-5101ELF,R_0603_nominal,5, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-5101ELF,https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp,CR0603-FX-5101ELFCT-ND,CR0603FX-5101ELF,GPR06035K1,,,,,,,
+36,680,R,R2,CR0603-FX-6800ELF,R_0603_nominal,1, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-6800ELF,https://octopart.com/cr0603-fx-6800elf-bourns-2326662?r=sp,CR0603-FX-6800ELFCT-ND,CR0603-FX-6800ELF,,,,,,,,
+37,7K5,R,R11,CR0603-FX-7501ELF,R_0603_nominal,1, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Bourns,652-CR0603-FX-7501ELF,https://octopart.com/cr0603-fx-7501elf-bourns-6075428?r=sp,CR0603-FX-7501ELFCT-ND,CR0603JW-752ELF,,,,,,,,
+38,2R2,R,R1,ERJ-3RQJ2R2V,R_0603_nominal,1, ,https://www.mouser.be/datasheet/2/54/cr-1858361.pdf,Panasonic,667-ERJ-3RQJ2R2V,https://octopart.com/erj3rqj2r2v-panasonic-8095978?r=sp,P2.2AHCT-ND,ERJ-3RQJ2R2V,GPR06032R2,,,,,,,
+39,MCU Reset,Switch_434331045822,SW1,434331045822,Wurth-4343X10458XX,1, ,https://www.we-online.com/katalog/datasheet/434331045822.pdf,Wurth Electronics,710-434331045822,https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp,732-7055-1-ND,434331045822,,,,,,,,
+40,Application Navigation Button,SLLB510100,SW2,SLLB510100,SLLB510100,1, ,https://www.mouser.be/datasheet/2/15/SLLB5-1570014.pdf,Alps Alpine,688-SLLB510100,https://octopart.com/sllb510100-alps-1050713?r=sp,4809-SLLB510100CT-ND,SLLB510100,,,,,,,,
+
+
+
+
+
+Project info:
+Schematic:,LoRa-V3-PCB
+Variant:,default
+Revision:,v3.0
+Date:,2024-08-09
+KiCad Version:,8.0.4+1
+Statistics:
+Component Groups:,40
+Component Count:,77
+Fitted Components:,77
+Number of PCBs:,1
+Total Components:,77
