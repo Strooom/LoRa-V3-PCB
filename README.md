@@ -1,4 +1,4 @@
-# BME688 Machine Learning PCB
+# LoRa-V3 PCB
 
 ![KiBOT workflow](https://github.com/strooom/LoRa-V3-PCB/actions/workflows/checkandgenerate.yml/badge.svg)
 
