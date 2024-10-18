@@ -1,13 +1,9 @@
-ERC report (2024-10-10T19:30:40+0000, Encoding UTF8)
+ERC report (2024-10-18T12:59:34+0000, Encoding UTF8)
 
 ***** Sheet /
 [lib_symbol_issues]: The current configuration does not include the library '1GlobalSymbolsLibrary'
     ; warning
     @(5.0038 mm, 0.5334 mm): Symbol Q2 [Si2367DS]
-
-[lib_symbol_issues]: Symbol 'USBLC6-2P6' not found in symbol library '1projectLibrary'
-    ; warning
-    @(1.0541 mm, 2.1971 mm): Symbol IC3 [USBLC6-2P6]
 
 [lib_symbol_issues]: The current configuration does not include the library '1GlobalSymbolsLibrary'
     ; warning
@@ -15,19 +11,7 @@ ERC report (2024-10-10T19:30:40+0000, Encoding UTF8)
 
 [lib_symbol_issues]: The current configuration does not include the library '1GlobalSymbolsLibrary'
     ; warning
-    @(3.8735 mm, 1.3589 mm): Symbol SW1 [Switch_434331045822]
-
-[lib_symbol_issues]: The current configuration does not include the library '1GlobalSymbolsLibrary'
-    ; warning
     @(3.9243 mm, 0.4826 mm): Symbol SW2 [SLLB510100]
-
-[lib_symbol_issues]: The current configuration does not include the library '1GlobalSymbolsLibrary'
-    ; warning
-    @(0.7112 mm, 3.7211 mm): Symbol IC6 [SHT40]
-
-[lib_symbol_issues]: Symbol 'TSL2591' not found in symbol library '1projectLibrary'
-    ; warning
-    @(1.0287 mm, 3.7211 mm): Symbol IC7 [TSL2591]
 
 [lib_symbol_issues]: The current configuration does not include the library '1GlobalSymbolsLibrary'
     ; warning
@@ -49,4 +33,4 @@ ERC report (2024-10-10T19:30:40+0000, Encoding UTF8)
     ; warning
     @(1.7653 mm, 2.9845 mm): Symbol Q3 [Si2367DS]
 
- ** ERC messages: 12  Errors 0  Warnings 12
+ ** ERC messages: 8  Errors 0  Warnings 8
