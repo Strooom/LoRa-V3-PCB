@@ -254,182 +254,6 @@
 				)
 			)
 		)
-		(symbol "1GlobalSymbolsLibrary:SHT40"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U3"
-				(at 0 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SHT40"
-				(at 0 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "1GlobalFootprintsLibrary:SHT4X"
-				(at 0 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Digital Relative Humidity Temperature Sensor"
-				(at 1.27 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "manufacturerPartNumber" "SHT40-BD1B-R2"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mouserPartNumber" "403-SHT40-AD1F-R2"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manufacturerName" "Sensirion"
-				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "octopartUrl" "https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SHT40_0_0"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SHT40_1_0"
-				(pin bidirectional line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 10.16 270)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "1GlobalSymbolsLibrary:SLLB510100"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -957,223 +781,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "1GlobalSymbolsLibrary:Switch_434331045822"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Value" "434331045822"
-				(at 7.62 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "1projectLibrary:4343X10458XX"
-				(at 0.762 -16.764 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/katalog/datasheet/434331045822.pdf"
-				(at 1.016 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Application buttonswitch"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manufacturerName" "Wurth Electronics"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manufacturerPartNumber" "434331045822"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Switch_434331045822_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Switch_434331045822_1_1"
-				(pin passive line
-					(at 3.81 2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4001,6 +3608,192 @@
 				)
 			)
 		)
+		(symbol "1projectLibrary:SHT40"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC6"
+				(at -0.254 0 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" "SHT40-BD1B-R2"
+				(at 4.826 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "1GlobalFootprintsLibrary:SHT4X"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SHT40"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "manufacturerName" "Sensirion"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouserPartNumber" "403-SHT40-AD1F-R2"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "octopartUrl" "https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikeyPartNumber" "1649-SHT40-BD1B-R2CT-ND"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SHT40-BD1B-R2"
+				(at 0 -36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SHT40_0_0"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SHT40_1_0"
+				(pin bidirectional line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 10.16 270)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "1projectLibrary:SMA-Antenna-Connector-THT-90"
 			(pin_names
 				(offset 1.016) hide)
@@ -4807,6 +4600,249 @@
 				)
 			)
 		)
+		(symbol "1projectLibrary:Switch_434331045822"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "434331045822"
+				(at 7.62 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "1GlobalFootprintsLibrary:Wurth-4343X10458XX"
+				(at 0.762 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/katalog/datasheet/434331045822.pdf"
+				(at 1.016 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MCU Reset"
+				(at 9.144 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "manufacturerName" "Wurth Electronics"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouserPartNumber" "710-434331045822"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "octopartUrl" "https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikeyPartNumber" "732-7055-1-ND"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "434331045822"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switch_434331045822_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Switch_434331045822_1_1"
+				(pin passive line
+					(at 3.81 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "1projectLibrary:TSL2591"
 			(pin_names
 				(offset 1.016)
@@ -4814,25 +4850,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 1.5114 13.081 0)
+			(property "Reference" "IC7"
+				(at 0.254 0 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" "TSL25911FN"
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "TSL25911"
-				(at 1.5114 10.541 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "thisProjectLibrary:TSL2591-SON"
+			(property "Footprint" "1GlobalFootprintsLibrary:TSL2591"
 				(at 5.08 -10.16 0)
 				(effects
 					(font
@@ -4851,7 +4886,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light to Digital Converters Hi-Sensitvty Ambient Light Sensor IC"
+			(property "Description" "TSL25911"
 				(at -2.794 23.622 0)
 				(effects
 					(font
@@ -4878,8 +4913,8 @@
 					(hide yes)
 				)
 			)
-			(property "digikeyPartNumber" "TSL25911FNCT-ND"
-				(at -21.717 -9.271 0)
+			(property "octopartUrl" "https://octopart.com/tsl25911fn-osram-126135547?r=sp"
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4887,8 +4922,17 @@
 					(hide yes)
 				)
 			)
-			(property "manufacturerPartNumber" "TSL25911FN"
-				(at -24.257 -11.049 0)
+			(property "digikeyPartNumber" "TSL25911FNCT-ND"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TSL25911FN"
+				(at 16.51 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5024,22 +5068,21 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at -11.43 7.62 0)
+			(property "Reference" "IC3"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 2 2)
+						(bold yes)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "USBLC6-2P6"
-				(at -1.27 -6.35 0)
+				(at -5.334 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "1projectLibrary:SOT-23-6L-USBLC6-2"
@@ -5063,7 +5106,7 @@
 				)
 			)
 			(property "Description" "ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap"
-				(at 6.35 -13.97 0)
+				(at 2.54 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5091,13 +5134,30 @@
 					(hide yes)
 				)
 			)
-			(property "manufacturerPartNumber" "USBLC6-2P6"
-				(at 29.21 -794.92 0)
+			(property "octopartUrl" "https://octopart.com/usblc6-2p6-stmicroelectronics-347175?r=sp"
+				(at 1.27 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "digikeyPartNumber" "497-5026-1-ND"
+				(at 1.27 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "USBLC6-2P6"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -23805,7 +23865,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/tsl25911fn-osram-126135547?r=sp"
-			(at 102.87 372.11 0)
+			(at 102.87 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23814,7 +23874,7 @@
 			)
 		)
 		(property "digikeyPartNumber" "TSL25911FNCT-ND"
-			(at 102.87 372.11 0)
+			(at 102.87 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23823,7 +23883,7 @@
 			)
 		)
 		(property "MPN" "TSL25911FN"
-			(at 102.87 372.11 0)
+			(at 119.38 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24867,7 +24927,7 @@
 		)
 	)
 	(symbol
-		(lib_id "1GlobalSymbolsLibrary:SHT40")
+		(lib_id "1projectLibrary:SHT40")
 		(at 71.12 372.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24940,7 +25000,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp"
-			(at 71.12 372.11 0)
+			(at 71.12 393.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24949,7 +25009,7 @@
 			)
 		)
 		(property "digikeyPartNumber" "1649-SHT40-BD1B-R2CT-ND"
-			(at 71.12 372.11 0)
+			(at 71.12 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24958,7 +25018,7 @@
 			)
 		)
 		(property "MPN" "SHT40-BD1B-R2"
-			(at 71.12 372.11 0)
+			(at 71.12 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27602,7 +27662,7 @@
 		)
 	)
 	(symbol
-		(lib_id "1GlobalSymbolsLibrary:Switch_434331045822")
+		(lib_id "1projectLibrary:Switch_434331045822")
 		(at 387.35 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27666,7 +27726,7 @@
 			)
 		)
 		(property "mouserPartNumber" "710-434331045822"
-			(at 387.35 135.89 0)
+			(at 387.35 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27675,7 +27735,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp"
-			(at 387.35 135.89 0)
+			(at 387.35 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27684,7 +27744,7 @@
 			)
 		)
 		(property "digikeyPartNumber" "732-7055-1-ND"
-			(at 387.35 135.89 0)
+			(at 387.35 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27693,7 +27753,7 @@
 			)
 		)
 		(property "MPN" "434331045822"
-			(at 387.35 135.89 0)
+			(at 387.35 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27897,7 +27957,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap"
-			(at 105.41 219.71 0)
+			(at 102.87 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27926,7 +27986,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/usblc6-2p6-stmicroelectronics-347175?r=sp"
-			(at 105.41 219.71 0)
+			(at 104.14 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27935,7 +27995,7 @@
 			)
 		)
 		(property "digikeyPartNumber" "497-5026-1-ND"
-			(at 105.41 219.71 0)
+			(at 104.14 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27944,7 +28004,7 @@
 			)
 		)
 		(property "MPN" "USBLC6-2P6"
-			(at 105.41 219.71 0)
+			(at 105.41 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
