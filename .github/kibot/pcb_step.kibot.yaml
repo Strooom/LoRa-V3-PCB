@@ -1,0 +1,4 @@
+outputs:
+  - name: '3D model - .step'
+    type : step
+    dir: 'pcb'

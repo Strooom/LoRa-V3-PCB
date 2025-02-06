@@ -22,7 +22,3 @@ outputs:
               color: '#3361B8'
           sort_layers: true
           mirror: true
-
-  - name: '3D model - .step'
-    type : step
-    dir: 'pcb'

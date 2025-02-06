@@ -15,7 +15,6 @@ outputs:
           rotate_y: 0
       fixed_auto_camera: false
       auto_camera_z_axis_factor: 1.5
-      default_file_id: '_%03d'
       outputs:
         - type: render
-        - output: '%f-%i%I%v.%x'
+        - output: 'front.png'
