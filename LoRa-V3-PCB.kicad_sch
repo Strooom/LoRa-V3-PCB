@@ -8430,12 +8430,6 @@
 		(uuid "1599e507-9724-44be-96bf-df1dcc56268a")
 	)
 	(junction
-		(at 250.19 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16f0c81e-0848-4b27-a01c-79ddc2503c5a")
-	)
-	(junction
 		(at 97.79 345.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8608,12 +8602,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "366f9d7e-eeec-4b6f-b1e1-02a463c18c31")
-	)
-	(junction
-		(at 250.19 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "370da526-21da-414e-88d6-8b7fc254e42f")
 	)
 	(junction
 		(at 68.58 347.98)
@@ -9801,16 +9789,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 96.52) (xy 269.24 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c1700a9-1cc0-434c-aac9-3e68633270b9")
-	)
-	(wire
-		(pts
 			(xy 116.84 384.81) (xy 92.71 384.81)
 		)
 		(stroke
@@ -9948,16 +9926,6 @@
 			(type default)
 		)
 		(uuid "12e7dda4-6791-4516-9ad5-b7599ffe1808")
-	)
-	(wire
-		(pts
-			(xy 269.24 93.98) (xy 250.19 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "137fbdb8-5b5a-4b20-af33-88364236ec2a")
 	)
 	(wire
 		(pts
@@ -12131,16 +12099,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 99.06) (xy 269.24 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8365c576-8733-4333-8ef3-468b09acf267")
-	)
-	(wire
-		(pts
 			(xy 144.78 83.82) (xy 144.78 81.28)
 		)
 		(stroke
@@ -12338,16 +12296,6 @@
 			(type dash)
 		)
 		(uuid "8c4942e0-0a85-49f1-ae65-b22d144ccba4")
-	)
-	(wire
-		(pts
-			(xy 269.24 101.6) (xy 250.19 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c50d7f2-a23c-418b-bb5d-e3f5024b5602")
 	)
 	(wire
 		(pts
@@ -18300,7 +18248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "thisProjectLibrary:TSSOP-B8"
+		(property "Footprint" "1projectLibrary:BR24G1M-TSSOP-B8"
 			(at 232.41 394.97 0)
 			(effects
 				(font
@@ -19306,104 +19254,6 @@
 		)
 	)
 	(symbol
-		(lib_id "1projectLibrary:Connector_2p_Battery")
-		(at 274.32 99.06 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2db098d8-26f2-4d0a-811e-97194a3e4f20")
-		(property "Reference" "CONN3"
-			(at 276.352 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-XH-A(LF)(SN)"
-			(at 273.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "1projectLibrary:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 274.32 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2057209.pdf"
-			(at 274.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "External Battery"
-			(at 279.908 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturerName" "JST"
-			(at 274.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "octopartUrl" "https://octopart.com/b2b-xh-a%28lf%29%28sn%29-jst-7424860?r=sp"
-			(at 274.32 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerPartNumber" "B2B-XH-A(LF)(SN)"
-			(at 274.32 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0dbc9f8-32da-424e-a34c-d713c8ffa09d")
-		)
-		(pin "2"
-			(uuid "003f8721-4cfc-4493-984a-1da61a02cc3e")
-		)
-		(instances
-			(project "LoRa-V3-PCB"
-				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
-					(reference "CONN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
 		(at 370.84 31.75 270)
 		(unit 1)
@@ -19931,7 +19781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1projectLibrary:MountingHole_2mm"
+		(property "Footprint" "1projectLibrary:MountingHole_2mm_noCourtyard"
 			(at 518.16 332.74 0)
 			(effects
 				(font
@@ -20701,7 +20551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "thisProjectLibrary:TSSOP-B8"
+		(property "Footprint" "1projectLibrary:BR24G1M-TSSOP-B8"
 			(at 265.43 394.97 0)
 			(effects
 				(font
@@ -21311,7 +21161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1projectLibrary:MountingHole_2mm"
+		(property "Footprint" "1projectLibrary:MountingHole_2mm_noCourtyard"
 			(at 518.16 337.82 0)
 			(effects
 				(font
@@ -22691,7 +22541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "thisProjectLibrary:TSSOP-B8"
+		(property "Footprint" "1projectLibrary:BR24G1M-TSSOP-B8"
 			(at 299.72 394.97 0)
 			(effects
 				(font
@@ -23590,7 +23440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "thisProjectLibrary:TSSOP-B8"
+		(property "Footprint" "1projectLibrary:BR24G1M-TSSOP-B8"
 			(at 198.12 394.97 0)
 			(effects
 				(font

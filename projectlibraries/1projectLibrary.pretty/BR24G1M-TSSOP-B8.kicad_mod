@@ -1,0 +1,302 @@
+(footprint "BR24G1M-TSSOP-B8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TSSOP, 8 Pin (JEDEC MO-153 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "TSSOP SO")
+	(property "Reference" "IC11"
+		(at 0.127 -2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "94b120a4-066a-4704-86d7-2260f0100c8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BR24G1MFVT-5AE2"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "98d9c4e6-ae48-4867-863e-b2e6a48cb837")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "1GlobalFootprintsLibrary:BR24G1M-TSSOP-B8"
+		(at 0 6.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59fe05ee-3186-4f6c-8053-1ab934040314")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e78119f3-70c6-43de-83a8-264b458f546c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "EEPROM SERIAL EEPROM"
+		(at 0 -10.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11c19c80-cbde-4e83-be17-93d71f75cd15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturerName" "ROHM"
+		(at 0 -15.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "559dc628-a05e-43f9-a32b-ccd33fe122eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp"
+		(at 0 -7.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ff31d01-bd1e-4bc5-9297-ab3b250e046c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
+		(at 0 -12.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80e7566a-5988-4ed0-bb9d-fc33dfa4b9a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -4.2 -0.8) (xy -4.2 -1.2) (xy -3.8 -1)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "5871770c-fe31-48b5-8bcc-0243e24906d4")
+	)
+	(fp_line
+		(start -3.75 -1.75)
+		(end -3.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9bf661bc-f58d-4860-868f-f15280fdcd72")
+	)
+	(fp_line
+		(start -3.75 1.75)
+		(end 3.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "182ccff8-e4bf-41ea-87d4-7fed2b1ada70")
+	)
+	(fp_line
+		(start 3.75 -1.75)
+		(end -3.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d43b1b28-5a72-4a67-9784-53236a518aa0")
+	)
+	(fp_line
+		(start 3.75 1.75)
+		(end 3.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31c6dd32-1206-4666-94a6-e80b6984eb9c")
+	)
+	(fp_line
+		(start -2.2 -0.75)
+		(end -1.45 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69271f5d-ff39-4e97-81f7-e5add1b88158")
+	)
+	(fp_line
+		(start -2.2 1.5)
+		(end -2.2 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de399b46-f8c8-4224-b41a-39e520e6bd22")
+	)
+	(fp_line
+		(start -1.45 -1.5)
+		(end 2.2 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "932aed20-3733-4f24-818d-d3e846af0164")
+	)
+	(fp_line
+		(start 2.2 -1.5)
+		(end 2.2 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34b71c4e-d132-4288-9f50-c2348b55dec8")
+	)
+	(fp_line
+		(start 2.2 1.5)
+		(end -2.2 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "823c4ae4-7124-4a1c-8d7a-9e8d4437de1c")
+	)
+	(fp_poly
+		(pts
+			(xy -4.2 -0.8) (xy -4.2 -1.2) (xy -3.8 -1)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "778f35e1-fe22-4d2b-8885-3f16384b8719")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "b886891b-9ef0-4449-95ad-c51d510ad464")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.9 -0.975)
+		(size 1.2 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "0729fb34-6db2-4751-9ab9-cb9c5b2d3827")
+	)
+	(pad "2" smd roundrect
+		(at -2.9 -0.325)
+		(size 1.2 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "84aa0b81-92b9-4a88-b8d7-2a2557be2e67")
+	)
+	(pad "3" smd roundrect
+		(at -2.9 0.325)
+		(size 1.2 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "ac16e817-fb21-42a1-a23d-5765f5283bd7")
+	)
+	(pad "4" smd roundrect
+		(at -2.9 0.975)
+		(size 1.2 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "e86751d8-a950-4a7f-ae4a-f2429bc10705")
+	)
+	(pad "5" smd roundrect
+		(at 2.9 0.975)
+		(size 1.2 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "9b21a835-9d9d-4030-b28d-4b2c05a1cd3f")
+	)
+	(pad "6" smd roundrect
+		(at 2.9 0.325)
+		(size 1.2 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "f89026f4-b08c-4243-82e4-7db8f87c4b2c")
+	)
+	(pad "7" smd roundrect
+		(at 2.9 -0.325)
+		(size 1.2 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "2bd9ffe4-ee5e-4d3b-9143-fb62b7c25663")
+	)
+	(pad "8" smd roundrect
+		(at 2.9 -0.975)
+		(size 1.2 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "e06b8942-180a-4801-a55c-152c453e3f5c")
+	)
+	(model "${KIPRJMOD}/inputs/3dmodels/TSSOP8.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
