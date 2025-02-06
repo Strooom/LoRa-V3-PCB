@@ -23,7 +23,7 @@ outputs:
 
       render_options:
         transparent_background: true
-        samples: 10
+        samples: 20
         resolution_x: 720
         resolution_y: 1280
       point_of_view:
@@ -31,7 +31,7 @@ outputs:
           rotate_x: 0
           rotate_y: 0
       fixed_auto_camera: false
-      auto_camera_z_axis_factor: 0.5
+      auto_camera_z_axis_factor: 0.75
       outputs:
         - type: render
         - output: 'front.png'
