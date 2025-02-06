@@ -643,5 +643,10 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "majorVersion": "0",
+    "minorVersion": "3",
+    "releaseDate": "Thu Feb 06 14:26:03 2025",
+    "releaseDateShort": "2025-02-06"
+  }
 }
