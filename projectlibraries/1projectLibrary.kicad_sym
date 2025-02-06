@@ -826,26 +826,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 0 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "ROHM"
 			(at 0 -40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

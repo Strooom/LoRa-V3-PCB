@@ -835,26 +835,8 @@
 					(hide yes)
 				)
 			)
-			(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manufacturerName" "ROHM"
 				(at 0 -40.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18354,35 +18336,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp"
-			(at 232.41 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 232.41 410.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 232.41 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 232.41 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20782,35 +20737,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp"
-			(at 265.43 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 265.43 410.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 265.43 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 265.43 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22799,35 +22727,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp"
-			(at 299.72 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 299.72 410.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 299.72 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 299.72 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23725,35 +23626,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213?r=sp"
-			(at 198.12 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 198.12 410.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 198.12 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 198.12 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
