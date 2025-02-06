@@ -26167,7 +26167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:Wurth-4343X10458XX"
+		(property "Footprint" "1projectLibrary:Wurth-4343X10458XX"
 			(at 388.112 152.654 0)
 			(effects
 				(font

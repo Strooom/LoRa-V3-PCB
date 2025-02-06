@@ -1,0 +1,244 @@
+(footprint "SLLB510100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SW2"
+		(at -0.2 -4.175 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c943132b-79e3-4d0b-ac87-62e44dca5166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SLLB510100"
+		(at 0.05 15.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c384aab8-30d2-4be8-8086-dd9bcc5355fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "1GlobalFootprintsLibrary:SLLB510100"
+		(at 3.1 24.575 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3a89b81-7cce-49f3-8abc-6cad301cfc7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.be/datasheet/2/15/SLLB5-1570014.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dda2cc1-1d09-42a2-a097-cff978d93861")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Application Navigation Button"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80577ea5-ffda-41fb-8f41-1d8f6b97f200")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturerName" "Alps Alpine"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "737282ba-d0d5-4911-b6ed-0c7d213f7496")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "octopartUrl" "https://octopart.com/sllb510100-alps-1050713?r=sp"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ed859a2-018f-4bfb-bd38-0663136a8635")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturerPartNumber" "SLLB510100"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b152581-e794-4ea3-bd65-490bcdee2532")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.25 -5)
+		(end 5.25 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "65a8fc9d-5e40-4516-8be5-a94379188e7b")
+	)
+	(fp_rect
+		(start -4.75 -1.75)
+		(end 4.75 1.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "ab982c00-79d2-4513-b6bf-60b5c60f2277")
+	)
+	(fp_arc
+		(start -4.75 -1.75)
+		(mid 0 -4.368051)
+		(end 4.75 -1.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "b488a8f0-1126-49cf-983e-7cf7ed68a9f6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 10.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fbb45252-4e63-4372-ac72-a48217a5415d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.9 -1)
+		(size 1 1)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "97aca15d-1c0d-4ae1-9ad9-6af4a619a8fa")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.9 -1)
+		(size 1 1)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0debfcfe-0f36-48db-9448-3e85bad48097")
+	)
+	(pad "1" smd roundrect
+		(at -3 0.95)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "5ebaa60f-3734-42cf-ab43-d3a347c21fb0")
+	)
+	(pad "2" smd roundrect
+		(at 3 0.95)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "7d7be523-1e73-4b3a-9593-c0cd74f5ec27")
+	)
+	(pad "C" smd roundrect
+		(at -1 0.95)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 0)
+		(uuid "65f987cc-e973-49f3-8325-fe136b53a867")
+	)
+	(pad "EP" smd roundrect
+		(at -4.675 -0.5)
+		(size 0.85 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 0)
+		(uuid "1de23970-8a52-4aaa-bcf6-ba5bfc2f5872")
+	)
+	(pad "EP" smd roundrect
+		(at -3.75 -3.05 315)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 0)
+		(uuid "9f857cff-d85d-463c-9454-ef13d813d0f4")
+	)
+	(pad "EP" smd roundrect
+		(at 3.75 -3.05 45)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 0)
+		(uuid "f7bb618b-abce-47c4-9f73-a9356a244886")
+	)
+	(pad "EP" smd roundrect
+		(at 4.675 -0.5)
+		(size 0.85 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 0)
+		(uuid "8a766682-964d-4ade-912b-fc8c8aa2b6b6")
+	)
+	(pad "T" smd roundrect
+		(at 1 0.95)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "d9fe0fe6-31fa-4590-a76b-2d000ac81b03")
+	)
+	(model "${KIPRJMOD}/inputs/3dmodels/SLLB510100.STEP"
+		(offset
+			(xyz 0 0 7.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

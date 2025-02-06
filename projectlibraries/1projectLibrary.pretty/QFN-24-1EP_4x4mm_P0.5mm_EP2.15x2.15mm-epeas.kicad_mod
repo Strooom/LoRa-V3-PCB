@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -434,7 +437,7 @@
 		(zone_connect 2)
 		(uuid "b9d48290-2ae2-4c7c-9d64-d070c1c137a8")
 	)
-	(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1global3dmodels/QFN24(4X4).STEP"
+	(model "${KIPRJMOD}/inputs/3dmodels/QFN24(4X4).STEP"
 		(offset
 			(xyz 0 0 0.85)
 		)

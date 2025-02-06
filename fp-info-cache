@@ -1,4 +1,4 @@
-23941928820924499
+23945460199328006
 1GlobalFootprintsLibrary
 4341330258X6
 
@@ -490,6 +490,13 @@ SOT TO_SOT_SMD
 3
 3
 1projectLibrary
+SLLB510100
+
+
+0
+8
+5
+1projectLibrary
 SMF_SL03
 Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf
 Diode SMF (DO-214AB)
@@ -615,6 +622,13 @@ WR-SMA SMA PCB THT Jack
 0
 5
 2
+1projectLibrary
+Wurth-4343X10458XX
+<b>WS-TASU</b><br>3.5x4.7 mm side push SMD Tact Switch, 4 pins
+
+0
+4
+4
 1projectLibrary
 XDCR_STHS34PF80TR
 
