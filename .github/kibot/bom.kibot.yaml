@@ -1,0 +1,71 @@
+outputs:
+  - name: 'Interactive BOM'
+    comment: "Bill of Materials in interactive HTML format"
+    type: ibom
+    dir: 'bom'
+    category: 'bom'
+    options:
+      include_tracks: true
+      include_nets: true
+      highlight_pin1: selected
+      extra_fields: 'manufacturerPartNumber'
+      checkboxes: ''
+
+  - name: 'HTML export'
+    comment: "Bill of Materials in HTML format"
+    type: bom
+    dir: 'bom'
+    category: 'bom'
+    options:
+      format: HTML
+      columns:
+        - References
+        - Part
+        - Value
+        - Quantity Per PCB
+        - manufacturerName
+        - manufacturerPartNumber
+        - octopartUrl
+
+  - name: 'generic CSV export'
+  # works fine for Mouser and OctoPart
+    comment: "Generic Bill of Materials in CSV format"
+    type: bom
+    dir: 'bom'
+    category: 'bom'
+    options:
+      format: CSV
+      output: 'generic-bom.%x'
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+      columns:
+        - field: 'Row'
+          name: '#'
+        - field: 'References'
+          name: 'references'
+        - field: 'Quantity Per PCB'
+          name: 'amount'
+        - field: 'manufacturerName'
+          name: 'manufacturer'
+        - field: 'manufacturerPartNumber'
+          name: 'partNumber'
+
+  - name: 'DigiKey CSV export'
+    comment: "DigiKey-style Bill of Materials in CSV format"
+    type: bom
+    dir: 'bom'
+    category: 'bom'
+    options:
+      format: CSV
+      output: 'DigiKey-bom.%x'
+      csv:
+        hide_header: true
+        hide_pcb_info: true
+        hide_stats_info: true
+      columns:
+        - References
+        - Quantity Per PCB
+        - manufacturerName
+        - manufacturerPartNumber
+

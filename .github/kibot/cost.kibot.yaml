@@ -1,0 +1,12 @@
+outputs:
+  - name: 'Costs'
+    comment: "Components costs spreadsheet"
+    type: kicost
+    dir: bom
+    options:
+      currency: 'EUR'
+      distributors:
+        - Mouser
+        - Digi-Key
+        - Farnell
+      output: 'simple'

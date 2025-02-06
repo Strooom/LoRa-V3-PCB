@@ -1,0 +1,28 @@
+outputs:
+  - name: 'print_pcb'
+    dir: 'pcb'
+    type: pcb_print
+    options:
+      scaling: 0
+      autoscale_margin_x: 10
+      autoscale_margin_y: 10
+      format: 'PDF'
+      plot_sheet_reference: false
+      pages:
+        - layers:
+            - layer: F.Cu
+              color: '#E23B51'
+          sort_layers: true
+        - layers:
+            - layer: F.Silkscreen
+          monochrome: true
+          sort_layers: true
+        - layers:
+            - layer: B.Cu
+              color: '#3361B8'
+          sort_layers: true
+          mirror: true
+
+  - name: '3D model - .step'
+    type : step
+    dir: 'pcb'
