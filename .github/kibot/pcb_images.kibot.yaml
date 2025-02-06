@@ -9,7 +9,8 @@ outputs:
       format: 'PDF'
       plot_sheet_reference: false
       pages:
-        - layers:
+        - page_id: 'front copper'
+          layers:
             - layer: F.Cu
               color: '#E23B51'
           sort_layers: true

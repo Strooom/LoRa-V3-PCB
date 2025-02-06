@@ -4,8 +4,6 @@ outputs:
     dir: 'pcb'
     options:
       add_default_light: true
-      light:
-        type: 'SUN'
       render_options:
         transparent_background: true
         samples: 10
@@ -16,7 +14,7 @@ outputs:
           rotate_x: 0
           rotate_y: 0
       fixed_auto_camera: false
-      auto_camera_z_axis_factor: 1.1
+      auto_camera_z_axis_factor: 1.05
       outputs:
         - type: render
         - output: 'front.png'
