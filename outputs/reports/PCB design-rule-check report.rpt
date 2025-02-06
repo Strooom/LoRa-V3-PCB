@@ -1,7 +1,7 @@
 ** Drc report for LoRa-V3-PCB.kicad_pcb **
-** Created on 2024-10-10T19:30:42+0000 **
+** Created on 2024-10-18T12:59:36+0000 **
 
-** Found 16 DRC violations **
+** Found 14 DRC violations **
 [courtyards_overlap]: Courtyards overlap
     ; error (excluded)
     @(166.5 mm, 81.0 mm): Footprint CONN3
@@ -47,13 +47,6 @@
 [lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
     ; warning
     @(172.25 mm, 109.48995 mm): Footprint IC7
-[silk_over_copper]: Silkscreen clipped by solder mask
-    ; warning
-    @(173.0 mm, 89.0 mm): Reference 'F3'
-[silk_overlap]: Silkscreen overlap
-    ; warning
-    @(135.75 mm, 117.5 mm): Reference 'F1'
-    @(133.81 mm, 117.185 mm): Segment on F.Silkscreen
 
 ** Found 0 unconnected pads **
 
