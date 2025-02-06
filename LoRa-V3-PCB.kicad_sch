@@ -18056,15 +18056,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "652-CR0603-FX-3301ELF"
-			(at 201.93 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-3301elf-bourns-2326656?r=sp"
 			(at 201.93 116.84 0)
 			(effects
@@ -18074,16 +18065,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-3301ELFCT-ND"
-			(at 201.93 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0603JW-332ELF"
+		(property "manufacturerPartNumber" "CR0603JW-332ELF"
 			(at 201.93 116.84 0)
 			(effects
 				(font
@@ -18159,25 +18141,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603105-25"
-			(at 513.08 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 513.08 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E1X7R1E105K"
 			(at 513.08 144.78 0)
 			(effects
 				(font
@@ -18195,7 +18159,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-6931-1-ND"
+		(property "genericPartNumber" "GPC0603105-25"
 			(at 513.08 144.78 0)
 			(effects
 				(font
@@ -18204,7 +18168,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E1X7R1E105K080AC"
+		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
 			(at 513.08 144.78 0)
 			(effects
 				(font
@@ -18288,25 +18252,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 210.82 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 210.82 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 210.82 372.11 0)
 			(effects
 				(font
@@ -18324,7 +18270,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 210.82 372.11 0)
 			(effects
 				(font
@@ -18333,7 +18279,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1E104K080AA"
+		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
 			(at 210.82 372.11 0)
 			(effects
 				(font
@@ -18416,15 +18362,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 232.41 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "ROHM"
 			(at 232.41 412.75 0)
 			(effects
@@ -18443,16 +18380,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 232.41 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BR24G1MFVT-5AE2"
+		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 232.41 372.11 0)
 			(effects
 				(font
@@ -18557,15 +18485,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "652-CR0603-FX-3301ELF"
-			(at 140.97 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-3301elf-bourns-2326656?r=sp"
 			(at 140.97 86.36 0)
 			(effects
@@ -18575,16 +18494,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-3301ELFCT-ND"
-			(at 140.97 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0603JW-332ELF"
+		(property "manufacturerPartNumber" "CR0603JW-332ELF"
 			(at 140.97 86.36 0)
 			(effects
 				(font
@@ -18803,25 +18713,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" ""
-			(at 222.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "NA"
-			(at 222.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "NA"
 			(at 222.25 73.66 0)
 			(effects
 				(font
@@ -18839,7 +18731,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NA"
+		(property "manufacturerPartNumber" "NA"
 			(at 222.25 73.66 0)
 			(effects
 				(font
@@ -18923,25 +18815,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
-			(at 384.81 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "KEMET"
-			(at 384.81 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "80-C0603C106M8PACTU"
 			(at 384.81 44.45 0)
 			(effects
 				(font
@@ -18959,7 +18833,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "399-14945-1-ND"
+		(property "genericPartNumber" "GPC0603475-10-X7S"
 			(at 384.81 44.45 0)
 			(effects
 				(font
@@ -18968,7 +18842,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C106M8PACTU"
+		(property "manufacturerPartNumber" "C0603C106M8PACTU"
 			(at 384.81 44.45 0)
 			(effects
 				(font
@@ -19046,25 +18920,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 375.92 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 375.92 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 375.92 135.89 0)
 			(effects
 				(font
@@ -19082,7 +18938,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 375.92 135.89 0)
 			(effects
 				(font
@@ -19091,7 +18947,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1E104K080AA"
+		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
 			(at 375.92 135.89 0)
 			(effects
 				(font
@@ -19194,25 +19050,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "688-SLLB510100"
-			(at 392.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "4809-SLLB510100CT-ND"
-			(at 392.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SLLB510100"
+		(property "manufacturerPartNumber" "SLLB510100"
 			(at 392.43 48.26 0)
 			(effects
 				(font
@@ -19301,24 +19139,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" ""
-			(at 565.15 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "NA"
-			(at 565.15 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 565.15 345.44 0)
 			(effects
@@ -19337,7 +19157,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NA"
+		(property "manufacturerPartNumber" "NA"
 			(at 565.15 345.44 0)
 			(effects
 				(font
@@ -19487,25 +19307,7 @@
 				)
 			)
 		)
-		(property "GPN" ""
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "KEMET"
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "80-C0603C106M8PACTU"
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -19523,16 +19325,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "399-14945-1-ND"
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C106M8PACTU"
+		(property "manufacturerPartNumber" "C0603C106M8PACTU"
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -19612,15 +19405,6 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "NA"
-			(at 274.32 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "JST"
 			(at 274.32 82.55 0)
 			(effects
@@ -19639,16 +19423,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "455-2247-ND"
-			(at 274.32 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "B2B-XH-A(LF)(SN)"
+		(property "manufacturerPartNumber" "B2B-XH-A(LF)(SN)"
 			(at 274.32 99.06 0)
 			(effects
 				(font
@@ -19725,25 +19500,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" ""
-			(at 370.84 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Amphenol FCI"
-			(at 370.84 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "NA"
 			(at 370.84 31.75 0)
 			(effects
 				(font
@@ -19761,7 +19518,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NA"
+		(property "manufacturerPartNumber" "NA"
 			(at 370.84 31.75 0)
 			(effects
 				(font
@@ -19859,24 +19616,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" ""
-			(at 565.15 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "NA"
-			(at 565.15 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 565.15 340.36 0)
 			(effects
@@ -19895,7 +19634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NA"
+		(property "manufacturerPartNumber" "NA"
 			(at 565.15 340.36 0)
 			(effects
 				(font
@@ -20160,15 +19899,6 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "810-VLS3010CX470M1"
-			(at 486.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
 			(at 487.68 55.88 0)
 			(effects
@@ -20187,16 +19917,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-VLS3010CX-470M-1CT-ND"
-			(at 487.68 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "VLS3010CX-470M-1"
+		(property "manufacturerPartNumber" "VLS3010CX-470M-1"
 			(at 487.68 85.09 0)
 			(effects
 				(font
@@ -20281,15 +20002,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "NA"
-			(at 518.16 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 518.16 332.74 0)
 			(effects
@@ -20308,7 +20020,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NA"
+		(property "manufacturerPartNumber" "NA"
 			(at 518.16 332.74 0)
 			(effects
 				(font
@@ -20380,25 +20092,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
-			(at 185.42 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 185.42 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-C1608X7S1A475KAC"
 			(at 185.42 186.69 0)
 			(effects
 				(font
@@ -20416,7 +20110,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-14258-1-ND"
+		(property "genericPartNumber" "GPC0603475-10-X7S"
 			(at 185.42 186.69 0)
 			(effects
 				(font
@@ -20425,7 +20119,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X7S1A475K080AC"
+		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
 			(at 185.42 186.69 0)
 			(effects
 				(font
@@ -20575,26 +20269,8 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" ""
-			(at 368.3 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/114993121-seeed+studio-142683940?r=sp"
 			(at 368.3 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "713-317990687"
-			(at 331.216 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20611,35 +20287,8 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "1597-114993121-ND"
-			(at 368.3 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "114993121"
-			(at 368.3 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerPartNumber" "317990687"
+		(property "manufacturerPartNumber" "114993121"
 			(at 323.088 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OctoPartURL" ""
-			(at 368.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20801,25 +20450,7 @@
 				)
 			)
 		)
-		(property "GPN" ""
-			(at 490.22 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Panjit"
-			(at 490.22 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "241-PJC7400_R1_00001"
 			(at 490.22 114.3 0)
 			(effects
 				(font
@@ -20837,16 +20468,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "3757-PJC7400_R1_00001CT-ND"
-			(at 490.22 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PJC7400_R1_00001"
+		(property "manufacturerPartNumber" "PJC7400_R1_00001"
 			(at 490.22 114.3 0)
 			(effects
 				(font
@@ -20931,25 +20553,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603105-25"
-			(at 530.86 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 530.86 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E1X7R1E105K"
 			(at 530.86 127 0)
 			(effects
 				(font
@@ -20967,7 +20571,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-6931-1-ND"
+		(property "genericPartNumber" "GPC0603105-25"
 			(at 530.86 127 0)
 			(effects
 				(font
@@ -20976,7 +20580,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E1X7R1E105K080AC"
+		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
 			(at 530.86 127 0)
 			(effects
 				(font
@@ -21058,25 +20662,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06031K"
-			(at 161.29 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 161.29 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-1001ELF"
 			(at 161.29 198.12 0)
 			(effects
 				(font
@@ -21094,7 +20680,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-1001ELFCT-ND"
+		(property "genericPartNumber" "GPR06031K"
 			(at 161.29 198.12 0)
 			(effects
 				(font
@@ -21103,7 +20689,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-JW-102ELF"
+		(property "manufacturerPartNumber" "CR0603-JW-102ELF"
 			(at 161.29 198.12 0)
 			(effects
 				(font
@@ -21186,15 +20772,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 265.43 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "ROHM"
 			(at 265.43 412.75 0)
 			(effects
@@ -21213,16 +20790,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 265.43 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BR24G1MFVT-5AE2"
+		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 265.43 372.11 0)
 			(effects
 				(font
@@ -21319,24 +20887,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" ""
-			(at 250.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "534-1015"
-			(at 250.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/1015-keystone-8129901?r=sp"
 			(at 250.19 99.06 0)
 			(effects
@@ -21355,16 +20905,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "36-1015-ND"
-			(at 250.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1015"
+		(property "manufacturerPartNumber" "1015"
 			(at 250.19 99.06 0)
 			(effects
 				(font
@@ -21444,15 +20985,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "NA"
-			(at 104.14 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 104.14 96.52 0)
 			(effects
@@ -21471,7 +21003,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AEM00920"
+		(property "manufacturerPartNumber" "AEM00920"
 			(at 104.14 96.52 0)
 			(effects
 				(font
@@ -21687,24 +21219,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" ""
-			(at 500.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "781-SI2367DS-GE3"
-			(at 502.158 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Vishay Siliconix"
 			(at 500.38 83.82 0)
 			(effects
@@ -21723,16 +21237,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "SI2367DS-T1-GE3CT-ND"
-			(at 500.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SI2367DS-T1-GE3"
+		(property "manufacturerPartNumber" "SI2367DS-T1-GE3"
 			(at 500.38 53.34 0)
 			(effects
 				(font
@@ -21886,15 +21391,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "NA"
-			(at 518.16 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 518.16 337.82 0)
 			(effects
@@ -21913,7 +21409,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NA"
+		(property "manufacturerPartNumber" "NA"
 			(at 518.16 337.82 0)
 			(effects
 				(font
@@ -21994,15 +21490,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "652-CR0603-FX-7501ELF"
-			(at 140.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-7501elf-bourns-6075428?r=sp"
 			(at 140.97 81.28 0)
 			(effects
@@ -22012,16 +21499,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-7501ELFCT-ND"
-			(at 140.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0603JW-752ELF"
+		(property "manufacturerPartNumber" "CR0603JW-752ELF"
 			(at 140.97 81.28 0)
 			(effects
 				(font
@@ -22109,15 +21587,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "262-BME680"
-			(at 36.83 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/bme680-bosch+tools-84623084?r=sp"
 			(at 36.83 372.11 0)
 			(effects
@@ -22127,16 +21596,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "828-1077-1-ND"
-			(at 36.83 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BME680"
+		(property "manufacturerPartNumber" "BME680"
 			(at 36.83 372.11 0)
 			(effects
 				(font
@@ -22239,15 +21699,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "579-MCP73123T-22SIMF"
-			(at 187.325 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "MICROCHIP"
 			(at 187.325 73.025 0)
 			(effects
@@ -22258,24 +21709,6 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/mcp73123t-22si%2Fmf-microchip-17627238?r=sp"
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "MCP73123T-22SI/MFCT-ND"
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MCP73123T-22SI/MF"
 			(at 187.96 109.22 0)
 			(effects
 				(font
@@ -22400,15 +21833,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "306-SM04BSRSSTBLFDNP"
-			(at 149.86 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/sm04b-srss-tb%28lf%29%28dn%29%28p%29-jst-154671066?r=sp"
 			(at 149.86 372.11 0)
 			(effects
@@ -22418,16 +21842,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "455-SM04B-SRSS-TBCT-ND"
-			(at 132.08 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SM04B-SRSS-TB(LF)(DN)(P)"
+		(property "manufacturerPartNumber" "SM04B-SRSS-TB(LF)(DN)(P)"
 			(at 149.86 372.11 0)
 			(effects
 				(font
@@ -22523,25 +21938,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
-			(at 208.28 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 208.28 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-C1608X7S1A475KAC"
 			(at 208.28 116.84 0)
 			(effects
 				(font
@@ -22559,7 +21956,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-14258-1-ND"
+		(property "genericPartNumber" "GPC0603475-10-X7S"
 			(at 208.28 116.84 0)
 			(effects
 				(font
@@ -22568,7 +21965,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X7S1A475K080AC"
+		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
 			(at 208.28 116.84 0)
 			(effects
 				(font
@@ -22652,25 +22049,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
-			(at 168.91 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 168.91 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-C1608X7S1A475KAC"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -22688,7 +22067,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-14258-1-ND"
+		(property "genericPartNumber" "GPC0603475-10-X7S"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -22697,7 +22076,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X7S1A475K080AC"
+		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -22847,25 +22226,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR060310K"
-			(at 496.57 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 496.57 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-1002ELF"
 			(at 496.57 140.97 0)
 			(effects
 				(font
@@ -22883,7 +22244,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-1002ELFCT-ND"
+		(property "genericPartNumber" "GPR060310K"
 			(at 496.57 140.97 0)
 			(effects
 				(font
@@ -22892,7 +22253,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-JW-103ELF"
+		(property "manufacturerPartNumber" "CR0603-JW-103ELF"
 			(at 496.57 140.97 0)
 			(effects
 				(font
@@ -23122,25 +22483,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "538-73391-0080"
-			(at 360.68 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "WM4088-ND"
-			(at 360.68 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "73391-0080"
+		(property "manufacturerPartNumber" "73391-0080"
 			(at 360.68 133.35 0)
 			(effects
 				(font
@@ -23233,15 +22576,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "652-CR0603-FX-2203ELF"
-			(at 140.97 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-2203elf-bourns-3825387?r=sp"
 			(at 140.97 91.44 0)
 			(effects
@@ -23251,16 +22585,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-2203ELFCT-ND"
-			(at 140.97 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0603FX-2203ELF"
+		(property "manufacturerPartNumber" "CR0603FX-2203ELF"
 			(at 140.97 91.44 0)
 			(effects
 				(font
@@ -23336,25 +22661,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603105-25"
-			(at 541.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 541.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E1X7R1E105K"
 			(at 541.02 93.98 0)
 			(effects
 				(font
@@ -23372,7 +22679,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-6931-1-ND"
+		(property "genericPartNumber" "GPC0603105-25"
 			(at 541.02 93.98 0)
 			(effects
 				(font
@@ -23381,7 +22688,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E1X7R1E105K080AC"
+		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
 			(at 541.02 93.98 0)
 			(effects
 				(font
@@ -23464,15 +22771,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 299.72 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "ROHM"
 			(at 299.72 412.75 0)
 			(effects
@@ -23491,16 +22789,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 299.72 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BR24G1MFVT-5AE2"
+		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 299.72 372.11 0)
 			(effects
 				(font
@@ -23597,15 +22886,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "634-CP2102NA02QFN24R"
-			(at 175.26 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Silicon Labs"
 			(at 175.26 226.06 0)
 			(effects
@@ -23624,16 +22904,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "336-5888-1-ND"
-			(at 175.26 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CP2102N-A02-GQFN24R"
+		(property "manufacturerPartNumber" "CP2102N-A02-GQFN24R"
 			(at 175.26 226.06 0)
 			(effects
 				(font
@@ -23795,15 +23066,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "985-TSL25911FN"
-			(at 85.979 381.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/tsl25911fn-osram-126135547?r=sp"
 			(at 102.87 372.11 0)
 			(effects
@@ -23813,16 +23075,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "TSL25911FNCT-ND"
-			(at 102.87 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TSL25911FN"
+		(property "manufacturerPartNumber" "TSL25911FN"
 			(at 102.87 372.11 0)
 			(effects
 				(font
@@ -23921,15 +23174,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "652-CR0603-FX-3742ELF"
-			(at 140.97 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/cr0603-fx-3742elf-bourns-6075679?r=sp"
 			(at 140.97 76.2 0)
 			(effects
@@ -23939,16 +23183,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "118-CR0603-FX-3742ELFCT-ND"
-			(at 140.97 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0603FX-3752ELF"
+		(property "manufacturerPartNumber" "CR0603FX-3752ELF"
 			(at 140.97 76.2 0)
 			(effects
 				(font
@@ -24026,25 +23261,7 @@
 				)
 			)
 		)
-		(property "GPN" ""
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "KEMET"
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "80-C0603C106M8PACTU"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -24062,16 +23279,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "399-14945-1-ND"
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C106M8PACTU"
+		(property "manufacturerPartNumber" "C0603C106M8PACTU"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -24149,25 +23357,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
-			(at 153.67 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 153.67 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-C1608X7S1A475KAC"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -24185,7 +23375,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-14258-1-ND"
+		(property "genericPartNumber" "GPC0603475-10-X7S"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -24194,7 +23384,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X7S1A475K080AC"
+		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -24286,15 +23476,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "MSS1P3HM3_A/H"
-			(at 496.57 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp"
 			(at 496.57 100.33 0)
 			(effects
@@ -24304,16 +23485,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "MSS1P3HM3_A/HGICT-ND"
-			(at 496.57 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MSS1P3HM3_A/H"
+		(property "manufacturerPartNumber" "MSS1P3HM3_A/H"
 			(at 496.57 100.33 0)
 			(effects
 				(font
@@ -24397,25 +23569,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
-			(at 342.9 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 342.9 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-5101ELF"
 			(at 342.9 337.82 0)
 			(effects
 				(font
@@ -24433,7 +23587,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-5101ELFCT-ND"
+		(property "genericPartNumber" "GPR06035K1"
 			(at 342.9 337.82 0)
 			(effects
 				(font
@@ -24442,7 +23596,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603FX-5101ELF"
+		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
 			(at 342.9 337.82 0)
 			(effects
 				(font
@@ -24525,15 +23679,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "755-BR24G1MFVT-5AE2"
-			(at 198.12 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "ROHM"
 			(at 198.12 412.75 0)
 			(effects
@@ -24552,16 +23697,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "846-BR24G1MFVT-5AE2CT-ND"
-			(at 198.12 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BR24G1MFVT-5AE2"
+		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 198.12 372.11 0)
 			(effects
 				(font
@@ -24662,24 +23798,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" ""
-			(at 513.08 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "MSS1P3HM3_A/H"
-			(at 494.03 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "MSS1P3HM3_A/H"
 			(at 500.38 104.14 0)
 			(effects
@@ -24698,16 +23816,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "SDM05U40CSP-7DICT-ND"
-			(at 513.08 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MSS1P3HM3_A/H"
+		(property "manufacturerPartNumber" "MSS1P3HM3_A/H"
 			(at 513.08 104.14 0)
 			(effects
 				(font
@@ -24791,25 +23900,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR060347K5"
-			(at 144.78 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 144.78 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-4752ELF"
 			(at 144.78 241.3 0)
 			(effects
 				(font
@@ -24827,7 +23918,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-4752ELFCT-ND"
+		(property "genericPartNumber" "GPR060347K5"
 			(at 144.78 241.3 0)
 			(effects
 				(font
@@ -24836,7 +23927,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603FX-4752ELF"
+		(property "manufacturerPartNumber" "CR0603FX-4752ELF"
 			(at 144.78 241.3 0)
 			(effects
 				(font
@@ -24930,15 +24021,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "403-SHT40-AD1F-R2"
-			(at 71.12 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp"
 			(at 71.12 372.11 0)
 			(effects
@@ -24948,16 +24030,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "1649-SHT40-BD1B-R2CT-ND"
-			(at 71.12 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SHT40-BD1B-R2"
+		(property "manufacturerPartNumber" "SHT40-BD1B-R2"
 			(at 71.12 372.11 0)
 			(effects
 				(font
@@ -25113,25 +24186,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 52.07 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 52.07 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 52.07 373.38 0)
 			(effects
 				(font
@@ -25149,7 +24204,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 52.07 373.38 0)
 			(effects
 				(font
@@ -25158,7 +24213,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1E104K080AA"
+		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
 			(at 52.07 373.38 0)
 			(effects
 				(font
@@ -25240,25 +24295,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603105-25"
-			(at 530.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 530.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E1X7R1E105K"
 			(at 530.86 132.08 0)
 			(effects
 				(font
@@ -25276,7 +24313,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-6931-1-ND"
+		(property "genericPartNumber" "GPC0603105-25"
 			(at 530.86 132.08 0)
 			(effects
 				(font
@@ -25285,7 +24322,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E1X7R1E105K080AC"
+		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
 			(at 530.86 132.08 0)
 			(effects
 				(font
@@ -25367,25 +24404,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
-			(at 496.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 496.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-C1608X7S1A475KAC"
 			(at 496.57 91.44 0)
 			(effects
 				(font
@@ -25403,7 +24422,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-14258-1-ND"
+		(property "genericPartNumber" "GPC0603475-10-X7S"
 			(at 496.57 91.44 0)
 			(effects
 				(font
@@ -25412,7 +24431,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X7S1A475K080AC"
+		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
 			(at 496.57 91.44 0)
 			(effects
 				(font
@@ -25498,15 +24517,6 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "538-217179-0001"
-			(at 55.88 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Molex"
 			(at 53.34 288.29 0)
 			(effects
@@ -25525,16 +24535,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "900-2171790001CT-ND"
-			(at 53.34 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "217179-0001"
+		(property "manufacturerPartNumber" "217179-0001"
 			(at 53.34 219.71 0)
 			(effects
 				(font
@@ -25804,15 +24805,6 @@
 				)
 			)
 		)
-		(property "mouserPartNumber" "571-2-1734839-4"
-			(at 552.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TE Connectivity"
 			(at 552.45 111.76 0)
 			(effects
@@ -25831,16 +24823,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "A100299CT-ND"
-			(at 552.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2-1734839-4"
+		(property "manufacturerPartNumber" "2-1734839-4"
 			(at 552.45 111.76 0)
 			(effects
 				(font
@@ -25993,25 +24976,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 278.13 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 278.13 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 278.13 372.11 0)
 			(effects
 				(font
@@ -26029,7 +24994,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 278.13 372.11 0)
 			(effects
 				(font
@@ -26038,7 +25003,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1E104K080AA"
+		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
 			(at 278.13 372.11 0)
 			(effects
 				(font
@@ -26116,25 +25081,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
-			(at 78.74 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 78.74 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-5101ELF"
 			(at 78.74 242.57 0)
 			(effects
 				(font
@@ -26152,7 +25099,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-5101ELFCT-ND"
+		(property "genericPartNumber" "GPR06035K1"
 			(at 78.74 242.57 0)
 			(effects
 				(font
@@ -26161,7 +25108,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603FX-5101ELF"
+		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
 			(at 78.74 242.57 0)
 			(effects
 				(font
@@ -26255,24 +25202,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "NA"
-			(at 38.1 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" "455-2247-ND"
-			(at 38.1 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "JST"
 			(at 38.1 78.74 0)
 			(effects
@@ -26282,7 +25211,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B2B-XH-A(LF)(SN)"
+		(property "manufacturerPartNumber" "B2B-XH-A(LF)(SN)"
 			(at 38.1 95.25 0)
 			(effects
 				(font
@@ -26429,15 +25358,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "781-SI2367DS-GE3"
-			(at 277.368 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Vishay Siliconix"
 			(at 270.51 76.2 0)
 			(effects
@@ -26456,16 +25376,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "SI2367DS-T1-GE3CT-ND"
-			(at 240.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SI2367DS-T1-GE3"
+		(property "manufacturerPartNumber" "SI2367DS-T1-GE3"
 			(at 240.03 76.2 0)
 			(effects
 				(font
@@ -26546,25 +25457,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
-			(at 397.51 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 397.51 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-C1608X7S1A475KAC"
 			(at 397.51 74.93 0)
 			(effects
 				(font
@@ -26582,7 +25475,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-14258-1-ND"
+		(property "genericPartNumber" "GPC0603475-10-X7S"
 			(at 397.51 74.93 0)
 			(effects
 				(font
@@ -26591,7 +25484,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X7S1A475K080AC"
+		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
 			(at 397.51 74.93 0)
 			(effects
 				(font
@@ -26739,25 +25632,7 @@
 				)
 			)
 		)
-		(property "GPN" ""
-			(at 77.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 77.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-VLS3010CX220M1"
 			(at 77.47 73.66 0)
 			(effects
 				(font
@@ -26775,16 +25650,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-VLS3010CX-220M-1CT-ND"
-			(at 77.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "VLS3010CX-220M-1"
+		(property "manufacturerPartNumber" "VLS3010CX-220M-1"
 			(at 77.47 73.66 0)
 			(effects
 				(font
@@ -26863,15 +25729,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "NA"
-			(at 518.16 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 518.16 342.9 0)
 			(effects
@@ -26890,7 +25747,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NA"
+		(property "manufacturerPartNumber" "NA"
 			(at 518.16 342.9 0)
 			(effects
 				(font
@@ -26962,25 +25819,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
-			(at 82.55 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 82.55 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-5101ELF"
 			(at 82.55 242.57 0)
 			(effects
 				(font
@@ -26998,7 +25837,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-5101ELFCT-ND"
+		(property "genericPartNumber" "GPR06035K1"
 			(at 82.55 242.57 0)
 			(effects
 				(font
@@ -27007,7 +25846,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603FX-5101ELF"
+		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
 			(at 82.55 242.57 0)
 			(effects
 				(font
@@ -27091,25 +25930,7 @@
 				)
 			)
 		)
-		(property "GPN" ""
-			(at 77.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 77.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-6800ELF"
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -27127,16 +25948,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-6800ELFCT-ND"
-			(at 77.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0603-FX-6800ELF"
+		(property "manufacturerPartNumber" "CR0603-FX-6800ELF"
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -27214,25 +26026,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
-			(at 198.12 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "KEMET"
-			(at 198.12 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "80-C0603C106M8PACTU"
 			(at 198.12 298.45 0)
 			(effects
 				(font
@@ -27250,7 +26044,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "399-14945-1-ND"
+		(property "genericPartNumber" "GPC0603475-10-X7S"
 			(at 198.12 298.45 0)
 			(effects
 				(font
@@ -27259,7 +26053,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C106M8PACTU"
+		(property "manufacturerPartNumber" "C0603C106M8PACTU"
 			(at 198.12 298.45 0)
 			(effects
 				(font
@@ -27337,25 +26131,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06031M"
-			(at 495.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 495.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-1004ELF"
 			(at 495.3 48.26 0)
 			(effects
 				(font
@@ -27373,7 +26149,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-1004ELFCT-ND"
+		(property "genericPartNumber" "GPR06031M"
 			(at 495.3 48.26 0)
 			(effects
 				(font
@@ -27382,7 +26158,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-FX-1004ELF"
+		(property "manufacturerPartNumber" "CR0603-FX-1004ELF"
 			(at 495.3 48.26 0)
 			(effects
 				(font
@@ -27460,25 +26236,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06031M"
-			(at 168.91 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 168.91 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-1004ELF"
 			(at 168.91 293.37 0)
 			(effects
 				(font
@@ -27496,7 +26254,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-1004ELFCT-ND"
+		(property "genericPartNumber" "GPR06031M"
 			(at 168.91 293.37 0)
 			(effects
 				(font
@@ -27505,7 +26263,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-FX-1004ELF"
+		(property "manufacturerPartNumber" "CR0603-FX-1004ELF"
 			(at 168.91 293.37 0)
 			(effects
 				(font
@@ -27665,15 +26423,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "710-434331045822"
-			(at 387.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp"
 			(at 387.35 135.89 0)
 			(effects
@@ -27683,16 +26432,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "732-7055-1-ND"
-			(at 387.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "434331045822"
+		(property "manufacturerPartNumber" "434331045822"
 			(at 387.35 135.89 0)
 			(effects
 				(font
@@ -27774,25 +26514,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603105-25"
-			(at 530.86 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 530.86 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E1X7R1E105K"
 			(at 530.86 91.44 0)
 			(effects
 				(font
@@ -27810,7 +26532,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-6931-1-ND"
+		(property "genericPartNumber" "GPC0603105-25"
 			(at 530.86 91.44 0)
 			(effects
 				(font
@@ -27819,7 +26541,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E1X7R1E105K080AC"
+		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
 			(at 530.86 91.44 0)
 			(effects
 				(font
@@ -27905,16 +26627,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "511-USBLC6-2P6"
-			(at 76.2 714.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "STMicroelectronics"
 			(at 76.2 914.63 0)
 			(effects
@@ -27934,16 +26646,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "497-5026-1-ND"
-			(at 105.41 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "USBLC6-2P6"
+		(property "manufacturerPartNumber" "USBLC6-2P6"
 			(at 105.41 219.71 0)
 			(effects
 				(font
@@ -28035,24 +26738,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" ""
-			(at 565.15 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "NA"
-			(at 565.15 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 565.15 335.28 0)
 			(effects
@@ -28071,7 +26756,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NA"
+		(property "manufacturerPartNumber" "NA"
 			(at 565.15 335.28 0)
 			(effects
 				(font
@@ -28148,24 +26833,6 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" ""
-			(at 508 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "MSS1P3HM3_A/H"
-			(at 527.05 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "MSS1P3HM3_A/H"
 			(at 520.7 104.14 0)
 			(effects
@@ -28184,16 +26851,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "SDM05U40CSP-7DICT-ND"
-			(at 508 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MSS1P3HM3_A/H"
+		(property "manufacturerPartNumber" "MSS1P3HM3_A/H"
 			(at 508 104.14 0)
 			(effects
 				(font
@@ -28396,25 +27054,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603475-10-X7S"
-			(at 481.33 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "KEMET"
-			(at 481.33 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "80-C0603C106M8PACTU"
 			(at 481.33 128.27 0)
 			(effects
 				(font
@@ -28432,7 +27072,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "399-14945-1-ND"
+		(property "genericPartNumber" "GPC0603475-10-X7S"
 			(at 481.33 128.27 0)
 			(effects
 				(font
@@ -28441,7 +27081,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C106M8PACTU"
+		(property "manufacturerPartNumber" "C0603C106M8PACTU"
 			(at 481.33 128.27 0)
 			(effects
 				(font
@@ -28525,25 +27165,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 313.69 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 313.69 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 313.69 372.11 0)
 			(effects
 				(font
@@ -28561,7 +27183,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 313.69 372.11 0)
 			(effects
 				(font
@@ -28570,7 +27192,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1E104K080AA"
+		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
 			(at 313.69 372.11 0)
 			(effects
 				(font
@@ -28651,15 +27273,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "781-SI2367DS-GE3"
-			(at 178.308 335.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Vishay Siliconix"
 			(at 176.53 328.93 0)
 			(effects
@@ -28678,16 +27291,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "SI2367DS-T1-GE3CT-ND"
-			(at 176.53 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SI2367DS-T1-GE3"
+		(property "manufacturerPartNumber" "SI2367DS-T1-GE3"
 			(at 176.53 298.45 0)
 			(effects
 				(font
@@ -28766,25 +27370,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603105-25"
-			(at 502.92 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 502.92 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E1X7R1E105K"
 			(at 502.92 144.78 0)
 			(effects
 				(font
@@ -28802,7 +27388,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-6931-1-ND"
+		(property "genericPartNumber" "GPC0603105-25"
 			(at 502.92 144.78 0)
 			(effects
 				(font
@@ -28811,7 +27397,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E1X7R1E105K080AC"
+		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
 			(at 502.92 144.78 0)
 			(effects
 				(font
@@ -28893,25 +27479,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603105-25"
-			(at 530.86 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 530.86 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E1X7R1E105K"
 			(at 530.86 142.24 0)
 			(effects
 				(font
@@ -28929,7 +27497,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-6931-1-ND"
+		(property "genericPartNumber" "GPC0603105-25"
 			(at 530.86 142.24 0)
 			(effects
 				(font
@@ -28938,7 +27506,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E1X7R1E105K080AC"
+		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
 			(at 530.86 142.24 0)
 			(effects
 				(font
@@ -29022,25 +27590,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 116.84 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 116.84 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 116.84 373.38 0)
 			(effects
 				(font
@@ -29058,7 +27608,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 116.84 373.38 0)
 			(effects
 				(font
@@ -29067,7 +27617,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1E104K080AA"
+		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
 			(at 116.84 373.38 0)
 			(effects
 				(font
@@ -29145,25 +27695,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR060322K1"
-			(at 144.78 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 144.78 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-2212ELF"
 			(at 144.78 209.55 0)
 			(effects
 				(font
@@ -29181,7 +27713,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-2212ELFCT-ND"
+		(property "genericPartNumber" "GPR060322K1"
 			(at 144.78 209.55 0)
 			(effects
 				(font
@@ -29190,7 +27722,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603FX-2212ELF"
+		(property "manufacturerPartNumber" "CR0603FX-2212ELF"
 			(at 144.78 209.55 0)
 			(effects
 				(font
@@ -29344,25 +27876,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603105-25"
-			(at 530.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 530.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E1X7R1E105K"
 			(at 530.86 137.16 0)
 			(effects
 				(font
@@ -29380,7 +27894,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-6931-1-ND"
+		(property "genericPartNumber" "GPC0603105-25"
 			(at 530.86 137.16 0)
 			(effects
 				(font
@@ -29389,7 +27903,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E1X7R1E105K080AC"
+		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
 			(at 530.86 137.16 0)
 			(effects
 				(font
@@ -29473,25 +27987,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 245.11 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 245.11 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 245.11 372.11 0)
 			(effects
 				(font
@@ -29509,7 +28005,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 245.11 372.11 0)
 			(effects
 				(font
@@ -29518,7 +28014,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1E104K080AA"
+		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
 			(at 245.11 372.11 0)
 			(effects
 				(font
@@ -29596,25 +28092,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
-			(at 347.98 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 347.98 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-5101ELF"
 			(at 347.98 337.82 0)
 			(effects
 				(font
@@ -29632,7 +28110,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-5101ELFCT-ND"
+		(property "genericPartNumber" "GPR06035K1"
 			(at 347.98 337.82 0)
 			(effects
 				(font
@@ -29641,7 +28119,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603FX-5101ELF"
+		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
 			(at 347.98 337.82 0)
 			(effects
 				(font
@@ -29791,25 +28269,7 @@
 				)
 			)
 		)
-		(property "GPN" ""
-			(at 49.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "KEMET"
-			(at 49.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "80-C0603C106M8PACTU"
 			(at 49.53 93.98 0)
 			(effects
 				(font
@@ -29827,16 +28287,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "399-14945-1-ND"
-			(at 49.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C106M8PACTU"
+		(property "manufacturerPartNumber" "C0603C106M8PACTU"
 			(at 49.53 93.98 0)
 			(effects
 				(font
@@ -29915,15 +28366,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "NA"
-			(at 518.16 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "octopartUrl" "NA"
 			(at 518.16 347.98 0)
 			(effects
@@ -29942,7 +28384,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NA"
+		(property "manufacturerPartNumber" "NA"
 			(at 518.16 347.98 0)
 			(effects
 				(font
@@ -30014,25 +28456,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06035K1"
-			(at 337.82 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Bourns"
-			(at 337.82 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "652-CR0603-FX-5101ELF"
 			(at 337.82 337.82 0)
 			(effects
 				(font
@@ -30050,7 +28474,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "CR0603-FX-5101ELFCT-ND"
+		(property "genericPartNumber" "GPR06035K1"
 			(at 337.82 337.82 0)
 			(effects
 				(font
@@ -30059,7 +28483,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603FX-5101ELF"
+		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
 			(at 337.82 337.82 0)
 			(effects
 				(font
@@ -30329,25 +28753,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPR06032R2"
-			(at 487.68 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "Panasonic"
-			(at 487.68 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "667-ERJ-3RQJ2R2V"
 			(at 487.68 140.97 0)
 			(effects
 				(font
@@ -30365,7 +28771,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "P2.2AHCT-ND"
+		(property "genericPartNumber" "GPR06032R2"
 			(at 487.68 140.97 0)
 			(effects
 				(font
@@ -30374,7 +28780,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-3RQJ2R2V"
+		(property "manufacturerPartNumber" "ERJ-3RQJ2R2V"
 			(at 487.68 140.97 0)
 			(effects
 				(font
@@ -30458,25 +28864,7 @@
 				)
 			)
 		)
-		(property "GPN" "GPC0603104-25-X7R"
-			(at 388.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerName" "TDK"
-			(at 388.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-CGA3E2X7R1E104K"
 			(at 388.62 74.93 0)
 			(effects
 				(font
@@ -30494,7 +28882,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikeyPartNumber" "445-5667-1-ND"
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 388.62 74.93 0)
 			(effects
 				(font
@@ -30503,7 +28891,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1E104K080AA"
+		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
 			(at 388.62 74.93 0)
 			(effects
 				(font

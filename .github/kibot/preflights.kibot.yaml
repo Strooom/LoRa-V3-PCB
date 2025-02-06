@@ -13,15 +13,23 @@ preflight:
     - field: Datasheet
       regex: '^(https://.*|NA)$'
       severity: error
+
     - field: manufacturerName
       regex: '.+'
       severity_missing: error
+
     - field: manufacturerPartNumber
       regex: '.+'
       severity: error
+
+    - field: genericPartNumber
+      regex: '.*'
+      severity: error
+
     - field: octopartUrl
       regex: '^(https://.*|NA)$'
       severity: error
+      
     - field: "*"
       severity_missing: error
 

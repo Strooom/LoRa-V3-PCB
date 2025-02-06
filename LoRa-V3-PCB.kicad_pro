@@ -567,8 +567,8 @@
         },
         {
           "group_by": false,
-          "label": "GPN",
-          "name": "GPN",
+          "label": "genericPartNumber",
+          "name": "genericPartNumber",
           "show": false
         },
         {
@@ -579,8 +579,8 @@
         },
         {
           "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
+          "label": "manufacturerPartNumber",
+          "name": "manufacturerPartNumber",
           "show": true
         },
         {
@@ -591,40 +591,16 @@
         },
         {
           "group_by": false,
-          "label": "mouserPartNumber",
-          "name": "mouserPartNumber",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "octopartUrl",
           "name": "octopartUrl",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "digikeyPartNumber",
-          "name": "digikeyPartNumber",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "manufacturerPartNumber",
-          "name": "manufacturerPartNumber",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "OctoPartURL",
-          "name": "OctoPartURL",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "MPN"
+      "sort_field": "manufacturerPartNumber"
     },
     "connection_grid_size": 50.0,
     "drawing": {
