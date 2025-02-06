@@ -10,4 +10,4 @@ import:
   - file: bom.kibot.yaml
 #  - file: cost.kibot.yaml
   - file: pcb.kibot.yaml
-  - file: renders.kibot.yaml
+#  - file: renders.kibot.yaml
