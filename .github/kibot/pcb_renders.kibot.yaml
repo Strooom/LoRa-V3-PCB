@@ -4,18 +4,18 @@ outputs:
     dir: 'pcb'
     options:
       light:
-        - name : '1'
-          energy: 100
-          pos_x: 50
-          pos_y: 50
-          pos_z: 200
-        - name : '2'
-          energy: 20
+        - name : 'light_1'
+          energy: 0
+          pos_x: '-size*3.33'
+          pos_y: 'size*3.33'
+          pos_z: 'size*5'
+        - name : 'light_2'
+          energy: 0
           pos_x: 0
           pos_y: 0
           pos_z: 1000
-        - name : '3'
-          energy: 20
+        - name : 'light_3'
+          energy: 0
           pos_x: -50
           pos_y: -50
           pos_z: 300
