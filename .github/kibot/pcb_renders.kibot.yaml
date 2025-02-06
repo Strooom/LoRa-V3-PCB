@@ -7,11 +7,12 @@ outputs:
       light:
         type: 'SUN'
       render_options:
-        auto_crop: true
         transparent_background: true
-        samples: 20
+        samples: 3
+
       point_of_view:
-        - rotate_x: 20
+        - rotate_z: -90
+          rotate_x: 20
           rotate_y: 0
       fixed_auto_camera: false
       auto_camera_z_axis_factor: 1.5
