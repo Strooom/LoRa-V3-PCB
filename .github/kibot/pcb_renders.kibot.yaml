@@ -1,9 +1,9 @@
 outputs:
-  - name: '3dmodel for Blender'
-    type: pcb2blender_tools
-    dir: 'pcb'
-    options:
-      output: 'pcb3d_model.%x'
+  # - name: '3dmodel for Blender'
+  #   type: pcb2blender_tools
+  #   dir: 'pcb'
+  #   options:
+  #     output: 'pcb3d_model.%x'
 
   - name: 'render front'
     type: blender_export
