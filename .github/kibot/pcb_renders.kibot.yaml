@@ -8,12 +8,13 @@ outputs:
         type: 'SUN'
       render_options:
         transparent_background: true
-        samples: 3
-
+        samples: 10
+        resolution_x: 720
+        resolution_y: 1280
       point_of_view:
         - rotate_z: -90
           rotate_x: 0
-          rotate_y: 20
+          rotate_y: 0
       fixed_auto_camera: false
       auto_camera_z_axis_factor: 1.1
       outputs:
