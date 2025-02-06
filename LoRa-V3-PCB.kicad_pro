@@ -594,6 +594,18 @@
           "label": "octopartUrl",
           "name": "octopartUrl",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "mouserPartNumber",
+          "name": "mouserPartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "digikeyPartNumber",
+          "name": "digikeyPartNumber",
+          "show": false
         }
       ],
       "filter_string": "",
