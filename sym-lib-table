@@ -4,4 +4,7 @@
   (lib (name "cp2102n-axx-xqfn24")(type "KiCad")(uri "C:/Users/pasca/Documents/Projects/Electronica/MoovrHw/cp2102n-axx-xqfn24.kicad_sym")(options "")(descr ""))
   (lib (name "molex-2171790001")(type "KiCad")(uri "C:/Users/pasca/Documents/Projects/Electronica/MoovrHw/molex-2171790001.kicad_sym")(options "")(descr ""))
   (lib (name "usblc6-2p6")(type "KiCad")(uri "C:/Users/pasca/Documents/Projects/Electronica/MoovrHw/usblc6-2p6.kicad_sym")(options "")(descr ""))
+  (lib (name "bme680")(type "KiCad")(uri "C:/Users/pasca/Documents/Projects/Electronica/dcf77Clock/inputs/schematic_symbols/bme680.kicad_sym")(options "")(descr ""))
+  (lib (name "tsl2591")(type "KiCad")(uri "C:/Users/pasca/Documents/Projects/Electronica/dcf77Clock/inputs/schematic_symbols/tsl2591.kicad_sym")(options "")(descr ""))
+  (lib (name "switch_434133025816")(type "KiCad")(uri "C:/Users/pasca/Documents/Projects/Electronica/dcf77Clock/inputs/schematic_symbols/switch_434133025816.kicad_sym")(options "")(descr ""))
 )

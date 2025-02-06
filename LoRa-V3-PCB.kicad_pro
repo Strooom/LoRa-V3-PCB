@@ -500,7 +500,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "LoRa-V3-PCB.step",
       "svg": "",
       "vrml": ""
     },
