@@ -9,5 +9,6 @@ import:
 # - file: schematic.kibot.yaml
 # - file: bom.kibot.yaml
 #  - file: cost.kibot.yaml
+  - file: pcb_images.kibot.yaml
   - file: pcb_renders.kibot.yaml
 #  - file: renders.kibot.yaml

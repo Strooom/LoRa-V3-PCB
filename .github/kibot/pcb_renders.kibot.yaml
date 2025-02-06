@@ -3,7 +3,23 @@ outputs:
     type: blender_export
     dir: 'pcb'
     options:
-      add_default_light: true
+      light:
+        - name : '1'
+          energy: 2
+          pos_x: 50
+          pos_y: 50
+          pos_z: 200
+        - name : '2'
+          energy: 1
+          pos_x: 0
+          pos_y: 0
+          pos_z: 1000
+        - name : '3'
+          energy: 1
+          pos_x: -50
+          pos_y: -50
+          pos_z: 300
+
       render_options:
         transparent_background: true
         samples: 10

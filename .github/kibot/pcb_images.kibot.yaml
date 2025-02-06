@@ -12,14 +12,26 @@ outputs:
         - page_id: 'front copper'
           layers:
             - layer: F.Cu
-              color: '#E23B51'
+          monochrome: true
           sort_layers: true
-        - layers:
+
+        - page_id: 'front silkscreen'
+          layers:
             - layer: F.Silkscreen
           monochrome: true
           sort_layers: true
-        - layers:
+
+        - page_id: 'back copper'
+          layers:
             - layer: B.Cu
               color: '#3361B8'
           sort_layers: true
           mirror: true
+
+        - page_id: ' back silkscreen'
+          layers:
+            - layer: B.Silkscreen
+          monochrome: true
+          sort_layers: true
+          mirror: true
+
