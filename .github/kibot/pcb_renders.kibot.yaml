@@ -17,8 +17,8 @@ outputs:
           pos_z: 'size*5'
         - name : 'light_2'
           energy: 0
-          pos_x: 'size*3.33'
-          pos_y: 'size*3.33'
+          pos_x: 'size*10'
+          pos_y: 'size*10'
           pos_z: 'size*50'
 
       render_options:
@@ -31,7 +31,7 @@ outputs:
           rotate_x: 0
           rotate_y: 0
       fixed_auto_camera: false
-      auto_camera_z_axis_factor: 1.05
+      auto_camera_z_axis_factor: 0.5
       outputs:
         - type: render
         - output: 'front.png'
