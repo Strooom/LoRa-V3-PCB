@@ -22,7 +22,6 @@ outputs:
         - page_id: 'back copper'
           layers:
             - layer: B.Cu
-              color: '#3361B8'
           mirror: true
 
         - page_id: 'back silkscreen'
