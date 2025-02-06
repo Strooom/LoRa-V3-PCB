@@ -23762,7 +23762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1GlobalFootprintsLibrary:SHT4X"
+		(property "Footprint" "1projectLibrary:SHT4X"
 			(at 71.12 402.59 0)
 			(effects
 				(font
