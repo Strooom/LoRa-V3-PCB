@@ -78,16 +78,18 @@
 		(layer "F.SilkS")
 		(uuid "9d09fe6b-ce9b-4dce-b9c2-e3e0111840ef")
 	)
-	(fp_rect
-		(start -7.5 -7.5)
-		(end 7.5 7.5)
+	(fp_poly
+		(pts
+			(xy -4.5 -7.5) (xy 4.5 -7.5) (xy 4.5 -4.5) (xy 7.5 -4.5) (xy 7.5 4.5) (xy 4.5 4.5) (xy 4.5 7.5) (xy -4.5 7.5)
+			(xy -4.5 4.5) (xy -7.5 4.5) (xy -7.5 -4.5) (xy -4.5 -4.5)
+		)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "2f1cb9f6-f016-47fd-a904-e72667a4b704")
+		(uuid "08713b4d-8879-4259-81f8-eb4dc9caa7ad")
 	)
 	(fp_line
 		(start -6 -6)
@@ -162,6 +164,17 @@
 		(fill none)
 		(layer "User.1")
 		(uuid "bce1f06a-6fd8-4a3c-b7b3-c63198f74c4e")
+	)
+	(fp_rect
+		(start -7.5 -7.5)
+		(end 7.5 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "User.8")
+		(uuid "2f1cb9f6-f016-47fd-a904-e72667a4b704")
 	)
 	(pad "1" smd roundrect
 		(at -6 -3.75 90)
