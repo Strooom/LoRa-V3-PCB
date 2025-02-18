@@ -1,4 +1,4 @@
-23947266927557214
+23947278303328976
 1GlobalFootprintsLibrary
 4341330258X6
 
@@ -620,7 +620,7 @@ VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias
 VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
 0
-26
+22
 17
 1projectLibrary
 WR-SMA SMA PCB THT Jack

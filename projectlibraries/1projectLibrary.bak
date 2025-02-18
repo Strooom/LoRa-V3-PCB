@@ -883,7 +883,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -7.62 180)
+				(at 20.32 -12.7 180)
 				(length 5.08)
 				(name "OK_PROG"
 					(effects
@@ -1099,7 +1099,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 12.7 180)
+				(at 20.32 7.62 180)
 				(length 5.08)
 				(name "VBAT_OV"
 					(effects
@@ -1117,7 +1117,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 7.62 180)
+				(at 20.32 2.54 180)
 				(length 5.08)
 				(name "VRDIV"
 					(effects
@@ -1135,7 +1135,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 2.54 180)
+				(at 20.32 -2.54 180)
 				(length 5.08)
 				(name "VBAT_UV"
 					(effects
@@ -1153,7 +1153,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -2.54 180)
+				(at 20.32 -7.62 180)
 				(length 5.08)
 				(name "OK_HYST"
 					(effects
