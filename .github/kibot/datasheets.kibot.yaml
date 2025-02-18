@@ -1,0 +1,8 @@
+outputs:
+  - name: 'download datasheets'
+    comment: "Datasheets"
+    type: download_datasheets
+    dir: datasheets
+    options:
+      output: '${manufacturerPartNumber}.pdf'
+

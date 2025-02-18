@@ -1,4 +1,4 @@
-23936712272576834
+23947278303328976
 1GlobalFootprintsLibrary
 4341330258X6
 
@@ -252,6 +252,13 @@ Bosch LGA NoLead
 8
 8
 1projectLibrary
+BR24G1M-TSSOP-B8
+TSSOP, 8 Pin (JEDEC MO-153 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+8
+8
+1projectLibrary
 C_0603_1608Metric
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
@@ -392,6 +399,13 @@ mounting hole 2mm no annular
 0
 0
 1projectLibrary
+MountingHole_2mm_noCourtyard
+Mounting Hole 2mm, no annular
+mounting hole 2mm no annular
+0
+0
+0
+1projectLibrary
 OSHW-Symbol_6.7x6mm_SilkScreen
 Open Source Hardware Symbol
 Logo Symbol OSHW
@@ -468,6 +482,20 @@ Consumer SHT4x Digital and Analog
 0
 4
 4
+1projectLibrary
+SI2367DS-SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+1projectLibrary
+SLLB510100
+
+
+0
+8
+5
 1projectLibrary
 SMF_SL03
 Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf
@@ -588,12 +616,26 @@ SPV1050TTR
 21
 21
 1projectLibrary
+VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias
+VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+22
+17
+1projectLibrary
 WR-SMA SMA PCB THT Jack
 
 
 0
 5
 2
+1projectLibrary
+Wurth-4343X10458XX
+<b>WS-TASU</b><br>3.5x4.7 mm side push SMD Tact Switch, 4 pins
+
+0
+4
+4
 1projectLibrary
 XDCR_STHS34PF80TR
 

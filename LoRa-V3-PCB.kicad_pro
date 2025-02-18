@@ -58,11 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|116752685|73517924|82fd8b81-eeaa-45b2-8834-1290dff977f4|b0964eaa-b47b-479f-9841-261bbe2cd9ad",
-        "courtyards_overlap|162750001|77000001|68ac64d7-a2af-4aaa-82ea-f3c5719bc5b8|82fd8b81-eeaa-45b2-8834-1290dff977f4",
-        "courtyards_overlap|172752685|73517924|7741c275-e507-4f52-aa45-83e4ff44afe2|82fd8b81-eeaa-45b2-8834-1290dff977f4"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -567,20 +563,20 @@
         },
         {
           "group_by": false,
-          "label": "GPN",
-          "name": "GPN",
-          "show": false
+          "label": "genericPartNumber",
+          "name": "genericPartNumber",
+          "show": true
         },
         {
           "group_by": false,
           "label": "manufacturerName",
           "name": "manufacturerName",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
+          "label": "manufacturerPartNumber",
+          "name": "manufacturerPartNumber",
           "show": true
         },
         {
@@ -591,40 +587,16 @@
         },
         {
           "group_by": false,
-          "label": "mouserPartNumber",
-          "name": "mouserPartNumber",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "octopartUrl",
           "name": "octopartUrl",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "digikeyPartNumber",
-          "name": "digikeyPartNumber",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "manufacturerPartNumber",
-          "name": "manufacturerPartNumber",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "OctoPartURL",
-          "name": "OctoPartURL",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "MPN"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -671,5 +643,10 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "majorVersion": "0",
+    "minorVersion": "3",
+    "releaseDate": "Thu Feb 06 14:26:03 2025",
+    "releaseDateShort": "2025-02-06"
+  }
 }

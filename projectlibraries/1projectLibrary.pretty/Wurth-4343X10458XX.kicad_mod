@@ -1,0 +1,340 @@
+(footprint "Wurth-4343X10458XX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WS-TASU</b><br>3.5x4.7 mm side push SMD Tact Switch, 4 pins")
+	(property "Reference" "SW1"
+		(at 0.6852 -4.0169 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1962f997-2a89-401f-9def-9fd67ebfd858")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "434331045822"
+		(at 0 2.7 180)
+		(layer "F.Fab")
+		(uuid "2bd0a34c-c745-4e6b-903c-6d0af8bcabd5")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "1GlobalFootprintsLibrary:Wurth-4343X10458XX"
+		(at -0.1 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "089faf64-f885-4610-830a-fea6a9b01ffe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/katalog/datasheet/434331045822.pdf"
+		(at -0.1 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d63636c-c852-4ebe-aeac-8276d3db2b8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MCU Reset"
+		(at -0.1 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da107b6e-d3c9-409a-971f-a1c60d9f8f85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturerName" "Wurth Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a451fa3-4f93-48ed-82a2-766f7f5fc5e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "octopartUrl" "https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28993ea5-01a4-4622-bcc3-334ed75e8905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturerPartNumber" "434331045822"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c90e93d-4b14-446a-a3d6-092e3f176f83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.8 -1.8)
+		(end 3.6 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a719b449-c518-4b71-82db-36a040fa5f48")
+	)
+	(fp_line
+		(start -3.8 1.6)
+		(end -3.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4130733-0354-4da5-8e31-1bc6735a051a")
+	)
+	(fp_line
+		(start -2.8 1.6)
+		(end -3.8 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6dcd84a7-dc25-41d9-9bde-4f7b6536fba3")
+	)
+	(fp_line
+		(start -2.8 2)
+		(end -2.8 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f653616d-abe5-42da-b6ec-85c4026acebd")
+	)
+	(fp_line
+		(start 2.6 1.6)
+		(end 3.6 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb52167c-52c0-4238-a700-c7ade7ecd827")
+	)
+	(fp_line
+		(start 2.6 2)
+		(end -2.8 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3db53e74-77b7-46e0-a52c-f1d471ef06d5")
+	)
+	(fp_line
+		(start 2.6 2)
+		(end 2.6 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "acacf824-4f03-4b01-9393-a245b86e6403")
+	)
+	(fp_line
+		(start 3.6 -1.8)
+		(end 3.6 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8b7b967-aa1a-4d2c-94ad-210690466663")
+	)
+	(fp_line
+		(start -2.45 -1.75)
+		(end -2.45 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37cec103-1a33-4bde-a130-2d17d4b37ca5")
+	)
+	(fp_line
+		(start -2.45 -1.75)
+		(end -1.4 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70b6544f-c32c-4d6b-a55a-c32a7178c2bc")
+	)
+	(fp_line
+		(start -2.45 1.75)
+		(end 2.25 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6264450-08ba-4472-8e7f-981413aece6f")
+	)
+	(fp_line
+		(start -1.4 -2.8)
+		(end -1.4 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8928890a-27fa-4b3d-abb6-d31f956240b4")
+	)
+	(fp_line
+		(start -1.4 -2.8)
+		(end -1.1 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74df7015-641b-4263-b846-1ee842de1989")
+	)
+	(fp_line
+		(start 1.05 -2.8)
+		(end 1.2 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8fb697d-3485-4180-b4a4-9916c0ed3601")
+	)
+	(fp_line
+		(start 1.2 -1.75)
+		(end 1.2 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad9a6b75-7a44-4d04-a1de-4d779fcadf00")
+	)
+	(fp_line
+		(start 1.2 -1.75)
+		(end 2.25 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a39a6437-3e66-4c4e-8093-e45449e93ba8")
+	)
+	(fp_line
+		(start 2.25 1.75)
+		(end 2.25 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "869f4bf7-7639-4f21-89d4-dc25b0284c7a")
+	)
+	(fp_text user "PCB EDGE"
+		(at 0 -1.7 180)
+		(layer "Dwgs.User")
+		(uuid "558d4d60-d365-46d1-b3a0-af0ba33a0490")
+		(effects
+			(font
+				(size 0.24 0.24)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SWITCH EDGE"
+		(at 0 -2.75 180)
+		(layer "Dwgs.User")
+		(uuid "6f975913-3fd8-4a79-8739-efb9d16a87fc")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.9 0.85 180)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "9e85d78e-f185-4040-a37c-776104433811")
+	)
+	(pad "2" smd roundrect
+		(at -2.9 -0.85 180)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "3d66ce4d-483f-4c41-ad6e-769bdaf09b3e")
+	)
+	(pad "3" smd roundrect
+		(at 2.7 0.85 180)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "70de3bd3-c582-4701-8b37-d2cf690bd356")
+	)
+	(pad "4" smd roundrect
+		(at 2.7 -0.85 180)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "cc8a96be-9137-475e-a614-c2514e3feb47")
+	)
+	(model "${KIPRJMOD}/inputs/3dmodels/wurth-434331045822.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

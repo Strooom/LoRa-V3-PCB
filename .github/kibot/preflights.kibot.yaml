@@ -1,0 +1,50 @@
+preflight:
+  set_text_variables:
+    - variable: "majorVersion"
+      command: "echo $MAJORVERSIONDIGIT" 
+    - variable: "minorVersion"
+      command: "echo $MINORVERSIONDIGIT" 
+    - variable: "releaseDate"
+      command: "echo $BUILDTIMESTAMP" 
+    - variable: "releaseDateShort"
+      command: "echo $BUILDTIMESTAMPSHORT" 
+
+  check_fields:
+    - field: Datasheet
+      regex: '^(https://.*|NA)$'
+      severity: error
+
+    - field: manufacturerName
+      regex: '.+'
+      severity_missing: error
+
+    - field: manufacturerPartNumber
+      regex: '.+'
+      severity: error
+
+    - field: genericPartNumber
+      regex: '.*'
+      severity: error
+
+    - field: octopartUrl
+      regex: '^(https://.*|NA)$'
+      severity: error
+      
+    - field: "*"
+      severity_missing: error
+
+  check_zone_fills: true
+
+  erc:
+    category: 'schematics'
+    dir: 'reports'
+    format: 'HTML, RPT'
+    output: 'schematic electrical-rule-check report.%x'
+
+  drc:
+    category: 'pcb'
+    dir: 'reports'
+    format: 'HTML, RPT'
+    output: 'PCB design-rule-check report.%x'
+    
+  update_xml: true

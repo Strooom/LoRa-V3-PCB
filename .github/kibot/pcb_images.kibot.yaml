@@ -1,0 +1,32 @@
+outputs:
+  - name: 'print_pcb'
+    dir: 'pcb'
+    type: pcb_print
+    options:
+      scaling: 0
+      autoscale_margin_x: 10
+      autoscale_margin_y: 10
+      format: 'PDF'
+      plot_sheet_reference: false
+      pages:
+        - page_id: 'front copper'
+          layers:
+            - layer: F.Cu
+          monochrome: true
+
+        - page_id: 'front silkscreen'
+          layers:
+            - layer: F.Silkscreen
+          monochrome: true
+
+        - page_id: 'back copper'
+          layers:
+            - layer: B.Cu
+          mirror: true
+
+        - page_id: 'back silkscreen'
+          layers:
+            - layer: B.Silkscreen
+          monochrome: true
+          mirror: true
+
