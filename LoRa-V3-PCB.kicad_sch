@@ -8225,6 +8225,12 @@
 		(uuid "04895aa2-db47-465e-b8c8-f5cf4b9bcb5e")
 	)
 	(junction
+		(at 375.92 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "051da6b1-c868-46b0-a928-a4c7bc7ef4d7")
+	)
+	(junction
 		(at 119.38 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8559,6 +8565,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44909873-a220-4775-94d1-ee784a536242")
+	)
+	(junction
+		(at 534.67 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45144581-14e7-491a-87aa-f448159a9a66")
 	)
 	(junction
 		(at 210.82 384.81)
@@ -9500,7 +9512,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 142.24) (xy 528.32 142.24)
+			(xy 524.51 142.24) (xy 527.05 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9667,6 +9679,16 @@
 			(type default)
 		)
 		(uuid "0d1e4d95-ae64-4b79-88b8-d257f17423f8")
+	)
+	(wire
+		(pts
+			(xy 534.67 127) (xy 547.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3faff5-634e-4a9d-b34d-9b4ac21115c8")
 	)
 	(wire
 		(pts
@@ -10330,6 +10352,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 119.38) (xy 375.92 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb1cb28-fd2e-4bbb-8718-b6ada5745364")
+	)
+	(wire
+		(pts
 			(xy 129.54 95.25) (xy 130.81 95.25)
 		)
 		(stroke
@@ -10670,7 +10702,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 132.08) (xy 537.21 132.08)
+			(xy 532.13 132.08) (xy 537.21 132.08)
 		)
 		(stroke
 			(width 0)
@@ -11010,7 +11042,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 137.16) (xy 542.29 137.16)
+			(xy 532.13 137.16) (xy 542.29 137.16)
 		)
 		(stroke
 			(width 0)
@@ -11400,7 +11432,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 127) (xy 547.37 127)
+			(xy 532.13 127) (xy 534.67 127)
 		)
 		(stroke
 			(width 0)
@@ -11990,7 +12022,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 132.08) (xy 528.32 132.08)
+			(xy 524.51 132.08) (xy 527.05 132.08)
 		)
 		(stroke
 			(width 0)
@@ -12330,7 +12362,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 116.84) (xy 375.92 123.19)
+			(xy 375.92 116.84) (xy 375.92 119.38)
 		)
 		(stroke
 			(width 0)
@@ -12360,6 +12392,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 119.38) (xy 391.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcc1249-bda3-41b1-ba6d-7697b08411c5")
+	)
+	(wire
+		(pts
 			(xy 538.48 93.98) (xy 524.51 93.98)
 		)
 		(stroke
@@ -12370,7 +12412,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 142.24) (xy 547.37 142.24)
+			(xy 532.13 142.24) (xy 547.37 142.24)
 		)
 		(stroke
 			(width 0)
@@ -12670,7 +12712,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 137.16) (xy 528.32 137.16)
+			(xy 524.51 137.16) (xy 527.05 137.16)
 		)
 		(stroke
 			(width 0)
@@ -12960,7 +13002,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 127) (xy 528.32 127)
+			(xy 524.51 127) (xy 527.05 127)
 		)
 		(stroke
 			(width 0)
@@ -13497,6 +13539,16 @@
 			(type default)
 		)
 		(uuid "d106fc15-cc32-4055-92c2-35872598cab7")
+	)
+	(wire
+		(pts
+			(xy 534.67 127) (xy 534.67 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2600cab-4963-4d5a-9205-7ff90fc9a2af")
 	)
 	(wire
 		(pts
@@ -17057,6 +17109,28 @@
 			)
 		)
 	)
+	(global_label "VDD-Display-Charge"
+		(shape input)
+		(at 391.16 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ca1a35c-426b-4f38-90df-be9bbeab2960")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 414.3441 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape bidirectional)
 		(at 134.62 222.25 270)
@@ -17114,6 +17188,28 @@
 		(uuid "7fc7011d-e56c-44f3-a800-2e2278ba16f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.5602 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 534.67 157.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80423100-f745-47df-99da-86dfacd08ed9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 534.67 164.0938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20221,7 +20317,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 530.86 127 90)
+		(at 529.59 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20229,7 +20325,7 @@
 		(dnp no)
 		(uuid "3ce43bbf-3a39-43fc-ac86-d28f4d53615d")
 		(property "Reference" "C34"
-			(at 528.066 125.73 90)
+			(at 526.796 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20237,7 +20333,7 @@
 			)
 		)
 		(property "Value" "CGA3E1X7R1E105K080AC"
-			(at 533.4 128.27 90)
+			(at 532.13 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20246,7 +20342,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 530.86 127 0)
+			(at 529.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20255,7 +20351,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 530.86 127 0)
+			(at 529.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20264,7 +20360,7 @@
 			)
 		)
 		(property "Description" "1uF"
-			(at 533.654 128.27 90)
+			(at 532.384 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20272,7 +20368,7 @@
 			)
 		)
 		(property "manufacturerName" "TDK"
-			(at 530.86 127 0)
+			(at 529.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20281,7 +20377,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"
-			(at 530.86 127 0)
+			(at 529.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20290,7 +20386,7 @@
 			)
 		)
 		(property "genericPartNumber" "GPC0603105-25"
-			(at 530.86 127 0)
+			(at 529.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20299,7 +20395,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
-			(at 530.86 127 0)
+			(at 529.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23777,7 +23873,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 530.86 132.08 90)
+		(at 529.59 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23785,7 +23881,7 @@
 		(dnp no)
 		(uuid "992285c2-32be-483c-9ac1-c99613a92a12")
 		(property "Reference" "C35"
-			(at 528.066 130.81 90)
+			(at 526.796 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23793,7 +23889,7 @@
 			)
 		)
 		(property "Value" "CGA3E1X7R1E105K080AC"
-			(at 533.4 133.35 90)
+			(at 532.13 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23802,7 +23898,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 530.86 132.08 0)
+			(at 529.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23811,7 +23907,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 530.86 132.08 0)
+			(at 529.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23820,7 +23916,7 @@
 			)
 		)
 		(property "Description" "1uF"
-			(at 533.654 133.35 90)
+			(at 532.384 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23828,7 +23924,7 @@
 			)
 		)
 		(property "manufacturerName" "TDK"
-			(at 530.86 132.08 0)
+			(at 529.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23837,7 +23933,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"
-			(at 530.86 132.08 0)
+			(at 529.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23846,7 +23942,7 @@
 			)
 		)
 		(property "genericPartNumber" "GPC0603105-25"
-			(at 530.86 132.08 0)
+			(at 529.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23855,7 +23951,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
-			(at 530.86 132.08 0)
+			(at 529.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27207,7 +27303,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 530.86 142.24 90)
+		(at 529.59 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27215,7 +27311,7 @@
 		(dnp no)
 		(uuid "e0fdb64f-74a9-41cb-aa03-06497919fb4f")
 		(property "Reference" "C37"
-			(at 528.066 140.97 90)
+			(at 526.796 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27223,7 +27319,7 @@
 			)
 		)
 		(property "Value" "CGA3E1X7R1E105K080AC"
-			(at 533.4 143.51 90)
+			(at 532.13 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27232,7 +27328,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 530.86 142.24 0)
+			(at 529.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27241,7 +27337,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 530.86 142.24 0)
+			(at 529.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27250,7 +27346,7 @@
 			)
 		)
 		(property "Description" "1uF"
-			(at 533.654 143.764 90)
+			(at 532.384 143.764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27258,7 +27354,7 @@
 			)
 		)
 		(property "manufacturerName" "TDK"
-			(at 530.86 142.24 0)
+			(at 529.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27267,7 +27363,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"
-			(at 530.86 142.24 0)
+			(at 529.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27276,7 +27372,7 @@
 			)
 		)
 		(property "genericPartNumber" "GPC0603105-25"
-			(at 530.86 142.24 0)
+			(at 529.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27285,7 +27381,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
-			(at 530.86 142.24 0)
+			(at 529.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27604,7 +27700,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 530.86 137.16 90)
+		(at 529.59 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27612,7 +27708,7 @@
 		(dnp no)
 		(uuid "e897f49b-02d1-4efd-baf1-3687f78ab09c")
 		(property "Reference" "C36"
-			(at 528.066 135.89 90)
+			(at 526.796 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27620,7 +27716,7 @@
 			)
 		)
 		(property "Value" "CGA3E1X7R1E105K080AC"
-			(at 533.4 138.43 90)
+			(at 532.13 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27629,7 +27725,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 530.86 137.16 0)
+			(at 529.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27638,7 +27734,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 530.86 137.16 0)
+			(at 529.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27647,7 +27743,7 @@
 			)
 		)
 		(property "Description" "1uF"
-			(at 533.4 138.43 90)
+			(at 532.13 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27655,7 +27751,7 @@
 			)
 		)
 		(property "manufacturerName" "TDK"
-			(at 530.86 137.16 0)
+			(at 529.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27664,7 +27760,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"
-			(at 530.86 137.16 0)
+			(at 529.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27673,7 +27769,7 @@
 			)
 		)
 		(property "genericPartNumber" "GPC0603105-25"
-			(at 530.86 137.16 0)
+			(at 529.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27682,7 +27778,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
-			(at 530.86 137.16 0)
+			(at 529.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
