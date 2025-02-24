@@ -27226,7 +27226,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 481.838 131.064 0)
 			(effects
 				(font
@@ -27244,7 +27244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 481.33 128.27 0)
 			(effects
 				(font
@@ -27271,7 +27271,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"
+		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 481.33 128.27 0)
 			(effects
 				(font
@@ -27289,7 +27289,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CL21B106KPQNNWE"
+		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
 			(at 481.33 128.27 0)
 			(effects
 				(font

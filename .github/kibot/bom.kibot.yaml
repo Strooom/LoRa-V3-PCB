@@ -69,3 +69,20 @@ outputs:
         - manufacturerName
         - manufacturerPartNumber
 
+  - name: 'KiCost CSV export'
+    comment: "CSV format the way KiCost prefers it"
+    type: bom
+    dir: 'bom'
+    category: 'bom'
+    options:
+      format: CSV
+      output: 'kicost-bom.%x'
+      csv:
+        hide_header: true
+        hide_pcb_info: true
+        hide_stats_info: true
+      columns:
+        - Quantity Per PCB
+        - manufacturerPartNumber
+        - References
+
