@@ -6,7 +6,7 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="majorVersion">0</textvar>
     <textvar name="minorVersion">17</textvar>
-    <textvar name="releaseDate">Mon Feb 24 15:03:59 2025</textvar>
+    <textvar name="releaseDate">Mon Feb 24 15:47:24 2025</textvar>
     <textvar name="releaseDateShort">2025-02-24</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -514,23 +514,23 @@
       <tstamps>ee363c0e-e1fa-4fa5-a286-e5d62208cfde</tstamps>
     </comp>
     <comp ref="C22">
-      <value>10uF</value>
+      <value>4.7uF</value>
       <footprint>1projectLibrary:C_0805</footprint>
-      <datasheet>https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</datasheet>
+      <datasheet>https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</datasheet>
       <fields>
         <field name="manufacturerName">Samsung Electro-Mechanics</field>
-        <field name="octopartUrl">https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
+        <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="genericPartNumber">NA</field>
-        <field name="manufacturerPartNumber">CL21B106KPQNNWE</field>
+        <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
-        <field name="Datasheet">https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
-      <property name="octopartUrl" value="https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
       <property name="genericPartNumber" value="NA"/>
-      <property name="manufacturerPartNumber" value="CL21B106KPQNNWE"/>
+      <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
