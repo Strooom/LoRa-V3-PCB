@@ -111,23 +111,23 @@
 		(uuid "6640e35b-b4b8-4319-8e04-512791799c39")
 	)
 	(pad "1" thru_hole roundrect
-		(at -27.242 0)
+		(at 27.242 0)
 		(size 2.5 2.5)
 		(drill 1.1938)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.2)
 		(thermal_bridge_angle 0)
-		(uuid "faffafe6-9b64-4790-b9c5-12b0079a71ee")
+		(uuid "de9cd1bb-0be2-4aa3-a697-5fad53bdcb54")
 	)
 	(pad "2" thru_hole circle
-		(at 27.242 0)
+		(at -27.242 0)
 		(size 2.5 2.5)
 		(drill 1.1938)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 0)
-		(uuid "de9cd1bb-0be2-4aa3-a697-5fad53bdcb54")
+		(uuid "faffafe6-9b64-4790-b9c5-12b0079a71ee")
 	)
 	(model "${KIPRJMOD}/projectlibraries/1project3dmodels/1015.stp"
 		(offset

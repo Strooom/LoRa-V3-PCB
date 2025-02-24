@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 1.55,
+          "width": 2.48
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -182,6 +182,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.25,
         0.3,
         0.4,
         0.8
@@ -541,7 +542,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -565,19 +566,19 @@
           "group_by": false,
           "label": "genericPartNumber",
           "name": "genericPartNumber",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "manufacturerName",
           "name": "manufacturerName",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "manufacturerPartNumber",
           "name": "manufacturerPartNumber",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -596,7 +597,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
     "drawing": {

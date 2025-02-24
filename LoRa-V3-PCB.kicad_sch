@@ -1654,6 +1654,206 @@
 				)
 			)
 		)
+		(symbol "1projectLibrary:LiFePO4_Battery"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CONN2"
+				(at 2.794 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1015"
+				(at 1.016 -0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "1projectLibrary:Keystone 1015 AA BatteryHolder"
+				(at -7.62 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p22.pdf"
+				(at 12.7 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "AA-BatteryHolder"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "octopartUrl" "https://octopart.com/1015-keystone-8129901?r=sp"
+				(at 7.62 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manufacturerName" "KeyStone"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manufacturerPartNumber" "1015"
+				(at 7.62 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LiFePO4_Battery_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LiFePO4_Battery_1_1"
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "1projectLibrary:MCP73123T"
 			(pin_names
 				(offset 1.016)
@@ -6428,178 +6628,6 @@
 				)
 			)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -7030,7 +7058,8 @@
 		)
 		(symbol "Device:Q_NMOS_GSD"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8243,12 +8272,6 @@
 		(uuid "0639c681-9dc0-46b2-9fdb-a2a59f7228e1")
 	)
 	(junction
-		(at 375.92 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08d69351-9559-42c8-9944-a4031c5c36d5")
-	)
-	(junction
 		(at 139.7 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8261,7 +8284,7 @@
 		(uuid "0c217c85-dd42-42fe-9d6c-bb54efb46429")
 	)
 	(junction
-		(at 168.91 111.76)
+		(at 175.26 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cc988f7-ba6d-4e14-bb1b-843447c24ae9")
@@ -8313,6 +8336,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1255d1fa-8238-4860-83ce-3fbb81134adb")
+	)
+	(junction
+		(at 153.67 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12686db3-4316-4359-a52c-5b04d3944824")
 	)
 	(junction
 		(at 524.51 132.08)
@@ -8369,7 +8398,7 @@
 		(uuid "1a4a3f0b-a5bd-4e48-9aab-6d94f69d8123")
 	)
 	(junction
-		(at 240.03 135.89)
+		(at 246.38 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d2fded7-9e9c-4acc-82e8-e56baa8a6288")
@@ -8381,7 +8410,7 @@
 		(uuid "1e6f534f-4df5-4a4a-9668-b1e16a88ff03")
 	)
 	(junction
-		(at 208.28 99.06)
+		(at 214.63 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fb69818-440d-43df-91b7-8ee597902efb")
@@ -8429,7 +8458,7 @@
 		(uuid "27963cdd-f8f6-4493-9017-eb107c6aac6a")
 	)
 	(junction
-		(at 168.91 135.89)
+		(at 175.26 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "290e8540-bc11-4588-b056-57989fb56d5a")
@@ -8453,7 +8482,7 @@
 		(uuid "2be74c06-ac39-40ba-a0f7-89743cf7e93f")
 	)
 	(junction
-		(at 229.87 82.55)
+		(at 236.22 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c8ab128-fd4a-45f5-a3f2-fb429efad4ca")
@@ -8471,7 +8500,7 @@
 		(uuid "2e3f2648-e8c3-4822-be31-a37004a73a60")
 	)
 	(junction
-		(at 168.91 116.84)
+		(at 175.26 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e77a22f-1d10-4572-9097-7a6f879b651e")
@@ -8729,7 +8758,7 @@
 		(uuid "6c94d693-9016-4a9b-8af4-e7f45154fa09")
 	)
 	(junction
-		(at 201.93 135.89)
+		(at 208.28 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d2216e0-d8f5-44b9-90af-d958ab9bd9ad")
@@ -8825,7 +8854,7 @@
 		(uuid "80506bca-8c89-4b86-badd-b84cb4a8c11a")
 	)
 	(junction
-		(at 208.28 135.89)
+		(at 214.63 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "810aa981-d6d0-4fa8-96fe-1f189d1c6f57")
@@ -8843,7 +8872,7 @@
 		(uuid "83a32047-98d1-4ee7-9d79-d8de2d0b49b4")
 	)
 	(junction
-		(at 208.28 82.55)
+		(at 214.63 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8660f2ad-ed3f-4a80-b612-6bcabf96d53f")
@@ -8873,7 +8902,7 @@
 		(uuid "8c997967-744e-47b1-98d7-d538abac44ff")
 	)
 	(junction
-		(at 250.19 135.89)
+		(at 256.54 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eb9badc-a6b8-4654-adf9-e144a5baa0bd")
@@ -8939,7 +8968,7 @@
 		(uuid "98fcdceb-1f64-4b54-b7b7-164983e82964")
 	)
 	(junction
-		(at 168.91 101.6)
+		(at 175.26 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ad57c8e-aca5-41e4-882b-a09077d16e0d")
@@ -9011,7 +9040,7 @@
 		(uuid "a91252ac-3f07-4d30-98a7-6e46242300bd")
 	)
 	(junction
-		(at 168.91 99.06)
+		(at 175.26 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acc40dd3-5579-40c2-b1af-dfbca33d6e5e")
@@ -9077,6 +9106,12 @@
 		(uuid "be0fa347-28f9-4c2f-bad1-39682e6c37b0")
 	)
 	(junction
+		(at 518.16 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be2b2590-678d-4212-a50f-302e1cb65b41")
+	)
+	(junction
 		(at 278.13 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9099,12 +9134,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb105816-9061-4015-914d-ab0627d79853")
-	)
-	(junction
-		(at 152.4 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc4319ad-5688-4c5c-aa92-7e3a4769d8cf")
 	)
 	(junction
 		(at 375.92 149.86)
@@ -9167,7 +9196,7 @@
 		(uuid "dbbc647e-383e-493d-baec-d92a07b185c7")
 	)
 	(junction
-		(at 250.19 82.55)
+		(at 256.54 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc1f4cad-3d72-4ee8-9ae0-7f7d4cdc0026")
@@ -9203,7 +9232,7 @@
 		(uuid "e3b25dee-af12-4017-811a-da849b28c6ff")
 	)
 	(junction
-		(at 168.91 114.3)
+		(at 175.26 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e513f4be-df5d-4eff-83b4-ca182772deae")
@@ -9227,7 +9256,7 @@
 		(uuid "e95cc0f9-4546-4ef3-9e5c-8a851b84aff2")
 	)
 	(junction
-		(at 208.28 101.6)
+		(at 214.63 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eabf87ce-67a0-4150-b5be-577dc42e40f5")
@@ -9273,12 +9302,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8c879ab-5865-4728-9b48-e442301611c4")
-	)
-	(junction
-		(at 373.38 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa7f83e4-2f04-4a4b-8ee7-ace62fc68ebe")
 	)
 	(junction
 		(at 86.36 201.93)
@@ -9409,6 +9432,16 @@
 			(type default)
 		)
 		(uuid "00609445-3faa-40b5-938a-b09f4596c60e")
+	)
+	(wire
+		(pts
+			(xy 520.7 50.8) (xy 518.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00790d15-7253-4380-b9f7-85c4a44a738a")
 	)
 	(wire
 		(pts
@@ -9862,7 +9895,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 120.65) (xy 201.93 135.89)
+			(xy 208.28 120.65) (xy 208.28 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9872,7 +9905,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 99.06) (xy 175.26 99.06)
+			(xy 175.26 99.06) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9922,7 +9955,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 135.89) (xy 208.28 135.89)
+			(xy 208.28 135.89) (xy 214.63 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10002,6 +10035,16 @@
 	)
 	(wire
 		(pts
+			(xy 518.16 50.8) (xy 502.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc14dcd-6385-48ed-8962-c0ede24d35dc")
+	)
+	(wire
+		(pts
 			(xy 370.84 116.84) (xy 370.84 133.35)
 		)
 		(stroke
@@ -10042,7 +10085,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 99.06) (xy 208.28 99.06)
+			(xy 207.01 99.06) (xy 214.63 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10092,7 +10135,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 106.68) (xy 201.93 113.03)
+			(xy 208.28 106.68) (xy 208.28 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10202,7 +10245,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 101.6) (xy 250.19 135.89)
+			(xy 256.54 110.49) (xy 256.54 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10212,7 +10255,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 110.49) (xy 76.2 120.65)
+			(xy 76.2 110.49) (xy 76.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10292,7 +10335,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 208.28 82.55)
+			(xy 119.38 82.55) (xy 214.63 82.55)
 		)
 		(stroke
 			(width 0)
@@ -10322,7 +10365,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 104.14) (xy 152.4 135.89)
+			(xy 153.67 104.14) (xy 153.67 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10332,7 +10375,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 107.95) (xy 71.12 120.65)
+			(xy 71.12 107.95) (xy 71.12 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10452,7 +10495,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 146.05 85.09)
+			(xy 153.67 85.09) (xy 146.05 85.09)
 		)
 		(stroke
 			(width 0)
@@ -10542,7 +10585,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 128.27) (xy 76.2 135.89)
+			(xy 76.2 124.46) (xy 76.2 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10562,7 +10605,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 110.49) (xy 55.88 135.89)
+			(xy 55.88 109.22) (xy 55.88 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10592,7 +10635,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 114.3) (xy 175.26 114.3)
+			(xy 175.26 114.3) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -10662,7 +10705,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 82.55) (xy 229.87 82.55)
+			(xy 232.41 82.55) (xy 236.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -10802,7 +10845,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 82.55) (xy 218.44 82.55)
+			(xy 214.63 82.55) (xy 224.79 82.55)
 		)
 		(stroke
 			(width 0)
@@ -10892,7 +10935,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 135.89) (xy 250.19 135.89)
+			(xy 246.38 135.89) (xy 256.54 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11002,6 +11045,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 135.89) (xy 175.26 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5080989f-bbb6-4eec-a575-bd222bb4a58d")
+	)
+	(wire
+		(pts
 			(xy 222.25 384.81) (xy 245.11 384.81)
 		)
 		(stroke
@@ -11062,7 +11115,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 116.84) (xy 168.91 135.89)
+			(xy 175.26 116.84) (xy 175.26 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11252,23 +11305,13 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 46.99) (xy 375.92 69.85)
+			(xy 375.92 36.83) (xy 375.92 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6101bfda-da7e-4318-a23a-dacbc12db1f4")
-	)
-	(wire
-		(pts
-			(xy 373.38 39.37) (xy 379.73 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6123d302-2c3d-44c0-b4ea-0e332c017f4f")
 	)
 	(polyline
 		(pts
@@ -11382,7 +11425,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 135.89) (xy 201.93 135.89)
+			(xy 175.26 135.89) (xy 208.28 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11502,7 +11545,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 101.6) (xy 208.28 101.6)
+			(xy 207.01 101.6) (xy 214.63 101.6)
 		)
 		(stroke
 			(width 0)
@@ -11562,7 +11605,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 120.65) (xy 208.28 135.89)
+			(xy 214.63 120.65) (xy 214.63 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11672,6 +11715,16 @@
 	)
 	(wire
 		(pts
+			(xy 518.16 50.8) (xy 518.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78bc12e9-8a30-49f0-8c97-b005ada2274b")
+	)
+	(wire
+		(pts
 			(xy 86.36 219.71) (xy 88.9 219.71)
 		)
 		(stroke
@@ -11772,7 +11825,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 114.3) (xy 168.91 116.84)
+			(xy 175.26 114.3) (xy 175.26 116.84)
 		)
 		(stroke
 			(width 0)
@@ -11902,7 +11955,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 85.09) (xy 71.12 87.63)
+			(xy 71.12 85.09) (xy 71.12 92.71)
 		)
 		(stroke
 			(width 0)
@@ -11932,7 +11985,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 36.83) (xy 373.38 39.37)
+			(xy 373.38 36.83) (xy 373.38 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11952,7 +12005,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 107.95) (xy 55.88 85.09)
+			(xy 55.88 106.68) (xy 55.88 85.09)
 		)
 		(stroke
 			(width 0)
@@ -11992,7 +12045,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 113.03) (xy 63.5 135.89)
+			(xy 63.5 111.76) (xy 63.5 135.89)
 		)
 		(stroke
 			(width 0)
@@ -12042,7 +12095,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 101.6) (xy 175.26 101.6)
+			(xy 175.26 101.6) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -12262,7 +12315,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 85.09) (xy 63.5 105.41)
+			(xy 63.5 85.09) (xy 63.5 104.14)
 		)
 		(stroke
 			(width 0)
@@ -12422,7 +12475,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 82.55) (xy 234.95 82.55)
+			(xy 236.22 82.55) (xy 241.3 82.55)
 		)
 		(stroke
 			(width 0)
@@ -12482,7 +12535,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 128.27) (xy 71.12 135.89)
+			(xy 71.12 124.46) (xy 71.12 135.89)
 		)
 		(stroke
 			(width 0)
@@ -12522,7 +12575,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 99.06) (xy 208.28 101.6)
+			(xy 214.63 99.06) (xy 214.63 101.6)
 		)
 		(stroke
 			(width 0)
@@ -12542,7 +12595,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 116.84) (xy 175.26 116.84)
+			(xy 175.26 116.84) (xy 181.61 116.84)
 		)
 		(stroke
 			(width 0)
@@ -12632,23 +12685,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 135.89) (xy 152.4 135.89)
+			(xy 146.05 135.89) (xy 153.67 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a4e12e1d-6fde-434d-b219-2714e79cf143")
-	)
-	(wire
-		(pts
-			(xy 375.92 46.99) (xy 379.73 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a558903a-ce10-4ecf-89ef-5e5b2f740fc0")
 	)
 	(wire
 		(pts
@@ -12682,7 +12725,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 90.17) (xy 240.03 135.89)
+			(xy 246.38 90.17) (xy 246.38 135.89)
 		)
 		(stroke
 			(width 0)
@@ -12692,7 +12735,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 111.76) (xy 175.26 111.76)
+			(xy 175.26 111.76) (xy 181.61 111.76)
 		)
 		(stroke
 			(width 0)
@@ -12782,7 +12825,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 201.93 106.68)
+			(xy 207.01 106.68) (xy 208.28 106.68)
 		)
 		(stroke
 			(width 0)
@@ -12919,16 +12962,6 @@
 			(type default)
 		)
 		(uuid "b11d388c-71d6-492a-a1b5-d2735d09f136")
-	)
-	(wire
-		(pts
-			(xy 375.92 36.83) (xy 375.92 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1212d17-217a-485b-a115-ed51ea432d90")
 	)
 	(wire
 		(pts
@@ -13152,7 +13185,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 111.76) (xy 168.91 114.3)
+			(xy 175.26 111.76) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -13162,7 +13195,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 102.87) (xy 168.91 101.6)
+			(xy 175.26 102.87) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
@@ -13172,7 +13205,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 101.6) (xy 168.91 99.06)
+			(xy 175.26 101.6) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -13202,7 +13235,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 95.25) (xy 71.12 107.95)
+			(xy 71.12 100.33) (xy 71.12 107.95)
 		)
 		(stroke
 			(width 0)
@@ -13272,7 +13305,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 82.55) (xy 250.19 82.55)
+			(xy 259.08 82.55) (xy 256.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -13282,7 +13315,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 73.66) (xy 168.91 99.06)
+			(xy 175.26 73.66) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -13292,7 +13325,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 96.52) (xy 152.4 85.09)
+			(xy 153.67 96.52) (xy 153.67 85.09)
 		)
 		(stroke
 			(width 0)
@@ -13392,7 +13425,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 73.66) (xy 208.28 82.55)
+			(xy 214.63 73.66) (xy 214.63 82.55)
 		)
 		(stroke
 			(width 0)
@@ -13512,7 +13545,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 82.55) (xy 250.19 82.55)
+			(xy 251.46 82.55) (xy 256.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -13652,7 +13685,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 110.49) (xy 168.91 111.76)
+			(xy 175.26 110.49) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -13682,16 +13715,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 39.37) (xy 373.38 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9749388-f013-4cc0-99e2-decdb0604b7d")
-	)
-	(wire
-		(pts
 			(xy 368.3 58.42) (xy 368.3 81.28)
 		)
 		(stroke
@@ -13702,7 +13725,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 73.66) (xy 229.87 82.55)
+			(xy 236.22 73.66) (xy 236.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -13712,7 +13735,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 101.6) (xy 208.28 113.03)
+			(xy 214.63 101.6) (xy 214.63 113.03)
 		)
 		(stroke
 			(width 0)
@@ -13742,7 +13765,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 82.55) (xy 208.28 99.06)
+			(xy 214.63 82.55) (xy 214.63 99.06)
 		)
 		(stroke
 			(width 0)
@@ -13902,7 +13925,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 135.89) (xy 240.03 135.89)
+			(xy 214.63 135.89) (xy 246.38 135.89)
 		)
 		(stroke
 			(width 0)
@@ -14322,7 +14345,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 82.55) (xy 250.19 93.98)
+			(xy 256.54 82.55) (xy 256.54 102.87)
 		)
 		(stroke
 			(width 0)
@@ -14570,16 +14593,6 @@
 		)
 		(uuid "fb981847-7295-490b-824f-66861ce0053b")
 	)
-	(wire
-		(pts
-			(xy 152.4 135.89) (xy 168.91 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc727321-4885-4744-a7e4-828fabc52b3b")
-	)
 	(polyline
 		(pts
 			(xy 177.8 330.835) (xy 326.39 330.835)
@@ -14631,8 +14644,8 @@
 		(uuid "fff83949-4923-4871-8e3d-55c71a590d7a")
 	)
 	(rectangle
-		(start 165.1 76.2)
-		(end 214.63 132.08)
+		(start 168.91 76.2)
+		(end 222.25 133.35)
 		(stroke
 			(width 0)
 			(type dash)
@@ -16578,7 +16591,7 @@
 	)
 	(text "LiFePO4 Charger from 5V-USB"
 		(exclude_from_sim no)
-		(at 188.214 74.422 0)
+		(at 194.564 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17595,7 +17608,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 252.73 82.55 0)
+		(at 259.08 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17605,7 +17618,7 @@
 		)
 		(uuid "d0ae6d1e-f6b4-4160-8bba-9c50c03e8479")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.13 82.55 0)
+			(at 266.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17683,7 +17696,7 @@
 	)
 	(global_label "CHG-OUT"
 		(shape input)
-		(at 208.28 73.66 90)
+		(at 214.63 73.66 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17693,7 +17706,7 @@
 		)
 		(uuid "ddd0d365-55be-4bb6-95d9-7748440eb9e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.28 61.6033 90)
+			(at 214.63 61.6033 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17903,7 +17916,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 152.4 100.33 0)
+		(at 153.67 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17911,7 +17924,7 @@
 		(dnp no)
 		(uuid "09f39ca5-4150-49bb-9f43-70184c394212")
 		(property "Reference" "C16"
-			(at 153.162 97.79 0)
+			(at 149.606 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17919,18 +17932,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C1608X7S1A475K080AC"
-			(at 153.162 103.124 0)
+		(property "Value" "4.7uF"
+			(at 154.432 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 153.3652 104.14 0)
+		(property "Footprint" "1projectLibrary:C_0805"
+			(at 154.6352 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17938,8 +17950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 152.4 100.33 0)
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17947,16 +17959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7uF"
-			(at 155.448 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturerName" "TDK"
-			(at 152.4 100.33 0)
+		(property "Description" ""
+			(at 156.718 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17964,8 +17968,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
-			(at 152.4 100.33 0)
+		(property "manufacturerName" "Samsung Electro-Mechanics"
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17973,8 +17977,8 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPC0603475-10-X7S"
-			(at 152.4 100.33 0)
+		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17982,8 +17986,17 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
-			(at 152.4 100.33 0)
+		(property "genericPartNumber" "NA"
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18023,13 +18036,12 @@
 				)
 			)
 		)
-		(property "Value" "CGA3E1X7R1E105K080AC"
+		(property "Value" "1uF"
 			(at 516.255 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -18050,12 +18062,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF"
+		(property "Description" ""
 			(at 515.112 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -18125,23 +18138,20 @@
 		(dnp no)
 		(uuid "0e04ac40-919d-4143-8846-e9ce5e07349c")
 		(property "Reference" "R20"
-			(at 117.856 96.52 90)
+			(at 127.254 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "CR0603-FX-3742ELF"
-			(at 123.19 97.79 90)
+		(property "Value" "4M75"
+			(at 124.46 97.79 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -18153,7 +18163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -18162,7 +18172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "37K4"
+		(property "Description" ""
 			(at 124.46 97.79 90)
 			(effects
 				(font
@@ -18171,7 +18181,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -18180,7 +18190,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-3742elf-bourns-6075679?r=sp"
+		(property "octopartUrl" "https://octopart.com/rc0603fr-074m75l-yageo-1187229"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -18189,7 +18199,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-3752ELF"
+		(property "manufacturerPartNumber" "RC0603FR-074M75L"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -18231,14 +18241,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 212.09 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -18259,12 +18268,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF"
+		(property "Description" "power decoupling"
 			(at 214.376 374.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -18388,6 +18398,15 @@
 		)
 		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 232.41 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"
+			(at 232.41 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18573,7 +18592,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 222.25 82.55 0)
+		(at 228.6 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18581,7 +18600,7 @@
 		(dnp no)
 		(uuid "1cbc2340-2c68-476e-a31e-5c38707281cd")
 		(property "Reference" "JP1"
-			(at 222.25 78.232 0)
+			(at 228.6 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18589,7 +18608,7 @@
 			)
 		)
 		(property "Value" "NA"
-			(at 222.25 86.106 0)
+			(at 228.6 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18597,7 +18616,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
-			(at 222.25 82.55 0)
+			(at 228.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18606,7 +18625,7 @@
 			)
 		)
 		(property "Datasheet" "NA"
-			(at 222.25 82.55 0)
+			(at 228.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18615,7 +18634,7 @@
 			)
 		)
 		(property "Description" "Normal Closed PCB Jumper - Cut to disable Battery Charging for non-chargeable batteries"
-			(at 222.25 82.55 0)
+			(at 228.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18624,7 +18643,7 @@
 			)
 		)
 		(property "manufacturerName" "NA"
-			(at 222.25 82.55 0)
+			(at 228.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18633,7 +18652,7 @@
 			)
 		)
 		(property "octopartUrl" "NA"
-			(at 222.25 82.55 0)
+			(at 228.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18642,7 +18661,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "NA"
-			(at 222.25 82.55 0)
+			(at 228.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18673,111 +18692,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 379.73 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f5bcfd0-e9d2-40cd-877f-045923b3bfba")
-		(property "Reference" "C18"
-			(at 380.746 39.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C1608X7S1A475K080AC"
-			(at 381 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 380.6952 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 379.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7uF"
-			(at 382.778 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturerName" "TDK"
-			(at 379.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
-			(at 379.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "genericPartNumber" "GPC0603475-10-X7S"
-			(at 379.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
-			(at 379.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd7b5b4d-81dc-41a5-a8bb-88c02387ab29")
-		)
-		(pin "2"
-			(uuid "eae51321-b992-45cf-84a9-0f7d7bafe20f")
-		)
-		(instances
-			(project "LoRa-V3-PCB"
-				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 375.92 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18794,14 +18708,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 376.555 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -18822,12 +18735,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF"
+		(property "Description" "power decoupling"
 			(at 378.968 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -19216,7 +19130,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Amphenol FCI"
+		(property "manufacturerName" "NA"
 			(at 370.84 31.75 0)
 			(effects
 				(font
@@ -19376,7 +19290,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 502.92 50.8 270)
+		(at 520.7 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19385,7 +19299,7 @@
 		(fields_autoplaced yes)
 		(uuid "309ef227-05ea-489a-a860-133c3711340b")
 		(property "Reference" "#FLG02"
-			(at 504.825 50.8 0)
+			(at 522.605 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19394,7 +19308,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 506.73 50.7999 90)
+			(at 524.51 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19403,7 +19317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 502.92 50.8 0)
+			(at 520.7 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19412,7 +19326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 502.92 50.8 0)
+			(at 520.7 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19421,7 +19335,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 502.92 50.8 0)
+			(at 520.7 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19443,7 +19357,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 91.44 180)
+		(at 71.12 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19451,27 +19365,24 @@
 		(dnp no)
 		(uuid "30ad4cca-9d81-4162-a04d-517062825bc5")
 		(property "Reference" "R2"
-			(at 69.088 89.662 0)
+			(at 69.85 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "CR0603-FX-2203ELF"
-			(at 71.12 90.17 90)
+		(property "Value" "1M69"
+			(at 71.12 96.52 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
-			(at 72.898 91.44 90)
+			(at 72.898 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19479,8 +19390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
-			(at 71.12 91.44 0)
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_12-3368608.pdf"
+			(at 71.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19488,8 +19399,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220K"
-			(at 71.12 91.44 90)
+		(property "Description" ""
+			(at 71.12 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19497,8 +19408,8 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
-			(at 71.12 91.44 0)
+		(property "manufacturerName" "YAGEO"
+			(at 71.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19506,8 +19417,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-2203elf-bourns-3825387?r=sp"
-			(at 71.12 91.44 0)
+		(property "octopartUrl" "https://octopart.com/rc0603fr-071m69l-yageo-16255598"
+			(at 71.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19515,8 +19426,8 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-2203ELF"
-			(at 71.12 91.44 0)
+		(property "manufacturerPartNumber" "RC0603FR-071M69L"
+			(at 71.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19541,7 +19452,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 135.89 0)
+		(at 246.38 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19550,7 +19461,7 @@
 		(fields_autoplaced yes)
 		(uuid "31a77c60-ffe4-4293-9f7d-f5261821fa2e")
 		(property "Reference" "#PWR08"
-			(at 240.03 142.24 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19559,7 +19470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.03 140.97 0)
+			(at 246.38 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19567,7 +19478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 135.89 0)
+			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19576,7 +19487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 135.89 0)
+			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19585,7 +19496,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 135.89 0)
+			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19594,7 +19505,7 @@
 			)
 		)
 		(property "remark" ""
-			(at 240.03 135.89 0)
+			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19603,7 +19514,7 @@
 			)
 		)
 		(property "supplier1Name" ""
-			(at 240.03 135.89 0)
+			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19612,7 +19523,7 @@
 			)
 		)
 		(property "supplier1PartNumber" ""
-			(at 240.03 135.89 0)
+			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19621,7 +19532,7 @@
 			)
 		)
 		(property "supplier1PartURL" ""
-			(at 240.03 135.89 0)
+			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19630,7 +19541,7 @@
 			)
 		)
 		(property "checked" ""
-			(at 240.03 135.89 0)
+			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19639,7 +19550,7 @@
 			)
 		)
 		(property "has3Dmodel" ""
-			(at 240.03 135.89 0)
+			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19677,7 +19588,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "VLS3010CX-470M-1"
+		(property "Value" "47uH"
 			(at 488.95 86.3599 0)
 			(effects
 				(font
@@ -19705,7 +19616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47uH"
+		(property "Description" ""
 			(at 490.982 86.36 0)
 			(effects
 				(font
@@ -19870,17 +19781,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C1608X7S1A475K080AC"
-			(at 180.975 189.23 0)
+		(property "Value" "4.7uF"
+			(at 185.674 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0805"
 			(at 186.3852 190.5 0)
 			(effects
 				(font
@@ -19889,7 +19799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 185.42 186.69 0)
 			(effects
 				(font
@@ -19898,15 +19808,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7uF"
+		(property "Description" ""
 			(at 188.468 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "TDK"
+		(property "manufacturerName" "Samsung Electro-Mechanics"
 			(at 185.42 186.69 0)
 			(effects
 				(font
@@ -19915,7 +19826,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
+		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 185.42 186.69 0)
 			(effects
 				(font
@@ -19924,7 +19835,7 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPC0603475-10-X7S"
+		(property "genericPartNumber" "NA"
 			(at 185.42 186.69 0)
 			(effects
 				(font
@@ -19933,7 +19844,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
+		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
 			(at 185.42 186.69 0)
 			(effects
 				(font
@@ -19965,7 +19876,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 250.19 135.89 180)
+		(at 256.54 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19974,7 +19885,7 @@
 		(fields_autoplaced yes)
 		(uuid "37451fad-cfb9-4ba1-8818-cd80dd4326eb")
 		(property "Reference" "#FLG04"
-			(at 250.19 137.795 0)
+			(at 256.54 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19983,7 +19894,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 250.19 140.97 0)
+			(at 256.54 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19991,7 +19902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 135.89 0)
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20000,7 +19911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 135.89 0)
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20009,7 +19920,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 250.19 135.89 0)
+			(at 256.54 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20220,7 +20131,7 @@
 		(dnp no)
 		(uuid "396cb620-6ee0-43ee-a0ec-b3bf1fc6b6f3")
 		(property "Reference" "Q1"
-			(at 493.522 107.442 0)
+			(at 485.394 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20257,7 +20168,7 @@
 			)
 		)
 		(property "Description" "PJC7400"
-			(at 492.76 109.728 0)
+			(at 495.046 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20332,13 +20243,12 @@
 				)
 			)
 		)
-		(property "Value" "CGA3E1X7R1E105K080AC"
+		(property "Value" "1uF"
 			(at 532.13 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -20359,12 +20269,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF"
+		(property "Description" ""
 			(at 532.384 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -20441,13 +20352,12 @@
 				)
 			)
 		)
-		(property "Value" "CR0603-FX-1001ELF"
+		(property "Value" "1K"
 			(at 161.29 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -20459,7 +20369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/YAGEO_11022023_PYu_SR_20105_RoHS_L_11-3361774.pdf"
 			(at 161.29 198.12 0)
 			(effects
 				(font
@@ -20468,15 +20378,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1K"
+		(property "Description" ""
 			(at 161.29 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 161.29 198.12 0)
 			(effects
 				(font
@@ -20485,7 +20396,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-1001elf-bourns-2326646?r=sp"
+		(property "octopartUrl" "https://octopart.com/sr0603jr-071kl-yageo-71414179"
 			(at 161.29 198.12 0)
 			(effects
 				(font
@@ -20503,7 +20414,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603-JW-102ELF"
+		(property "manufacturerPartNumber" "SR0603JR-071KL"
 			(at 161.29 198.12 0)
 			(effects
 				(font
@@ -20604,6 +20515,15 @@
 				(hide yes)
 			)
 		)
+		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"
+			(at 265.43 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e891a63e-a54a-4463-8787-c30f85936996")
 		)
@@ -20638,8 +20558,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 250.19 99.06 0)
+		(lib_id "1projectLibrary:LiFePO4_Battery")
+		(at 256.54 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20647,7 +20567,7 @@
 		(dnp no)
 		(uuid "489f7504-3e06-4869-8773-1883ddcb5488")
 		(property "Reference" "CONN2"
-			(at 252.984 96.012 0)
+			(at 259.334 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20656,8 +20576,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1015"
-			(at 251.206 99.822 0)
+		(property "Value" "LiFePO4 battery"
+			(at 257.556 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20666,7 +20586,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:Keystone 1015 AA BatteryHolder"
-			(at 250.19 97.536 90)
+			(at 248.92 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20675,7 +20595,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p22.pdf"
-			(at 250.19 97.536 90)
+			(at 269.24 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20684,7 +20604,7 @@
 			)
 		)
 		(property "Description" "AA-BatteryHolder"
-			(at 250.19 99.06 0)
+			(at 256.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20693,7 +20613,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/1015-keystone-8129901?r=sp"
-			(at 250.19 99.06 0)
+			(at 264.16 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20702,7 +20622,7 @@
 			)
 		)
 		(property "manufacturerName" "KeyStone"
-			(at 250.19 99.06 0)
+			(at 256.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20711,7 +20631,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "1015"
-			(at 250.19 99.06 0)
+			(at 264.16 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20810,7 +20730,7 @@
 		(dnp no)
 		(uuid "56062d8b-d3b2-4240-ae88-ce2210dea02d")
 		(property "Reference" "Q2"
-			(at 504.698 58.928 0)
+			(at 505.714 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21075,23 +20995,20 @@
 		(dnp no)
 		(uuid "5a74b329-1dc6-41f4-b76e-1b75ed49dd0a")
 		(property "Reference" "R11"
-			(at 132.842 107.95 90)
+			(at 133.604 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "CR0603-FX-7501ELF"
-			(at 133.35 105.41 90)
+		(property "Value" "5M36"
+			(at 134.62 105.41 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -21103,7 +21020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 134.62 105.41 0)
 			(effects
 				(font
@@ -21112,7 +21029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7K5"
+		(property "Description" ""
 			(at 134.62 105.41 90)
 			(effects
 				(font
@@ -21121,7 +21038,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 134.62 105.41 0)
 			(effects
 				(font
@@ -21130,7 +21047,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-7501elf-bourns-6075428?r=sp"
+		(property "octopartUrl" "https://octopart.com/rc0603fr-075m36l-yageo-24734316"
 			(at 134.62 105.41 0)
 			(effects
 				(font
@@ -21139,7 +21056,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603JW-752ELF"
+		(property "manufacturerPartNumber" "RC0603FR-075M36L"
 			(at 134.62 105.41 0)
 			(effects
 				(font
@@ -21286,7 +21203,7 @@
 	)
 	(symbol
 		(lib_id "1projectLibrary:MCP73123T")
-		(at 187.96 109.22 0)
+		(at 194.31 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21295,7 +21212,7 @@
 		(dnp no)
 		(uuid "5d3e8edc-6920-466a-b24c-25b8ab666991")
 		(property "Reference" "IC13"
-			(at 187.96 109.22 0)
+			(at 194.31 109.22 0)
 			(effects
 				(font
 					(size 2 2)
@@ -21304,7 +21221,7 @@
 			)
 		)
 		(property "Value" "MCP73123T-22SI/MF"
-			(at 187.96 121.412 0)
+			(at 194.31 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21314,7 +21231,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:DFN10_MCP73123"
-			(at 188.595 86.36 0)
+			(at 194.945 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21324,7 +21241,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/268/MCHPS04151_1-2520685.pdf"
-			(at 189.23 88.265 0)
+			(at 195.58 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21333,7 +21250,7 @@
 			)
 		)
 		(property "Description" "Battery Management Sngl cel OVP LiFEPO4 battery charger"
-			(at 184.785 78.105 0)
+			(at 191.135 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21342,7 +21259,7 @@
 			)
 		)
 		(property "manufacturerName" "MICROCHIP"
-			(at 187.325 73.025 0)
+			(at 193.675 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21351,7 +21268,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/mcp73123t-22si%2Fmf-microchip-17627238?r=sp"
-			(at 187.96 109.22 0)
+			(at 194.31 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21360,7 +21277,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "MCP73123T-22SI/MF"
-			(at 187.325 75.565 0)
+			(at 193.675 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21420,23 +21337,20 @@
 		(dnp no)
 		(uuid "5dcc0597-f497-4d4a-82ee-57f9f3cf40fa")
 		(property "Reference" "R21"
-			(at 131.826 92.964 90)
+			(at 133.858 97.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "CR0603-FX-7501ELF"
-			(at 133.35 95.25 90)
+		(property "Value" "5M36"
+			(at 134.62 95.25 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -21448,7 +21362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 134.62 95.25 0)
 			(effects
 				(font
@@ -21457,7 +21371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "7K5"
+		(property "Description" ""
 			(at 134.62 95.25 90)
 			(effects
 				(font
@@ -21466,7 +21380,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 134.62 95.25 0)
 			(effects
 				(font
@@ -21475,7 +21389,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-7501elf-bourns-6075428?r=sp"
+		(property "octopartUrl" "https://octopart.com/rc0603fr-075m36l-yageo-24734316"
 			(at 134.62 95.25 0)
 			(effects
 				(font
@@ -21484,7 +21398,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603JW-752ELF"
+		(property "manufacturerPartNumber" "RC0603FR-075M36L"
 			(at 134.62 95.25 0)
 			(effects
 				(font
@@ -21626,7 +21540,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 208.28 116.84 0)
+		(at 214.63 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21634,7 +21548,7 @@
 		(dnp no)
 		(uuid "64bc660c-3256-4b6c-ae79-35ca7c65088b")
 		(property "Reference" "C12"
-			(at 209.042 114.3 0)
+			(at 215.392 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21642,18 +21556,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C1608X7S1A475K080AC"
-			(at 209.042 119.634 0)
+		(property "Value" "4.7uF"
+			(at 215.392 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 209.2452 120.65 0)
+		(property "Footprint" "1projectLibrary:C_0805"
+			(at 215.5952 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21661,8 +21574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 208.28 116.84 0)
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
+			(at 214.63 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21670,16 +21583,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7uF"
-			(at 211.328 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturerName" "TDK"
-			(at 208.28 116.84 0)
+		(property "Description" ""
+			(at 217.678 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21687,8 +21592,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
-			(at 208.28 116.84 0)
+		(property "manufacturerName" "Samsung Electro-Mechanics"
+			(at 214.63 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21696,8 +21601,8 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPC0603475-10-X7S"
-			(at 208.28 116.84 0)
+		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
+			(at 214.63 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21705,8 +21610,17 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
-			(at 208.28 116.84 0)
+		(property "genericPartNumber" "NA"
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
+			(at 214.63 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21737,7 +21651,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 106.68 0)
+		(at 175.26 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21745,7 +21659,7 @@
 		(dnp no)
 		(uuid "658955c0-cf16-439d-955f-a5a6e697f535")
 		(property "Reference" "C11"
-			(at 169.672 104.14 0)
+			(at 171.196 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21753,18 +21667,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C1608X7S1A475K080AC"
-			(at 164.338 109.728 0)
+		(property "Value" "4.7uF"
+			(at 175.768 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 169.8752 110.49 0)
+		(property "Footprint" "1projectLibrary:C_0805"
+			(at 176.2252 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21772,8 +21685,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
-			(at 168.91 106.68 0)
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
+			(at 175.26 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21781,16 +21694,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7uF"
-			(at 171.958 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturerName" "TDK"
-			(at 168.91 106.68 0)
+		(property "Description" ""
+			(at 178.308 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21798,8 +21703,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
-			(at 168.91 106.68 0)
+		(property "manufacturerName" "Samsung Electro-Mechanics"
+			(at 175.26 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21807,8 +21712,8 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPC0603475-10-X7S"
-			(at 168.91 106.68 0)
+		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
+			(at 175.26 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21816,8 +21721,17 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
-			(at 168.91 106.68 0)
+		(property "genericPartNumber" "NA"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
+			(at 175.26 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21930,14 +21844,13 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CR0603-FX-1002ELF"
+		(property "Value" "10K"
 			(at 496.57 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -21958,12 +21871,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10K"
+		(property "Description" ""
 			(at 496.57 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "Bourns"
@@ -22270,13 +22184,12 @@
 				)
 			)
 		)
-		(property "Value" "CGA3E1X7R1E105K080AC"
+		(property "Value" "1uF"
 			(at 543.56 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -22297,12 +22210,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF"
+		(property "Description" ""
 			(at 543.56 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -22426,6 +22340,15 @@
 		)
 		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 299.72 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"
+			(at 299.72 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22756,23 +22679,20 @@
 		(dnp no)
 		(uuid "7c9a9571-ecc7-4e7b-a1bc-870f6d43c151")
 		(property "Reference" "R14"
-			(at 122.174 100.584 90)
+			(at 127.254 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "CR0603-FX-3742ELF"
-			(at 123.19 102.87 90)
+		(property "Value" "4M75"
+			(at 124.46 102.87 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -22784,7 +22704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
 			(at 124.46 102.87 0)
 			(effects
 				(font
@@ -22793,7 +22713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "37K4"
+		(property "Description" ""
 			(at 124.46 102.87 90)
 			(effects
 				(font
@@ -22802,7 +22722,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 124.46 102.87 0)
 			(effects
 				(font
@@ -22811,7 +22731,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-3742elf-bourns-6075679?r=sp"
+		(property "octopartUrl" "https://octopart.com/rc0603fr-074m75l-yageo-1187229"
 			(at 124.46 102.87 0)
 			(effects
 				(font
@@ -22820,7 +22740,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-3752ELF"
+		(property "manufacturerPartNumber" "RC0603FR-074M75L"
 			(at 124.46 102.87 0)
 			(effects
 				(font
@@ -22846,7 +22766,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 124.46 0)
+		(at 76.2 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22854,7 +22774,7 @@
 		(dnp no)
 		(uuid "857101d8-3ba2-451a-967f-f3d23d181842")
 		(property "Reference" "C9"
-			(at 76.962 121.92 0)
+			(at 76.454 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22863,7 +22783,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 76.708 127.254 0)
+			(at 76.708 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22872,7 +22792,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 77.1652 128.27 0)
+			(at 77.1652 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22880,8 +22800,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 76.2 124.46 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser"
+			(at 76.2 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22889,8 +22809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 127 0)
+		(property "Description" "power decoupling"
+			(at 78.74 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22898,8 +22818,8 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "KEMET"
-			(at 76.2 124.46 0)
+		(property "manufacturerName" "TDK"
+			(at 76.2 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22907,8 +22827,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" ""
-			(at 76.2 124.46 0)
+		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
+			(at 76.2 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22916,8 +22836,17 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" ""
-			(at 76.2 124.46 0)
+		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "GPC0603104-25-X7R"
+			(at 76.2 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22958,17 +22887,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C1608X7S1A475K080AC"
-			(at 149.225 189.23 0)
+		(property "Value" "4.7uF"
+			(at 154.178 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0805"
 			(at 154.6352 190.5 0)
 			(effects
 				(font
@@ -22977,7 +22905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -22986,15 +22914,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7uF"
+		(property "Description" ""
 			(at 156.718 189.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "TDK"
+		(property "manufacturerName" "Samsung Electro-Mechanics"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -23003,7 +22932,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
+		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -23012,7 +22941,7 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPC0603475-10-X7S"
+		(property "genericPartNumber" "NA"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -23021,7 +22950,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
+		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -23170,14 +23099,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-5101ELF"
+		(property "Value" "5K1"
 			(at 342.9 339.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -23189,7 +23117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 342.9 337.82 0)
 			(effects
 				(font
@@ -23198,15 +23126,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5K1"
+		(property "Description" ""
 			(at 342.9 337.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 342.9 337.82 0)
 			(effects
 				(font
@@ -23215,7 +23144,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"
+		(property "octopartUrl" "https://octopart.com/ac0603dr-075k1l-yageo-100620021"
 			(at 342.9 337.82 0)
 			(effects
 				(font
@@ -23233,7 +23162,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
+		(property "manufacturerPartNumber" "AC0603DR-075K1L"
 			(at 342.9 337.82 0)
 			(effects
 				(font
@@ -23258,6 +23187,72 @@
 			(project "MuMo-v2-Node"
 				(path "/9f369a89-fba7-4495-afef-75b19a3fcad7"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 518.16 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dce81b5-47ab-4623-93eb-25a44a029ce5")
+		(property "Reference" "#PWR016"
+			(at 518.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 520.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 518.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 518.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 518.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27d2d51b-f98a-4756-945b-dac26c97d19e")
+		)
+		(instances
+			(project "LoRa-V3-PCB"
+				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -23327,6 +23322,15 @@
 		)
 		(property "manufacturerPartNumber" "BR24G1MFVT-5AE2"
 			(at 198.12 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"
+			(at 198.12 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23408,7 +23412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/115/SDM05U40CSP-3216160.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?89019"
 			(at 504.19 105.41 0)
 			(effects
 				(font
@@ -23492,14 +23496,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-4752ELF"
+		(property "Value" "47K5"
 			(at 144.78 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -23511,7 +23514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 144.78 241.3 0)
 			(effects
 				(font
@@ -23520,15 +23523,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47K5"
+		(property "Description" ""
 			(at 144.78 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 144.78 241.3 0)
 			(effects
 				(font
@@ -23537,7 +23541,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-4752elf-bourns-6075378?r=sp"
+		(property "octopartUrl" "https://octopart.com/ac0603fr-0747k5l-yageo-71367307"
 			(at 144.78 241.3 0)
 			(effects
 				(font
@@ -23555,7 +23559,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-4752ELF"
+		(property "manufacturerPartNumber" "AC0603FR-0747K5L"
 			(at 144.78 241.3 0)
 			(effects
 				(font
@@ -23778,14 +23782,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 53.34 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -23806,12 +23809,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF"
+		(property "Description" "power decoupling"
 			(at 55.626 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -23888,13 +23892,12 @@
 				)
 			)
 		)
-		(property "Value" "CGA3E1X7R1E105K080AC"
+		(property "Value" "1uF"
 			(at 532.13 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -23915,12 +23918,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF"
+		(property "Description" ""
 			(at 532.384 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -23997,16 +24001,15 @@
 				)
 			)
 		)
-		(property "Value" "C1608X7S1A475K080AC"
-			(at 493.395 92.71 90)
+		(property "Value" "4.7uF"
+			(at 500.634 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0805"
 			(at 492.76 92.4052 0)
 			(effects
 				(font
@@ -24015,7 +24018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 496.57 91.44 0)
 			(effects
 				(font
@@ -24024,15 +24027,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7uF"
+		(property "Description" ""
 			(at 500.634 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "TDK"
+		(property "manufacturerName" "Samsung Electro-Mechanics"
 			(at 496.57 91.44 0)
 			(effects
 				(font
@@ -24041,7 +24045,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
+		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
 			(at 496.57 91.44 0)
 			(effects
 				(font
@@ -24050,7 +24054,7 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPC0603475-10-X7S"
+		(property "genericPartNumber" "NA"
 			(at 496.57 91.44 0)
 			(effects
 				(font
@@ -24059,7 +24063,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
+		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
 			(at 496.57 91.44 0)
 			(effects
 				(font
@@ -24430,6 +24434,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "octopartUrl" "https://octopart.com/bq25504rgtr-texas+instruments-20530455"
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -24826,14 +24839,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 279.4 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -24854,12 +24866,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF"
+		(property "Description" "power decoupling"
 			(at 281.686 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -24915,7 +24928,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 201.93 116.84 180)
+		(at 208.28 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24923,7 +24936,7 @@
 		(dnp no)
 		(uuid "aee908fc-d065-427e-b4da-c9a05c7f4c48")
 		(property "Reference" "R5"
-			(at 205.232 113.03 0)
+			(at 211.582 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24931,18 +24944,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-5101ELF"
-			(at 201.93 115.57 90)
+		(property "Value" "5K1"
+			(at 208.28 116.586 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
-			(at 203.708 116.84 90)
+			(at 210.058 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24950,8 +24961,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
-			(at 201.93 116.84 0)
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+			(at 208.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24959,16 +24970,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5K1"
-			(at 201.93 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturerName" "Bourns"
-			(at 201.93 116.84 0)
+		(property "Description" ""
+			(at 208.28 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24976,8 +24979,17 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"
-			(at 201.93 116.84 0)
+		(property "manufacturerName" "YAGEO"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "octopartUrl" "https://octopart.com/ac0603dr-075k1l-yageo-100620021"
+			(at 208.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24986,7 +24998,7 @@
 			)
 		)
 		(property "genericPartNumber" "GPR06035K1"
-			(at 201.93 116.84 0)
+			(at 208.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24994,8 +25006,8 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
-			(at 201.93 116.84 0)
+		(property "manufacturerPartNumber" "AC0603DR-075K1L"
+			(at 208.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25036,14 +25048,12 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-5101ELF"
-			(at 78.74 241.3 90)
+		(property "Value" "5K1"
+			(at 78.74 242.57 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -25055,7 +25065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 78.74 242.57 0)
 			(effects
 				(font
@@ -25064,15 +25074,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5K1"
+		(property "Description" ""
 			(at 78.74 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 78.74 242.57 0)
 			(effects
 				(font
@@ -25081,7 +25092,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"
+		(property "octopartUrl" "https://octopart.com/ac0603dr-075k1l-yageo-100620021"
 			(at 78.74 242.57 0)
 			(effects
 				(font
@@ -25099,7 +25110,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
+		(property "manufacturerPartNumber" "AC0603DR-075K1L"
 			(at 78.74 242.57 0)
 			(effects
 				(font
@@ -25131,7 +25142,7 @@
 	)
 	(symbol
 		(lib_id "1projectLibrary:Connector_2p_Battery")
-		(at 50.8 110.49 180)
+		(at 50.8 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25139,7 +25150,7 @@
 		(dnp no)
 		(uuid "b43de95f-e187-4415-9fb2-727d65960807")
 		(property "Reference" "CONN4"
-			(at 51.816 105.156 0)
+			(at 51.816 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25149,7 +25160,7 @@
 			)
 		)
 		(property "Value" "NA"
-			(at 52.07 104.14 0)
+			(at 52.07 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25159,7 +25170,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:PinHeader_1x02_P2.54mm_Vertical"
-			(at 50.8 110.49 0)
+			(at 50.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25168,7 +25179,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2057209.pdf"
-			(at 50.8 110.49 0)
+			(at 50.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25177,7 +25188,7 @@
 			)
 		)
 		(property "Description" "SolarPanel"
-			(at 49.022 113.538 0)
+			(at 49.022 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25185,7 +25196,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/b2b-xh-a%28lf%29%28sn%29-jst-7424860?r=sp"
-			(at 50.8 110.49 0)
+			(at 50.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25194,7 +25205,7 @@
 			)
 		)
 		(property "manufacturerName" "JST"
-			(at 50.8 93.98 0)
+			(at 50.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25203,7 +25214,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "B2B-XH-A(LF)(SN)"
-			(at 50.8 110.49 0)
+			(at 50.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25228,7 +25239,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 229.87 73.66 0)
+		(at 236.22 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25237,7 +25248,7 @@
 		(fields_autoplaced yes)
 		(uuid "b43fd46d-8f72-4f63-a292-6013382b2aeb")
 		(property "Reference" "#PWR011"
-			(at 229.87 77.47 0)
+			(at 236.22 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25246,7 +25257,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 229.87 68.58 0)
+			(at 236.22 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25254,7 +25265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 73.66 0)
+			(at 236.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25263,7 +25274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 73.66 0)
+			(at 236.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25272,7 +25283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 229.87 73.66 0)
+			(at 236.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25294,7 +25305,7 @@
 	)
 	(symbol
 		(lib_id "1projectLibrary:Si2367DS")
-		(at 240.03 85.09 90)
+		(at 246.38 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25302,7 +25313,7 @@
 		(dnp no)
 		(uuid "b4a3d659-3669-446a-8383-ed0a8b252e52")
 		(property "Reference" "Q4"
-			(at 238.76 78.74 90)
+			(at 245.11 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25311,7 +25322,7 @@
 			)
 		)
 		(property "Value" "Si2367DS"
-			(at 249.682 78.74 90)
+			(at 256.032 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25320,7 +25331,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:SI2367DS-SOT-23"
-			(at 267.462 94.488 0)
+			(at 273.812 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25331,7 +25342,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/65015/si2367ds.pdf"
-			(at 273.558 102.87 0)
+			(at 279.908 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25341,7 +25352,7 @@
 			)
 		)
 		(property "Description" "P-Channel MOSFET"
-			(at 260.096 85.09 0)
+			(at 266.446 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25350,7 +25361,7 @@
 			)
 		)
 		(property "manufacturerName" "Vishay Siliconix"
-			(at 270.51 85.09 0)
+			(at 276.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25359,7 +25370,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp"
-			(at 257.81 83.82 0)
+			(at 264.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25368,7 +25379,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "SI2367DS-T1-GE3"
-			(at 247.142 85.09 0)
+			(at 253.492 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25412,17 +25423,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C1608X7S1A475K080AC"
+		(property "Value" "10uF"
 			(at 398.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0805"
 			(at 398.4752 78.74 0)
 			(effects
 				(font
@@ -25431,7 +25441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"
 			(at 397.51 74.93 0)
 			(effects
 				(font
@@ -25440,15 +25450,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7uF"
+		(property "Description" ""
 			(at 400.558 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "TDK"
+		(property "manufacturerName" "Samsung Electro-Mechanics"
 			(at 397.51 74.93 0)
 			(effects
 				(font
@@ -25457,7 +25468,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"
+		(property "octopartUrl" "https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"
 			(at 397.51 74.93 0)
 			(effects
 				(font
@@ -25466,7 +25477,7 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPC0603475-10-X7S"
+		(property "genericPartNumber" "NA"
 			(at 397.51 74.93 0)
 			(effects
 				(font
@@ -25475,7 +25486,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "C1608X7S1A475K080AC"
+		(property "manufacturerPartNumber" "CL21B106KPQNNWE"
 			(at 397.51 74.93 0)
 			(effects
 				(font
@@ -25588,7 +25599,7 @@
 				)
 			)
 		)
-		(property "Value" "VLS3010CX-220M-1"
+		(property "Value" "22 uH"
 			(at 73.66 80.01 90)
 			(effects
 				(font
@@ -25615,7 +25626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 uH"
+		(property "Description" ""
 			(at 76.454 80.518 90)
 			(effects
 				(font
@@ -25766,23 +25777,21 @@
 		(dnp no)
 		(uuid "bc09e293-169d-412a-9a31-929796734b96")
 		(property "Reference" "R23"
-			(at 384.048 125.222 0)
+			(at 384.048 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "CR0603-FX-2203ELF"
+		(property "Value" "330"
 			(at 384.81 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -25794,7 +25803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_12-3368608.pdf"
 			(at 386.08 123.19 0)
 			(effects
 				(font
@@ -25803,7 +25812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220K"
+		(property "Description" ""
 			(at 386.08 123.19 90)
 			(effects
 				(font
@@ -25812,7 +25821,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 386.08 123.19 0)
 			(effects
 				(font
@@ -25821,7 +25830,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-2203elf-bourns-3825387?r=sp"
+		(property "octopartUrl" "https://octopart.com/rc0603fr-7w330rl-yageo-52751815"
 			(at 386.08 123.19 0)
 			(effects
 				(font
@@ -25830,7 +25839,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-2203ELF"
+		(property "manufacturerPartNumber" "RC0603FR-7W330RL"
 			(at 386.08 123.19 0)
 			(effects
 				(font
@@ -25872,14 +25881,12 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-5101ELF"
-			(at 82.55 241.3 90)
+		(property "Value" "5K1"
+			(at 82.55 242.57 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -25891,7 +25898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 82.55 242.57 0)
 			(effects
 				(font
@@ -25900,15 +25907,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5K1"
+		(property "Description" ""
 			(at 82.55 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 82.55 242.57 0)
 			(effects
 				(font
@@ -25917,7 +25925,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"
+		(property "octopartUrl" "https://octopart.com/ac0603dr-075k1l-yageo-100620021"
 			(at 82.55 242.57 0)
 			(effects
 				(font
@@ -25935,7 +25943,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
+		(property "manufacturerPartNumber" "AC0603DR-075K1L"
 			(at 82.55 242.57 0)
 			(effects
 				(font
@@ -25983,17 +25991,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C0603C106M8PACTU"
+		(property "Value" "10uF"
 			(at 199.39 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0805"
 			(at 199.0852 302.26 0)
 			(effects
 				(font
@@ -26002,7 +26009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"
 			(at 198.12 298.45 0)
 			(effects
 				(font
@@ -26011,15 +26018,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF"
+		(property "Description" ""
 			(at 195.326 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "KEMET"
+		(property "manufacturerName" "Samsung Electro-Mechanics"
 			(at 198.12 298.45 0)
 			(effects
 				(font
@@ -26028,7 +26036,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp"
+		(property "octopartUrl" "https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"
 			(at 198.12 298.45 0)
 			(effects
 				(font
@@ -26037,7 +26045,7 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPC0603475-10-X7S"
+		(property "genericPartNumber" "NA"
 			(at 198.12 298.45 0)
 			(effects
 				(font
@@ -26046,7 +26054,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "C0603C106M8PACTU"
+		(property "manufacturerPartNumber" "CL21B106KPQNNWE"
 			(at 198.12 298.45 0)
 			(effects
 				(font
@@ -26088,14 +26096,12 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-1004ELF"
-			(at 495.3 55.88 90)
+		(property "Value" "330K"
+			(at 495.3 57.15 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -26107,7 +26113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 495.3 57.15 0)
 			(effects
 				(font
@@ -26116,7 +26122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1M"
+		(property "Description" ""
 			(at 495.3 57.15 90)
 			(effects
 				(font
@@ -26124,7 +26130,7 @@
 				)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 495.3 57.15 0)
 			(effects
 				(font
@@ -26133,7 +26139,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-1004elf-bourns-3899435?r=sp"
+		(property "octopartUrl" "https://octopart.com/ac0603jr-07330kl-yageo-30510863"
 			(at 495.3 57.15 0)
 			(effects
 				(font
@@ -26142,7 +26148,7 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPR06031M"
+		(property "genericPartNumber" "GPR060330K"
 			(at 495.3 57.15 0)
 			(effects
 				(font
@@ -26151,7 +26157,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603-FX-1004ELF"
+		(property "manufacturerPartNumber" "AC0603JR-07330KL"
 			(at 495.3 57.15 0)
 			(effects
 				(font
@@ -26193,14 +26199,12 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-1004ELF"
-			(at 168.91 292.1 90)
+		(property "Value" "330K"
+			(at 168.91 293.37 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -26212,7 +26216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 168.91 293.37 0)
 			(effects
 				(font
@@ -26221,7 +26225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1M"
+		(property "Description" ""
 			(at 168.91 293.37 90)
 			(effects
 				(font
@@ -26229,7 +26233,7 @@
 				)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 168.91 293.37 0)
 			(effects
 				(font
@@ -26238,7 +26242,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-1004elf-bourns-3899435?r=sp"
+		(property "octopartUrl" "https://octopart.com/ac0603jr-07330kl-yageo-30510863"
 			(at 168.91 293.37 0)
 			(effects
 				(font
@@ -26247,7 +26251,7 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPR06031M"
+		(property "genericPartNumber" "GPR060330K"
 			(at 168.91 293.37 0)
 			(effects
 				(font
@@ -26256,7 +26260,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603-FX-1004ELF"
+		(property "manufacturerPartNumber" "AC0603JR-07330KL"
 			(at 168.91 293.37 0)
 			(effects
 				(font
@@ -26472,13 +26476,12 @@
 				)
 			)
 		)
-		(property "Value" "CGA3E1X7R1E105K080AC"
+		(property "Value" "1uF"
 			(at 534.035 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -26499,12 +26502,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF"
+		(property "Description" ""
 			(at 533.654 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -26808,7 +26812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/115/SDM05U40CSP-3216160.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?89019"
 			(at 516.89 102.87 0)
 			(effects
 				(font
@@ -26884,7 +26888,7 @@
 		(dnp no)
 		(uuid "d726c255-2d69-4192-9d6c-f0839428644b")
 		(property "Reference" "C22"
-			(at 476.504 125.476 0)
+			(at 477.012 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26892,17 +26896,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C0603C106M8PACTU"
-			(at 482.6 130.81 0)
+		(property "Value" "10uF"
+			(at 481.838 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
+		(property "Footprint" "1projectLibrary:C_0805"
 			(at 482.2952 132.08 0)
 			(effects
 				(font
@@ -26911,7 +26914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"
 			(at 481.33 128.27 0)
 			(effects
 				(font
@@ -26920,15 +26923,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF"
+		(property "Description" ""
 			(at 478.536 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "KEMET"
+		(property "manufacturerName" "Samsung Electro-Mechanics"
 			(at 481.33 128.27 0)
 			(effects
 				(font
@@ -26937,7 +26941,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp"
+		(property "octopartUrl" "https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"
 			(at 481.33 128.27 0)
 			(effects
 				(font
@@ -26946,7 +26950,7 @@
 				(hide yes)
 			)
 		)
-		(property "genericPartNumber" "GPC0603475-10-X7S"
+		(property "genericPartNumber" "NA"
 			(at 481.33 128.27 0)
 			(effects
 				(font
@@ -26955,7 +26959,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "C0603C106M8PACTU"
+		(property "manufacturerPartNumber" "CL21B106KPQNNWE"
 			(at 481.33 128.27 0)
 			(effects
 				(font
@@ -27003,14 +27007,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 314.96 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -27031,12 +27034,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF"
+		(property "Description" "power decoupling"
 			(at 317.5 374.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -27209,13 +27213,12 @@
 				)
 			)
 		)
-		(property "Value" "CGA3E1X7R1E105K080AC"
+		(property "Value" "1uF"
 			(at 505.46 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -27236,12 +27239,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF"
+		(property "Description" ""
 			(at 504.952 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -27318,13 +27322,12 @@
 				)
 			)
 		)
-		(property "Value" "CGA3E1X7R1E105K080AC"
+		(property "Value" "1uF"
 			(at 532.13 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -27345,12 +27348,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF"
+		(property "Description" ""
 			(at 532.384 143.764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -27428,14 +27432,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 118.11 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -27456,12 +27459,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF"
+		(property "Description" "power decoupling"
 			(at 120.65 376.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -27533,14 +27537,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-2212ELF"
+		(property "Value" "22K1"
 			(at 144.78 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -27552,7 +27555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 144.78 209.55 0)
 			(effects
 				(font
@@ -27561,15 +27564,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22K1"
+		(property "Description" ""
 			(at 144.78 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 144.78 209.55 0)
 			(effects
 				(font
@@ -27578,7 +27582,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-2212elf-bourns-2326654?r=sp"
+		(property "octopartUrl" "https://octopart.com/ac0603fr-0722k1l-yageo-30510747"
 			(at 144.78 209.55 0)
 			(effects
 				(font
@@ -27596,7 +27600,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-2212ELF"
+		(property "manufacturerPartNumber" "AC0603FR-0722K1L"
 			(at 144.78 209.55 0)
 			(effects
 				(font
@@ -27715,13 +27719,12 @@
 				)
 			)
 		)
-		(property "Value" "CGA3E1X7R1E105K080AC"
+		(property "Value" "1uF"
 			(at 532.13 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -27742,12 +27745,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF"
+		(property "Description" ""
 			(at 532.13 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -27825,14 +27829,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 246.38 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -27853,12 +27856,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF"
+		(property "Description" "power decoupling"
 			(at 248.666 374.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"
@@ -27914,7 +27918,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 124.46 180)
+		(at 71.12 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27922,27 +27926,24 @@
 		(dnp no)
 		(uuid "ec92630a-9266-4562-b3f7-b8d29cc81d1a")
 		(property "Reference" "R19"
-			(at 69.088 122.428 0)
+			(at 69.85 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "CR0603-FX-2203ELF"
-			(at 71.12 123.19 90)
+		(property "Value" "8M45"
+			(at 71.12 120.65 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
-			(at 72.898 124.46 90)
+			(at 72.898 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27950,8 +27951,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
-			(at 71.12 124.46 0)
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
+			(at 71.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27959,8 +27960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220K"
-			(at 71.12 124.46 90)
+		(property "Description" ""
+			(at 71.12 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27968,8 +27969,8 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
-			(at 71.12 124.46 0)
+		(property "manufacturerName" "YAGEO"
+			(at 71.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27977,8 +27978,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-2203elf-bourns-3825387?r=sp"
-			(at 71.12 124.46 0)
+		(property "octopartUrl" "https://octopart.com/rc0603fr-078m45l-yageo-26128888"
+			(at 71.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27986,8 +27987,8 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-2203ELF"
-			(at 71.12 124.46 0)
+		(property "manufacturerPartNumber" "RC0603FR-078M45L"
+			(at 71.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28028,14 +28029,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-5101ELF"
+		(property "Value" "5K1"
 			(at 347.98 339.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -28047,7 +28047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 347.98 337.82 0)
 			(effects
 				(font
@@ -28056,15 +28056,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5K1"
+		(property "Description" ""
 			(at 347.98 337.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 347.98 337.82 0)
 			(effects
 				(font
@@ -28073,7 +28074,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"
+		(property "octopartUrl" "https://octopart.com/ac0603dr-075k1l-yageo-100620021"
 			(at 347.98 337.82 0)
 			(effects
 				(font
@@ -28091,7 +28092,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
+		(property "manufacturerPartNumber" "AC0603DR-075K1L"
 			(at 347.98 337.82 0)
 			(effects
 				(font
@@ -28189,7 +28190,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 109.22 0)
+		(at 63.5 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28197,7 +28198,7 @@
 		(dnp no)
 		(uuid "ee363c0e-e1fa-4fa5-a286-e5d62208cfde")
 		(property "Reference" "C20"
-			(at 58.928 106.426 0)
+			(at 58.928 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28205,18 +28206,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 59.055 111.76 0)
+		(property "Value" "4.7uF"
+			(at 63.754 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "1projectLibrary:C_0603_nominal"
-			(at 64.4652 113.03 0)
+		(property "Footprint" "1projectLibrary:C_0805"
+			(at 64.4652 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28224,8 +28224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 63.5 109.22 0)
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
+			(at 63.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28233,16 +28233,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7uF"
-			(at 67.056 112.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manufacturerName" "KEMET"
-			(at 63.5 109.22 0)
+		(property "Description" ""
+			(at 67.056 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28250,8 +28242,8 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" ""
-			(at 63.5 109.22 0)
+		(property "manufacturerName" "Samsung Electro-Mechanics"
+			(at 63.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28259,8 +28251,26 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" ""
-			(at 63.5 109.22 0)
+		(property "octopartUrl" "https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"
+			(at 63.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
+			(at 63.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "NA"
+			(at 63.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28410,7 +28420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -28419,7 +28429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "power decoupling"
 			(at 148.59 102.87 0)
 			(effects
 				(font
@@ -28428,7 +28438,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerName" "KEMET"
+		(property "manufacturerName" "TDK"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -28437,7 +28447,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" ""
+		(property "octopartUrl" "https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -28446,7 +28456,16 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" ""
+		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "GPC0603104-25-X7R"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -28471,6 +28490,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 518.16 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f059d973-0ddb-4154-b5e1-d8f5f3f25e67")
+		(property "Reference" "C18"
+			(at 518.922 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 519.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1projectLibrary:C_0805"
+			(at 519.1252 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"
+			(at 518.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 515.366 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturerName" "Samsung Electro-Mechanics"
+			(at 518.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "octopartUrl" "https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"
+			(at 518.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "genericPartNumber" "NA"
+			(at 518.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturerPartNumber" "CL21B106KPQNNWE"
+			(at 518.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6996dc43-22bc-4ffd-af6e-22b89e6e502f")
+		)
+		(pin "2"
+			(uuid "e13c6c4f-2977-4fb9-9407-899762958480")
+		)
+		(instances
+			(project "LoRa-V3-PCB"
+				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 337.82 337.82 0)
 		(unit 1)
@@ -28488,14 +28612,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR0603-FX-5101ELF"
+		(property "Value" "5K1"
 			(at 337.82 339.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:R_0603_nominal"
@@ -28507,7 +28630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
 			(at 337.82 337.82 0)
 			(effects
 				(font
@@ -28516,15 +28639,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5K1"
+		(property "Description" ""
 			(at 337.82 337.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manufacturerName" "Bourns"
+		(property "manufacturerName" "YAGEO"
 			(at 337.82 337.82 0)
 			(effects
 				(font
@@ -28533,7 +28657,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"
+		(property "octopartUrl" "https://octopart.com/ac0603dr-075k1l-yageo-100620021"
 			(at 337.82 337.82 0)
 			(effects
 				(font
@@ -28551,7 +28675,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "CR0603FX-5101ELF"
+		(property "manufacturerPartNumber" "AC0603DR-075K1L"
 			(at 337.82 337.82 0)
 			(effects
 				(font
@@ -28583,7 +28707,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 168.91 73.66 0)
+		(at 175.26 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28592,7 +28716,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5ccd4df-9e00-41e2-9fc7-8c5ae7852e61")
 		(property "Reference" "#PWR03"
-			(at 168.91 77.47 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28601,7 +28725,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 168.91 68.58 0)
+			(at 175.26 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28609,7 +28733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 73.66 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28618,7 +28742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 73.66 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28627,7 +28751,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 168.91 73.66 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28636,7 +28760,7 @@
 			)
 		)
 		(property "remark" ""
-			(at 168.91 73.66 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28645,7 +28769,7 @@
 			)
 		)
 		(property "supplier1Name" ""
-			(at 168.91 73.66 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28654,7 +28778,7 @@
 			)
 		)
 		(property "supplier1PartNumber" ""
-			(at 168.91 73.66 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28663,7 +28787,7 @@
 			)
 		)
 		(property "supplier1PartURL" ""
-			(at 168.91 73.66 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28672,7 +28796,7 @@
 			)
 		)
 		(property "checked" ""
-			(at 168.91 73.66 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28681,7 +28805,7 @@
 			)
 		)
 		(property "has3Dmodel" ""
-			(at 168.91 73.66 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28896,14 +29020,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA3E2X7R1E104K080AA"
+		(property "Value" "100nF"
 			(at 389.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "1projectLibrary:C_0603_nominal"
@@ -28924,12 +29047,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF"
+		(property "Description" "power decoupling"
 			(at 392.176 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerName" "TDK"

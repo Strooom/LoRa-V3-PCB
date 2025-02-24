@@ -11,10 +11,10 @@
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
-      "pads": 0.699999988079071,
-      "tracks": 0.5099999904632568,
-      "vias": 0.27000001072883606,
-      "zones": 0.5699999928474426
+      "pads": 0.49000000953674316,
+      "tracks": 0.6200000047683716,
+      "vias": 0.30000001192092896,
+      "zones": 0.8399999737739563
     },
     "selection_filter": {
       "dimensions": true,
@@ -65,7 +65,7 @@
       36,
       40
     ],
-    "visible_layers": "fc0ffff_ffffffff",
+    "visible_layers": "800ffff_7fffffff",
     "zone_display_mode": 0
   },
   "git": {
