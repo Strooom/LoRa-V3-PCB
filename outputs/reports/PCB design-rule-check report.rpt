@@ -1,19 +1,7 @@
 ** Drc report for LoRa-V3-PCB.kicad_pcb **
-** Created on 2025-02-06T14:26:11+0000 **
+** Created on 2025-02-24T15:04:06+0000 **
 
-** Found 4 DRC violations **
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(115.75 mm, 107.5 mm): Footprint SW1
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(173.5 mm, 109.48995 mm): Footprint IC6
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(164.75 mm, 117.5 mm): Footprint SW2
-[lib_footprint_issues]: The current configuration does not include the library '1GlobalFootprintsLibrary'.
-    ; warning
-    @(172.25 mm, 109.48995 mm): Footprint IC7
+** Found 0 DRC violations **
 
 ** Found 0 unconnected pads **
 

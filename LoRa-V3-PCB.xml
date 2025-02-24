@@ -5,9 +5,9 @@
     <date>Date1</date>
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="majorVersion">0</textvar>
-    <textvar name="minorVersion">3</textvar>
-    <textvar name="releaseDate">Thu Feb 06 14:26:03 2025</textvar>
-    <textvar name="releaseDateShort">2025-02-06</textvar>
+    <textvar name="minorVersion">17</textvar>
+    <textvar name="releaseDate">Mon Feb 24 15:03:59 2025</textvar>
+    <textvar name="releaseDateShort">2025-02-24</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LoRa-v3</title>
@@ -29,10 +29,10 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>CGA3E2X7R1E104K080AA</value>
+      <value>100nF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>100nF</description>
+      <description>power decoupling</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
@@ -40,7 +40,7 @@
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">100nF</field>
+        <field name="Description">power decoupling</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="manufacturerName" value="TDK"/>
@@ -55,10 +55,10 @@
       <tstamps>febfabf2-92a5-48c5-900f-1edf9a46f458</tstamps>
     </comp>
     <comp ref="C2">
-      <value>CGA3E2X7R1E104K080AA</value>
+      <value>100nF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>100nF</description>
+      <description>power decoupling</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
@@ -66,7 +66,7 @@
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">100nF</field>
+        <field name="Description">power decoupling</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="manufacturerName" value="TDK"/>
@@ -81,10 +81,10 @@
       <tstamps>269b6c60-8ccd-4aaf-af7c-4290a240d872</tstamps>
     </comp>
     <comp ref="C3">
-      <value>CGA3E2X7R1E104K080AA</value>
+      <value>100nF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>100nF</description>
+      <description>power decoupling</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
@@ -92,7 +92,7 @@
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">100nF</field>
+        <field name="Description">power decoupling</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="manufacturerName" value="TDK"/>
@@ -107,10 +107,10 @@
       <tstamps>983b61bd-2064-4c17-9c1e-15475840bc97</tstamps>
     </comp>
     <comp ref="C4">
-      <value>CGA3E2X7R1E104K080AA</value>
+      <value>100nF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>100nF</description>
+      <description>power decoupling</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
@@ -118,7 +118,7 @@
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">100nF</field>
+        <field name="Description">power decoupling</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="manufacturerName" value="TDK"/>
@@ -133,10 +133,10 @@
       <tstamps>e59a652e-4347-414d-9e91-d44088e6cd7c</tstamps>
     </comp>
     <comp ref="C5">
-      <value>CGA3E2X7R1E104K080AA</value>
+      <value>100nF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>100nF</description>
+      <description>power decoupling</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
@@ -144,7 +144,7 @@
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">100nF</field>
+        <field name="Description">power decoupling</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="manufacturerName" value="TDK"/>
@@ -159,10 +159,10 @@
       <tstamps>109514eb-3aa1-4be7-9ff6-e5314c4e6da6</tstamps>
     </comp>
     <comp ref="C6">
-      <value>CGA3E2X7R1E104K080AA</value>
+      <value>100nF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>100nF</description>
+      <description>power decoupling</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
@@ -170,7 +170,7 @@
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">100nF</field>
+        <field name="Description">power decoupling</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="manufacturerName" value="TDK"/>
@@ -185,10 +185,10 @@
       <tstamps>e9592c96-e487-40f0-b6c7-e295d6485772</tstamps>
     </comp>
     <comp ref="C7">
-      <value>CGA3E2X7R1E104K080AA</value>
+      <value>100nF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>100nF</description>
+      <description>power decoupling</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
@@ -196,7 +196,7 @@
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">100nF</field>
+        <field name="Description">power decoupling</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="manufacturerName" value="TDK"/>
@@ -211,10 +211,10 @@
       <tstamps>ae4f95a4-4f62-439e-9f1b-e4b0b683328d</tstamps>
     </comp>
     <comp ref="C8">
-      <value>CGA3E2X7R1E104K080AA</value>
+      <value>100nF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>100nF</description>
+      <description>power decoupling</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
@@ -222,7 +222,7 @@
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">100nF</field>
+        <field name="Description">power decoupling</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="manufacturerName" value="TDK"/>
@@ -236,25 +236,50 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>daa53656-9dee-4390-8361-6842b0a538da</tstamps>
     </comp>
-    <comp ref="C10">
-      <value>C1608X7S1A475K080AC</value>
+    <comp ref="C9">
+      <value>100nF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>4.7uF</description>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
+      <description>power decoupling</description>
       <fields>
         <field name="manufacturerName">TDK</field>
-        <field name="octopartUrl">https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp</field>
-        <field name="genericPartNumber">GPC0603475-10-X7S</field>
-        <field name="manufacturerPartNumber">C1608X7S1A475K080AC</field>
+        <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
+        <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="genericPartNumber">GPC0603104-25-X7R</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">4.7uF</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
+        <field name="Description">power decoupling</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="manufacturerName" value="TDK"/>
-      <property name="octopartUrl" value="https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603475-10-X7S"/>
-      <property name="manufacturerPartNumber" value="C1608X7S1A475K080AC"/>
+      <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
+      <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>857101d8-3ba2-451a-967f-f3d23d181842</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</datasheet>
+      <fields>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="manufacturerPartNumber">CL21B106KPQNNWE</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="manufacturerPartNumber" value="CL21B106KPQNNWE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -263,24 +288,23 @@
       <tstamps>b554aaa6-f4fa-4a15-857f-d555fe47da86</tstamps>
     </comp>
     <comp ref="C11">
-      <value>C1608X7S1A475K080AC</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>4.7uF</description>
+      <value>4.7uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</datasheet>
       <fields>
-        <field name="manufacturerName">TDK</field>
-        <field name="octopartUrl">https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp</field>
-        <field name="genericPartNumber">GPC0603475-10-X7S</field>
-        <field name="manufacturerPartNumber">C1608X7S1A475K080AC</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">4.7uF</field>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="TDK"/>
-      <property name="octopartUrl" value="https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603475-10-X7S"/>
-      <property name="manufacturerPartNumber" value="C1608X7S1A475K080AC"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -289,24 +313,23 @@
       <tstamps>658955c0-cf16-439d-955f-a5a6e697f535</tstamps>
     </comp>
     <comp ref="C12">
-      <value>C1608X7S1A475K080AC</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>4.7uF</description>
+      <value>4.7uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</datasheet>
       <fields>
-        <field name="manufacturerName">TDK</field>
-        <field name="octopartUrl">https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp</field>
-        <field name="genericPartNumber">GPC0603475-10-X7S</field>
-        <field name="manufacturerPartNumber">C1608X7S1A475K080AC</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">4.7uF</field>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="TDK"/>
-      <property name="octopartUrl" value="https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603475-10-X7S"/>
-      <property name="manufacturerPartNumber" value="C1608X7S1A475K080AC"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -315,24 +338,23 @@
       <tstamps>64bc660c-3256-4b6c-ae79-35ca7c65088b</tstamps>
     </comp>
     <comp ref="C13">
-      <value>C1608X7S1A475K080AC</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>4.7uF</description>
+      <value>4.7uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</datasheet>
       <fields>
-        <field name="manufacturerName">TDK</field>
-        <field name="octopartUrl">https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp</field>
-        <field name="genericPartNumber">GPC0603475-10-X7S</field>
-        <field name="manufacturerPartNumber">C1608X7S1A475K080AC</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">4.7uF</field>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="TDK"/>
-      <property name="octopartUrl" value="https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603475-10-X7S"/>
-      <property name="manufacturerPartNumber" value="C1608X7S1A475K080AC"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -341,24 +363,23 @@
       <tstamps>87784c2a-7180-498f-969a-ec0083efd522</tstamps>
     </comp>
     <comp ref="C14">
-      <value>C1608X7S1A475K080AC</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>4.7uF</description>
+      <value>4.7uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</datasheet>
       <fields>
-        <field name="manufacturerName">TDK</field>
-        <field name="octopartUrl">https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp</field>
-        <field name="genericPartNumber">GPC0603475-10-X7S</field>
-        <field name="manufacturerPartNumber">C1608X7S1A475K080AC</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">4.7uF</field>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="TDK"/>
-      <property name="octopartUrl" value="https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603475-10-X7S"/>
-      <property name="manufacturerPartNumber" value="C1608X7S1A475K080AC"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -367,24 +388,23 @@
       <tstamps>35586bba-d5d8-4bff-b8bc-5591b8e80034</tstamps>
     </comp>
     <comp ref="C15">
-      <value>C1608X7S1A475K080AC</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>4.7uF</description>
+      <value>4.7uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</datasheet>
       <fields>
-        <field name="manufacturerName">TDK</field>
-        <field name="octopartUrl">https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp</field>
-        <field name="genericPartNumber">GPC0603475-10-X7S</field>
-        <field name="manufacturerPartNumber">C1608X7S1A475K080AC</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">4.7uF</field>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="TDK"/>
-      <property name="octopartUrl" value="https://octopart.com/c1608x7s1a475k080ac-tdk-28168672?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603475-10-X7S"/>
-      <property name="manufacturerPartNumber" value="C1608X7S1A475K080AC"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -392,23 +412,100 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9948ae9e-7cde-4327-babb-c3c3121e2555</tstamps>
     </comp>
-    <comp ref="C20">
-      <value>C0603C106M8PACTU</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>10uF</description>
+    <comp ref="C16">
+      <value>4.7uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</datasheet>
       <fields>
-        <field name="manufacturerName">KEMET</field>
-        <field name="octopartUrl">https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp</field>
-        <field name="manufacturerPartNumber">C0603C106M8PACTU</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">10uF</field>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="KEMET"/>
-      <property name="octopartUrl" value="https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp"/>
-      <property name="manufacturerPartNumber" value="C0603C106M8PACTU"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09f39ca5-4150-49bb-9f43-70184c394212</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>1projectLibrary:C_0603_nominal</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
+      <description>power decoupling</description>
+      <fields>
+        <field name="manufacturerName">TDK</field>
+        <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
+        <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="genericPartNumber">GPC0603104-25-X7R</field>
+        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
+        <field name="Description">power decoupling</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manufacturerName" value="TDK"/>
+      <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
+      <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efaa02ef-4a20-47b1-a0b9-24fc5f6f7efc</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</datasheet>
+      <fields>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="manufacturerPartNumber">CL21B106KPQNNWE</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="manufacturerPartNumber" value="CL21B106KPQNNWE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f059d973-0ddb-4154-b5e1-d8f5f3f25e67</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>4.7uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</datasheet>
+      <fields>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
+      <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="genericPartNumber" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -416,49 +513,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ee363c0e-e1fa-4fa5-a286-e5d62208cfde</tstamps>
     </comp>
-    <comp ref="C21">
-      <value>C0603C106M8PACTU</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>10uF</description>
-      <fields>
-        <field name="manufacturerName">KEMET</field>
-        <field name="octopartUrl">https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp</field>
-        <field name="manufacturerPartNumber">C0603C106M8PACTU</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">10uF</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="KEMET"/>
-      <property name="octopartUrl" value="https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp"/>
-      <property name="manufacturerPartNumber" value="C0603C106M8PACTU"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2b421bdb-13e3-40fa-a24c-3dc203adde8e</tstamps>
-    </comp>
     <comp ref="C22">
-      <value>C0603C106M8PACTU</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>10uF</description>
+      <value>10uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</datasheet>
       <fields>
-        <field name="manufacturerName">KEMET</field>
-        <field name="octopartUrl">https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp</field>
-        <field name="genericPartNumber">GPC0603475-10-X7S</field>
-        <field name="manufacturerPartNumber">C0603C106M8PACTU</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">10uF</field>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="manufacturerPartNumber">CL21B106KPQNNWE</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="KEMET"/>
-      <property name="octopartUrl" value="https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603475-10-X7S"/>
-      <property name="manufacturerPartNumber" value="C0603C106M8PACTU"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="manufacturerPartNumber" value="CL21B106KPQNNWE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -466,75 +538,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d726c255-2d69-4192-9d6c-f0839428644b</tstamps>
     </comp>
-    <comp ref="C23">
-      <value>C0603C106M8PACTU</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>10uF</description>
-      <fields>
-        <field name="manufacturerName">KEMET</field>
-        <field name="octopartUrl">https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp</field>
-        <field name="manufacturerPartNumber">C0603C106M8PACTU</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">10uF</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="KEMET"/>
-      <property name="octopartUrl" value="https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp"/>
-      <property name="manufacturerPartNumber" value="C0603C106M8PACTU"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8569a2c4-4be0-44ed-8a9a-2cc0d57c4865</tstamps>
-    </comp>
-    <comp ref="C24">
-      <value>C0603C106M8PACTU</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>10uF</description>
-      <fields>
-        <field name="manufacturerName">KEMET</field>
-        <field name="octopartUrl">https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp</field>
-        <field name="genericPartNumber">GPC0603475-10-X7S</field>
-        <field name="manufacturerPartNumber">C0603C106M8PACTU</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">10uF</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="KEMET"/>
-      <property name="octopartUrl" value="https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603475-10-X7S"/>
-      <property name="manufacturerPartNumber" value="C0603C106M8PACTU"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>249750b5-a424-417f-a926-7c261a5b2825</tstamps>
-    </comp>
     <comp ref="C25">
-      <value>C0603C106M8PACTU</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>10uF</description>
+      <value>10uF</value>
+      <footprint>1projectLibrary:C_0805</footprint>
+      <datasheet>https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</datasheet>
       <fields>
-        <field name="manufacturerName">KEMET</field>
-        <field name="octopartUrl">https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp</field>
-        <field name="genericPartNumber">GPC0603475-10-X7S</field>
-        <field name="manufacturerPartNumber">C0603C106M8PACTU</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">10uF</field>
+        <field name="manufacturerName">Samsung Electro-Mechanics</field>
+        <field name="octopartUrl">https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
+        <field name="genericPartNumber">NA</field>
+        <field name="manufacturerPartNumber">CL21B106KPQNNWE</field>
+        <field name="Footprint">1projectLibrary:C_0805</field>
+        <field name="Datasheet">https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="KEMET"/>
-      <property name="octopartUrl" value="https://octopart.com/c0603c106m8pactu-kemet-89187410?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603475-10-X7S"/>
-      <property name="manufacturerPartNumber" value="C0603C106M8PACTU"/>
+      <property name="manufacturerName" value="Samsung Electro-Mechanics"/>
+      <property name="octopartUrl" value="https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"/>
+      <property name="genericPartNumber" value="NA"/>
+      <property name="manufacturerPartNumber" value="CL21B106KPQNNWE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -543,10 +564,9 @@
       <tstamps>c177f092-df50-419d-a636-f7bcc927c8ef</tstamps>
     </comp>
     <comp ref="C30">
-      <value>CGA3E1X7R1E105K080AC</value>
+      <value>1uF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>1uF</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
@@ -554,7 +574,7 @@
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">1uF</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="manufacturerName" value="TDK"/>
@@ -569,10 +589,9 @@
       <tstamps>c6928c55-6e74-42c6-9647-d860dc70f27c</tstamps>
     </comp>
     <comp ref="C31">
-      <value>CGA3E1X7R1E105K080AC</value>
+      <value>1uF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>1uF</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
@@ -580,7 +599,7 @@
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">1uF</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="manufacturerName" value="TDK"/>
@@ -595,10 +614,9 @@
       <tstamps>72642416-d686-493e-a94f-f613974ee397</tstamps>
     </comp>
     <comp ref="C32">
-      <value>CGA3E1X7R1E105K080AC</value>
+      <value>1uF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>1uF</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
@@ -606,7 +624,7 @@
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">1uF</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="manufacturerName" value="TDK"/>
@@ -621,10 +639,9 @@
       <tstamps>dd39e793-c5a6-4938-a614-fe0927c7f69a</tstamps>
     </comp>
     <comp ref="C33">
-      <value>CGA3E1X7R1E105K080AC</value>
+      <value>1uF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>1uF</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
@@ -632,7 +649,7 @@
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">1uF</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="manufacturerName" value="TDK"/>
@@ -647,10 +664,9 @@
       <tstamps>0aacee71-0f08-471e-8715-95af060aa981</tstamps>
     </comp>
     <comp ref="C34">
-      <value>CGA3E1X7R1E105K080AC</value>
+      <value>1uF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>1uF</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
@@ -658,7 +674,7 @@
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">1uF</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="manufacturerName" value="TDK"/>
@@ -673,10 +689,9 @@
       <tstamps>3ce43bbf-3a39-43fc-ac86-d28f4d53615d</tstamps>
     </comp>
     <comp ref="C35">
-      <value>CGA3E1X7R1E105K080AC</value>
+      <value>1uF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>1uF</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
@@ -684,7 +699,7 @@
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">1uF</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="manufacturerName" value="TDK"/>
@@ -699,10 +714,9 @@
       <tstamps>992285c2-32be-483c-9ac1-c99613a92a12</tstamps>
     </comp>
     <comp ref="C36">
-      <value>CGA3E1X7R1E105K080AC</value>
+      <value>1uF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>1uF</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
@@ -710,7 +724,7 @@
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">1uF</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="manufacturerName" value="TDK"/>
@@ -725,10 +739,9 @@
       <tstamps>e897f49b-02d1-4efd-baf1-3687f78ab09c</tstamps>
     </comp>
     <comp ref="C37">
-      <value>CGA3E1X7R1E105K080AC</value>
+      <value>1uF</value>
       <footprint>1projectLibrary:C_0603_nominal</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>1uF</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
@@ -736,7 +749,7 @@
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">1uF</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="manufacturerName" value="TDK"/>
@@ -773,7 +786,7 @@
       <tstamps>9abad06a-8961-47bf-ad33-5e0b01851b0e</tstamps>
     </comp>
     <comp ref="CONN2">
-      <value>1015</value>
+      <value>LiFePO4 battery</value>
       <footprint>1projectLibrary:Keystone 1015 AA BatteryHolder</footprint>
       <datasheet>https://www.keyelco.com/userAssets/file/M65p22.pdf</datasheet>
       <description>AA-BatteryHolder</description>
@@ -785,7 +798,7 @@
         <field name="Datasheet">https://www.keyelco.com/userAssets/file/M65p22.pdf</field>
         <field name="Description">AA-BatteryHolder</field>
       </fields>
-      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <libsource lib="1projectLibrary" part="LiFePO4_Battery" description="AA-BatteryHolder"/>
       <property name="octopartUrl" value="https://octopart.com/1015-keystone-8129901?r=sp"/>
       <property name="manufacturerName" value="KeyStone"/>
       <property name="manufacturerPartNumber" value="1015"/>
@@ -895,7 +908,7 @@
       <datasheet>NA</datasheet>
       <description>DEBUG-SWD</description>
       <fields>
-        <field name="manufacturerName">Amphenol FCI</field>
+        <field name="manufacturerName">NA</field>
         <field name="octopartUrl">NA</field>
         <field name="manufacturerPartNumber">NA</field>
         <field name="Footprint">1projectLibrary:DebugPort-6P-2.54</field>
@@ -903,7 +916,7 @@
         <field name="Description">DEBUG-SWD</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x06_Pin" description="Generic connector, single row, 01x06, script generated"/>
-      <property name="manufacturerName" value="Amphenol FCI"/>
+      <property name="manufacturerName" value="NA"/>
       <property name="octopartUrl" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
       <property name="Sheetname" value=""/>
@@ -916,14 +929,14 @@
     <comp ref="D1">
       <value>MSS1P3HM3_A/H</value>
       <footprint>1projectLibrary:MSS1P3</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/115/SDM05U40CSP-3216160.pdf</datasheet>
+      <datasheet>https://www.vishay.com/doc?89019</datasheet>
       <description>Schottky-diode</description>
       <fields>
         <field name="manufacturerName">MSS1P3HM3_A/H</field>
         <field name="octopartUrl">https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp</field>
         <field name="manufacturerPartNumber">MSS1P3HM3_A/H</field>
         <field name="Footprint">1projectLibrary:MSS1P3</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/115/SDM05U40CSP-3216160.pdf</field>
+        <field name="Datasheet">https://www.vishay.com/doc?89019</field>
         <field name="Description">Schottky-diode</field>
       </fields>
       <libsource lib="1projectLibrary" part="SDM05U40CSP-7" description="Schottky-diode"/>
@@ -964,14 +977,14 @@
     <comp ref="D3">
       <value>MSS1P3HM3_A/H</value>
       <footprint>1projectLibrary:MSS1P3</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/115/SDM05U40CSP-3216160.pdf</datasheet>
+      <datasheet>https://www.vishay.com/doc?89019</datasheet>
       <description>Schottky-diode</description>
       <fields>
         <field name="manufacturerName">MSS1P3HM3_A/H</field>
         <field name="octopartUrl">https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp</field>
         <field name="manufacturerPartNumber">MSS1P3HM3_A/H</field>
         <field name="Footprint">1projectLibrary:MSS1P3</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/115/SDM05U40CSP-3216160.pdf</field>
+        <field name="Datasheet">https://www.vishay.com/doc?89019</field>
         <field name="Description">Schottky-diode</field>
       </fields>
       <libsource lib="1projectLibrary" part="SDM05U40CSP-7" description="Schottky-diode"/>
@@ -1181,14 +1194,14 @@
     </comp>
     <comp ref="IC2">
       <value>CP2102N-Axx-xQFN24</value>
-      <footprint>1projectLibrary:QFN-24-1EP_4x4mm_P0.5mm_EP2.15x2.15mm-epeas</footprint>
+      <footprint>1projectLibrary:QFN24-CP2102N</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/368/cp2102n_datasheet-1634912.pdf</datasheet>
       <description>USB to UART master bridge, QFN-24</description>
       <fields>
         <field name="manufacturerName">Silicon Labs</field>
         <field name="octopartUrl">https://octopart.com/cp2102n-a02-gqfn24r-silicon+labs-99772192?r=sp</field>
         <field name="manufacturerPartNumber">CP2102N-A02-GQFN24R</field>
-        <field name="Footprint">1projectLibrary:QFN-24-1EP_4x4mm_P0.5mm_EP2.15x2.15mm-epeas</field>
+        <field name="Footprint">1projectLibrary:QFN24-CP2102N</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/368/cp2102n_datasheet-1634912.pdf</field>
         <field name="Description">USB to UART master bridge, QFN-24</field>
       </fields>
@@ -1225,6 +1238,28 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cb9dc101-281a-463e-8a66-a00f7d6d835b</tstamps>
     </comp>
+    <comp ref="IC4">
+      <value>BQ25504RGTR</value>
+      <footprint>1projectLibrary:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/bq25504.pdf?ts=1607081282078&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ25504RGTR%2526keyMatch%253DBQ25504RGTR%2526tisearch%253DSearch-EN-everything%2526usecase%253DO</datasheet>
+      <description>Ultra Low Power Boost Converter with Battery Management for Energy Harvester | Nano-Power Management</description>
+      <fields>
+        <field name="manufacturerName">Texas Instruments</field>
+        <field name="manufacturerPartNumber">BQ25504RGTR</field>
+        <field name="octopartUrl">https://octopart.com/bq25504rgtr-texas+instruments-20530455</field>
+        <field name="Footprint">1projectLibrary:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/bq25504.pdf?ts=1607081282078&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ25504RGTR%2526keyMatch%253DBQ25504RGTR%2526tisearch%253DSearch-EN-everything%2526usecase%253DO</field>
+        <field name="Description">Ultra Low Power Boost Converter with Battery Management for Energy Harvester | Nano-Power Management</field>
+      </fields>
+      <libsource lib="1projectLibrary" part="BQ25504RGTR" description="Ultra Low Power Boost Converter with Battery Management for Energy Harvester | Nano-Power Management"/>
+      <property name="manufacturerName" value="Texas Instruments"/>
+      <property name="manufacturerPartNumber" value="BQ25504RGTR"/>
+      <property name="octopartUrl" value="https://octopart.com/bq25504rgtr-texas+instruments-20530455"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3e1694a-3503-47e1-8b22-dbea93171326</tstamps>
+    </comp>
     <comp ref="IC5">
       <value>BME680</value>
       <footprint>1projectLibrary:BME680</footprint>
@@ -1251,14 +1286,14 @@
     </comp>
     <comp ref="IC6">
       <value>SHT40-BD1B-R2</value>
-      <footprint>1GlobalFootprintsLibrary:SHT4X</footprint>
+      <footprint>1projectLibrary:SHT4X</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf</datasheet>
       <description>SHT40</description>
       <fields>
         <field name="manufacturerName">Sensirion</field>
         <field name="octopartUrl">https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp</field>
         <field name="manufacturerPartNumber">SHT40-BD1B-R2</field>
-        <field name="Footprint">1GlobalFootprintsLibrary:SHT4X</field>
+        <field name="Footprint">1projectLibrary:SHT4X</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf</field>
         <field name="Description">SHT40</field>
       </fields>
@@ -1273,14 +1308,14 @@
     </comp>
     <comp ref="IC7">
       <value>TSL25911FN</value>
-      <footprint>1GlobalFootprintsLibrary:TSL2591</footprint>
+      <footprint>1projectLibrary:TSL2591</footprint>
       <datasheet>https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80</datasheet>
       <description>TSL25911</description>
       <fields>
         <field name="manufacturerName">ams Osram</field>
         <field name="octopartUrl">https://octopart.com/tsl25911fn-osram-126135547?r=sp</field>
         <field name="manufacturerPartNumber">TSL25911FN</field>
-        <field name="Footprint">1GlobalFootprintsLibrary:TSL2591</field>
+        <field name="Footprint">1projectLibrary:TSL2591</field>
         <field name="Datasheet">https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80</field>
         <field name="Description">TSL25911</field>
       </fields>
@@ -1301,6 +1336,7 @@
       <fields>
         <field name="manufacturerName">ROHM</field>
         <field name="manufacturerPartNumber">BR24G1MFVT-5AE2</field>
+        <field name="octopartUrl">https://octopart.com/br24g1mfvt-5ae2-rohm-126430213</field>
         <field name="Footprint">1projectLibrary:BR24G1M-TSSOP-B8</field>
         <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</field>
         <field name="Description">EEPROM SERIAL EEPROM</field>
@@ -1308,6 +1344,7 @@
       <libsource lib="1projectLibrary" part="BR24G1MFVT" description="EEPROM SERIAL EEPROM"/>
       <property name="manufacturerName" value="ROHM"/>
       <property name="manufacturerPartNumber" value="BR24G1MFVT-5AE2"/>
+      <property name="octopartUrl" value="https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1321,6 +1358,7 @@
       <fields>
         <field name="manufacturerName">ROHM</field>
         <field name="manufacturerPartNumber">BR24G1MFVT-5AE2</field>
+        <field name="octopartUrl">https://octopart.com/br24g1mfvt-5ae2-rohm-126430213</field>
         <field name="Footprint">1projectLibrary:BR24G1M-TSSOP-B8</field>
         <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</field>
         <field name="Description">EEPROM SERIAL EEPROM</field>
@@ -1328,6 +1366,7 @@
       <libsource lib="1projectLibrary" part="BR24G1MFVT" description="EEPROM SERIAL EEPROM"/>
       <property name="manufacturerName" value="ROHM"/>
       <property name="manufacturerPartNumber" value="BR24G1MFVT-5AE2"/>
+      <property name="octopartUrl" value="https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1341,6 +1380,7 @@
       <fields>
         <field name="manufacturerName">ROHM</field>
         <field name="manufacturerPartNumber">BR24G1MFVT-5AE2</field>
+        <field name="octopartUrl">https://octopart.com/br24g1mfvt-5ae2-rohm-126430213</field>
         <field name="Footprint">1projectLibrary:BR24G1M-TSSOP-B8</field>
         <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</field>
         <field name="Description">EEPROM SERIAL EEPROM</field>
@@ -1348,6 +1388,7 @@
       <libsource lib="1projectLibrary" part="BR24G1MFVT" description="EEPROM SERIAL EEPROM"/>
       <property name="manufacturerName" value="ROHM"/>
       <property name="manufacturerPartNumber" value="BR24G1MFVT-5AE2"/>
+      <property name="octopartUrl" value="https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1361,6 +1402,7 @@
       <fields>
         <field name="manufacturerName">ROHM</field>
         <field name="manufacturerPartNumber">BR24G1MFVT-5AE2</field>
+        <field name="octopartUrl">https://octopart.com/br24g1mfvt-5ae2-rohm-126430213</field>
         <field name="Footprint">1projectLibrary:BR24G1M-TSSOP-B8</field>
         <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</field>
         <field name="Description">EEPROM SERIAL EEPROM</field>
@@ -1368,32 +1410,11 @@
       <libsource lib="1projectLibrary" part="BR24G1MFVT" description="EEPROM SERIAL EEPROM"/>
       <property name="manufacturerName" value="ROHM"/>
       <property name="manufacturerPartNumber" value="BR24G1MFVT-5AE2"/>
+      <property name="octopartUrl" value="https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7281cf16-f31c-4d5a-b7da-0a189ad3723a</tstamps>
-    </comp>
-    <comp ref="IC12">
-      <value>AEM00920</value>
-      <footprint>1projectLibrary:QFN-24-1EP_4x4mm_P0.5mm_EP2.15x2.15mm-epeas</footprint>
-      <datasheet>https://e-peas.com/wp-content/uploads/2024/01/e-peas_AEM00920_datasheet_solar_energy_harvestingDS_AEM00920_v0.3_a.pdf</datasheet>
-      <description>energy harvester</description>
-      <fields>
-        <field name="octopartUrl">NA</field>
-        <field name="manufacturerName">e-Peas</field>
-        <field name="manufacturerPartNumber">AEM00920</field>
-        <field name="Footprint">1projectLibrary:QFN-24-1EP_4x4mm_P0.5mm_EP2.15x2.15mm-epeas</field>
-        <field name="Datasheet">https://e-peas.com/wp-content/uploads/2024/01/e-peas_AEM00920_datasheet_solar_energy_harvestingDS_AEM00920_v0.3_a.pdf</field>
-        <field name="Description">energy harvester</field>
-      </fields>
-      <libsource lib="1projectLibrary" part="AEM00920" description="energy harvester"/>
-      <property name="octopartUrl" value="NA"/>
-      <property name="manufacturerName" value="e-Peas"/>
-      <property name="manufacturerPartNumber" value="AEM00920"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>52de6e6f-3124-4522-9ada-9b5582b7363b</tstamps>
     </comp>
     <comp ref="IC13">
       <value>MCP73123T-22SI/MF</value>
@@ -1441,18 +1462,42 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1cbc2340-2c68-476e-a31e-5c38707281cd</tstamps>
     </comp>
+    <comp ref="JP2">
+      <value>NA</value>
+      <footprint>1projectLibrary:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>NA</datasheet>
+      <description>close to permanently enable 3.3V switched 1</description>
+      <fields>
+        <field name="manufacturerName">NA</field>
+        <field name="manufacturerPartNumber">NA</field>
+        <field name="octopartUrl">NA</field>
+        <field name="Footprint">1projectLibrary:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</field>
+        <field name="Datasheet">NA</field>
+        <field name="Description">close to permanently enable 3.3V switched 1</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="manufacturerName" value="NA"/>
+      <property name="manufacturerPartNumber" value="NA"/>
+      <property name="octopartUrl" value="NA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f477d30-97ec-4cb4-97c6-f4b0b3d2b340</tstamps>
+    </comp>
     <comp ref="L1">
-      <value>VLS3010CX-470M-1</value>
+      <value>47uH</value>
       <footprint>1projectLibrary:L_TDK_VLS3010CX</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3010cx-1_en.pdf?ref_disty=mouser</datasheet>
-      <description>47uH</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/vls3010cx-470m-1-tdk-110194027?r=sp</field>
         <field name="manufacturerPartNumber">VLS3010CX-470M-1</field>
         <field name="Footprint">1projectLibrary:L_TDK_VLS3010CX</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3010cx-1_en.pdf?ref_disty=mouser</field>
-        <field name="Description">47uH</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="1projectLibrary" part="VLS3010CX-470M-1" description="Power Inductors - SMD 47uH"/>
       <property name="manufacturerName" value="TDK"/>
@@ -1466,17 +1511,16 @@
       <tstamps>339ee572-5798-4e06-9198-6eecda32b1b3</tstamps>
     </comp>
     <comp ref="L2">
-      <value>VLS3010CX-220M-1</value>
+      <value>22 uH</value>
       <footprint>1projectLibrary:L_TDK_VLS3010CX</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf?ref_disty=mouser</datasheet>
-      <description>22 uH</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/vls3010cx-220m-1-tdk-108018957?r=sp</field>
         <field name="manufacturerPartNumber">VLS3010CX-220M-1</field>
         <field name="Footprint">1projectLibrary:L_TDK_VLS3010CX</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf?ref_disty=mouser</field>
-        <field name="Description">22 uH</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="manufacturerName" value="TDK"/>
@@ -1611,48 +1655,46 @@
       <tstamps>f97bd464-c8dd-4c7f-9159-d9e49ad5a8ce</tstamps>
     </comp>
     <comp ref="R2">
-      <value>CR0603-FX-6800ELF</value>
+      <value>1M69</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>680</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_12-3368608.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-6800elf-bourns-2326662?r=sp</field>
-        <field name="manufacturerPartNumber">CR0603-FX-6800ELF</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/rc0603fr-071m69l-yageo-16255598</field>
+        <field name="manufacturerPartNumber">RC0603FR-071M69L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">680</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_12-3368608.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-6800elf-bourns-2326662?r=sp"/>
-      <property name="manufacturerPartNumber" value="CR0603-FX-6800ELF"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/rc0603fr-071m69l-yageo-16255598"/>
+      <property name="manufacturerPartNumber" value="RC0603FR-071M69L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bf8dd95a-c83a-4c94-9e55-9fd2c74a0418</tstamps>
+      <tstamps>30ad4cca-9d81-4162-a04d-517062825bc5</tstamps>
     </comp>
     <comp ref="R3">
-      <value>CR0603-FX-1001ELF</value>
+      <value>1K</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>1K</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/YAGEO_11022023_PYu_SR_20105_RoHS_L_11-3361774.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-1001elf-bourns-2326646?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/sr0603jr-071kl-yageo-71414179</field>
         <field name="genericPartNumber">GPR06031K</field>
-        <field name="manufacturerPartNumber">CR0603-JW-102ELF</field>
+        <field name="manufacturerPartNumber">SR0603JR-071KL</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">1K</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/YAGEO_11022023_PYu_SR_20105_RoHS_L_11-3361774.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-1001elf-bourns-2326646?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/sr0603jr-071kl-yageo-71414179"/>
       <property name="genericPartNumber" value="GPR06031K"/>
-      <property name="manufacturerPartNumber" value="CR0603-JW-102ELF"/>
+      <property name="manufacturerPartNumber" value="SR0603JR-071KL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1660,73 +1702,49 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3e123861-a98d-488f-9662-74e395900536</tstamps>
     </comp>
-    <comp ref="R4">
-      <value>CR0603-FX-3301ELF</value>
-      <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>3K3</description>
-      <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-3301elf-bourns-2326656?r=sp</field>
-        <field name="manufacturerPartNumber">CR0603JW-332ELF</field>
-        <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">3K3</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-3301elf-bourns-2326656?r=sp"/>
-      <property name="manufacturerPartNumber" value="CR0603JW-332ELF"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>080119c7-43af-4496-986b-5caea3cc302e</tstamps>
-    </comp>
     <comp ref="R5">
-      <value>CR0603-FX-3301ELF</value>
+      <value>5K1</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>3K3</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-3301elf-bourns-2326656?r=sp</field>
-        <field name="manufacturerPartNumber">CR0603JW-332ELF</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
+        <field name="genericPartNumber">GPR06035K1</field>
+        <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">3K3</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-3301elf-bourns-2326656?r=sp"/>
-      <property name="manufacturerPartNumber" value="CR0603JW-332ELF"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
+      <property name="genericPartNumber" value="GPR06035K1"/>
+      <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>14943c0e-c237-4462-bb55-24e62892388a</tstamps>
+      <tstamps>aee908fc-d065-427e-b4da-c9a05c7f4c48</tstamps>
     </comp>
     <comp ref="R6">
-      <value>CR0603-FX-5101ELF</value>
+      <value>5K1</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>5K1</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
-        <field name="manufacturerPartNumber">CR0603FX-5101ELF</field>
+        <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">5K1</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
-      <property name="manufacturerPartNumber" value="CR0603FX-5101ELF"/>
+      <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1735,24 +1753,23 @@
       <tstamps>b39af181-bfbb-4aa0-9adc-4c0e0f8196aa</tstamps>
     </comp>
     <comp ref="R7">
-      <value>CR0603-FX-5101ELF</value>
+      <value>5K1</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>5K1</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
-        <field name="manufacturerPartNumber">CR0603FX-5101ELF</field>
+        <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">5K1</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
-      <property name="manufacturerPartNumber" value="CR0603FX-5101ELF"/>
+      <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1761,24 +1778,23 @@
       <tstamps>bef82534-6655-4dd0-9826-c09602bc4475</tstamps>
     </comp>
     <comp ref="R8">
-      <value>CR0603-FX-5101ELF</value>
+      <value>5K1</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>5K1</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
-        <field name="manufacturerPartNumber">CR0603FX-5101ELF</field>
+        <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">5K1</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
-      <property name="manufacturerPartNumber" value="CR0603FX-5101ELF"/>
+      <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1787,24 +1803,23 @@
       <tstamps>f5654cd3-0d40-4e3c-9974-fd4a9ca8cbae</tstamps>
     </comp>
     <comp ref="R9">
-      <value>CR0603-FX-5101ELF</value>
+      <value>5K1</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>5K1</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
-        <field name="manufacturerPartNumber">CR0603FX-5101ELF</field>
+        <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">5K1</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
-      <property name="manufacturerPartNumber" value="CR0603FX-5101ELF"/>
+      <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1813,24 +1828,23 @@
       <tstamps>8add2372-7219-440d-be0b-7f5ef9356981</tstamps>
     </comp>
     <comp ref="R10">
-      <value>CR0603-FX-5101ELF</value>
+      <value>5K1</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>5K1</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
-        <field name="manufacturerPartNumber">CR0603FX-5101ELF</field>
+        <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">5K1</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-5101elf-bourns-3881280?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
-      <property name="manufacturerPartNumber" value="CR0603FX-5101ELF"/>
+      <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1839,22 +1853,21 @@
       <tstamps>edaefbbc-288e-4dbf-a09c-3a02772e05fe</tstamps>
     </comp>
     <comp ref="R11">
-      <value>CR0603-FX-7501ELF</value>
+      <value>5M36</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>7K5</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-7501elf-bourns-6075428?r=sp</field>
-        <field name="manufacturerPartNumber">CR0603JW-752ELF</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/rc0603fr-075m36l-yageo-24734316</field>
+        <field name="manufacturerPartNumber">RC0603FR-075M36L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">7K5</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-7501elf-bourns-6075428?r=sp"/>
-      <property name="manufacturerPartNumber" value="CR0603JW-752ELF"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/rc0603fr-075m36l-yageo-24734316"/>
+      <property name="manufacturerPartNumber" value="RC0603FR-075M36L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1863,10 +1876,9 @@
       <tstamps>5a74b329-1dc6-41f4-b76e-1b75ed49dd0a</tstamps>
     </comp>
     <comp ref="R12">
-      <value>CR0603-FX-1002ELF</value>
+      <value>10K</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>10K</description>
       <fields>
         <field name="manufacturerName">Bourns</field>
         <field name="octopartUrl">https://octopart.com/cr0603-fx-1002elf-bourns-2326648?r=sp</field>
@@ -1874,7 +1886,7 @@
         <field name="manufacturerPartNumber">CR0603-JW-103ELF</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">10K</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="manufacturerName" value="Bourns"/>
@@ -1889,24 +1901,23 @@
       <tstamps>69749f95-cea9-4eeb-a9b8-300642aa0f27</tstamps>
     </comp>
     <comp ref="R13">
-      <value>CR0603-FX-2212ELF</value>
+      <value>22K1</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>22K1</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-2212elf-bourns-2326654?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/ac0603fr-0722k1l-yageo-30510747</field>
         <field name="genericPartNumber">GPR060322K1</field>
-        <field name="manufacturerPartNumber">CR0603FX-2212ELF</field>
+        <field name="manufacturerPartNumber">AC0603FR-0722K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">22K1</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-2212elf-bourns-2326654?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603fr-0722k1l-yageo-30510747"/>
       <property name="genericPartNumber" value="GPR060322K1"/>
-      <property name="manufacturerPartNumber" value="CR0603FX-2212ELF"/>
+      <property name="manufacturerPartNumber" value="AC0603FR-0722K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1915,22 +1926,21 @@
       <tstamps>e5b05674-c122-4f3b-b557-7b65ad3ece59</tstamps>
     </comp>
     <comp ref="R14">
-      <value>CR0603-FX-3742ELF</value>
+      <value>4M75</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>37K4</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-3742elf-bourns-6075679?r=sp</field>
-        <field name="manufacturerPartNumber">CR0603FX-3752ELF</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/rc0603fr-074m75l-yageo-1187229</field>
+        <field name="manufacturerPartNumber">RC0603FR-074M75L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">37K4</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-3742elf-bourns-6075679?r=sp"/>
-      <property name="manufacturerPartNumber" value="CR0603FX-3752ELF"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/rc0603fr-074m75l-yageo-1187229"/>
+      <property name="manufacturerPartNumber" value="RC0603FR-074M75L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1939,24 +1949,23 @@
       <tstamps>7c9a9571-ecc7-4e7b-a1bc-870f6d43c151</tstamps>
     </comp>
     <comp ref="R15">
-      <value>CR0603-FX-4752ELF</value>
+      <value>47K5</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>47K5</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-4752elf-bourns-6075378?r=sp</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/ac0603fr-0747k5l-yageo-71367307</field>
         <field name="genericPartNumber">GPR060347K5</field>
-        <field name="manufacturerPartNumber">CR0603FX-4752ELF</field>
+        <field name="manufacturerPartNumber">AC0603FR-0747K5L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">47K5</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-4752elf-bourns-6075378?r=sp"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603fr-0747k5l-yageo-71367307"/>
       <property name="genericPartNumber" value="GPR060347K5"/>
-      <property name="manufacturerPartNumber" value="CR0603FX-4752ELF"/>
+      <property name="manufacturerPartNumber" value="AC0603FR-0747K5L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1964,49 +1973,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9516a2d8-0419-40bb-a1be-861256554dd4</tstamps>
     </comp>
-    <comp ref="R16">
-      <value>CR0603-FX-2203ELF</value>
-      <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>220K</description>
-      <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-2203elf-bourns-3825387?r=sp</field>
-        <field name="manufacturerPartNumber">CR0603FX-2203ELF</field>
-        <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">220K</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-2203elf-bourns-3825387?r=sp"/>
-      <property name="manufacturerPartNumber" value="CR0603FX-2203ELF"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>71bf3b37-9eb8-4446-a456-b07bcb313af6</tstamps>
-    </comp>
     <comp ref="R17">
-      <value>CR0603-FX-1004ELF</value>
+      <value>330K</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>1M</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-1004elf-bourns-3899435?r=sp</field>
-        <field name="genericPartNumber">GPR06031M</field>
-        <field name="manufacturerPartNumber">CR0603-FX-1004ELF</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/ac0603jr-07330kl-yageo-30510863</field>
+        <field name="genericPartNumber">GPR060330K</field>
+        <field name="manufacturerPartNumber">AC0603JR-07330KL</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">1M</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-1004elf-bourns-3899435?r=sp"/>
-      <property name="genericPartNumber" value="GPR06031M"/>
-      <property name="manufacturerPartNumber" value="CR0603-FX-1004ELF"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603jr-07330kl-yageo-30510863"/>
+      <property name="genericPartNumber" value="GPR060330K"/>
+      <property name="manufacturerPartNumber" value="AC0603JR-07330KL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2015,24 +1999,23 @@
       <tstamps>c2c75eb2-0b63-47fd-adfa-c68faf08e2de</tstamps>
     </comp>
     <comp ref="R18">
-      <value>CR0603-FX-1004ELF</value>
+      <value>330K</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>1M</description>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</datasheet>
       <fields>
-        <field name="manufacturerName">Bourns</field>
-        <field name="octopartUrl">https://octopart.com/cr0603-fx-1004elf-bourns-3899435?r=sp</field>
-        <field name="genericPartNumber">GPR06031M</field>
-        <field name="manufacturerPartNumber">CR0603-FX-1004ELF</field>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/ac0603jr-07330kl-yageo-30510863</field>
+        <field name="genericPartNumber">GPR060330K</field>
+        <field name="manufacturerPartNumber">AC0603JR-07330KL</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">1M</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="Bourns"/>
-      <property name="octopartUrl" value="https://octopart.com/cr0603-fx-1004elf-bourns-3899435?r=sp"/>
-      <property name="genericPartNumber" value="GPR06031M"/>
-      <property name="manufacturerPartNumber" value="CR0603-FX-1004ELF"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/ac0603jr-07330kl-yageo-30510863"/>
+      <property name="genericPartNumber" value="GPR060330K"/>
+      <property name="manufacturerPartNumber" value="AC0603JR-07330KL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2040,16 +2023,108 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c433c340-93fb-4bca-939b-f0cff8159361</tstamps>
     </comp>
+    <comp ref="R19">
+      <value>8M45</value>
+      <footprint>1projectLibrary:R_0603_nominal</footprint>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <fields>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/rc0603fr-078m45l-yageo-26128888</field>
+        <field name="manufacturerPartNumber">RC0603FR-078M45L</field>
+        <field name="Footprint">1projectLibrary:R_0603_nominal</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/rc0603fr-078m45l-yageo-26128888"/>
+      <property name="manufacturerPartNumber" value="RC0603FR-078M45L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec92630a-9266-4562-b3f7-b8d29cc81d1a</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>4M75</value>
+      <footprint>1projectLibrary:R_0603_nominal</footprint>
+      <datasheet>https://www.mouser.be/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/rc0603fr-074m75l-yageo-1187229</field>
+        <field name="manufacturerPartNumber">RC0603FR-074M75L</field>
+        <field name="Footprint">1projectLibrary:R_0603_nominal</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/rc0603fr-074m75l-yageo-1187229"/>
+      <property name="manufacturerPartNumber" value="RC0603FR-074M75L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e04ac40-919d-4143-8846-e9ce5e07349c</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>5M36</value>
+      <footprint>1projectLibrary:R_0603_nominal</footprint>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <fields>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/rc0603fr-075m36l-yageo-24734316</field>
+        <field name="manufacturerPartNumber">RC0603FR-075M36L</field>
+        <field name="Footprint">1projectLibrary:R_0603_nominal</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/rc0603fr-075m36l-yageo-24734316"/>
+      <property name="manufacturerPartNumber" value="RC0603FR-075M36L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dcc0597-f497-4d4a-82ee-57f9f3cf40fa</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>330</value>
+      <footprint>1projectLibrary:R_0603_nominal</footprint>
+      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_12-3368608.pdf</datasheet>
+      <fields>
+        <field name="manufacturerName">YAGEO</field>
+        <field name="octopartUrl">https://octopart.com/rc0603fr-7w330rl-yageo-52751815</field>
+        <field name="manufacturerPartNumber">RC0603FR-7W330RL</field>
+        <field name="Footprint">1projectLibrary:R_0603_nominal</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_12-3368608.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manufacturerName" value="YAGEO"/>
+      <property name="octopartUrl" value="https://octopart.com/rc0603fr-7w330rl-yageo-52751815"/>
+      <property name="manufacturerPartNumber" value="RC0603FR-7W330RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc09e293-169d-412a-9a31-929796734b96</tstamps>
+    </comp>
     <comp ref="SW1">
       <value>434331045822</value>
-      <footprint>1GlobalFootprintsLibrary:Wurth-4343X10458XX</footprint>
+      <footprint>1projectLibrary:Wurth-4343X10458XX</footprint>
       <datasheet>https://www.we-online.com/katalog/datasheet/434331045822.pdf</datasheet>
       <description>MCU Reset</description>
       <fields>
         <field name="manufacturerName">Wurth Electronics</field>
         <field name="octopartUrl">https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp</field>
         <field name="manufacturerPartNumber">434331045822</field>
-        <field name="Footprint">1GlobalFootprintsLibrary:Wurth-4343X10458XX</field>
+        <field name="Footprint">1projectLibrary:Wurth-4343X10458XX</field>
         <field name="Datasheet">https://www.we-online.com/katalog/datasheet/434331045822.pdf</field>
         <field name="Description">MCU Reset</field>
       </fields>
@@ -2065,14 +2140,14 @@
     </comp>
     <comp ref="SW2">
       <value>SLLB510100</value>
-      <footprint>1GlobalFootprintsLibrary:SLLB510100</footprint>
+      <footprint>1projectLibrary:SLLB510100</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/15/SLLB5-1570014.pdf</datasheet>
       <description>Application Navigation Button</description>
       <fields>
         <field name="manufacturerName">Alps Alpine</field>
         <field name="octopartUrl">https://octopart.com/sllb510100-alps-1050713?r=sp</field>
         <field name="manufacturerPartNumber">SLLB510100</field>
-        <field name="Footprint">1GlobalFootprintsLibrary:SLLB510100</field>
+        <field name="Footprint">1projectLibrary:SLLB510100</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/15/SLLB5-1570014.pdf</field>
         <field name="Description">Application Navigation Button</field>
       </fields>
@@ -2087,44 +2162,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="1projectLibrary" part="AEM00920">
-      <description>energy harvester</description>
-      <docs>https://e-peas.com/wp-content/uploads/2024/01/e-peas_AEM00920_datasheet_solar_energy_harvestingDS_AEM00920_v0.3_a.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">AEM00920</field>
-        <field name="Footprint">1projectLibrary:QFN-24-QE00920</field>
-        <field name="Datasheet">https://e-peas.com/wp-content/uploads/2024/01/e-peas_AEM00920_datasheet_solar_energy_harvestingDS_AEM00920_v0.3_a.pdf</field>
-        <field name="Description">energy harvester</field>
-      </fields>
-      <pins>
-        <pin num="1" name="5V_IMAX" type="input"/>
-        <pin num="2" name="5V_IN" type="power_in"/>
-        <pin num="3" name="STORE" type="power_out"/>
-        <pin num="4" name="SRC" type="power_in"/>
-        <pin num="5" name="SWBOOST" type="passive"/>
-        <pin num="6" name="SET_OVDIS" type="passive"/>
-        <pin num="7" name="SET_CHRDY" type="passive"/>
-        <pin num="8" name="SET_OVCH" type="passive"/>
-        <pin num="9" name="SHIP_MODE" type="input"/>
-        <pin num="10" name="ST_STO" type="passive"/>
-        <pin num="11" name="CM_D" type="passive"/>
-        <pin num="12" name="LOAD_CFG[1]" type="input"/>
-        <pin num="13" name="SWBUCK" type="passive"/>
-        <pin num="14" name="LOAD" type="passive"/>
-        <pin num="15" name="VINT" type="passive"/>
-        <pin num="16" name="BOOST_CFG" type="input"/>
-        <pin num="17" name="STO_CFG[0]" type="input"/>
-        <pin num="18" name="STO_CFG[1]" type="input"/>
-        <pin num="19" name="LOAD_CFG[0]" type="input"/>
-        <pin num="20" name="SRC_CFG[0]" type="input"/>
-        <pin num="21" name="SRC_CFG[1]" type="input"/>
-        <pin num="22" name="SRC_CFG[2]" type="input"/>
-        <pin num="23" name="SRC_CFG[3]" type="input"/>
-        <pin num="24" name="SRC_CFG[4]" type="input"/>
-        <pin num="25" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="1projectLibrary" part="BME680">
       <description>4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8</description>
       <docs>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf</docs>
@@ -2151,6 +2188,38 @@
         <pin num="6" name="VDDIO" type="power_in"/>
         <pin num="7" name="GND" type="power_in"/>
         <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="BQ25504RGTR">
+      <description>Ultra Low Power Boost Converter with Battery Management for Energy Harvester | Nano-Power Management</description>
+      <docs>https://www.ti.com/lit/ds/symlink/bq25504.pdf?ts=1607081282078&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ25504RGTR%2526keyMatch%253DBQ25504RGTR%2526tisearch%253DSearch-EN-everything%2526usecase%253DO</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BQ25504RGTR</field>
+        <field name="Footprint">QFN50P300X300X100-17N-D</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/bq25504.pdf?ts=1607081282078&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ25504RGTR%2526keyMatch%253DBQ25504RGTR%2526tisearch%253DSearch-EN-everything%2526usecase%253DO</field>
+        <field name="Description">Ultra Low Power Boost Converter with Battery Management for Energy Harvester | Nano-Power Management</field>
+        <field name="manufacturerName">Texas Instruments</field>
+        <field name="manufacturerPartNumber">BQ25504RGTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="VIN_DC" type="input"/>
+        <pin num="3" name="VOC_SAMP" type="input"/>
+        <pin num="4" name="VREF_SAMP" type="input"/>
+        <pin num="5" name="OT_PROG" type="passive"/>
+        <pin num="6" name="VBAT_OV" type="passive"/>
+        <pin num="7" name="VRDIV" type="passive"/>
+        <pin num="8" name="VBAT_UV" type="passive"/>
+        <pin num="9" name="OK_HYST" type="passive"/>
+        <pin num="10" name="OK_PROG" type="passive"/>
+        <pin num="11" name="VBAT_OK" type="no_connect"/>
+        <pin num="12" name="AVSS" type="passive"/>
+        <pin num="13" name="VSS" type="passive"/>
+        <pin num="14" name="VBAT" type="passive"/>
+        <pin num="15" name="VSTOR" type="passive"/>
+        <pin num="16" name="LBST" type="passive"/>
+        <pin num="17" name="EP" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="1projectLibrary" part="BR24G1MFVT">
@@ -2240,6 +2309,24 @@
       <pins>
         <pin num="1" name="-" type="power_in"/>
         <pin num="2" name="+" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="LiFePO4_Battery">
+      <description>AA-BatteryHolder</description>
+      <docs>https://www.keyelco.com/userAssets/file/M65p22.pdf</docs>
+      <fields>
+        <field name="Reference">CONN2</field>
+        <field name="Value">1015</field>
+        <field name="Footprint">1projectLibrary:Keystone 1015 AA BatteryHolder</field>
+        <field name="Datasheet">https://www.keyelco.com/userAssets/file/M65p22.pdf</field>
+        <field name="Description">AA-BatteryHolder</field>
+        <field name="octopartUrl">https://octopart.com/1015-keystone-8129901?r=sp</field>
+        <field name="manufacturerName">KeyStone</field>
+        <field name="manufacturerPartNumber">1015</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="1projectLibrary" part="MCP73123T">
@@ -2641,21 +2728,6 @@
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Battery_Cell">
-      <description>Single-cell battery</description>
-      <docs>~</docs>
-      <fields>
-        <field name="Reference">BT</field>
-        <field name="Value">Battery_Cell</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Single-cell battery</field>
-      </fields>
-      <pins>
-        <pin num="1" name="+" type="passive"/>
-        <pin num="2" name="-" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="C">
       <description>Unpolarized capacitor</description>
       <docs>~</docs>
@@ -2765,6 +2837,24 @@
         <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Mechanical" part="Fiducial">
       <description>Fiducial Marker</description>
       <docs>~</docs>
@@ -2815,11 +2905,12 @@
     <net code="1" name="+3.3V">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="CONN8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="IC1" pin="1" pinfunction="VCC" pintype="input"/>
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
@@ -2831,7 +2922,6 @@
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="CONN1" pin="A4-B9" pinfunction="VBUS" pintype="power_out"/>
       <node ref="CONN1" pin="B4-A9" pinfunction="VBUS" pintype="passive"/>
-      <node ref="IC12" pin="2" pinfunction="5V_IN" pintype="power_in"/>
       <node ref="IC13" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="IC13" pin="2" pinfunction="VDD" pintype="power_in"/>
       <node ref="IC2" pin="7" pinfunction="VREGIN" pintype="power_in"/>
@@ -2846,11 +2936,10 @@
     </net>
     <net code="4" name="CHG-OUT">
       <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="IC12" pin="3" pinfunction="STORE" pintype="power_out"/>
       <node ref="IC13" pin="3" pinfunction="VBAT" pintype="passive"/>
       <node ref="IC13" pin="4" pinfunction="VBAT" pintype="passive"/>
+      <node ref="IC4" pin="14" pinfunction="VBAT" pintype="passive"/>
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
     </net>
     <net code="5" name="CURRENT-SENSE">
       <node ref="CONN6" pin="3" pinfunction="Pin_3" pintype="passive"/>
@@ -2895,12 +2984,12 @@
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="C21" pin="2" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
-      <node ref="C23" pin="2" pintype="passive"/>
-      <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C30" pin="1" pintype="passive"/>
@@ -2916,9 +3005,10 @@
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="CONN1" pin="A1-B12" pinfunction="GND" pintype="power_in"/>
       <node ref="CONN1" pin="B1-A12" pinfunction="GND" pintype="power_in"/>
-      <node ref="CONN2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="CONN2" pin="1" pinfunction="-" pintype="passive"/>
       <node ref="CONN4" pin="1" pinfunction="-" pintype="power_in"/>
       <node ref="CONN5" pin="2" pinfunction="Ext" pintype="passive"/>
       <node ref="CONN6" pin="0" pinfunction="GND" pintype="power_in"/>
@@ -2934,18 +3024,19 @@
       <node ref="IC10" pin="2" pinfunction="A1" pintype="input"/>
       <node ref="IC10" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="IC11" pin="4" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC12" pin="12" pinfunction="LOAD_CFG[1]" pintype="input"/>
-      <node ref="IC12" pin="16" pinfunction="BOOST_CFG" pintype="input"/>
-      <node ref="IC12" pin="19" pinfunction="LOAD_CFG[0]" pintype="input"/>
-      <node ref="IC12" pin="21" pinfunction="SRC_CFG[1]" pintype="input"/>
-      <node ref="IC12" pin="22" pinfunction="SRC_CFG[2]" pintype="input"/>
-      <node ref="IC12" pin="25" pinfunction="GND" pintype="power_in"/>
       <node ref="IC13" pin="8" pinfunction="GND" pintype="power_in"/>
       <node ref="IC13" pin="9" pinfunction="GND" pintype="power_in"/>
       <node ref="IC13" pin="EP" pinfunction="EP" pintype="power_in"/>
       <node ref="IC2" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="IC2" pin="25" pinfunction="EP" pintype="power_in"/>
       <node ref="IC3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC4" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="IC4" pin="10" pinfunction="OK_PROG" pintype="passive"/>
+      <node ref="IC4" pin="12" pinfunction="AVSS" pintype="passive"/>
+      <node ref="IC4" pin="13" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC4" pin="17" pinfunction="EP" pintype="passive"/>
+      <node ref="IC4" pin="5" pinfunction="OT_PROG" pintype="passive"/>
+      <node ref="IC4" pin="9" pinfunction="OK_HYST" pintype="passive"/>
       <node ref="IC5" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="IC5" pin="5" pinfunction="SDO" pintype="input"/>
       <node ref="IC5" pin="7" pinfunction="GND" pintype="power_in"/>
@@ -2958,10 +3049,12 @@
       <node ref="IC9" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
@@ -3001,51 +3094,53 @@
       <node ref="CONN1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(CONN6-Pin_18)">
-      <node ref="C34" pin="2" pintype="passive"/>
-      <node ref="CONN6" pin="18" pinfunction="Pin_18" pintype="passive"/>
-    </net>
-    <net code="19" name="Net-(D1-K)">
+    <net code="18" name="Net-(D1-K)">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(D2-A)">
+    <net code="19" name="Net-(D2-A)">
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(IC12-5V_IMAX)">
-      <node ref="IC12" pin="1" pinfunction="5V_IMAX" pintype="input"/>
+    <net code="20" name="Net-(IC4-LBST)">
+      <node ref="IC4" pin="16" pinfunction="LBST" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(IC4-VBAT_OV)">
+      <node ref="IC4" pin="6" pinfunction="VBAT_OV" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(IC4-VBAT_UV)">
+      <node ref="IC4" pin="8" pinfunction="VBAT_UV" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(IC4-VOC_SAMP)">
+      <node ref="IC4" pin="3" pinfunction="VOC_SAMP" pintype="input"/>
+      <node ref="R19" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(IC12-CM_D)">
-      <node ref="IC12" pin="11" pinfunction="CM_D" pintype="passive"/>
-      <node ref="R16" pin="2" pintype="passive"/>
-    </net>
-    <net code="23" name="Net-(IC12-SET_CHRDY)">
-      <node ref="IC12" pin="7" pinfunction="SET_CHRDY" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-    </net>
-    <net code="24" name="Net-(IC12-SET_OVCH)">
-      <node ref="IC12" pin="8" pinfunction="SET_OVCH" pintype="passive"/>
-      <node ref="R16" pin="1" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-    </net>
-    <net code="25" name="Net-(IC12-SET_OVDIS)">
-      <node ref="IC12" pin="6" pinfunction="SET_OVDIS" pintype="passive"/>
-      <node ref="R11" pin="1" pintype="passive"/>
+    <net code="24" name="Net-(IC4-VRDIV)">
+      <node ref="IC4" pin="7" pinfunction="VRDIV" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(IC12-SWBOOST)">
-      <node ref="IC12" pin="5" pinfunction="SWBOOST" pintype="passive"/>
-      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="25" name="Net-(IC4-VREF_SAMP)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC4" pin="4" pinfunction="VREF_SAMP" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(IC4-VSTOR)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="IC4" pin="15" pinfunction="VSTOR" pintype="passive"/>
     </net>
     <net code="27" name="Net-(IC13-PROG)">
       <node ref="IC13" pin="10" pinfunction="PROG" pintype="bidirectional"/>
-      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
     </net>
     <net code="28" name="PREVGH">
       <node ref="C32" pin="2" pintype="passive"/>
@@ -3090,10 +3185,10 @@
     </net>
     <net code="37" name="Solar+">
       <node ref="C20" pin="1" pintype="passive"/>
-      <node ref="C21" pin="1" pintype="passive"/>
       <node ref="CONN4" pin="2" pinfunction="+" pintype="power_out"/>
-      <node ref="IC12" pin="4" pinfunction="SRC" pintype="power_in"/>
+      <node ref="IC4" pin="2" pinfunction="VIN_DC" pintype="input"/>
       <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
     <net code="38" name="UART1-TX">
       <node ref="CONN8" pin="6" pinfunction="Pin_6" pintype="passive"/>
@@ -3108,7 +3203,7 @@
       <node ref="IC2" pin="20" pinfunction="RXD" pintype="input"/>
     </net>
     <net code="41" name="VBAT">
-      <node ref="CONN2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="CONN2" pin="2" pinfunction="+" pintype="passive"/>
       <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="42" name="VBUS">
@@ -3121,14 +3216,23 @@
       <node ref="C37" pin="2" pintype="passive"/>
       <node ref="CONN6" pin="24" pinfunction="Pin_24" pintype="passive"/>
     </net>
-    <net code="44" name="VDD-Display">
+    <net code="44" name="VDD">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="CONN6" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="45" name="VDD-Display">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="CONN6" pin="15" pinfunction="Pin_15" pintype="passive"/>
       <node ref="CONN6" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="45" name="VDD-SENSORS-EEPROM">
+    <net code="46" name="VDD-Display-Charge">
+      <node ref="IC1" pin="21" pinfunction="PA9" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="VDD-SENSORS-EEPROM">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
@@ -3149,72 +3253,63 @@
       <node ref="IC8" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="IC9" pin="2" pinfunction="A1" pintype="input"/>
       <node ref="IC9" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="46" name="VGH">
+    <net code="48" name="VGH">
       <node ref="C31" pin="2" pintype="passive"/>
       <node ref="CONN6" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="47" name="VGL">
+    <net code="49" name="VGL">
       <node ref="C30" pin="2" pintype="passive"/>
       <node ref="CONN6" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="48" name="VINT">
-      <node ref="C23" pin="1" pintype="passive"/>
-      <node ref="IC12" pin="15" pinfunction="VINT" pintype="passive"/>
-      <node ref="IC12" pin="20" pinfunction="SRC_CFG[0]" pintype="input"/>
-      <node ref="IC12" pin="23" pinfunction="SRC_CFG[3]" pintype="input"/>
-      <node ref="IC12" pin="24" pinfunction="SRC_CFG[4]" pintype="input"/>
-    </net>
-    <net code="49" name="VSH">
+    <net code="50" name="VSH">
       <node ref="C35" pin="2" pintype="passive"/>
       <node ref="CONN6" pin="20" pinfunction="Pin_20" pintype="passive"/>
     </net>
-    <net code="50" name="VSL">
+    <net code="51" name="VSL">
       <node ref="C36" pin="2" pintype="passive"/>
       <node ref="CONN6" pin="22" pinfunction="Pin_22" pintype="passive"/>
     </net>
-    <net code="51" name="unconnected-(CONN1-SBU1-PadA8)">
+    <net code="52" name="unconnected-(CONN1-SBU1-PadA8)">
       <node ref="CONN1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(CONN1-SBU2-PadB8)">
+    <net code="53" name="unconnected-(CONN1-SBU2-PadB8)">
       <node ref="CONN1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(CONN1-Shield-PadS1)">
+    <net code="54" name="unconnected-(CONN1-Shield-PadS1)">
       <node ref="CONN1" pin="S1" pinfunction="Shield" pintype="passive+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(CONN1-Shield-PadS2)">
+    <net code="55" name="unconnected-(CONN1-Shield-PadS2)">
       <node ref="CONN1" pin="S2" pinfunction="Shield" pintype="passive+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(CONN1-Shield-PadS3)">
+    <net code="56" name="unconnected-(CONN1-Shield-PadS3)">
       <node ref="CONN1" pin="S3" pinfunction="Shield" pintype="passive+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(CONN1-Shield-PadS4)">
+    <net code="57" name="unconnected-(CONN1-Shield-PadS4)">
       <node ref="CONN1" pin="S4" pinfunction="Shield" pintype="passive+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(CONN6-Pin_1-Pad1)">
+    <net code="58" name="unconnected-(CONN6-Pin_1-Pad1)">
       <node ref="CONN6" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(CONN6-Pin_6-Pad6)">
+    <net code="59" name="unconnected-(CONN6-Pin_6-Pad6)">
       <node ref="CONN6" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(CONN6-Pin_7-Pad7)">
+    <net code="60" name="unconnected-(CONN6-Pin_7-Pad7)">
       <node ref="CONN6" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="60" name="unconnected-(CONN6-Pin_19-Pad19)">
+    <net code="61" name="unconnected-(CONN6-Pin_19-Pad19)">
       <node ref="CONN6" pin="19" pinfunction="Pin_19" pintype="passive+no_connect"/>
     </net>
-    <net code="61" name="unconnected-(CONN7-PadMP1)">
+    <net code="62" name="unconnected-(CONN7-PadMP1)">
       <node ref="CONN7" pin="MP1" pinfunction="MP1" pintype="no_connect"/>
     </net>
-    <net code="62" name="unconnected-(CONN7-PadMP2)">
+    <net code="63" name="unconnected-(CONN7-PadMP2)">
       <node ref="CONN7" pin="MP2" pinfunction="MP2" pintype="no_connect"/>
-    </net>
-    <net code="63" name="unconnected-(IC1-PA9-Pad21)">
-      <node ref="IC1" pin="21" pinfunction="PA9" pintype="input+no_connect"/>
     </net>
     <net code="64" name="unconnected-(IC1-PB0-Pad28)">
       <node ref="IC1" pin="28" pinfunction="PB0" pintype="input+no_connect"/>
@@ -3264,76 +3359,61 @@
     <net code="79" name="unconnected-(IC2-~{WAKEUP}{slash}GPIO.3-Pad11)">
       <node ref="IC2" pin="11" pinfunction="~{WAKEUP}/GPIO.3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(IC7-INT-Pad2)">
+    <net code="80" name="unconnected-(IC4-VBAT_OK-Pad11)">
+      <node ref="IC4" pin="11" pinfunction="VBAT_OK" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(IC7-INT-Pad2)">
       <node ref="IC7" pin="2" pinfunction="INT" pintype="no_connect"/>
     </net>
-    <net code="81" name="unconnected-(IC7-NC-Pad4)">
+    <net code="82" name="unconnected-(IC7-NC-Pad4)">
       <node ref="IC7" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="82" name="unconnected-(IC8-A0-Pad1)">
+    <net code="83" name="unconnected-(IC8-A0-Pad1)">
       <node ref="IC8" pin="1" pinfunction="A0" pintype="no_connect"/>
     </net>
-    <net code="83" name="unconnected-(IC9-A0-Pad1)">
+    <net code="84" name="unconnected-(IC9-A0-Pad1)">
       <node ref="IC9" pin="1" pinfunction="A0" pintype="no_connect"/>
     </net>
-    <net code="84" name="unconnected-(IC10-A0-Pad1)">
+    <net code="85" name="unconnected-(IC10-A0-Pad1)">
       <node ref="IC10" pin="1" pinfunction="A0" pintype="no_connect"/>
     </net>
-    <net code="85" name="unconnected-(IC11-A0-Pad1)">
+    <net code="86" name="unconnected-(IC11-A0-Pad1)">
       <node ref="IC11" pin="1" pinfunction="A0" pintype="no_connect"/>
     </net>
-    <net code="86" name="unconnected-(IC12-LOAD-Pad14)">
-      <node ref="IC12" pin="14" pinfunction="LOAD" pintype="passive+no_connect"/>
-    </net>
-    <net code="87" name="unconnected-(IC12-SHIP_MODE-Pad9)">
-      <node ref="IC12" pin="9" pinfunction="SHIP_MODE" pintype="input+no_connect"/>
-    </net>
-    <net code="88" name="unconnected-(IC12-STO_CFG[0]-Pad17)">
-      <node ref="IC12" pin="17" pinfunction="STO_CFG[0]" pintype="input+no_connect"/>
-    </net>
-    <net code="89" name="unconnected-(IC12-STO_CFG[1]-Pad18)">
-      <node ref="IC12" pin="18" pinfunction="STO_CFG[1]" pintype="input+no_connect"/>
-    </net>
-    <net code="90" name="unconnected-(IC12-ST_STO-Pad10)">
-      <node ref="IC12" pin="10" pinfunction="ST_STO" pintype="passive+no_connect"/>
-    </net>
-    <net code="91" name="unconnected-(IC12-SWBUCK-Pad13)">
-      <node ref="IC12" pin="13" pinfunction="SWBUCK" pintype="passive+no_connect"/>
-    </net>
-    <net code="92" name="unconnected-(IC13-NC1-Pad5)">
+    <net code="87" name="unconnected-(IC13-NC1-Pad5)">
       <node ref="IC13" pin="5" pinfunction="NC1" pintype="no_connect"/>
     </net>
-    <net code="93" name="unconnected-(IC13-NC2-Pad6)">
+    <net code="88" name="unconnected-(IC13-NC2-Pad6)">
       <node ref="IC13" pin="6" pinfunction="NC2" pintype="no_connect"/>
     </net>
-    <net code="94" name="unconnected-(IC13-STAT-Pad7)">
+    <net code="89" name="unconnected-(IC13-STAT-Pad7)">
       <node ref="IC13" pin="7" pinfunction="STAT" pintype="no_connect"/>
     </net>
-    <net code="95" name="~{DISPLAY-CS}">
+    <net code="90" name="~{DISPLAY-CS}">
       <node ref="CONN6" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="IC1" pin="11" pinfunction="PB5" pintype="output"/>
     </net>
-    <net code="96" name="~{DISPLAY-RESET}">
+    <net code="91" name="~{DISPLAY-RESET}">
       <node ref="CONN6" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="IC1" pin="23" pinfunction="PA0" pintype="input"/>
     </net>
-    <net code="97" name="~{Enable-3.3V-Switched-0}">
+    <net code="92" name="~{Enable-3.3V-Switched-0}">
       <node ref="IC1" pin="13" pinfunction="PC0" pintype="input"/>
       <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="98" name="~{Enable-3.3V-Switched-1}">
+    <net code="93" name="~{Enable-3.3V-Switched-1}">
       <node ref="IC1" pin="12" pinfunction="PC1" pintype="input"/>
       <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="99" name="~{MCU-RESET}">
+    <net code="94" name="~{MCU-RESET}">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="IC1" pin="17" pinfunction="RST" pintype="input"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="100" name="~{WRITE-PROTECT}">
+    <net code="95" name="~{WRITE-PROTECT}">
       <node ref="IC1" pin="25" pinfunction="PB9" pintype="output"/>
       <node ref="IC10" pin="7" pinfunction="WP" pintype="input"/>
       <node ref="IC11" pin="7" pinfunction="WP" pintype="input"/>
