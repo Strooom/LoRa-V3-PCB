@@ -18493,7 +18493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "NA"
 			(at 189.23 298.45 0)
 			(effects
 				(font
