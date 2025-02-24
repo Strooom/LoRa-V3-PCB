@@ -18511,6 +18511,33 @@
 				(hide yes)
 			)
 		)
+		(property "manufacturerName" "NA"
+			(at 189.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturerPartNumber" "NA"
+			(at 189.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "octopartUrl" "NA"
+			(at 189.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2361008b-561d-4462-8c67-de5f7fc008e7")
 		)
