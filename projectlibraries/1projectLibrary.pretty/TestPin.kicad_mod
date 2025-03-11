@@ -1,0 +1,121 @@
+(footprint "TestPin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
+	(tags "Through hole pin header THT 1x01 1.00mm single row")
+	(property "Reference" "TP1"
+		(at 0 -1.56 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "be60bb7a-d3ba-42db-b1b1-9b2d0791d9fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_Probe"
+		(at 0 1.56 0)
+		(layer "F.Fab")
+		(uuid "f9113049-0978-4a3f-9011-69d3704ef905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a7914bf-b3e9-4a4a-9eec-a08b65e9fcbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "NA"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5eb4bc93-08a7-4347-b869-36741390a28a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 5.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd3f23da-bf8c-43b6-a251-bb7133f67998")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -0.75 -0.75)
+		(end 3.25 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a954229f-de25-4cf6-9489-de81012a8f94")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 180)
+		(layer "F.Fab")
+		(uuid "d7358862-bd8c-4686-84ef-91b51675bd09")
+		(effects
+			(font
+				(size 0.76 0.76)
+				(thickness 0.114)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "fb32be6f-845e-4637-87e9-aafb00499b9d")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e8db043e-ee46-4a70-97a3-0f198dab54f5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_1x01_P1.00mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

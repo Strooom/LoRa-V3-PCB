@@ -1,4 +1,4 @@
-23923737645136027
+23925539524581378
 1GlobalFootprintsLibrary
 4341330258X6
 
@@ -524,6 +524,13 @@ TSL2591
 0
 6
 6
+1projectLibrary
+TestPin
+Through hole straight pin header, 1x01, 1.00mm pitch, single row
+Through hole pin header THT 1x01 1.00mm single row
+0
+2
+2
 1projectLibrary
 VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias
 VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py

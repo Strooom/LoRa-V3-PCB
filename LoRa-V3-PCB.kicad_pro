@@ -244,7 +244,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "global_label_dangling|3949700|914400|81ed63dc-3474-44b3-9c42-00e3459122d6|00000000-0000-0000-0000-000000000000|/8b98a678-96e2-411a-8566-924f77e9f267||"
+    ],
     "meta": {
       "version": 0
     },
@@ -575,7 +577,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "manufacturerPartNumber",
           "name": "manufacturerPartNumber",
           "show": true
@@ -591,6 +593,18 @@
           "label": "octopartUrl",
           "name": "octopartUrl",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "mouserPartNumber",
+          "name": "mouserPartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OctoPartURL",
+          "name": "OctoPartURL",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -645,6 +659,7 @@
     ]
   ],
   "text_variables": {
+    "githubUrl": "https://github.com/Strooom/LoRa-V3-PCB",
     "majorVersion": "0",
     "minorVersion": "17",
     "releaseDate": "Mon Feb 24 15:47:24 2025",

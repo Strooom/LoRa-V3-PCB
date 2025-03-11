@@ -2534,7 +2534,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:Keystone 1015 AA BatteryHolder"
-			(at 0 1.524 90)
+			(at -7.62 2.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2543,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p22.pdf"
-			(at 0 1.524 90)
+			(at 12.7 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2552,7 @@
 			)
 		)
 		(property "Description" "AA-BatteryHolder"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2561,7 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/1015-keystone-8129901?r=sp"
-			(at 0 0 0)
+			(at 7.62 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2570,7 @@
 			)
 		)
 		(property "manufacturerName" "KeyStone"
-			(at 0 0 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2579,7 @@
 			)
 		)
 		(property "manufacturerPartNumber" "1015"
-			(at 0 0 0)
+			(at 7.62 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,9 +2670,9 @@
 		)
 		(symbol "LiFePO4_Battery_1_1"
 			(pin passive line
-				(at 0 5.08 270)
+				(at 0 -2.54 90)
 				(length 2.54)
-				(name "+"
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2688,9 +2688,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
+				(at 0 5.08 270)
 				(length 2.54)
-				(name "-"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6193,6 +6193,153 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TestPoint_Probe"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.762) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TP1"
+			(at 3.81 2.8576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at -5.08 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "1projectLibrary:TestPin"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "test point tp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Pin* Test*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TestPoint_Probe_0_1"
+			(circle
+				(center 0 -2.54)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TestPoint_Probe_1_1"
+			(pin power_in line
+				(at 0 -2.54 270)
+				(length 0)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 0 90)
+				(length 0)
+				(name "TP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
