@@ -18126,7 +18126,7 @@
 				)
 			)
 		)
-		(property "Value" "114993121"
+		(property "Value" "SeeedStudio Wio-E5-LE-HF"
 			(at 0 -5 0)
 			(layer "F.Fab")
 			(uuid "1a1f92f6-fb88-4855-98c1-89c6bffb11dd")
@@ -18176,7 +18176,7 @@
 				)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/114993121-seeed+studio-142683940?r=sp"
+		(property "octopartUrl" "https://octopart.com/114993121-seeed+studio-142683940"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18202,38 +18202,12 @@
 				)
 			)
 		)
-		(property "manufacturerPartNumber" "317990687"
+		(property "manufacturerPartNumber" "114993121"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "903278ee-fb5c-4975-855f-c2c8f0f61f03")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "mouserPartNumber" "713-317990687"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f7b77d0-7d5b-42ae-b4b8-638d6a7e2ca1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OctoPartURL" "https://octopart.com/search?q=317990687&currency=USD&specs=0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9308f052-655d-47c7-b299-6445999b95d9")
 			(effects
 				(font
 					(size 1 1)

@@ -244,9 +244,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "global_label_dangling|3949700|914400|81ed63dc-3474-44b3-9c42-00e3459122d6|00000000-0000-0000-0000-000000000000|/8b98a678-96e2-411a-8566-924f77e9f267||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },

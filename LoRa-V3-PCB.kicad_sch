@@ -3758,16 +3758,7 @@
 					(hide yes)
 				)
 			)
-			(property "mouserPartNumber" "713-317990687"
-				(at 0 -37.084 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manufacturerPartNumber" "317990687"
+			(property "manufacturerPartNumber" "114993121"
 				(at 0.762 -45.212 0)
 				(effects
 					(font
@@ -3785,7 +3776,7 @@
 					(hide yes)
 				)
 			)
-			(property "OctoPartURL" ""
+			(property "octopartUrl" "https://octopart.com/114993121-seeed+studio-142683940"
 				(at 0 0 0)
 				(effects
 					(font
@@ -20316,7 +20307,7 @@
 				)
 			)
 		)
-		(property "Value" "114993121"
+		(property "Value" "SeeedStudio Wio-E5-LE-HF"
 			(at 368.427 99.187 90)
 			(effects
 				(font
@@ -20352,7 +20343,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/114993121-seeed+studio-142683940?r=sp"
+		(property "octopartUrl" "https://octopart.com/114993121-seeed+studio-142683940"
 			(at 368.3 99.06 0)
 			(effects
 				(font
@@ -20370,26 +20361,8 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "317990687"
+		(property "manufacturerPartNumber" "114993121"
 			(at 323.088 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "713-317990687"
-			(at 331.216 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OctoPartURL" "https://octopart.com/search?q=317990687&currency=USD&specs=0"
-			(at 368.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

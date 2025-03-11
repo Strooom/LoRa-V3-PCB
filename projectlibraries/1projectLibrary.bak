@@ -4890,16 +4890,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" "713-317990687"
-			(at 0 -37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerPartNumber" "317990687"
+		(property "manufacturerPartNumber" "114993121"
 			(at 0.762 -45.212 0)
 			(effects
 				(font
@@ -4917,7 +4908,7 @@
 				(hide yes)
 			)
 		)
-		(property "OctoPartURL" ""
+		(property "octopartURL" "https://octopart.com/114993121-seeed+studio-142683940"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5300,7 +5291,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -7.62 17.78 270)
 				(length 2.54)
 				(name "PB0"
