@@ -1,4 +1,8 @@
-ERC report (2025-02-06T14:26:09+0000, Encoding UTF8)
+ERC report (2025-03-11T13:06:59+0000, Encoding UTF8)
 
 ***** Sheet /
- ** ERC messages: 0  Errors 0  Warnings 0
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(3.9497 mm, 0.9144 mm): Global Label 'TEST0'
+
+ ** ERC messages: 1  Errors 0  Warnings 1

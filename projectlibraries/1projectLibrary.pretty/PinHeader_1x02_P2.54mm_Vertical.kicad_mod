@@ -6,8 +6,9 @@
 	(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x02 2.54mm single row")
 	(property "Reference" "CONN3"
-		(at -2 0.25 90)
+		(at -3.25 0 90)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "9ae2748f-7ef9-4d65-9692-09be83bd8bed")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,101 +63,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "MPN" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c20f23fa-131b-4d6e-a438-ee8ba803b129")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "description" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "37a05faa-1841-4f6f-9d61-5845fc9fef0b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "manufacturer" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aac9441f-c254-4a15-bd9b-61ac30bfafd5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "remark" "SolarPanel"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fe6e76b9-fd82-4619-80fe-05c17f8306f5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "stock" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c3a38134-02a3-48d4-80ac-2358866506ae")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "supplier1Name" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "176b4123-4ac7-4dd5-a6ad-04198a102d37")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "supplier1PartNumber" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ca852a0d-6c74-45a0-a005-3970b30919cf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "supplier1PartURL" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ed005068-2ea0-45fc-a357-987b8918f1c4")
-		(effects
-			(font
-				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.25 -2.75)
-		(end -1.25 2.75)
+		(start -1.25 -2.5)
+		(end -1.25 2.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -163,8 +79,8 @@
 		(uuid "23c3ecf5-2222-4948-af51-a6cfa8c50c17")
 	)
 	(fp_line
-		(start -1.25 2.75)
-		(end 1.25 2.75)
+		(start -1.25 2.5)
+		(end 1.25 2.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -173,8 +89,8 @@
 		(uuid "8e01e6e0-b4f7-4a86-877c-b0ddf6f4172a")
 	)
 	(fp_line
-		(start 1.25 -2.75)
-		(end -1.25 -2.75)
+		(start 1.25 -2.5)
+		(end -1.25 -2.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -183,8 +99,8 @@
 		(uuid "d6ca44a1-d506-4201-9e83-56b2d900b515")
 	)
 	(fp_line
-		(start 1.25 2.75)
-		(end 1.25 -2.75)
+		(start 1.25 2.5)
+		(end 1.25 -2.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -193,8 +109,8 @@
 		(uuid "41226ddc-5455-441e-90cb-f8e50fc0b836")
 	)
 	(fp_rect
-		(start -1.25 -2.75)
-		(end 1.25 2.75)
+		(start -1.25 -2.5)
+		(end 1.25 2.5)
 		(stroke
 			(width 0.1)
 			(type default)

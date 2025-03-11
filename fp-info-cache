@@ -1,4 +1,4 @@
-23945516472096218
+23925539524581378
 1GlobalFootprintsLibrary
 4341330258X6
 
@@ -30,6 +30,13 @@ capacitor
 1GlobalFootprintsLibrary
 C_0603_nominal
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+1GlobalFootprintsLibrary
+C_0805
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 capacitor
 0
 2
@@ -259,6 +266,13 @@ TSSOP SO
 8
 8
 1projectLibrary
+C_0603
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+1projectLibrary
 C_0603_1608Metric
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
@@ -268,6 +282,20 @@ capacitor
 1projectLibrary
 C_0603_nominal
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+1projectLibrary
+C_0805
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+1projectLibrary
+C_0805_nominal
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 capacitor
 0
 2
@@ -322,27 +350,6 @@ Keystone 1015 AA BatteryHolder
 2
 2
 1projectLibrary
-Keystone1024
-
-
-0
-2
-2
-1projectLibrary
-LGA-16_3x3mm_P0.5mm_LIS3DH
-LGA, 16 Pin (http://www.st.com/resource/en/datasheet/lis331hh.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LGA NoLead
-0
-16
-16
-1projectLibrary
-LINX_CONSMA020.062-G
-
-
-0
-5
-2
-1projectLibrary
 L_TDK_VLS3010CX
 
 
@@ -351,13 +358,6 @@ L_TDK_VLS3010CX
 2
 1projectLibrary
 L_TDK_VLS4012CX
-Inductor,TDK, TDK-VLP-8040, 8.6mmx8.6mm
-inductor TDK VLP smd VLP8040
-0
-2
-2
-1projectLibrary
-L_TDK_VLS6045EX
 Inductor,TDK, TDK-VLP-8040, 8.6mmx8.6mm
 inductor TDK VLP smd VLP8040
 0
@@ -434,25 +434,11 @@ Through hole pin header THT 1x04 1.27mm single row
 4
 4
 1projectLibrary
-QFN-24-1EP_4x4mm_P0.5mm_EP2.15x2.15mm-epeas
+QFN24-CP2102N
 QFN, 24 Pin (https://www.st.com/resource/en/datasheet/led1642gw.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 29
-25
-1projectLibrary
-QFN-24-QE00920
-QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-25
-25
-1projectLibrary
-QFN24_CP2102N
-
-
-0
-25
 25
 1projectLibrary
 R_0603_1608Metric
@@ -465,13 +451,6 @@ resistor
 R_0603_nominal
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
-0
-2
-2
-1projectLibrary
-SDM05U40CSP
-
-
 0
 2
 2
@@ -497,33 +476,12 @@ SLLB510100
 8
 5
 1projectLibrary
-SMF_SL03
-Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf
-Diode SMF (DO-214AB)
-0
-2
-2
-1projectLibrary
-SOD-323-NSR0530H
-
-
-0
-2
-2
-1projectLibrary
 SOT-23-6L-USBLC6-2
 SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD
 0
 6
 6
-1projectLibrary
-SOT-23-AP7354
-SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
-0
-3
-3
 1projectLibrary
 SOT-23-Si2319CDS
 SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -539,34 +497,6 @@ SOT-323 SC-70
 3
 3
 1projectLibrary
-SOT-563_DMP2004
-SOT563
-SOT-563
-0
-6
-6
-1projectLibrary
-SOT95P285X140-5N
-
-
-0
-5
-5
-1projectLibrary
-SP0503BAHTG-SOT143
-
-
-0
-4
-4
-1projectLibrary
-SW_SPST_PTS815
-https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf
-TL3305 Series Tact Switch
-0
-4
-2
-1projectLibrary
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
 net tie solder jumper bridged
@@ -574,8 +504,8 @@ net tie solder jumper bridged
 2
 2
 1projectLibrary
-SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
 solder jumper open
 0
 2
@@ -588,33 +518,26 @@ te fpc 1734839
 26
 25
 1projectLibrary
-TSL2591-SON
+TSL2591
 
 
 0
 6
 6
 1projectLibrary
-TSSOP-B8
-TSSOP, 8 Pin (JEDEC MO-153 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSSOP SO
+TestPin
+Through hole straight pin header, 1x01, 1.00mm pitch, single row
+Through hole pin header THT 1x01 1.00mm single row
 0
-8
-8
+2
+2
 1projectLibrary
-VEML7700
-
-
+VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias
+VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
-4
-4
-1projectLibrary
-VFQFPN20_3X3_SPV1050
-
-SPV1050TTR 
-0
-21
-21
+22
+17
 1projectLibrary
 WR-SMA SMA PCB THT Jack
 
@@ -629,13 +552,6 @@ Wurth-4343X10458XX
 0
 4
 4
-1projectLibrary
-XDCR_STHS34PF80TR
-
-
-0
-10
-10
 1projectLibrary
 jumperOpen
 
