@@ -1,4 +1,4 @@
 outputs:
-  - name: '3D model - .step'
+  - name: '3dModel.step'
     type : step
     dir: 'pcb'

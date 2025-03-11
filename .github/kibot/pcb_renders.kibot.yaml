@@ -1,10 +1,4 @@
 outputs:
-  # - name: '3dmodel for Blender'
-  #   type: pcb2blender_tools
-  #   dir: 'pcb'
-  #   options:
-  #     output: 'pcb3d_model.%x'
-
   - name: 'render front'
     type: blender_export
     dir: 'pcb'
@@ -20,7 +14,6 @@ outputs:
           pos_x: 'size*10'
           pos_y: 'size*10'
           pos_z: 'size*50'
-
       render_options:
         transparent_background: true
         samples: 20
