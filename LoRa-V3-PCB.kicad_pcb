@@ -136,7 +136,7 @@
 	(property "githubUrl" "https://github.com/Strooom/LoRa-V3-PCB")
 	(property "majorVersion" "0")
 	(property "minorVersion" "17")
-	(property "releaseDate" "Mon Feb 24 15:47:24 2025")
+	(property "releaseDate" "Mon Feb 24 16:11:40 2025")
 	(property "releaseDateShort" "2025-02-24")
 	(net 0 "")
 	(net 1 "GND")
@@ -18228,7 +18228,7 @@
 				)
 			)
 		)
-		(property "OctoPartURL" ""
+		(property "OctoPartURL" "https://octopart.com/search?q=317990687&currency=USD&specs=0"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29288,45 +29288,6 @@
 				(xy 129.252563 87.253808) (xy 129.379741 87.563149) (xy 129.379718 87.572104) (xy 129.373992 87.578142)
 				(xy 128.850891 87.829765) (xy 128.84195 87.830263) (xy 128.837546 87.827494) (xy 128.672505 87.662453)
 				(xy 128.669078 87.65418) (xy 128.670233 87.649112) (xy 128.921858 87.126005) (xy 128.928532 87.120037)
-			)
-		)
-	)
-	(zone
-		(net 72)
-		(net_name "~{DISPLAY-CS}")
-		(layer "F.Cu")
-		(uuid "626fb632-df54-48a2-b51b-8e4402e5f5ed")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30025)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 155.375 103.55) (xy 155.125 103.55) (xy 154.926642 104.116061) (xy 155.25 104.251) (xy 155.573358 104.116061)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 155.374975 103.553427) (xy 155.377744 103.557831) (xy 155.569707 104.105644) (xy 155.569209 104.114585)
-				(xy 155.563171 104.120311) (xy 155.254506 104.249119) (xy 155.245551 104.249142) (xy 155.245494 104.249119)
-				(xy 154.936828 104.120311) (xy 154.930513 104.113962) (xy 154.930292 104.105644) (xy 155.122256 103.557831)
-				(xy 155.128226 103.551156) (xy 155.133298 103.55) (xy 155.366702 103.55)
 			)
 		)
 	)

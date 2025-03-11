@@ -20388,7 +20388,7 @@
 				(hide yes)
 			)
 		)
-		(property "OctoPartURL" ""
+		(property "OctoPartURL" "https://octopart.com/search?q=317990687&currency=USD&specs=0"
 			(at 368.3 99.06 0)
 			(effects
 				(font
