@@ -6,7 +6,7 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="majorVersion">0</textvar>
     <textvar name="minorVersion">17</textvar>
-    <textvar name="releaseDate">Mon Feb 24 15:47:24 2025</textvar>
+    <textvar name="releaseDate">Mon Feb 24 16:11:40 2025</textvar>
     <textvar name="releaseDateShort">2025-02-24</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -827,6 +827,7 @@
       <property name="manufacturerPartNumber" value="B2B-XH-A(LF)(SN)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -921,6 +922,7 @@
       <property name="manufacturerPartNumber" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
