@@ -497,7 +497,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "LoRa-V3-PCB.step",
+      "step": "outputs/pcb/LoRa-V3-PCB-3D.step",
       "svg": "",
       "vrml": ""
     },

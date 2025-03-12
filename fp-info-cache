@@ -1,4 +1,4 @@
-23925539524581378
+23929043057973338
 1GlobalFootprintsLibrary
 4341330258X6
 
@@ -252,6 +252,13 @@ logo_toolsquare_5mm
 0
 0
 1projectLibrary
+BC075-04-A-L-A
+
+
+0
+4
+4
+1projectLibrary
 BME680
 Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
 Bosch LGA NoLead
@@ -265,6 +272,13 @@ TSSOP SO
 0
 8
 8
+1projectLibrary
+CONN4_BC034-04-A-V-0150-L-C_GCC
+
+BC034-04-A-V-0150-L-C 
+0
+4
+4
 1projectLibrary
 C_0603
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
