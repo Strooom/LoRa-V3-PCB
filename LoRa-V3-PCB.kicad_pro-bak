@@ -497,7 +497,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "LoRa-V3-PCB.step",
+      "step": "outputs/pcb/LoRa-V3-PCB-3D.step",
       "svg": "",
       "vrml": ""
     },
@@ -659,8 +659,8 @@
   "text_variables": {
     "githubUrl": "https://github.com/Strooom/LoRa-V3-PCB",
     "majorVersion": "1",
-    "minorVersion": "0",
-    "releaseDate": "Tue Mar 11 13:58:42 2025",
+    "minorVersion": "1",
+    "releaseDate": "Tue Mar 11 19:24:05 2025",
     "releaseDateShort": "2025-03-11"
   }
 }
