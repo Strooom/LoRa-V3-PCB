@@ -27,4 +27,4 @@ outputs:
       auto_camera_z_axis_factor: 0.75
       outputs:
         - type: render
-        - output: 'front.png'
+          output: 'front.png'
