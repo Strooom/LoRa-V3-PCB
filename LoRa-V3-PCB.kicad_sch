@@ -26725,7 +26725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-USBLC6-2P6_C15999.pdf"
+		(property "Datasheet" "https://www.mouser.be/datasheet/2/389/usblc6_2-1852789.pdf"
 			(at 76.2 414.63 0)
 			(effects
 				(font
@@ -26754,7 +26754,7 @@
 				(hide yes)
 			)
 		)
-		(property "octopartUrl" "https://octopart.com/usblc6-2p6-stmicroelectronics-347175?r=sp"
+		(property "octopartUrl" "https://octopart.com/usblc6-2sc6-stmicroelectronics-39666276"
 			(at 105.41 219.71 0)
 			(effects
 				(font
@@ -26763,7 +26763,7 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturerPartNumber" "USBLC6-2P6"
+		(property "manufacturerPartNumber" "USBLC6-2SC6"
 			(at 105.41 219.71 0)
 			(effects
 				(font
