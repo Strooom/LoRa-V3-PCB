@@ -2,520 +2,6 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "AEM00920"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -15.24 27.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AEM00920"
-			(at 12.192 -25.908 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "1projectLibrary:QFN-24-QE00920"
-			(at 0 -42.164 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://e-peas.com/wp-content/uploads/2024/01/e-peas_AEM00920_datasheet_solar_energy_harvestingDS_AEM00920_v0.3_a.pdf"
-			(at 0 -50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "energy harvester"
-			(at 0 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "AEM00920_1_1"
-			(rectangle
-				(start -17.78 25.4)
-				(end 17.78 -22.86)
-				(stroke
-					(width 0.25)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -22.86 15.24 0)
-				(length 5.08)
-				(name "5V_IMAX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 -1.27 180)
-				(length 5.08)
-				(name "ST_STO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 2.54 180)
-				(length 5.08)
-				(name "CM_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 -11.43 180)
-				(length 5.08)
-				(name "LOAD_CFG[1]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 -8.89 180)
-				(length 5.08)
-				(name "SWBUCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 -16.51 180)
-				(length 5.08)
-				(name "LOAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -22.86 0 0)
-				(length 5.08)
-				(name "VINT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 -6.35 180)
-				(length 5.08)
-				(name "BOOST_CFG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 17.78 180)
-				(length 5.08)
-				(name "STO_CFG[0]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 15.24 180)
-				(length 5.08)
-				(name "STO_CFG[1]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 -13.97 180)
-				(length 5.08)
-				(name "LOAD_CFG[0]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -22.86 12.7 0)
-				(length 5.08)
-				(name "5V_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -20.32 0)
-				(length 5.08)
-				(name "SRC_CFG[0]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -17.78 0)
-				(length 5.08)
-				(name "SRC_CFG[1]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -15.24 0)
-				(length 5.08)
-				(name "SRC_CFG[2]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -12.7 0)
-				(length 5.08)
-				(name "SRC_CFG[3]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -10.16 0)
-				(length 5.08)
-				(name "SRC_CFG[4]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -27.94 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 22.86 22.86 180)
-				(length 5.08)
-				(name "STORE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -22.86 20.32 0)
-				(length 5.08)
-				(name "SRC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -22.86 22.86 0)
-				(length 5.08)
-				(name "SWBOOST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 10.16 180)
-				(length 5.08)
-				(name "SET_OVDIS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 7.62 180)
-				(length 5.08)
-				(name "SET_CHRDY"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 5.08 180)
-				(length 5.08)
-				(name "SET_OVCH"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 -3.81 180)
-				(length 5.08)
-				(name "SHIP_MODE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "BME680"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2159,32 +1645,23 @@
 			)
 		)
 	)
-	(symbol "DMP2004VK"
+	(symbol "D"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Q2"
-			(at 6.35 1.27 0)
+		(property "Reference" "D2"
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "DMP2004VK"
-			(at 6.35 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
-			(at 1.27 0 0)
+		(property "Value" "MSS1P3HM3_A/H"
+			(at -2.54 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,8 +1669,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30916.pdf"
-			(at 1.27 0 0)
+		(property "Footprint" "1projectLibrary:MSS1P3"
+			(at 1.27 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +1678,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual PMOS transistor, 6 pin package"
+		(property "Datasheet" "https://www.vishay.com/doc?89019"
+			(at 1.27 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky-diode"
+			(at 1.27 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturerName" "MSS1P3HM3_A/H"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "octopartUrl" "https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2210,7 +1714,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+		(property "manufacturerPartNumber" "MSS1P3HM3_A/H"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2219,7 +1723,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TSOP* SC?70* SC?88* SOT?363*"
+		(property "ki_keywords" "diode"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2228,22 +1732,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "DMP2004VK_0_1"
-			(polyline
-				(pts
-					(xy 0.254 0) (xy -2.54 0)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "D_0_1"
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy -1.27 1.27) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2255,7 +1756,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2263,143 +1764,14 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.651 0)
-				(radius 2.794)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 -1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 2.54 1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 		)
-		(symbol "DMP2004VK_1_1"
-			(pin input line
-				(at -5.08 0 0)
+		(symbol "D_1_1"
+			(pin passive line
+				(at -3.81 0 0)
 				(length 2.54)
-				(name "G"
+				(name "K"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2415,47 +1787,9 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -5.08 90)
+				(at 3.81 0 180)
 				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "DMP2004VK_2_1"
-			(pin passive line
-				(at 2.54 -5.08 90)
-				(length 2.54)
-				(name "S"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2463,42 +1797,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "G"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3655,24 +2953,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouserPartNumber" ""
-			(at 0 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" ""
-			(at -17.78 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manufacturerPartNumber" ""
 			(at 0 25.4 0)
 			(effects
@@ -3799,184 +3079,6 @@
 					)
 				)
 				(number "MP2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "SDM05U40CSP-7"
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 0 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SDM05U40CSP-7"
-			(at 1.27 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1projectLibrary:SOD-323-NSR0530H"
-			(at 1.27 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.be/datasheet/2/115/SDM05U40CSP-3216160.pdf"
-			(at 1.27 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky-diode"
-			(at 1.27 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "621-SDM05U40CSP-7"
-			(at 0 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerName" "Diodes Incorporated"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikeyPartNumber" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerPartNumber" "SDM05U40CSP-7"
-			(at 0 -21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OctoPartURL" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "SDM05U40CSP-7_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "SDM05U40CSP-7_1_1"
-			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
-				(name "K"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4555,285 +3657,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "STHS34PF80TR"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -11.43 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "STHS34PF80TR"
-			(at -7.62 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at -5.08 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -5.08 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at -5.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at -5.08 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "STHS34PF80TR"
-			(at 7.62 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "STHS34PF80TR_0_0"
-			(rectangle
-				(start -7.62 7.62)
-				(end 7.62 -7.62)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "STHS34PF80TR_1_0"
-			(pin input line
-				(at -5.08 10.16 270)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "INT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 0 0)
-				(length 2.54)
-				(name "RES"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "CS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 10.16 270)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 -5.08 180)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 5.08 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -10.16 -5.08 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.016 1.016)
 						)
 					)
 				)
@@ -6528,201 +5351,6 @@
 					)
 				)
 				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "VLS3010CX-470M-1"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "L1"
-			(at -1.27 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47uH"
-			(at 6.35 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "1projectLibrary:L_TDK_VLS4012CX"
-			(at 0 -24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3010cx-1_en.pdf?ref_disty=mouser"
-			(at 1.27 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Inductors - SMD 47uH"
-			(at 0 -26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouserPartNumber" "810-VLS3010CX470M1"
-			(at 1.27 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerName" "TDK"
-			(at 0 -29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturerPartnumber" "VLS3010CX-470M-1"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OctoPartURL" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "inductor choke coil reactor magnetic"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "VLS3010CX-470M-1_0_1"
-			(arc
-				(start 0 -2.54)
-				(mid 0.6323 -1.905)
-				(end 0 -1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.27)
-				(mid 0.6323 -0.635)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.6323 0.635)
-				(end 0 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 1.27)
-				(mid 0.6323 1.905)
-				(end 0 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "VLS3010CX-470M-1_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
