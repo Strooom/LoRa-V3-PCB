@@ -6,9 +6,9 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-PCB</textvar>
     <textvar name="majorVersion">1</textvar>
-    <textvar name="minorVersion">2</textvar>
-    <textvar name="releaseDate">Wed Mar 12 15:21:49 2025</textvar>
-    <textvar name="releaseDateShort">2025-03-12</textvar>
+    <textvar name="minorVersion">3</textvar>
+    <textvar name="releaseDate">Wed Mar 19 09:49:12 2025</textvar>
+    <textvar name="releaseDateShort">2025-03-19</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LoRa-v3</title>
@@ -942,7 +942,7 @@
         <field name="Datasheet">https://www.vishay.com/doc?89019</field>
         <field name="Description">Schottky-diode</field>
       </fields>
-      <libsource lib="1projectLibrary" part="SDM05U40CSP-7" description="Schottky-diode"/>
+      <libsource lib="1projectLibrary" part="D" description="Schottky-diode"/>
       <property name="manufacturerName" value="MSS1P3HM3_A/H"/>
       <property name="octopartUrl" value="https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp"/>
       <property name="manufacturerPartNumber" value="MSS1P3HM3_A/H"/>
@@ -966,7 +966,7 @@
         <field name="Datasheet">https://www.vishay.com/doc?89019</field>
         <field name="Description">Schottky-diode</field>
       </fields>
-      <libsource lib="1projectLibrary" part="SDM05U40CSP-7" description="Schottky-diode"/>
+      <libsource lib="1projectLibrary" part="D" description="Schottky-diode"/>
       <property name="manufacturerName" value="MSS1P3HM3_A/H"/>
       <property name="octopartUrl" value="https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp"/>
       <property name="manufacturerPartNumber" value="MSS1P3HM3_A/H"/>
@@ -990,7 +990,7 @@
         <field name="Datasheet">https://www.vishay.com/doc?89019</field>
         <field name="Description">Schottky-diode</field>
       </fields>
-      <libsource lib="1projectLibrary" part="SDM05U40CSP-7" description="Schottky-diode"/>
+      <libsource lib="1projectLibrary" part="D" description="Schottky-diode"/>
       <property name="manufacturerName" value="MSS1P3HM3_A/H"/>
       <property name="octopartUrl" value="https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp"/>
       <property name="manufacturerPartNumber" value="MSS1P3HM3_A/H"/>
@@ -1493,16 +1493,17 @@
     <comp ref="L1">
       <value>47uH</value>
       <footprint>1projectLibrary:L_TDK_VLS3010CX</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3010cx-1_en.pdf?ref_disty=mouser</datasheet>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf?ref_disty=mouser</datasheet>
+      <description>Inductor</description>
       <fields>
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/vls3010cx-470m-1-tdk-110194027?r=sp</field>
         <field name="manufacturerPartNumber">VLS3010CX-470M-1</field>
         <field name="Footprint">1projectLibrary:L_TDK_VLS3010CX</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3010cx-1_en.pdf?ref_disty=mouser</field>
-        <field name="Description"/>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf?ref_disty=mouser</field>
+        <field name="Description">Inductor</field>
       </fields>
-      <libsource lib="1projectLibrary" part="VLS3010CX-470M-1" description="Power Inductors - SMD 47uH"/>
+      <libsource lib="Device" part="L" description="Inductor"/>
       <property name="manufacturerName" value="TDK"/>
       <property name="octopartUrl" value="https://octopart.com/vls3010cx-470m-1-tdk-110194027?r=sp"/>
       <property name="manufacturerPartNumber" value="VLS3010CX-470M-1"/>
@@ -1858,19 +1859,19 @@
     <comp ref="R11">
       <value>5M36</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <datasheet>https://www.vishay.com/doc?20035</datasheet>
       <fields>
-        <field name="manufacturerName">YAGEO</field>
-        <field name="octopartUrl">https://octopart.com/rc0603fr-075m36l-yageo-24734316</field>
-        <field name="manufacturerPartNumber">RC0603FR-075M36L</field>
+        <field name="manufacturerName">Vishay - Dale</field>
+        <field name="octopartUrl">https://octopart.com/crcw06035m36fkea-vishay-39816157</field>
+        <field name="manufacturerPartNumber">CRCW06035M36FKEA</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</field>
+        <field name="Datasheet">https://www.vishay.com/doc?20035</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="YAGEO"/>
-      <property name="octopartUrl" value="https://octopart.com/rc0603fr-075m36l-yageo-24734316"/>
-      <property name="manufacturerPartNumber" value="RC0603FR-075M36L"/>
+      <property name="manufacturerName" value="Vishay - Dale"/>
+      <property name="octopartUrl" value="https://octopart.com/crcw06035m36fkea-vishay-39816157"/>
+      <property name="manufacturerPartNumber" value="CRCW06035M36FKEA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2075,19 +2076,19 @@
     <comp ref="R21">
       <value>5M36</value>
       <footprint>1projectLibrary:R_0603_nominal</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <datasheet>https://www.vishay.com/doc?20035</datasheet>
       <fields>
-        <field name="manufacturerName">YAGEO</field>
-        <field name="octopartUrl">https://octopart.com/rc0603fr-075m36l-yageo-24734316</field>
-        <field name="manufacturerPartNumber">RC0603FR-075M36L</field>
+        <field name="manufacturerName">Vishay - Dale</field>
+        <field name="octopartUrl">https://octopart.com/crcw06035m36fkea-vishay-39816157</field>
+        <field name="manufacturerPartNumber">CRCW06035M36FKEA</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</field>
+        <field name="Datasheet">https://www.vishay.com/doc?20035</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="manufacturerName" value="YAGEO"/>
-      <property name="octopartUrl" value="https://octopart.com/rc0603fr-075m36l-yageo-24734316"/>
-      <property name="manufacturerPartNumber" value="RC0603FR-075M36L"/>
+      <property name="manufacturerName" value="Vishay - Dale"/>
+      <property name="octopartUrl" value="https://octopart.com/crcw06035m36fkea-vishay-39816157"/>
+      <property name="manufacturerPartNumber" value="CRCW06035M36FKEA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2314,6 +2315,30 @@
         <pin num="2" name="+" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="1projectLibrary" part="D">
+      <description>Schottky-diode</description>
+      <docs>https://www.vishay.com/doc?89019</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">MSS1P3HM3_A/H</field>
+        <field name="Footprint">1projectLibrary:MSS1P3</field>
+        <field name="Datasheet">https://www.vishay.com/doc?89019</field>
+        <field name="Description">Schottky-diode</field>
+        <field name="manufacturerName">MSS1P3HM3_A/H</field>
+        <field name="octopartUrl">https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp</field>
+        <field name="manufacturerPartNumber">MSS1P3HM3_A/H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="1projectLibrary" part="LiFePO4_Battery">
       <description>AA-BatteryHolder</description>
       <docs>https://www.keyelco.com/userAssets/file/M65p22.pdf</docs>
@@ -2402,8 +2427,6 @@
         <field name="Datasheet"/>
         <field name="Description">Qwiic</field>
         <field name="manufacturerName">Sparkfun - JST</field>
-        <field name="mouserPartNumber"/>
-        <field name="digikeyPartNumber"/>
         <field name="manufacturerPartNumber"/>
       </fields>
       <pins>
@@ -2413,32 +2436,6 @@
         <pin num="4" name="SCL" type="bidirectional"/>
         <pin num="MP1" name="MP1" type="no_connect"/>
         <pin num="MP2" name="MP2" type="no_connect"/>
-      </pins>
-    </libpart>
-    <libpart lib="1projectLibrary" part="SDM05U40CSP-7">
-      <description>Schottky-diode</description>
-      <docs>https://www.mouser.be/datasheet/2/115/SDM05U40CSP-3216160.pdf</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">SDM05U40CSP-7</field>
-        <field name="Footprint">1projectLibrary:SOD-323-NSR0530H</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/115/SDM05U40CSP-3216160.pdf</field>
-        <field name="Description">Schottky-diode</field>
-        <field name="mouserPartNumber">621-SDM05U40CSP-7</field>
-        <field name="manufacturerName">Diodes Incorporated</field>
-        <field name="digikeyPartNumber"/>
-        <field name="manufacturerPartNumber">SDM05U40CSP-7</field>
-        <field name="OctoPartURL"/>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="1projectLibrary" part="SHT40">
@@ -2635,31 +2632,6 @@
         <pin num="4" name="I/O2_2" type="passive"/>
         <pin num="5" name="VBUS" type="passive"/>
         <pin num="6" name="I/O1_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="1projectLibrary" part="VLS3010CX-470M-1">
-      <description>Power Inductors - SMD 47uH</description>
-      <docs>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3010cx-1_en.pdf?ref_disty=mouser</docs>
-      <footprints>
-        <fp>Choke_*</fp>
-        <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L1</field>
-        <field name="Value">47uH</field>
-        <field name="Footprint">1projectLibrary:L_TDK_VLS4012CX</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3010cx-1_en.pdf?ref_disty=mouser</field>
-        <field name="Description">Power Inductors - SMD 47uH</field>
-        <field name="mouserPartNumber">810-VLS3010CX470M1</field>
-        <field name="manufacturerName">TDK</field>
-        <field name="manufacturerPartnumber">VLS3010CX-470M-1</field>
-        <field name="OctoPartURL"/>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="1projectLibrary" part="displayConnector_24p_FPC">
