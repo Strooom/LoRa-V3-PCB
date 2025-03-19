@@ -647,8 +647,8 @@
   "text_variables": {
     "githubUrl": "https://github.com/Strooom/LoRa-V3-PCB",
     "majorVersion": "1",
-    "minorVersion": "4",
-    "releaseDate": "Wed Mar 19 10:04:33 2025",
+    "minorVersion": "5",
+    "releaseDate": "Wed Mar 19 10:14:56 2025",
     "releaseDateShort": "2025-03-19"
   }
 }

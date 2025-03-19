@@ -6,8 +6,8 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-PCB</textvar>
     <textvar name="majorVersion">1</textvar>
-    <textvar name="minorVersion">4</textvar>
-    <textvar name="releaseDate">Wed Mar 19 10:04:33 2025</textvar>
+    <textvar name="minorVersion">5</textvar>
+    <textvar name="releaseDate">Wed Mar 19 10:14:56 2025</textvar>
     <textvar name="releaseDateShort">2025-03-19</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1220,7 +1220,7 @@
       <tstamps>757bedb6-7006-4366-8d3f-c756b93cf45e</tstamps>
     </comp>
     <comp ref="IC3">
-      <value>USBLC6-2P6</value>
+      <value>USBLC6-2SC6</value>
       <footprint>1projectLibrary:SOT-23-6L-USBLC6-2</footprint>
       <datasheet>https://www.mouser.be/datasheet/2/389/usblc6_2-1852789.pdf</datasheet>
       <description>ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap</description>
@@ -1232,7 +1232,7 @@
         <field name="Datasheet">https://www.mouser.be/datasheet/2/389/usblc6_2-1852789.pdf</field>
         <field name="Description">ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap</field>
       </fields>
-      <libsource lib="1projectLibrary" part="USBLC6-2P6" description="ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap"/>
+      <libsource lib="1projectLibrary" part="USBLC6-2SC6" description="ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap"/>
       <property name="manufacturerName" value="STMicroelectronics"/>
       <property name="octopartUrl" value="https://octopart.com/usblc6-2sc6-stmicroelectronics-39666276"/>
       <property name="manufacturerPartNumber" value="USBLC6-2SC6"/>
@@ -2612,18 +2612,18 @@
         <pin num="6" name="SDA" type="bidirectional"/>
       </pins>
     </libpart>
-    <libpart lib="1projectLibrary" part="USBLC6-2P6">
+    <libpart lib="1projectLibrary" part="USBLC6-2SC6">
       <description>ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap</description>
-      <docs>https://datasheet.lcsc.com/szlcsc/STMicroelectronics-USBLC6-2P6_C15999.pdf</docs>
+      <docs>https://www.mouser.be/datasheet/2/389/usblc6_2-1852789.pdf</docs>
       <fields>
         <field name="Reference">IC3</field>
-        <field name="Value">USBLC6-2P6</field>
+        <field name="Value">USBLC6-2SC6</field>
         <field name="Footprint">1projectLibrary:SOT-23-6L-USBLC6-2</field>
-        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/STMicroelectronics-USBLC6-2P6_C15999.pdf</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/389/usblc6_2-1852789.pdf</field>
         <field name="Description">ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap</field>
         <field name="manufacturerName">STMicroelectronics</field>
-        <field name="octopartUrl">https://octopart.com/usblc6-2p6-stmicroelectronics-347175?r=sp</field>
-        <field name="manufacturerPartNumber">USBLC6-2P6</field>
+        <field name="octopartUrl"/>
+        <field name="manufacturerPartNumber"/>
       </fields>
       <pins>
         <pin num="1" name="I/O1_1" type="passive"/>
