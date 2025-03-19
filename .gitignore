@@ -29,3 +29,5 @@ fp-info-cache
 # ignore a file already being tracked : git rm --cached <file>
 # ignore a directory already being tracked : git rm --cached -r <directory>
 .github/workflows/cost api.md
+.github/kicost/cost.ps1
+.github/kicost/kicost.yaml

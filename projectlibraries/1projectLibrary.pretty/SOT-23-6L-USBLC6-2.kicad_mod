@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -190,18 +193,6 @@
 		)
 		(rotate
 			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/projectlibraries/inputs/USBLC6-2P6.stp"
-		(hide yes)
-		(offset
-			(xyz 0 0 1.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 90)
 		)
 	)
 )
