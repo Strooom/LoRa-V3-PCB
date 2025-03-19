@@ -1,8 +1,12 @@
-ERC report (2025-03-19T09:49:18+0000, Encoding UTF8)
+ERC report (2025-03-19T10:04:38+0000, Encoding UTF8)
 
 ***** Sheet /
+[lib_symbol_issues]: Symbol 'USBLC6-2P6' has been modified in library '1projectLibrary'
+    ; warning
+    @(1.0541 mm, 2.1971 mm): Symbol IC3 [USBLC6-2P6]
+
 [global_label_dangling]: Global label not connected anywhere else in the schematic
     ; warning
     @(3.9497 mm, 0.9144 mm): Global Label 'TEST0'
 
- ** ERC messages: 1  Errors 0  Warnings 1
+ ** ERC messages: 2  Errors 0  Warnings 2
