@@ -5023,7 +5023,7 @@
 				)
 			)
 		)
-		(symbol "1projectLibrary:USBLC6-2P6"
+		(symbol "1projectLibrary:USBLC6-2SC6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5036,7 +5036,7 @@
 					)
 				)
 			)
-			(property "Value" "USBLC6-2P6"
+			(property "Value" "USBLC6-2SC6"
 				(at -5.334 -7.112 0)
 				(effects
 					(font
@@ -5054,7 +5054,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-USBLC6-2P6_C15999.pdf"
+			(property "Datasheet" "https://www.mouser.be/datasheet/2/389/usblc6_2-1852789.pdf"
 				(at 29.21 -194.92 0)
 				(effects
 					(font
@@ -5083,7 +5083,7 @@
 					(hide yes)
 				)
 			)
-			(property "octopartUrl" "https://octopart.com/usblc6-2p6-stmicroelectronics-347175?r=sp"
+			(property "octopartUrl" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5092,7 +5092,7 @@
 					(hide yes)
 				)
 			)
-			(property "manufacturerPartNumber" "USBLC6-2P6"
+			(property "manufacturerPartNumber" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5101,7 +5101,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USBLC6-2P6_1_1"
+			(symbol "USBLC6-2SC6_1_1"
 				(rectangle
 					(start -11.43 5.08)
 					(end 11.43 -5.08)
@@ -26689,7 +26689,7 @@
 		)
 	)
 	(symbol
-		(lib_id "1projectLibrary:USBLC6-2P6")
+		(lib_id "1projectLibrary:USBLC6-2SC6")
 		(at 105.41 219.71 0)
 		(mirror y)
 		(unit 1)
@@ -26707,7 +26707,7 @@
 				)
 			)
 		)
-		(property "Value" "USBLC6-2P6"
+		(property "Value" "USBLC6-2SC6"
 			(at 110.744 226.822 0)
 			(effects
 				(font
