@@ -1,4 +1,4 @@
-23929062745749136
+23929068218927716
 1GlobalFootprintsLibrary
 4341330258X6
 
@@ -252,13 +252,6 @@ logo_toolsquare_5mm
 0
 0
 1projectLibrary
-BC075-04-A-L-A
-
-
-0
-4
-4
-1projectLibrary
 BME680
 Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
 Bosch LGA NoLead
@@ -342,6 +335,13 @@ DebugPort-6P-2.54
 0
 6
 6
+1projectLibrary
+GCT_BC075-08-A-L-A
+
+
+0
+8
+8
 1projectLibrary
 JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
 JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
