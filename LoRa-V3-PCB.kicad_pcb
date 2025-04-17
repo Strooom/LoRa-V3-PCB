@@ -133,11 +133,6 @@
 			(outputdirectory "")
 		)
 	)
-	(property "githubUrl" "https://github.com/Strooom/LoRa-V3-PCB")
-	(property "majorVersion" "1")
-	(property "minorVersion" "6")
-	(property "releaseDate" "Wed Apr 16 14:16:18 2025")
-	(property "releaseDateShort" "2025-04-16")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "I2C2-SDA")
@@ -8294,7 +8289,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R23"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "aa6d0b8b-13cc-49f0-8e02-691bf8d7e854")
@@ -8306,7 +8301,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c83df05a-88fd-49d4-8b97-765ed07129dc")
 			(effects
@@ -8440,7 +8435,7 @@
 			(uuid "898963b6-a857-4908-a66d-5788052d9634")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 360)
+			(at 4 0 0)
 			(layer "F.Fab")
 			(uuid "5d8b7d41-dc7d-4882-b9e1-5d8f2720f073")
 			(effects
@@ -9091,7 +9086,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.00mm single row")
 		(property "Reference" "CONN8"
-			(at 0 -2.06 360)
+			(at 0 -2.06 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "974e0aaa-0c00-4fa7-8644-7a1e6de7889f")
@@ -9103,7 +9098,7 @@
 			)
 		)
 		(property "Value" "NA"
-			(at 0 12.06 360)
+			(at 0 12.06 0)
 			(layer "F.Fab")
 			(uuid "42442840-263c-46de-8f34-6aebd5c8f3aa")
 			(effects
@@ -9208,7 +9203,7 @@
 			(uuid "b93bcd22-40ef-450b-988f-0f2782fe7866")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.6 360)
+			(at 0 2.6 0)
 			(layer "F.Fab")
 			(uuid "dfda7c97-4daf-411d-b597-d7f96d01a26d")
 			(effects
@@ -18197,7 +18192,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "34fec3e9-cab7-449d-a3b4-6d78ffff27ee")
@@ -18209,7 +18204,7 @@
 			)
 		)
 		(property "Value" "330K"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6be07894-2e25-42c0-8c62-ba603f04be52")
 			(effects
@@ -18356,7 +18351,7 @@
 			(uuid "8ffcd08a-7f49-4b6f-a2db-3cbe239b68ea")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4 0 360)
+			(at 4 0 0)
 			(layer "F.Fab")
 			(uuid "04e2efcf-f5d3-4b33-ba77-0336740851f9")
 			(effects
@@ -20760,7 +20755,7 @@
 			(xy 176 122) (xy 114 122)
 		)
 		(height -3)
-		(gr_text "62,0000 mm"
+		(gr_text "62.0000 mm"
 			(at 145 123.85 0)
 			(layer "User.4")
 			(uuid "2c007473-0f6a-400d-8477-6624bdc8f98a")
@@ -20793,7 +20788,7 @@
 			(xy 114 122) (xy 114 72)
 		)
 		(height -3)
-		(gr_text "50,0000 mm"
+		(gr_text "50.0000 mm"
 			(at 109.85 97 90)
 			(layer "User.4")
 			(uuid "c3810475-e958-4b30-82c4-90b77b377148")
