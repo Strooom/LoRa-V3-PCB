@@ -63,49 +63,9 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -4.25 1)
-		(end -4.25 3.1)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7490f9f9-6c14-441c-860a-dda3d0909e11")
-	)
-	(fp_line
-		(start -4.25 3.1)
-		(end 4.25 3.1)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "027210a4-4d03-4701-9253-ef59911e50c3")
-	)
-	(fp_line
-		(start 4.25 1)
-		(end -4.25 1)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9993ed6d-dd04-47e9-ac5b-2a404df0beb6")
-	)
-	(fp_line
-		(start 4.25 3.1)
-		(end 4.25 1)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "427f60ae-d4f3-4904-a2bb-3f90dd5f1fe7")
-	)
 	(fp_poly
 		(pts
-			(xy -4.25 0) (xy -5.25 -0.762) (xy -5.25 0.75)
+			(xy -4.05 0) (xy -4.55 -0.25) (xy -4.55 0.25)
 		)
 		(stroke
 			(width 0.12)
@@ -235,60 +195,60 @@
 		(layer "F.Fab")
 		(uuid "913f5580-d837-40ea-969c-6f8be2567376")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -3.5 0)
 		(size 0.5 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "d0219cbd-7317-4d2c-8954-aec966cde71b")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -2.5 0)
 		(size 0.5 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "d6f7d5ab-5b1d-4480-b8c3-bc0f49dc800e")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -1.5 0)
 		(size 0.5 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "35ec971c-ac81-46fe-abba-e3dfdeb89457")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at -0.5 0)
 		(size 0.5 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "1e397f76-7fe8-4bed-b7f6-4c8cac5b511d")
 	)
-	(pad "5" smd rect
+	(pad "5" smd roundrect
 		(at 0.5 0)
 		(size 0.5 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "f92d3847-b139-48b1-b348-0eee15979c52")
 	)
-	(pad "6" smd rect
+	(pad "6" smd roundrect
 		(at 1.5 0)
 		(size 0.5 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "1e73bddc-5c71-4b02-b5c9-78482e53aa58")
 	)
-	(pad "7" smd rect
+	(pad "7" smd roundrect
 		(at 2.5 0)
 		(size 0.5 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "178433f0-1d8f-4595-85f2-7cbb15d9ee2a")
 	)
-	(pad "8" smd rect
+	(pad "8" smd roundrect
 		(at 3.5 0)
 		(size 0.5 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "7323667f-ea7d-4327-83f8-61216f8ea75f")
 	)
 	(model "${KIPRJMOD}/inputs/3dmodels/BC075-08-A-L-A.stp"
@@ -300,6 +260,17 @@
 		)
 		(rotate
 			(xyz 0 0 180)
+		)
+	)
+	(model "${KIPRJMOD}/inputs/3dmodels/LoRa-V3-Sensor-PCB-3D.step"
+		(offset
+			(xyz -5 -13.25 -1.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )

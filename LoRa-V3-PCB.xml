@@ -7,8 +7,8 @@
     <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-PCB</textvar>
     <textvar name="majorVersion">1</textvar>
     <textvar name="minorVersion">6</textvar>
-    <textvar name="releaseDate">Wed Apr 16 13:51:57 2025</textvar>
-    <textvar name="releaseDateShort">2025-04-16</textvar>
+    <textvar name="releaseDate">Wed Apr 23 07:02:24 2025</textvar>
+    <textvar name="releaseDateShort">2025-04-23</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LoRa-v3</title>
@@ -80,58 +80,6 @@
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>269b6c60-8ccd-4aaf-af7c-4290a240d872</tstamps>
-    </comp>
-    <comp ref="C3">
-      <value>100nF</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>power decoupling</description>
-      <fields>
-        <field name="manufacturerName">TDK</field>
-        <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
-        <field name="genericPartNumber">GPC0603104-25-X7R</field>
-        <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">power decoupling</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="TDK"/>
-      <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
-      <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>983b61bd-2064-4c17-9c1e-15475840bc97</tstamps>
-    </comp>
-    <comp ref="C4">
-      <value>100nF</value>
-      <footprint>1projectLibrary:C_0603_nominal</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</datasheet>
-      <description>power decoupling</description>
-      <fields>
-        <field name="manufacturerName">TDK</field>
-        <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
-        <field name="genericPartNumber">GPC0603104-25-X7R</field>
-        <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
-        <field name="Footprint">1projectLibrary:C_0603_nominal</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
-        <field name="Description">power decoupling</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="manufacturerName" value="TDK"/>
-      <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
-      <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
-      <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e59a652e-4347-414d-9e91-d44088e6cd7c</tstamps>
     </comp>
     <comp ref="C5">
       <value>100nF</value>
@@ -904,16 +852,37 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>adb4d431-4697-42b7-9ac4-ddf4480947cf</tstamps>
     </comp>
+    <comp ref="CONN7">
+      <value>Sensors</value>
+      <footprint>1projectLibrary:GCT_BC075-08-A-L-A</footprint>
+      <datasheet>https://www.mouser.be/datasheet/2/837/BC075-1948859.pdf</datasheet>
+      <fields>
+        <field name="manufacturerName">GCT</field>
+        <field name="manufacturerPartNumber">BC075-08-A-L-A</field>
+        <field name="Footprint">1projectLibrary:GCT_BC075-08-A-L-A</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/837/BC075-1948859.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1projectLibrary" part="Conn_01x08_Sensors" description=""/>
+      <property name="manufacturerName" value="GCT"/>
+      <property name="manufacturerPartNumber" value="BC075-08-A-L-A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41674195-c6c6-401f-8e6a-3f1191044c01</tstamps>
+    </comp>
     <comp ref="CONN8">
       <value>NA</value>
-      <footprint>1projectLibrary:DebugPort-6P-2.54</footprint>
+      <footprint>1projectLibrary:Debug_PinHeader_1x06_P2.00mm_Vertical</footprint>
       <datasheet>NA</datasheet>
       <description>DEBUG-SWD</description>
       <fields>
         <field name="manufacturerName">NA</field>
         <field name="octopartUrl">NA</field>
         <field name="manufacturerPartNumber">NA</field>
-        <field name="Footprint">1projectLibrary:DebugPort-6P-2.54</field>
+        <field name="Footprint">1projectLibrary:Debug_PinHeader_1x06_P2.00mm_Vertical</field>
         <field name="Datasheet">NA</field>
         <field name="Description">DEBUG-SWD</field>
       </fields>
@@ -1262,74 +1231,6 @@
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a3e1694a-3503-47e1-8b22-dbea93171326</tstamps>
-    </comp>
-    <comp ref="IC5">
-      <value>BME680</value>
-      <footprint>1projectLibrary:BME680</footprint>
-      <datasheet>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf</datasheet>
-      <description>BME680</description>
-      <fields>
-        <field name="manufacturerName">Bosch Sensortec</field>
-        <field name="octopartUrl">https://octopart.com/bme680-bosch+tools-84623084?r=sp</field>
-        <field name="manufacturerPartNumber">BME680</field>
-        <field name="Footprint">1projectLibrary:BME680</field>
-        <field name="Datasheet">https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf</field>
-        <field name="Description">BME680</field>
-      </fields>
-      <libsource lib="1projectLibrary" part="BME680" description="4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"/>
-      <property name="manufacturerName" value="Bosch Sensortec"/>
-      <property name="octopartUrl" value="https://octopart.com/bme680-bosch+tools-84623084?r=sp"/>
-      <property name="manufacturerPartNumber" value="BME680"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <property name="ki_keywords" value="Bosch gas pressure humidity temperature environment environmental measurement digital"/>
-      <property name="ki_fp_filters" value="*LGA*3x3mm*P0.8mm*Clockwise*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5b2327b8-1691-4b87-a4e9-d6446cf9678c</tstamps>
-    </comp>
-    <comp ref="IC6">
-      <value>SHT40-BD1B-R2</value>
-      <footprint>1projectLibrary:SHT4X</footprint>
-      <datasheet>https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf</datasheet>
-      <description>SHT40</description>
-      <fields>
-        <field name="manufacturerName">Sensirion</field>
-        <field name="octopartUrl">https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp</field>
-        <field name="manufacturerPartNumber">SHT40-BD1B-R2</field>
-        <field name="Footprint">1projectLibrary:SHT4X</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf</field>
-        <field name="Description">SHT40</field>
-      </fields>
-      <libsource lib="1projectLibrary" part="SHT40" description="SHT40"/>
-      <property name="manufacturerName" value="Sensirion"/>
-      <property name="octopartUrl" value="https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp"/>
-      <property name="manufacturerPartNumber" value="SHT40-BD1B-R2"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9681aa5d-e0e1-492e-95f6-55b94ad5f324</tstamps>
-    </comp>
-    <comp ref="IC7">
-      <value>TSL25911FN</value>
-      <footprint>1projectLibrary:TSL2591</footprint>
-      <datasheet>https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80</datasheet>
-      <description>TSL25911</description>
-      <fields>
-        <field name="manufacturerName">ams Osram</field>
-        <field name="octopartUrl">https://octopart.com/tsl25911fn-osram-126135547?r=sp</field>
-        <field name="manufacturerPartNumber">TSL25911FN</field>
-        <field name="Footprint">1projectLibrary:TSL2591</field>
-        <field name="Datasheet">https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80</field>
-        <field name="Description">TSL25911</field>
-      </fields>
-      <libsource lib="1projectLibrary" part="TSL2591" description="TSL25911"/>
-      <property name="manufacturerName" value="ams Osram"/>
-      <property name="octopartUrl" value="https://octopart.com/tsl25911fn-osram-126135547?r=sp"/>
-      <property name="manufacturerPartNumber" value="TSL25911FN"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7aba1e71-f2ce-47d1-8229-eeaf5071026d</tstamps>
     </comp>
     <comp ref="IC8">
       <value>BR24G1MFVT-5AE2</value>
@@ -2166,34 +2067,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="1projectLibrary" part="BME680">
-      <description>4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8</description>
-      <docs>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf</docs>
-      <footprints>
-        <fp>*LGA*3x3mm*P0.8mm*Clockwise*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U1</field>
-        <field name="Value">BME680</field>
-        <field name="Footprint">thisProjectLibrary:Bosch_BME680</field>
-        <field name="Datasheet">https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf</field>
-        <field name="Description">4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8</field>
-        <field name="manufacturerName">Bosch Sensortec</field>
-        <field name="mouserPartNumber">262-BME680</field>
-        <field name="digikeyPartNumber">828-1077-1-ND</field>
-        <field name="manufacturerPartNumber">BME680</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="CSB" type="input"/>
-        <pin num="3" name="SDA" type="bidirectional"/>
-        <pin num="4" name="SCL" type="input"/>
-        <pin num="5" name="SDO" type="input"/>
-        <pin num="6" name="VDDIO" type="power_in"/>
-        <pin num="7" name="GND" type="power_in"/>
-        <pin num="8" name="VDD" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="1projectLibrary" part="BQ25504RGTR">
       <description>Ultra Low Power Boost Converter with Battery Management for Energy Harvester | Nano-Power Management</description>
       <docs>https://www.ti.com/lit/ds/symlink/bq25504.pdf?ts=1607081282078&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ25504RGTR%2526keyMatch%253DBQ25504RGTR%2526tisearch%253DSearch-EN-everything%2526usecase%253DO</docs>
@@ -2291,6 +2164,31 @@
         <pin num="23" name="~{DTR}" type="output"/>
         <pin num="24" name="~{DCD}" type="input"/>
         <pin num="25" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="1projectLibrary" part="Conn_01x08_Sensors">
+      <docs>https://www.mouser.be/datasheet/2/837/BC075-1948859.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Sensors</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/837/BC075-1948859.pdf</field>
+        <field name="Description"/>
+        <field name="manufacturerName">GCT</field>
+        <field name="manufacturerPartNumber">BC075-08-A-L-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="1projectLibrary" part="Connector_2p_Battery">
@@ -2438,26 +2336,6 @@
         <pin num="MP2" name="MP2" type="no_connect"/>
       </pins>
     </libpart>
-    <libpart lib="1projectLibrary" part="SHT40">
-      <description>SHT40</description>
-      <docs>https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf</docs>
-      <fields>
-        <field name="Reference">IC6</field>
-        <field name="Value">SHT40-BD1B-R2</field>
-        <field name="Footprint">1GlobalFootprintsLibrary:SHT4X</field>
-        <field name="Datasheet">https://www.mouser.be/datasheet/2/682/Sensirion_Datasheet_SHT4x-2936319.pdf</field>
-        <field name="Description">SHT40</field>
-        <field name="manufacturerName">Sensirion</field>
-        <field name="octopartUrl">https://octopart.com/sht40-bd1b-r2-sensirion-137454263?r=sp</field>
-        <field name="manufacturerPartNumber">SHT40-BD1B-R2</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SDA" type="bidirectional"/>
-        <pin num="2" name="SCL" type="input"/>
-        <pin num="3" name="VDD" type="power_in"/>
-        <pin num="4" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="1projectLibrary" part="SLLB510100">
       <description>Application Navigation Button</description>
       <docs>https://www.mouser.be/datasheet/2/15/SLLB5-1570014.pdf</docs>
@@ -2588,28 +2466,6 @@
         <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="1projectLibrary" part="TSL2591">
-      <description>TSL25911</description>
-      <docs>https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80</docs>
-      <fields>
-        <field name="Reference">IC7</field>
-        <field name="Value">TSL25911FN</field>
-        <field name="Footprint">1GlobalFootprintsLibrary:TSL2591</field>
-        <field name="Datasheet">https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80</field>
-        <field name="Description">TSL25911</field>
-        <field name="manufacturerName">ams Osram</field>
-        <field name="octopartUrl">https://octopart.com/tsl25911fn-osram-126135547?r=sp</field>
-        <field name="manufacturerPartNumber">TSL25911FN</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SCL" type="input"/>
-        <pin num="2" name="INT" type="no_connect"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="NC" type="no_connect"/>
-        <pin num="5" name="VDD" type="power_in"/>
-        <pin num="6" name="SDA" type="bidirectional"/>
       </pins>
     </libpart>
     <libpart lib="1projectLibrary" part="USBLC6-2SC6">
@@ -2881,7 +2737,7 @@
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
-      <node ref="CONN8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="CONN8" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="IC1" pin="1" pinfunction="VCC" pintype="input"/>
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
@@ -2965,7 +2821,6 @@
       <node ref="C25" pin="2" pintype="passive"/>
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C27" pin="2" pintype="passive"/>
-      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="C32" pin="1" pintype="passive"/>
@@ -2974,7 +2829,6 @@
       <node ref="C35" pin="1" pintype="passive"/>
       <node ref="C36" pin="1" pintype="passive"/>
       <node ref="C37" pin="1" pintype="passive"/>
-      <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
@@ -2989,7 +2843,9 @@
       <node ref="CONN6" pin="0" pinfunction="GND" pintype="power_in"/>
       <node ref="CONN6" pin="17" pinfunction="Pin_17" pintype="passive"/>
       <node ref="CONN6" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="CONN8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="CONN7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="CONN7" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="CONN8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="IC1" pin="14" pinfunction="GND" pintype="input"/>
       <node ref="IC1" pin="16" pinfunction="GND" pintype="input"/>
@@ -3011,11 +2867,6 @@
       <node ref="IC4" pin="17" pinfunction="EP" pintype="passive"/>
       <node ref="IC4" pin="5" pinfunction="OT_PROG" pintype="passive"/>
       <node ref="IC4" pin="9" pinfunction="OK_HYST" pintype="passive"/>
-      <node ref="IC5" pin="1" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC5" pin="5" pinfunction="SDO" pintype="input"/>
-      <node ref="IC5" pin="7" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC6" pin="4" pinfunction="GND" pintype="power_in"/>
-      <node ref="IC7" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="IC8" pin="2" pinfunction="A1" pintype="input"/>
       <node ref="IC8" pin="3" pinfunction="A2" pintype="input"/>
       <node ref="IC8" pin="4" pinfunction="GND" pintype="power_in"/>
@@ -3038,24 +2889,22 @@
     </net>
     <net code="14" name="I2C2-SCL">
       <node ref="CONN3" pin="4" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="CONN7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="CONN7" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="IC1" pin="5" pinfunction="PB15" pintype="input"/>
       <node ref="IC10" pin="6" pinfunction="SCL" pintype="input"/>
       <node ref="IC11" pin="6" pinfunction="SCL" pintype="input"/>
-      <node ref="IC5" pin="4" pinfunction="SCL" pintype="input"/>
-      <node ref="IC6" pin="2" pinfunction="SCL" pintype="input"/>
-      <node ref="IC7" pin="1" pinfunction="SCL" pintype="input"/>
       <node ref="IC8" pin="6" pinfunction="SCL" pintype="input"/>
       <node ref="IC9" pin="6" pinfunction="SCL" pintype="input"/>
       <node ref="R10" pin="2" pintype="passive"/>
     </net>
     <net code="15" name="I2C2-SDA">
       <node ref="CONN3" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="CONN7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="CONN7" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="IC1" pin="6" pinfunction="PA15" pintype="input"/>
       <node ref="IC10" pin="5" pinfunction="SDA" pintype="input"/>
       <node ref="IC11" pin="5" pinfunction="SDA" pintype="input"/>
-      <node ref="IC5" pin="3" pinfunction="SDA" pintype="bidirectional"/>
-      <node ref="IC6" pin="1" pinfunction="SDA" pintype="bidirectional"/>
-      <node ref="IC7" pin="6" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="IC8" pin="5" pinfunction="SDA" pintype="input"/>
       <node ref="IC9" pin="5" pinfunction="SDA" pintype="input"/>
       <node ref="R9" pin="2" pintype="passive"/>
@@ -3143,17 +2992,17 @@
       <node ref="IC1" pin="24" pinfunction="PB13~{}" pintype="input"/>
     </net>
     <net code="34" name="SWCLK">
-      <node ref="CONN8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="CONN8" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="IC1" pin="4" pinfunction="PA14" pintype="input"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="input"/>
     </net>
     <net code="35" name="SWDIO">
-      <node ref="CONN8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="CONN8" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="IC1" pin="3" pinfunction="PA13" pintype="input"/>
       <node ref="SW2" pin="2" pinfunction="2" pintype="input"/>
     </net>
     <net code="36" name="SWO">
-      <node ref="CONN8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="CONN8" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="IC1" pin="8" pinfunction="PB3" pintype="input"/>
       <node ref="SW2" pin="T" pinfunction="T" pintype="input"/>
     </net>
@@ -3168,7 +3017,7 @@
       <node ref="IC1" pin="28" pinfunction="PB0" pintype="output"/>
     </net>
     <net code="39" name="UART1-TX">
-      <node ref="CONN8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="CONN8" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="IC1" pin="10" pinfunction="PB6" pintype="output"/>
     </net>
     <net code="40" name="UART2-RX">
@@ -3210,23 +3059,18 @@
       <node ref="R23" pin="2" pintype="passive"/>
     </net>
     <net code="48" name="VDD-SENSORS-EEPROM">
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="CONN3" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="CONN7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="CONN7" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="IC10" pin="3" pinfunction="A2" pintype="input"/>
       <node ref="IC10" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="IC11" pin="2" pinfunction="A1" pintype="input"/>
       <node ref="IC11" pin="3" pinfunction="A2" pintype="input"/>
       <node ref="IC11" pin="8" pinfunction="VCC" pintype="power_in"/>
-      <node ref="IC5" pin="2" pinfunction="CSB" pintype="input"/>
-      <node ref="IC5" pin="6" pinfunction="VDDIO" pintype="power_in"/>
-      <node ref="IC5" pin="8" pinfunction="VDD" pintype="power_in"/>
-      <node ref="IC6" pin="3" pinfunction="VDD" pintype="power_in"/>
-      <node ref="IC7" pin="5" pinfunction="VDD" pintype="power_in"/>
       <node ref="IC8" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="IC9" pin="2" pinfunction="A1" pintype="input"/>
       <node ref="IC9" pin="8" pinfunction="VCC" pintype="power_in"/>
@@ -3336,58 +3180,52 @@
     <net code="80" name="unconnected-(IC4-VBAT_OK-Pad11)">
       <node ref="IC4" pin="11" pinfunction="VBAT_OK" pintype="no_connect"/>
     </net>
-    <net code="81" name="unconnected-(IC7-INT-Pad2)">
-      <node ref="IC7" pin="2" pinfunction="INT" pintype="no_connect"/>
-    </net>
-    <net code="82" name="unconnected-(IC7-NC-Pad4)">
-      <node ref="IC7" pin="4" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="83" name="unconnected-(IC8-A0-Pad1)">
+    <net code="81" name="unconnected-(IC8-A0-Pad1)">
       <node ref="IC8" pin="1" pinfunction="A0" pintype="no_connect"/>
     </net>
-    <net code="84" name="unconnected-(IC9-A0-Pad1)">
+    <net code="82" name="unconnected-(IC9-A0-Pad1)">
       <node ref="IC9" pin="1" pinfunction="A0" pintype="no_connect"/>
     </net>
-    <net code="85" name="unconnected-(IC10-A0-Pad1)">
+    <net code="83" name="unconnected-(IC10-A0-Pad1)">
       <node ref="IC10" pin="1" pinfunction="A0" pintype="no_connect"/>
     </net>
-    <net code="86" name="unconnected-(IC11-A0-Pad1)">
+    <net code="84" name="unconnected-(IC11-A0-Pad1)">
       <node ref="IC11" pin="1" pinfunction="A0" pintype="no_connect"/>
     </net>
-    <net code="87" name="unconnected-(IC12-NC1-Pad5)">
+    <net code="85" name="unconnected-(IC12-NC1-Pad5)">
       <node ref="IC12" pin="5" pinfunction="NC1" pintype="no_connect"/>
     </net>
-    <net code="88" name="unconnected-(IC12-NC2-Pad6)">
+    <net code="86" name="unconnected-(IC12-NC2-Pad6)">
       <node ref="IC12" pin="6" pinfunction="NC2" pintype="no_connect"/>
     </net>
-    <net code="89" name="unconnected-(IC12-STAT-Pad7)">
+    <net code="87" name="unconnected-(IC12-STAT-Pad7)">
       <node ref="IC12" pin="7" pinfunction="STAT" pintype="no_connect"/>
     </net>
-    <net code="90" name="~{DISPLAY-CS}">
+    <net code="88" name="~{DISPLAY-CS}">
       <node ref="CONN6" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="IC1" pin="11" pinfunction="PB5" pintype="output"/>
     </net>
-    <net code="91" name="~{DISPLAY-RESET}">
+    <net code="89" name="~{DISPLAY-RESET}">
       <node ref="CONN6" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="IC1" pin="23" pinfunction="PA0" pintype="input"/>
     </net>
-    <net code="92" name="~{Enable-3.3V-Switched-0}">
+    <net code="90" name="~{Enable-3.3V-Switched-0}">
       <node ref="IC1" pin="13" pinfunction="PC0" pintype="input"/>
       <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="93" name="~{Enable-3.3V-Switched-1}">
+    <net code="91" name="~{Enable-3.3V-Switched-1}">
       <node ref="IC1" pin="12" pinfunction="PC1" pintype="input"/>
       <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="94" name="~{MCU-RESET}">
+    <net code="92" name="~{MCU-RESET}">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="IC1" pin="17" pinfunction="RST" pintype="input"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="95" name="~{WRITE-PROTECT}">
+    <net code="93" name="~{WRITE-PROTECT}">
       <node ref="IC1" pin="25" pinfunction="PB9" pintype="output"/>
       <node ref="IC10" pin="7" pinfunction="WP" pintype="input"/>
       <node ref="IC11" pin="7" pinfunction="WP" pintype="input"/>
