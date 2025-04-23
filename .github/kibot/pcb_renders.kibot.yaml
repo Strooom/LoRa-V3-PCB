@@ -28,3 +28,33 @@ outputs:
       outputs:
         - type: render
           output: 'front.png'
+
+  - name: 'render back'
+    type: blender_export
+    dir: 'pcb'
+    options:
+      light:
+        - name : 'light_1'
+          energy: 0
+          pos_x: '-size*3.33'
+          pos_y: 'size*3.33'
+          pos_z: 'size*5'
+        - name : 'light_2'
+          energy: 0
+          pos_x: 'size*10'
+          pos_y: 'size*10'
+          pos_z: 'size*50'
+      render_options:
+        transparent_background: true
+        samples: 20
+        resolution_x: 1000
+        resolution_y: 1600
+      point_of_view:
+        - rotate_z: -90
+          rotate_x: 180
+          rotate_y: 0
+      fixed_auto_camera: false
+      auto_camera_z_axis_factor: 0.75
+      outputs:
+        - type: render
+          output: 'back.png'

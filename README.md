@@ -4,7 +4,7 @@
 
 KiCAD design files for the LoRa-V3-PCB.
 
-## Rendders
+## Renders
 ## Front
 ![Alt text](outputs/pcb/front.png)
 
