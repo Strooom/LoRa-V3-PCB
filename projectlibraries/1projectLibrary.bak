@@ -1445,12 +1445,13 @@
 	)
 	(symbol "Conn_01x08_Sensors"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 10.16 0)
+			(at -5.842 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1459,7 @@
 			)
 		)
 		(property "Value" "Sensors"
-			(at 0 -12.7 0)
+			(at 6.096 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1476,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/837/BC075-1948859.pdf"
-			(at 0 0 0)
+			(at 0 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,19 +1494,21 @@
 			)
 		)
 		(property "manufacturerName" "GCT"
-			(at 0 0 0)
+			(at 0 -20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manufacturerPartNumber" "BC075-08-A-L-A"
-			(at 0 0 0)
+			(at 0.508 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
@@ -1626,10 +1629,10 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 7.62 0)
 				(length 3.81)
-				(name "Pin_1"
+				(name "__GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1644,10 +1647,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 5.08 0)
 				(length 3.81)
-				(name "Pin_2"
+				(name "__VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1662,10 +1665,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -5.08 2.54 0)
 				(length 3.81)
-				(name "Pin_3"
+				(name "__SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1680,10 +1683,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -5.08 0 0)
 				(length 3.81)
-				(name "Pin_4"
+				(name "__SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1698,10 +1701,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -5.08 -2.54 0)
 				(length 3.81)
-				(name "Pin_5"
+				(name "__SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1716,10 +1719,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -5.08 -5.08 0)
 				(length 3.81)
-				(name "Pin_6"
+				(name "__SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1734,10 +1737,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 -7.62 0)
 				(length 3.81)
-				(name "Pin_7"
+				(name "__VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1752,10 +1755,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 -10.16 0)
 				(length 3.81)
-				(name "Pin_8"
+				(name "__GND"
 					(effects
 						(font
 							(size 1.27 1.27)

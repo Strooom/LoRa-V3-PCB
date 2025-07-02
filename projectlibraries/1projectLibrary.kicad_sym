@@ -1445,7 +1445,8 @@
 	)
 	(symbol "Conn_01x08_Sensors"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1628,10 +1629,10 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 7.62 0)
 				(length 3.81)
-				(name "Pin_1"
+				(name "GND__"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1646,10 +1647,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 5.08 0)
 				(length 3.81)
-				(name "Pin_2"
+				(name "VDD__"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1664,10 +1665,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -5.08 2.54 0)
 				(length 3.81)
-				(name "Pin_3"
+				(name "SDA__"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1682,10 +1683,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -5.08 0 0)
 				(length 3.81)
-				(name "Pin_4"
+				(name "SCL__"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1700,10 +1701,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -5.08 -2.54 0)
 				(length 3.81)
-				(name "Pin_5"
+				(name "SCL__"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1718,10 +1719,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -5.08 -5.08 0)
 				(length 3.81)
-				(name "Pin_6"
+				(name "SDA__"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1736,10 +1737,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 -7.62 0)
 				(length 3.81)
-				(name "Pin_7"
+				(name "VDD__"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1754,10 +1755,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 -10.16 0)
 				(length 3.81)
-				(name "Pin_8"
+				(name "GND__"
 					(effects
 						(font
 							(size 1.27 1.27)
