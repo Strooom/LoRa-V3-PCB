@@ -574,7 +574,7 @@
 			)
 		)
 		(property "Value" "NA"
-			(at 0 1.9 360)
+			(at 0 1.9 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e3d61c6-fb35-459d-a706-3a21fa4b26de")
@@ -18853,7 +18853,7 @@
 			)
 		)
 		(property "Value" "NA"
-			(at 0 1.9 360)
+			(at 0 1.9 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9cfbd63a-eb14-4e7d-b4c1-97299f399224")
