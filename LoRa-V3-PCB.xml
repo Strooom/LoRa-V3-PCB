@@ -6,8 +6,8 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-PCB</textvar>
     <textvar name="majorVersion">2</textvar>
-    <textvar name="minorVersion">4</textvar>
-    <textvar name="releaseDate">Thu Aug 07 12:12:15 2025</textvar>
+    <textvar name="minorVersion">5</textvar>
+    <textvar name="releaseDate">Thu Aug 07 13:02:24 2025</textvar>
     <textvar name="releaseDateShort">2025-08-07</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -735,22 +735,22 @@
       <tstamps>9abad06a-8961-47bf-ad33-5e0b01851b0e</tstamps>
     </comp>
     <comp ref="CONN2">
-      <value>LiFePO4 battery</value>
-      <footprint>1projectLibrary:Keystone 1015 AA BatteryHolder</footprint>
-      <datasheet>https://www.keyelco.com/userAssets/file/M65p22.pdf</datasheet>
+      <value>AA Batteryholder for LiFePO4 battery</value>
+      <footprint>1projectLibrary:BAT_2460</footprint>
+      <datasheet>https://www.mouser.be/datasheet/2/215/2460-741228.pdf</datasheet>
       <description>AA-BatteryHolder</description>
       <fields>
-        <field name="octopartUrl">https://octopart.com/1015-keystone-8129901?r=sp</field>
+        <field name="octopartUrl">https://octopart.com/2460-keystone-17876</field>
         <field name="manufacturerName">KeyStone</field>
-        <field name="manufacturerPartNumber">1015</field>
-        <field name="Footprint">1projectLibrary:Keystone 1015 AA BatteryHolder</field>
-        <field name="Datasheet">https://www.keyelco.com/userAssets/file/M65p22.pdf</field>
+        <field name="manufacturerPartNumber">2460</field>
+        <field name="Footprint">1projectLibrary:BAT_2460</field>
+        <field name="Datasheet">https://www.mouser.be/datasheet/2/215/2460-741228.pdf</field>
         <field name="Description">AA-BatteryHolder</field>
       </fields>
       <libsource lib="1projectLibrary" part="LiFePO4_Battery" description="AA-BatteryHolder"/>
-      <property name="octopartUrl" value="https://octopart.com/1015-keystone-8129901?r=sp"/>
+      <property name="octopartUrl" value="https://octopart.com/2460-keystone-17876"/>
       <property name="manufacturerName" value="KeyStone"/>
-      <property name="manufacturerPartNumber" value="1015"/>
+      <property name="manufacturerPartNumber" value="2460"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="battery cell"/>

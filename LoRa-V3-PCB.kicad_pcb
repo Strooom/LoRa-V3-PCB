@@ -133,11 +133,6 @@
 			(outputdirectory "")
 		)
 	)
-	(property "githubUrl" "https://github.com/Strooom/LoRa-V3-PCB")
-	(property "majorVersion" "2")
-	(property "minorVersion" "4")
-	(property "releaseDate" "Thu Aug 07 12:12:15 2025")
-	(property "releaseDateShort" "2025-08-07")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "I2C2-SDA")
@@ -9136,7 +9131,7 @@
 		(uuid "82fd8b81-eeaa-45b2-8834-1290dff977f4")
 		(at 145 80.5)
 		(property "Reference" "CONN2"
-			(at 8 0 360)
+			(at 8 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bed50af2-1454-4f10-a667-b26c74fb50eb")
@@ -9148,7 +9143,7 @@
 			)
 		)
 		(property "Value" "AA Batteryholder for LiFePO4 battery"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8283f6e3-79b4-4823-9412-9af9effadde5")
@@ -9160,7 +9155,7 @@
 			)
 		)
 		(property "Footprint" "1projectLibrary:BAT_2460"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f564d0da-feba-4beb-8742-dd4cc07a0ae3")
@@ -9172,7 +9167,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/215/2460-741228.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "32b8e718-cc24-4540-b994-5d464ec92e5d")
@@ -9184,7 +9179,7 @@
 			)
 		)
 		(property "Description" "AA-BatteryHolder"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f7f9390-7772-4bb2-968c-fd8cf00ef0ed")
@@ -20831,7 +20826,7 @@
 			(xy 176 122) (xy 114 122)
 		)
 		(height -3)
-		(gr_text "62,0000 mm"
+		(gr_text "62.0000 mm"
 			(at 145 123.85 0)
 			(layer "User.4")
 			(uuid "2c007473-0f6a-400d-8477-6624bdc8f98a")
@@ -20864,7 +20859,7 @@
 			(xy 114 122) (xy 114 72)
 		)
 		(height -3)
-		(gr_text "50,0000 mm"
+		(gr_text "50.0000 mm"
 			(at 109.85 97 90)
 			(layer "User.4")
 			(uuid "c3810475-e958-4b30-82c4-90b77b377148")
