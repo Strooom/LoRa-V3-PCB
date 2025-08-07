@@ -1,0 +1,121 @@
+(footprint "BAT_2460"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 8 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fc11f90f-4cbd-4ae8-b36a-64668a173247")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT_2460"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc3fc48b-d133-4300-aed7-34f1a791fecf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a84af40-e442-468d-9a26-8ae50a7b2d46")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5080fcb7-9acf-4814-b718-a8d6b7388535")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "012bf028-4cfb-4841-b743-0ec1a27c455b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -21 -4) (xy -21 4) (xy 17 4) (xy 17 2) (xy 19 2) (xy 19 -2) (xy 17 -2) (xy 17 -4)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2c4ec450-b057-4790-a235-71b9d4f1fd44")
+	)
+	(fp_rect
+		(start -28.5 -8.5)
+		(end 28.5 8.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7c93b170-a8c2-479f-bdb0-7f09a44811fb")
+	)
+	(pad "1" thru_hole roundrect
+		(at -25.995 0)
+		(size 2 2)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1633986928)
+		(solder_mask_margin 0.102)
+		(thermal_bridge_angle 0)
+		(uuid "95a078c1-636c-40be-9e21-2526bd793905")
+	)
+	(pad "2" thru_hole circle
+		(at 25.995 0)
+		(size 2 2)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "27bdebc8-d2e3-4a48-9677-0bc87b503753")
+	)
+	(model "${KIPRJMOD}/inputs/3dmodels/2460.step"
+		(offset
+			(xyz 3 -0.75 10.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

@@ -1,4 +1,4 @@
-23932566318262531
+23937903210523385
 1GlobalFootprintsLibrary
 4341330258X6
 
@@ -107,6 +107,13 @@ resistor
 1GlobalFootprintsLibrary
 R_0603_nominal
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+1GlobalFootprintsLibrary
+R_1206_Nominal
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
 0
 2
@@ -251,6 +258,13 @@ logo_toolsquare_5mm
 0
 0
 0
+1GlobalFootprintsLibrary
+max3442-SOIC8
+8 SO-3
+Integrated Circuit
+0
+8
+8
 1projectLibrary
 68712414022-display-connector
 TE FPC connector, 24 top-side contacts, 0.5mm pitch, SMT, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734839%7FC%7Fpdf%7FEnglish%7FENG_CD_1734839_C_C_1734839.pdf%7F4-1734839-0
@@ -258,6 +272,13 @@ te fpc 1734839
 0
 26
 25
+1projectLibrary
+BAT_2460
+
+
+0
+2
+2
 1projectLibrary
 BME680
 Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
