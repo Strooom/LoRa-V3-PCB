@@ -133,11 +133,6 @@
 			(outputdirectory "")
 		)
 	)
-	(property "githubUrl" "https://github.com/Strooom/LoRa-V3-PCB")
-	(property "majorVersion" "2")
-	(property "minorVersion" "8")
-	(property "releaseDate" "Thu Sep 04 08:34:20 2025")
-	(property "releaseDateShort" "2025-09-04")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "I2C2-SDA")
@@ -20841,7 +20836,7 @@
 			(xy 176 122) (xy 114 122)
 		)
 		(height -3)
-		(gr_text "62,0000 mm"
+		(gr_text "62.0000 mm"
 			(at 145 123.85 0)
 			(layer "User.4")
 			(uuid "2c007473-0f6a-400d-8477-6624bdc8f98a")
@@ -20874,7 +20869,7 @@
 			(xy 114 122) (xy 114 72)
 		)
 		(height -3)
-		(gr_text "50,0000 mm"
+		(gr_text "50.0000 mm"
 			(at 109.85 97 90)
 			(layer "User.4")
 			(uuid "c3810475-e958-4b30-82c4-90b77b377148")
