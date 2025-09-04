@@ -6,8 +6,8 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-PCB</textvar>
     <textvar name="majorVersion">2</textvar>
-    <textvar name="minorVersion">9</textvar>
-    <textvar name="releaseDate">Thu Sep 04 09:23:31 2025</textvar>
+    <textvar name="minorVersion">10</textvar>
+    <textvar name="releaseDate">Thu Sep 04 09:37:42 2025</textvar>
     <textvar name="releaseDateShort">2025-09-04</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
