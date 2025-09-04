@@ -10,6 +10,7 @@ import:
   - file: bom.kibot.yaml
  #  - file: cost.kibot.yaml
   - file: pcb_gerbers.kibot.yaml
+  - file: pcb_drill.kibot.yaml
   - file: pcb_step.kibot.yaml
   - file: pcb_images.kibot.yaml
 #  - file: pcb_renders.kibot.yaml

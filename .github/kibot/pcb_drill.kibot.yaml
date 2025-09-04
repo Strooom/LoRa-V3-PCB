@@ -1,0 +1,26 @@
+outputs:
+
+  - name: excellon_drill
+    comment: "Excellon drill files"
+    type: excellon
+    dir: drill
+    options:
+      metric_units: true
+      use_aux_axis_as_origin: false
+      minimal_header: false
+      mirror_y_axis: false
+      pth_id: drill
+      report: '%f-%i.%x'
+      map: 'pdf'
+      table:
+        unify_pth_and_npth: 'auto'
+
+  - name: gerber_drills
+    comment: "Gerber drill files"
+    type: gerb_drill
+    dir: drill
+    options:
+      use_aux_axis_as_origin: false
+      pth_id: PTH_drill
+      npth_id: NPTH_drill
+      map: 'pdf'
