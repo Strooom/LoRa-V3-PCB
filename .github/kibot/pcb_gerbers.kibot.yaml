@@ -5,4 +5,3 @@ outputs:
     dir: gerber
     layers: all
     options:
-      variant: default
