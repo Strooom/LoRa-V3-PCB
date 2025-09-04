@@ -1,0 +1,8 @@
+outputs:
+  - name: 'gerber files'
+    comment: "Gerber"
+    type: gerber
+    dir: gerber
+    layers: all
+    options:
+      variant: default

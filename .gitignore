@@ -31,3 +31,5 @@ fp-info-cache
 .github/workflows/cost api.md
 .github/kicost/cost.ps1
 .github/kicost/kicost.yaml
+
+fp-info-cache
