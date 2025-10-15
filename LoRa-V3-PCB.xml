@@ -6,9 +6,9 @@
     <tool>Eeschema 8.0.8+1</tool>
     <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-PCB</textvar>
     <textvar name="majorVersion">2</textvar>
-    <textvar name="minorVersion">10</textvar>
-    <textvar name="releaseDate">Thu Sep 04 09:37:42 2025</textvar>
-    <textvar name="releaseDateShort">2025-09-04</textvar>
+    <textvar name="minorVersion">11</textvar>
+    <textvar name="releaseDate">Wed Oct 15 14:59:50 2025</textvar>
+    <textvar name="releaseDateShort">2025-10-15</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LoRa-v3</title>
@@ -39,6 +39,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
         <field name="genericPartNumber">GPC0603104-25-X7R</field>
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="mpn">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
         <field name="Description">power decoupling</field>
@@ -48,6 +49,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
       <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
       <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="mpn" value="CGA3E2X7R1E104K080AA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -65,6 +67,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
         <field name="genericPartNumber">GPC0603104-25-X7R</field>
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="mpn">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
         <field name="Description">power decoupling</field>
@@ -74,6 +77,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
       <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
       <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="mpn" value="CGA3E2X7R1E104K080AA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -91,6 +95,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
         <field name="genericPartNumber">GPC0603104-25-X7R</field>
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="mpn">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
         <field name="Description">power decoupling</field>
@@ -100,6 +105,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
       <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
       <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="mpn" value="CGA3E2X7R1E104K080AA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -117,6 +123,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
         <field name="genericPartNumber">GPC0603104-25-X7R</field>
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="mpn">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
         <field name="Description">power decoupling</field>
@@ -126,6 +133,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
       <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
       <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="mpn" value="CGA3E2X7R1E104K080AA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -143,6 +151,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
         <field name="genericPartNumber">GPC0603104-25-X7R</field>
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="mpn">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
         <field name="Description">power decoupling</field>
@@ -152,6 +161,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
       <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
       <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="mpn" value="CGA3E2X7R1E104K080AA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -169,6 +179,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
         <field name="genericPartNumber">GPC0603104-25-X7R</field>
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
+        <field name="mpn">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
         <field name="Description">power decoupling</field>
@@ -178,6 +189,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
       <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
       <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
+      <property name="mpn" value="CGA3E2X7R1E104K080AA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -195,6 +207,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
         <field name="genericPartNumber">GPC0603104-25-X7R</field>
+        <field name="mpn">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
         <field name="Description">power decoupling</field>
@@ -204,6 +217,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
       <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
       <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
+      <property name="mpn" value="CGA3E2X7R1E104K080AA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -221,6 +235,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp</field>
         <field name="manufacturerPartNumber">CGA3E2X7R1E104K080AA</field>
         <field name="genericPartNumber">GPC0603104-25-X7R</field>
+        <field name="mpn">CGA3E2X7R1E104K080AA</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser</field>
         <field name="Description">power decoupling</field>
@@ -230,6 +245,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e2x7r1e104k080aa-tdk-25947977?r=sp"/>
       <property name="manufacturerPartNumber" value="CGA3E2X7R1E104K080AA"/>
       <property name="genericPartNumber" value="GPC0603104-25-X7R"/>
+      <property name="mpn" value="CGA3E2X7R1E104K080AA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -246,6 +262,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="genericPartNumber">NA</field>
         <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="mpn">CL21B475KPFNFNE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="Description"/>
@@ -255,6 +272,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="mpn" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -271,6 +289,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="genericPartNumber">NA</field>
         <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="mpn">CL21B475KPFNFNE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="Description"/>
@@ -280,6 +299,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="mpn" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -296,6 +316,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="genericPartNumber">NA</field>
         <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="mpn">CL21B475KPFNFNE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="Description"/>
@@ -305,6 +326,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="mpn" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -321,6 +343,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="genericPartNumber">NA</field>
         <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="mpn">CL21B475KPFNFNE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="Description"/>
@@ -330,6 +353,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="mpn" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -346,6 +370,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="genericPartNumber">NA</field>
         <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="mpn">CL21B475KPFNFNE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="Description"/>
@@ -355,6 +380,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="mpn" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -371,6 +397,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="genericPartNumber">NA</field>
         <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="mpn">CL21B475KPFNFNE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="Description"/>
@@ -380,6 +407,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="mpn" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -396,6 +424,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
         <field name="genericPartNumber">NA</field>
+        <field name="mpn">CL21B475KPFNFNE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="Description"/>
@@ -405,6 +434,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
       <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
       <property name="genericPartNumber" value="NA"/>
+      <property name="mpn" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -421,6 +451,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="genericPartNumber">NA</field>
         <field name="manufacturerPartNumber">CL21B475KPFNFNE</field>
+        <field name="mpn">CL21B475KPFNFNE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b475kpfnfne-samsung+electro-mechanics-24958210</field>
         <field name="Description"/>
@@ -430,6 +461,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b475kpfnfne-samsung+electro-mechanics-24958210"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="manufacturerPartNumber" value="CL21B475KPFNFNE"/>
+      <property name="mpn" value="CL21B475KPFNFNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -446,6 +478,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
         <field name="genericPartNumber">NA</field>
         <field name="manufacturerPartNumber">CL21B106KPQNNWE</field>
+        <field name="mpn">CL21B106KPQNNWE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
         <field name="Description"/>
@@ -455,6 +488,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="manufacturerPartNumber" value="CL21B106KPQNNWE"/>
+      <property name="mpn" value="CL21B106KPQNNWE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -471,6 +505,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
         <field name="genericPartNumber">NA</field>
         <field name="manufacturerPartNumber">CL21B106KPQNNWE</field>
+        <field name="mpn">CL21B106KPQNNWE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
         <field name="Description"/>
@@ -480,6 +515,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="manufacturerPartNumber" value="CL21B106KPQNNWE"/>
+      <property name="mpn" value="CL21B106KPQNNWE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -496,6 +532,7 @@
         <field name="octopartUrl">https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
         <field name="genericPartNumber">NA</field>
         <field name="manufacturerPartNumber">CL21B106KPQNNWE</field>
+        <field name="mpn">CL21B106KPQNNWE</field>
         <field name="Footprint">1projectLibrary:C_0805</field>
         <field name="Datasheet">https://octopart.com/datasheet/cl21b106kpqnnwe-samsung+electro-mechanics-52884428</field>
         <field name="Description"/>
@@ -505,6 +542,7 @@
       <property name="octopartUrl" value="https://octopart.com/cl21b106kpqnnwe-samsung+electro-mechanics-52884428"/>
       <property name="genericPartNumber" value="NA"/>
       <property name="manufacturerPartNumber" value="CL21B106KPQNNWE"/>
+      <property name="mpn" value="CL21B106KPQNNWE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -521,6 +559,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
         <field name="genericPartNumber">GPC0603105-25</field>
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
+        <field name="mpn">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
         <field name="Description"/>
@@ -530,6 +569,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"/>
       <property name="genericPartNumber" value="GPC0603105-25"/>
       <property name="manufacturerPartNumber" value="CGA3E1X7R1E105K080AC"/>
+      <property name="mpn" value="CGA3E1X7R1E105K080AC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -546,6 +586,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
         <field name="genericPartNumber">GPC0603105-25</field>
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
+        <field name="mpn">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
         <field name="Description"/>
@@ -555,6 +596,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"/>
       <property name="genericPartNumber" value="GPC0603105-25"/>
       <property name="manufacturerPartNumber" value="CGA3E1X7R1E105K080AC"/>
+      <property name="mpn" value="CGA3E1X7R1E105K080AC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -571,6 +613,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
         <field name="genericPartNumber">GPC0603105-25</field>
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
+        <field name="mpn">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
         <field name="Description"/>
@@ -580,6 +623,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"/>
       <property name="genericPartNumber" value="GPC0603105-25"/>
       <property name="manufacturerPartNumber" value="CGA3E1X7R1E105K080AC"/>
+      <property name="mpn" value="CGA3E1X7R1E105K080AC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -596,6 +640,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
         <field name="genericPartNumber">GPC0603105-25</field>
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
+        <field name="mpn">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
         <field name="Description"/>
@@ -605,6 +650,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"/>
       <property name="genericPartNumber" value="GPC0603105-25"/>
       <property name="manufacturerPartNumber" value="CGA3E1X7R1E105K080AC"/>
+      <property name="mpn" value="CGA3E1X7R1E105K080AC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -621,6 +667,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
         <field name="genericPartNumber">GPC0603105-25</field>
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
+        <field name="mpn">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
         <field name="Description"/>
@@ -630,6 +677,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"/>
       <property name="genericPartNumber" value="GPC0603105-25"/>
       <property name="manufacturerPartNumber" value="CGA3E1X7R1E105K080AC"/>
+      <property name="mpn" value="CGA3E1X7R1E105K080AC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -646,6 +694,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
         <field name="genericPartNumber">GPC0603105-25</field>
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
+        <field name="mpn">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
         <field name="Description"/>
@@ -655,6 +704,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"/>
       <property name="genericPartNumber" value="GPC0603105-25"/>
       <property name="manufacturerPartNumber" value="CGA3E1X7R1E105K080AC"/>
+      <property name="mpn" value="CGA3E1X7R1E105K080AC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -671,6 +721,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
         <field name="genericPartNumber">GPC0603105-25</field>
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
+        <field name="mpn">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
         <field name="Description"/>
@@ -680,6 +731,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"/>
       <property name="genericPartNumber" value="GPC0603105-25"/>
       <property name="manufacturerPartNumber" value="CGA3E1X7R1E105K080AC"/>
+      <property name="mpn" value="CGA3E1X7R1E105K080AC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -696,6 +748,7 @@
         <field name="octopartUrl">https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp</field>
         <field name="genericPartNumber">GPC0603105-25</field>
         <field name="manufacturerPartNumber">CGA3E1X7R1E105K080AC</field>
+        <field name="mpn">CGA3E1X7R1E105K080AC</field>
         <field name="Footprint">1projectLibrary:C_0603_nominal</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
         <field name="Description"/>
@@ -705,6 +758,7 @@
       <property name="octopartUrl" value="https://octopart.com/cga3e1x7r1e105k080ac-tdk-25947974?r=sp"/>
       <property name="genericPartNumber" value="GPC0603105-25"/>
       <property name="manufacturerPartNumber" value="CGA3E1X7R1E105K080AC"/>
+      <property name="mpn" value="CGA3E1X7R1E105K080AC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -721,6 +775,7 @@
         <field name="manufacturerName">Molex</field>
         <field name="octopartUrl">https://octopart.com/217179-0001-molex-117190526?r=sp</field>
         <field name="manufacturerPartNumber">217179-0001</field>
+        <field name="mpn">217179-0001</field>
         <field name="Footprint">1projectLibrary:Molex-2171790001</field>
         <field name="Datasheet">https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/217/217179/2171790001_sd.pdf</field>
         <field name="Description">USB-C Receptable</field>
@@ -729,6 +784,7 @@
       <property name="manufacturerName" value="Molex"/>
       <property name="octopartUrl" value="https://octopart.com/217179-0001-molex-117190526?r=sp"/>
       <property name="manufacturerPartNumber" value="217179-0001"/>
+      <property name="mpn" value="217179-0001"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -743,6 +799,7 @@
         <field name="octopartUrl">https://octopart.com/2460-keystone-17876</field>
         <field name="manufacturerName">KeyStone</field>
         <field name="manufacturerPartNumber">2460</field>
+        <field name="mpn">2460</field>
         <field name="Footprint">1projectLibrary:BAT_2460</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/215/2460-741228.pdf</field>
         <field name="Description">AA-BatteryHolder</field>
@@ -751,6 +808,7 @@
       <property name="octopartUrl" value="https://octopart.com/2460-keystone-17876"/>
       <property name="manufacturerName" value="KeyStone"/>
       <property name="manufacturerPartNumber" value="2460"/>
+      <property name="mpn" value="2460"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="battery cell"/>
@@ -766,6 +824,7 @@
         <field name="manufacturerName">Sparkfun - JST</field>
         <field name="octopartUrl">https://octopart.com/sm04b-srss-tb%28lf%29%28dn%29%28p%29-jst-154671066?r=sp</field>
         <field name="manufacturerPartNumber">SM04B-SRSS-TB(LF)(DN)(P)</field>
+        <field name="mpn">SM04B-SRSS-TB(LF)(DN)(P)</field>
         <field name="Footprint">1projectLibrary:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/813/eSH-2487316.pdf</field>
         <field name="Description">Qwiic</field>
@@ -774,6 +833,7 @@
       <property name="manufacturerName" value="Sparkfun - JST"/>
       <property name="octopartUrl" value="https://octopart.com/sm04b-srss-tb%28lf%29%28dn%29%28p%29-jst-154671066?r=sp"/>
       <property name="manufacturerPartNumber" value="SM04B-SRSS-TB(LF)(DN)(P)"/>
+      <property name="mpn" value="SM04B-SRSS-TB(LF)(DN)(P)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -788,6 +848,7 @@
         <field name="octopartUrl">https://octopart.com/b2b-xh-a%28lf%29%28sn%29-jst-7424860?r=sp</field>
         <field name="manufacturerName">JST</field>
         <field name="manufacturerPartNumber">B2B-XH-A(LF)(SN)</field>
+        <field name="mpn">B2B-XH-A(LF)(SN)</field>
         <field name="Footprint">1projectLibrary:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet">https://www.farnell.com/datasheets/2057209.pdf</field>
         <field name="Description">SolarPanel</field>
@@ -796,6 +857,7 @@
       <property name="octopartUrl" value="https://octopart.com/b2b-xh-a%28lf%29%28sn%29-jst-7424860?r=sp"/>
       <property name="manufacturerName" value="JST"/>
       <property name="manufacturerPartNumber" value="B2B-XH-A(LF)(SN)"/>
+      <property name="mpn" value="B2B-XH-A(LF)(SN)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -813,6 +875,7 @@
         <field name="octopartUrl">https://octopart.com/73391-0080-molex-776539?r=sp&amp;pdp=73391-0080-molex-776539&amp;currency=EUR</field>
         <field name="manufacturerName">Molex</field>
         <field name="manufacturerPartNumber">73391-0080</field>
+        <field name="mpn">73391-0080</field>
         <field name="Footprint">1projectLibrary:Molex 73391-0080</field>
         <field name="Datasheet">https://www.molex.com/en-us/products/part-detail/733910080?display=pdf</field>
         <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
@@ -821,6 +884,7 @@
       <property name="octopartUrl" value="https://octopart.com/73391-0080-molex-776539?r=sp&amp;pdp=73391-0080-molex-776539&amp;currency=EUR"/>
       <property name="manufacturerName" value="Molex"/>
       <property name="manufacturerPartNumber" value="73391-0080"/>
+      <property name="mpn" value="73391-0080"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"/>
@@ -837,6 +901,7 @@
         <field name="manufacturerName">TE Connectivity</field>
         <field name="octopartUrl">https://octopart.com/2-1734839-4-te+connectivity-40196932?r=sp</field>
         <field name="manufacturerPartNumber">2-1734839-4</field>
+        <field name="mpn">2-1734839-4</field>
         <field name="Footprint">1projectLibrary:TE_2-1734839-4_1x24-1MP_P0.5mm_Horizontal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/418/7/ENG_CD_1734839_C_C_1734839-2017341.pdf</field>
         <field name="Description">ePaper</field>
@@ -845,6 +910,7 @@
       <property name="manufacturerName" value="TE Connectivity"/>
       <property name="octopartUrl" value="https://octopart.com/2-1734839-4-te+connectivity-40196932?r=sp"/>
       <property name="manufacturerPartNumber" value="2-1734839-4"/>
+      <property name="mpn" value="2-1734839-4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -859,6 +925,7 @@
       <fields>
         <field name="manufacturerName">GCT</field>
         <field name="manufacturerPartNumber">BC075-08-A-L-A</field>
+        <field name="mpn">BC075-08-A-L-A</field>
         <field name="Footprint">1projectLibrary:GCT_BC075-08-A-L-A</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/837/BC075-1948859.pdf</field>
         <field name="Description"/>
@@ -866,6 +933,7 @@
       <libsource lib="1projectLibrary" part="Conn_01x08_Sensors" description=""/>
       <property name="manufacturerName" value="GCT"/>
       <property name="manufacturerPartNumber" value="BC075-08-A-L-A"/>
+      <property name="mpn" value="BC075-08-A-L-A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -882,6 +950,7 @@
         <field name="manufacturerName">NA</field>
         <field name="octopartUrl">NA</field>
         <field name="manufacturerPartNumber">NA</field>
+        <field name="mpn">NA</field>
         <field name="Footprint">1projectLibrary:Debug_PinHeader_1x06_P2.00mm_Vertical</field>
         <field name="Datasheet">NA</field>
         <field name="Description">DEBUG-SWD</field>
@@ -890,6 +959,7 @@
       <property name="manufacturerName" value="NA"/>
       <property name="octopartUrl" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
+      <property name="mpn" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -907,6 +977,7 @@
         <field name="manufacturerName">MSS1P3HM3_A/H</field>
         <field name="octopartUrl">https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp</field>
         <field name="manufacturerPartNumber">MSS1P3HM3_A/H</field>
+        <field name="mpn">MSS1P3HM3_A/H</field>
         <field name="Footprint">1projectLibrary:MSS1P3</field>
         <field name="Datasheet">https://www.vishay.com/doc?89019</field>
         <field name="Description">Schottky-diode</field>
@@ -915,6 +986,7 @@
       <property name="manufacturerName" value="MSS1P3HM3_A/H"/>
       <property name="octopartUrl" value="https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp"/>
       <property name="manufacturerPartNumber" value="MSS1P3HM3_A/H"/>
+      <property name="mpn" value="MSS1P3HM3_A/H"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -931,6 +1003,7 @@
         <field name="manufacturerName">MSS1P3HM3_A/H</field>
         <field name="octopartUrl">https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp</field>
         <field name="manufacturerPartNumber">MSS1P3HM3_A/H</field>
+        <field name="mpn">MSS1P3HM3_A/H</field>
         <field name="Footprint">1projectLibrary:MSS1P3</field>
         <field name="Datasheet">https://www.vishay.com/doc?89019</field>
         <field name="Description">Schottky-diode</field>
@@ -939,6 +1012,7 @@
       <property name="manufacturerName" value="MSS1P3HM3_A/H"/>
       <property name="octopartUrl" value="https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp"/>
       <property name="manufacturerPartNumber" value="MSS1P3HM3_A/H"/>
+      <property name="mpn" value="MSS1P3HM3_A/H"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -955,6 +1029,7 @@
         <field name="manufacturerName">MSS1P3HM3_A/H</field>
         <field name="octopartUrl">https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp</field>
         <field name="manufacturerPartNumber">MSS1P3HM3_A/H</field>
+        <field name="mpn">MSS1P3HM3_A/H</field>
         <field name="Footprint">1projectLibrary:MSS1P3</field>
         <field name="Datasheet">https://www.vishay.com/doc?89019</field>
         <field name="Description">Schottky-diode</field>
@@ -963,6 +1038,7 @@
       <property name="manufacturerName" value="MSS1P3HM3_A/H"/>
       <property name="octopartUrl" value="https://octopart.com/mss1p3hm3_a%2Fh-vishay-71706624?r=sp"/>
       <property name="manufacturerPartNumber" value="MSS1P3HM3_A/H"/>
+      <property name="mpn" value="MSS1P3HM3_A/H"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -979,6 +1055,7 @@
         <field name="octopartUrl">NA</field>
         <field name="manufacturerName">NA</field>
         <field name="manufacturerPartNumber">NA</field>
+        <field name="mpn">NA</field>
         <field name="Footprint">Fiducial:Fiducial_0.5mm_Mask1mm</field>
         <field name="Datasheet">NA</field>
         <field name="Description">Fiducial</field>
@@ -987,6 +1064,7 @@
       <property name="octopartUrl" value="NA"/>
       <property name="manufacturerName" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
+      <property name="mpn" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="fiducial marker"/>
@@ -1003,6 +1081,7 @@
         <field name="octopartUrl">NA</field>
         <field name="manufacturerName">NA</field>
         <field name="manufacturerPartNumber">NA</field>
+        <field name="mpn">NA</field>
         <field name="Footprint">Fiducial:Fiducial_0.5mm_Mask1mm</field>
         <field name="Datasheet">NA</field>
         <field name="Description">Fiducial</field>
@@ -1011,6 +1090,7 @@
       <property name="octopartUrl" value="NA"/>
       <property name="manufacturerName" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
+      <property name="mpn" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="fiducial marker"/>
@@ -1027,6 +1107,7 @@
         <field name="octopartUrl">NA</field>
         <field name="manufacturerName">NA</field>
         <field name="manufacturerPartNumber">NA</field>
+        <field name="mpn">NA</field>
         <field name="Footprint">Fiducial:Fiducial_0.5mm_Mask1mm</field>
         <field name="Datasheet">NA</field>
         <field name="Description">Fiducial</field>
@@ -1035,6 +1116,7 @@
       <property name="octopartUrl" value="NA"/>
       <property name="manufacturerName" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
+      <property name="mpn" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="fiducial marker"/>
@@ -1051,6 +1133,7 @@
         <field name="octopartUrl">NA</field>
         <field name="manufacturerName">NA</field>
         <field name="manufacturerPartNumber">NA</field>
+        <field name="mpn">NA</field>
         <field name="Footprint">1projectLibrary:MountingHole_2mm_noCourtyard</field>
         <field name="Datasheet">NA</field>
         <field name="Description">MountingHole 2 mm</field>
@@ -1059,6 +1142,7 @@
       <property name="octopartUrl" value="NA"/>
       <property name="manufacturerName" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
+      <property name="mpn" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -1076,6 +1160,7 @@
         <field name="octopartUrl">NA</field>
         <field name="manufacturerName">NA</field>
         <field name="manufacturerPartNumber">NA</field>
+        <field name="mpn">NA</field>
         <field name="Footprint">1projectLibrary:MountingHole_2mm_noCourtyard</field>
         <field name="Datasheet">NA</field>
         <field name="Description">MountingHole 2 mm</field>
@@ -1084,6 +1169,7 @@
       <property name="octopartUrl" value="NA"/>
       <property name="manufacturerName" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
+      <property name="mpn" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -1101,6 +1187,7 @@
         <field name="octopartUrl">NA</field>
         <field name="manufacturerName">NA</field>
         <field name="manufacturerPartNumber">NA</field>
+        <field name="mpn">NA</field>
         <field name="Footprint">1projectLibrary:MountingHole_2mm</field>
         <field name="Datasheet">NA</field>
         <field name="Description">MountingHole 2 mm</field>
@@ -1109,6 +1196,7 @@
       <property name="octopartUrl" value="NA"/>
       <property name="manufacturerName" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
+      <property name="mpn" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -1126,6 +1214,7 @@
         <field name="octopartUrl">NA</field>
         <field name="manufacturerName">NA</field>
         <field name="manufacturerPartNumber">NA</field>
+        <field name="mpn">NA</field>
         <field name="Footprint">1projectLibrary:MountingHole_2mm</field>
         <field name="Datasheet">NA</field>
         <field name="Description">MountingHole 2 mm</field>
@@ -1134,6 +1223,7 @@
       <property name="octopartUrl" value="NA"/>
       <property name="manufacturerName" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
+      <property name="mpn" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -1151,6 +1241,7 @@
         <field name="octopartUrl">https://octopart.com/114993121-seeed+studio-142683940</field>
         <field name="manufacturerName">Seeed Technology</field>
         <field name="manufacturerPartNumber">114993121</field>
+        <field name="mpn">114993121</field>
         <field name="Footprint">1projectLibrary:LoRa-E5</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/744/LoRa_E5_module_datasheet_V1_0-2488126.pdf</field>
         <field name="Description">Sub-GHz Modules LoRa-E5 Wireless Module</field>
@@ -1159,6 +1250,7 @@
       <property name="octopartUrl" value="https://octopart.com/114993121-seeed+studio-142683940"/>
       <property name="manufacturerName" value="Seeed Technology"/>
       <property name="manufacturerPartNumber" value="114993121"/>
+      <property name="mpn" value="114993121"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1173,6 +1265,7 @@
         <field name="manufacturerName">Silicon Labs</field>
         <field name="octopartUrl">https://octopart.com/cp2102n-a02-gqfn24r-silicon+labs-99772192?r=sp</field>
         <field name="manufacturerPartNumber">CP2102N-A02-GQFN24R</field>
+        <field name="mpn">CP2102N-A02-GQFN24R</field>
         <field name="Footprint">1projectLibrary:QFN24-CP2102N</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/368/cp2102n_datasheet-1634912.pdf</field>
         <field name="Description">USB to UART master bridge, QFN-24</field>
@@ -1181,6 +1274,7 @@
       <property name="manufacturerName" value="Silicon Labs"/>
       <property name="octopartUrl" value="https://octopart.com/cp2102n-a02-gqfn24r-silicon+labs-99772192?r=sp"/>
       <property name="manufacturerPartNumber" value="CP2102N-A02-GQFN24R"/>
+      <property name="mpn" value="CP2102N-A02-GQFN24R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="USB UART bridge"/>
@@ -1197,6 +1291,7 @@
         <field name="manufacturerName">STMicroelectronics</field>
         <field name="octopartUrl">https://octopart.com/usblc6-2sc6-stmicroelectronics-39666276</field>
         <field name="manufacturerPartNumber">USBLC6-2SC6</field>
+        <field name="mpn">USBLC6-2SC6</field>
         <field name="Footprint">1projectLibrary:SOT-23-6L-USBLC6-2</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/389/usblc6_2-1852789.pdf</field>
         <field name="Description">ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap</field>
@@ -1205,6 +1300,7 @@
       <property name="manufacturerName" value="STMicroelectronics"/>
       <property name="octopartUrl" value="https://octopart.com/usblc6-2sc6-stmicroelectronics-39666276"/>
       <property name="manufacturerPartNumber" value="USBLC6-2SC6"/>
+      <property name="mpn" value="USBLC6-2SC6"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1219,6 +1315,7 @@
         <field name="manufacturerName">Texas Instruments</field>
         <field name="manufacturerPartNumber">BQ25504RGTR</field>
         <field name="octopartUrl">https://octopart.com/bq25504rgtr-texas+instruments-20530455</field>
+        <field name="mpn">BQ25504RGTR</field>
         <field name="Footprint">1projectLibrary:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/bq25504.pdf?ts=1607081282078&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ25504RGTR%2526keyMatch%253DBQ25504RGTR%2526tisearch%253DSearch-EN-everything%2526usecase%253DO</field>
         <field name="Description">Ultra Low Power Boost Converter with Battery Management for Energy Harvester | Nano-Power Management</field>
@@ -1227,6 +1324,7 @@
       <property name="manufacturerName" value="Texas Instruments"/>
       <property name="manufacturerPartNumber" value="BQ25504RGTR"/>
       <property name="octopartUrl" value="https://octopart.com/bq25504rgtr-texas+instruments-20530455"/>
+      <property name="mpn" value="BQ25504RGTR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1241,6 +1339,7 @@
         <field name="manufacturerName">ROHM</field>
         <field name="manufacturerPartNumber">BR24G1MFVT-5AE2</field>
         <field name="octopartUrl">https://octopart.com/br24g1mfvt-5ae2-rohm-126430213</field>
+        <field name="mpn">BR24G1MFVT-5AE2</field>
         <field name="Footprint">1projectLibrary:BR24G1M-TSSOP-B8</field>
         <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</field>
         <field name="Description">EEPROM SERIAL EEPROM</field>
@@ -1249,6 +1348,7 @@
       <property name="manufacturerName" value="ROHM"/>
       <property name="manufacturerPartNumber" value="BR24G1MFVT-5AE2"/>
       <property name="octopartUrl" value="https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"/>
+      <property name="mpn" value="BR24G1MFVT-5AE2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1263,6 +1363,7 @@
         <field name="manufacturerName">ROHM</field>
         <field name="manufacturerPartNumber">BR24G1MFVT-5AE2</field>
         <field name="octopartUrl">https://octopart.com/br24g1mfvt-5ae2-rohm-126430213</field>
+        <field name="mpn">BR24G1MFVT-5AE2</field>
         <field name="Footprint">1projectLibrary:BR24G1M-TSSOP-B8</field>
         <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</field>
         <field name="Description">EEPROM SERIAL EEPROM</field>
@@ -1271,6 +1372,7 @@
       <property name="manufacturerName" value="ROHM"/>
       <property name="manufacturerPartNumber" value="BR24G1MFVT-5AE2"/>
       <property name="octopartUrl" value="https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"/>
+      <property name="mpn" value="BR24G1MFVT-5AE2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1285,6 +1387,7 @@
         <field name="manufacturerName">ROHM</field>
         <field name="manufacturerPartNumber">BR24G1MFVT-5AE2</field>
         <field name="octopartUrl">https://octopart.com/br24g1mfvt-5ae2-rohm-126430213</field>
+        <field name="mpn">BR24G1MFVT-5AE2</field>
         <field name="Footprint">1projectLibrary:BR24G1M-TSSOP-B8</field>
         <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</field>
         <field name="Description">EEPROM SERIAL EEPROM</field>
@@ -1293,6 +1396,7 @@
       <property name="manufacturerName" value="ROHM"/>
       <property name="manufacturerPartNumber" value="BR24G1MFVT-5AE2"/>
       <property name="octopartUrl" value="https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"/>
+      <property name="mpn" value="BR24G1MFVT-5AE2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1307,6 +1411,7 @@
         <field name="manufacturerName">ROHM</field>
         <field name="manufacturerPartNumber">BR24G1MFVT-5AE2</field>
         <field name="octopartUrl">https://octopart.com/br24g1mfvt-5ae2-rohm-126430213</field>
+        <field name="mpn">BR24G1MFVT-5AE2</field>
         <field name="Footprint">1projectLibrary:BR24G1M-TSSOP-B8</field>
         <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g1mxxx-5a-e.pdf</field>
         <field name="Description">EEPROM SERIAL EEPROM</field>
@@ -1315,6 +1420,7 @@
       <property name="manufacturerName" value="ROHM"/>
       <property name="manufacturerPartNumber" value="BR24G1MFVT-5AE2"/>
       <property name="octopartUrl" value="https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"/>
+      <property name="mpn" value="BR24G1MFVT-5AE2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1329,6 +1435,7 @@
         <field name="manufacturerName">MICROCHIP</field>
         <field name="octopartUrl">https://octopart.com/mcp73123t-22si%2Fmf-microchip-17627238?r=sp</field>
         <field name="manufacturerPartNumber">MCP73123T-22SI/MF</field>
+        <field name="mpn">MCP73123T-22SI/MF</field>
         <field name="Footprint">1projectLibrary:DFN10_MCP73123</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/268/MCHPS04151_1-2520685.pdf</field>
         <field name="Description">Battery Management Sngl cel OVP LiFEPO4 battery charger</field>
@@ -1337,6 +1444,7 @@
       <property name="manufacturerName" value="MICROCHIP"/>
       <property name="octopartUrl" value="https://octopart.com/mcp73123t-22si%2Fmf-microchip-17627238?r=sp"/>
       <property name="manufacturerPartNumber" value="MCP73123T-22SI/MF"/>
+      <property name="mpn" value="MCP73123T-22SI/MF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1351,6 +1459,7 @@
         <field name="manufacturerName">NA</field>
         <field name="octopartUrl">NA</field>
         <field name="manufacturerPartNumber">NA</field>
+        <field name="mpn">NA</field>
         <field name="Footprint">1projectLibrary:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</field>
         <field name="Datasheet">NA</field>
         <field name="Description">Normal Closed PCB Jumper - Cut to disable Battery Charging for non-chargeable batteries</field>
@@ -1359,6 +1468,7 @@
       <property name="manufacturerName" value="NA"/>
       <property name="octopartUrl" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
+      <property name="mpn" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
@@ -1375,6 +1485,7 @@
         <field name="manufacturerName">NA</field>
         <field name="manufacturerPartNumber">NA</field>
         <field name="octopartUrl">NA</field>
+        <field name="mpn">NA</field>
         <field name="Footprint">1projectLibrary:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</field>
         <field name="Datasheet">NA</field>
         <field name="Description">close to permanently enable 3.3V switched 1</field>
@@ -1383,6 +1494,7 @@
       <property name="manufacturerName" value="NA"/>
       <property name="manufacturerPartNumber" value="NA"/>
       <property name="octopartUrl" value="NA"/>
+      <property name="mpn" value="NA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -1400,6 +1512,7 @@
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/vls3010cx-470m-1-tdk-110194027?r=sp</field>
         <field name="manufacturerPartNumber">VLS3010CX-470M-1</field>
+        <field name="mpn">VLS3010CX-470M-1</field>
         <field name="Footprint">1projectLibrary:L_TDK_VLS3010CX</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf?ref_disty=mouser</field>
         <field name="Description">Inductor</field>
@@ -1408,6 +1521,7 @@
       <property name="manufacturerName" value="TDK"/>
       <property name="octopartUrl" value="https://octopart.com/vls3010cx-470m-1-tdk-110194027?r=sp"/>
       <property name="manufacturerPartNumber" value="VLS3010CX-470M-1"/>
+      <property name="mpn" value="VLS3010CX-470M-1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
@@ -1423,6 +1537,7 @@
         <field name="manufacturerName">TDK</field>
         <field name="octopartUrl">https://octopart.com/vls3010cx-220m-1-tdk-108018957?r=sp</field>
         <field name="manufacturerPartNumber">VLS3010CX-220M-1</field>
+        <field name="mpn">VLS3010CX-220M-1</field>
         <field name="Footprint">1projectLibrary:L_TDK_VLS3010CX</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf?ref_disty=mouser</field>
         <field name="Description"/>
@@ -1431,6 +1546,7 @@
       <property name="manufacturerName" value="TDK"/>
       <property name="octopartUrl" value="https://octopart.com/vls3010cx-220m-1-tdk-108018957?r=sp"/>
       <property name="manufacturerPartNumber" value="VLS3010CX-220M-1"/>
+      <property name="mpn" value="VLS3010CX-220M-1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
@@ -1447,6 +1563,7 @@
         <field name="manufacturerName">Panjit</field>
         <field name="octopartUrl">https://octopart.com/pjc7400_r1_00001-panjit-112852220?r=sp</field>
         <field name="manufacturerPartNumber">PJC7400_R1_00001</field>
+        <field name="mpn">PJC7400_R1_00001</field>
         <field name="Footprint">1projectLibrary:SOT-323_PJC7400</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/1057/PJC7400-1868968.pdf</field>
         <field name="Description">PJC7400</field>
@@ -1455,6 +1572,7 @@
       <property name="manufacturerName" value="Panjit"/>
       <property name="octopartUrl" value="https://octopart.com/pjc7400_r1_00001-panjit-112852220?r=sp"/>
       <property name="manufacturerPartNumber" value="PJC7400_R1_00001"/>
+      <property name="mpn" value="PJC7400_R1_00001"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
@@ -1470,6 +1588,7 @@
         <field name="manufacturerName">Vishay Siliconix</field>
         <field name="octopartUrl">https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp</field>
         <field name="manufacturerPartNumber">SI2367DS-T1-GE3</field>
+        <field name="mpn">SI2367DS-T1-GE3</field>
         <field name="Footprint">1projectLibrary:SI2367DS-SOT-23</field>
         <field name="Datasheet">https://www.vishay.com/docs/65015/si2367ds.pdf</field>
         <field name="Description">P-Channel MOSFET</field>
@@ -1478,6 +1597,7 @@
       <property name="manufacturerName" value="Vishay Siliconix"/>
       <property name="octopartUrl" value="https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp"/>
       <property name="manufacturerPartNumber" value="SI2367DS-T1-GE3"/>
+      <property name="mpn" value="SI2367DS-T1-GE3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="P-Channel MOSFET"/>
@@ -1494,6 +1614,7 @@
         <field name="manufacturerName">Vishay Siliconix</field>
         <field name="octopartUrl">https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp</field>
         <field name="manufacturerPartNumber">SI2367DS-T1-GE3</field>
+        <field name="mpn">SI2367DS-T1-GE3</field>
         <field name="Footprint">1projectLibrary:SI2367DS-SOT-23</field>
         <field name="Datasheet">https://www.vishay.com/docs/65015/si2367ds.pdf</field>
         <field name="Description">P-Channel MOSFET</field>
@@ -1502,6 +1623,7 @@
       <property name="manufacturerName" value="Vishay Siliconix"/>
       <property name="octopartUrl" value="https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp"/>
       <property name="manufacturerPartNumber" value="SI2367DS-T1-GE3"/>
+      <property name="mpn" value="SI2367DS-T1-GE3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="P-Channel MOSFET"/>
@@ -1518,6 +1640,7 @@
         <field name="manufacturerName">Vishay Siliconix</field>
         <field name="octopartUrl">https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp</field>
         <field name="manufacturerPartNumber">SI2367DS-T1-GE3</field>
+        <field name="mpn">SI2367DS-T1-GE3</field>
         <field name="Footprint">1projectLibrary:SI2367DS-SOT-23</field>
         <field name="Datasheet">https://www.vishay.com/docs/65015/si2367ds.pdf</field>
         <field name="Description">P-Channel MOSFET</field>
@@ -1526,6 +1649,7 @@
       <property name="manufacturerName" value="Vishay Siliconix"/>
       <property name="octopartUrl" value="https://octopart.com/si2367ds-t1-ge3-vishay-42637886?r=sp"/>
       <property name="manufacturerPartNumber" value="SI2367DS-T1-GE3"/>
+      <property name="mpn" value="SI2367DS-T1-GE3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="P-Channel MOSFET"/>
@@ -1543,6 +1667,7 @@
         <field name="octopartUrl">https://octopart.com/erj3rqj2r2v-panasonic-8095978?r=sp</field>
         <field name="genericPartNumber">GPR06032R2</field>
         <field name="manufacturerPartNumber">ERJ-3RQJ2R2V</field>
+        <field name="mpn">ERJ-3RQJ2R2V</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
         <field name="Description">2R2</field>
@@ -1552,6 +1677,7 @@
       <property name="octopartUrl" value="https://octopart.com/erj3rqj2r2v-panasonic-8095978?r=sp"/>
       <property name="genericPartNumber" value="GPR06032R2"/>
       <property name="manufacturerPartNumber" value="ERJ-3RQJ2R2V"/>
+      <property name="mpn" value="ERJ-3RQJ2R2V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1567,6 +1693,7 @@
         <field name="manufacturerName">YAGEO</field>
         <field name="octopartUrl">https://octopart.com/rc0603fr-071m69l-yageo-16255598</field>
         <field name="manufacturerPartNumber">RC0603FR-071M69L</field>
+        <field name="mpn">RC0603FR-071M69L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_12-3368608.pdf</field>
         <field name="Description"/>
@@ -1575,6 +1702,7 @@
       <property name="manufacturerName" value="YAGEO"/>
       <property name="octopartUrl" value="https://octopart.com/rc0603fr-071m69l-yageo-16255598"/>
       <property name="manufacturerPartNumber" value="RC0603FR-071M69L"/>
+      <property name="mpn" value="RC0603FR-071M69L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1591,6 +1719,7 @@
         <field name="octopartUrl">https://octopart.com/sr0603jr-071kl-yageo-71414179</field>
         <field name="genericPartNumber">GPR06031K</field>
         <field name="manufacturerPartNumber">SR0603JR-071KL</field>
+        <field name="mpn">SR0603JR-071KL</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/YAGEO_11022023_PYu_SR_20105_RoHS_L_11-3361774.pdf</field>
         <field name="Description"/>
@@ -1600,6 +1729,7 @@
       <property name="octopartUrl" value="https://octopart.com/sr0603jr-071kl-yageo-71414179"/>
       <property name="genericPartNumber" value="GPR06031K"/>
       <property name="manufacturerPartNumber" value="SR0603JR-071KL"/>
+      <property name="mpn" value="SR0603JR-071KL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1616,6 +1746,7 @@
         <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
         <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
+        <field name="mpn">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
         <field name="Description"/>
@@ -1625,6 +1756,7 @@
       <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
       <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
+      <property name="mpn" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1641,6 +1773,7 @@
         <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
         <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
+        <field name="mpn">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
         <field name="Description"/>
@@ -1650,6 +1783,7 @@
       <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
       <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
+      <property name="mpn" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1666,6 +1800,7 @@
         <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
         <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
+        <field name="mpn">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
         <field name="Description"/>
@@ -1675,6 +1810,7 @@
       <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
       <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
+      <property name="mpn" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1691,6 +1827,7 @@
         <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
         <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
+        <field name="mpn">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
         <field name="Description"/>
@@ -1700,6 +1837,7 @@
       <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
       <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
+      <property name="mpn" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1716,6 +1854,7 @@
         <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
         <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
+        <field name="mpn">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
         <field name="Description"/>
@@ -1725,6 +1864,7 @@
       <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
       <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
+      <property name="mpn" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1741,6 +1881,7 @@
         <field name="octopartUrl">https://octopart.com/ac0603dr-075k1l-yageo-100620021</field>
         <field name="genericPartNumber">GPR06035K1</field>
         <field name="manufacturerPartNumber">AC0603DR-075K1L</field>
+        <field name="mpn">AC0603DR-075K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
         <field name="Description"/>
@@ -1750,6 +1891,7 @@
       <property name="octopartUrl" value="https://octopart.com/ac0603dr-075k1l-yageo-100620021"/>
       <property name="genericPartNumber" value="GPR06035K1"/>
       <property name="manufacturerPartNumber" value="AC0603DR-075K1L"/>
+      <property name="mpn" value="AC0603DR-075K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1765,6 +1907,7 @@
         <field name="manufacturerName">Vishay - Dale</field>
         <field name="octopartUrl">https://octopart.com/crcw06035m36fkea-vishay-39816157</field>
         <field name="manufacturerPartNumber">CRCW06035M36FKEA</field>
+        <field name="mpn">CRCW06035M36FKEA</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.vishay.com/doc?20035</field>
         <field name="Description"/>
@@ -1773,6 +1916,7 @@
       <property name="manufacturerName" value="Vishay - Dale"/>
       <property name="octopartUrl" value="https://octopart.com/crcw06035m36fkea-vishay-39816157"/>
       <property name="manufacturerPartNumber" value="CRCW06035M36FKEA"/>
+      <property name="mpn" value="CRCW06035M36FKEA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1789,6 +1933,7 @@
         <field name="octopartUrl">https://octopart.com/cr0603-fx-1002elf-bourns-2326648?r=sp</field>
         <field name="genericPartNumber">GPR060310K</field>
         <field name="manufacturerPartNumber">CR0603-JW-103ELF</field>
+        <field name="mpn">CR0603-JW-103ELF</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/54/cr-1858361.pdf</field>
         <field name="Description"/>
@@ -1798,6 +1943,7 @@
       <property name="octopartUrl" value="https://octopart.com/cr0603-fx-1002elf-bourns-2326648?r=sp"/>
       <property name="genericPartNumber" value="GPR060310K"/>
       <property name="manufacturerPartNumber" value="CR0603-JW-103ELF"/>
+      <property name="mpn" value="CR0603-JW-103ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1814,6 +1960,7 @@
         <field name="octopartUrl">https://octopart.com/ac0603fr-0722k1l-yageo-30510747</field>
         <field name="genericPartNumber">GPR060322K1</field>
         <field name="manufacturerPartNumber">AC0603FR-0722K1L</field>
+        <field name="mpn">AC0603FR-0722K1L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
         <field name="Description"/>
@@ -1823,6 +1970,7 @@
       <property name="octopartUrl" value="https://octopart.com/ac0603fr-0722k1l-yageo-30510747"/>
       <property name="genericPartNumber" value="GPR060322K1"/>
       <property name="manufacturerPartNumber" value="AC0603FR-0722K1L"/>
+      <property name="mpn" value="AC0603FR-0722K1L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1838,6 +1986,7 @@
         <field name="manufacturerName">YAGEO</field>
         <field name="octopartUrl">https://octopart.com/rc0603fr-074m75l-yageo-1187229</field>
         <field name="manufacturerPartNumber">RC0603FR-074M75L</field>
+        <field name="mpn">RC0603FR-074M75L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</field>
         <field name="Description"/>
@@ -1846,6 +1995,7 @@
       <property name="manufacturerName" value="YAGEO"/>
       <property name="octopartUrl" value="https://octopart.com/rc0603fr-074m75l-yageo-1187229"/>
       <property name="manufacturerPartNumber" value="RC0603FR-074M75L"/>
+      <property name="mpn" value="RC0603FR-074M75L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1862,6 +2012,7 @@
         <field name="octopartUrl">https://octopart.com/ac0603fr-0747k5l-yageo-71367307</field>
         <field name="genericPartNumber">GPR060347K5</field>
         <field name="manufacturerPartNumber">AC0603FR-0747K5L</field>
+        <field name="mpn">AC0603FR-0747K5L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
         <field name="Description"/>
@@ -1871,6 +2022,7 @@
       <property name="octopartUrl" value="https://octopart.com/ac0603fr-0747k5l-yageo-71367307"/>
       <property name="genericPartNumber" value="GPR060347K5"/>
       <property name="manufacturerPartNumber" value="AC0603FR-0747K5L"/>
+      <property name="mpn" value="AC0603FR-0747K5L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1887,6 +2039,7 @@
         <field name="octopartUrl">https://octopart.com/ac0603jr-07330kl-yageo-30510863</field>
         <field name="genericPartNumber">GPR060330K</field>
         <field name="manufacturerPartNumber">AC0603JR-07330KL</field>
+        <field name="mpn">AC0603JR-07330KL</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
         <field name="Description"/>
@@ -1896,6 +2049,7 @@
       <property name="octopartUrl" value="https://octopart.com/ac0603jr-07330kl-yageo-30510863"/>
       <property name="genericPartNumber" value="GPR060330K"/>
       <property name="manufacturerPartNumber" value="AC0603JR-07330KL"/>
+      <property name="mpn" value="AC0603JR-07330KL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1912,6 +2066,7 @@
         <field name="octopartUrl">https://octopart.com/ac0603jr-07330kl-yageo-30510863</field>
         <field name="genericPartNumber">GPR060330K</field>
         <field name="manufacturerPartNumber">AC0603JR-07330KL</field>
+        <field name="mpn">AC0603JR-07330KL</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf</field>
         <field name="Description"/>
@@ -1921,6 +2076,7 @@
       <property name="octopartUrl" value="https://octopart.com/ac0603jr-07330kl-yageo-30510863"/>
       <property name="genericPartNumber" value="GPR060330K"/>
       <property name="manufacturerPartNumber" value="AC0603JR-07330KL"/>
+      <property name="mpn" value="AC0603JR-07330KL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1936,6 +2092,7 @@
         <field name="manufacturerName">YAGEO</field>
         <field name="octopartUrl">https://octopart.com/rc0603fr-078m45l-yageo-26128888</field>
         <field name="manufacturerPartNumber">RC0603FR-078M45L</field>
+        <field name="mpn">RC0603FR-078M45L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</field>
         <field name="Description"/>
@@ -1944,6 +2101,7 @@
       <property name="manufacturerName" value="YAGEO"/>
       <property name="octopartUrl" value="https://octopart.com/rc0603fr-078m45l-yageo-26128888"/>
       <property name="manufacturerPartNumber" value="RC0603FR-078M45L"/>
+      <property name="mpn" value="RC0603FR-078M45L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1959,6 +2117,7 @@
         <field name="manufacturerName">YAGEO</field>
         <field name="octopartUrl">https://octopart.com/rc0603fr-074m75l-yageo-1187229</field>
         <field name="manufacturerPartNumber">RC0603FR-074M75L</field>
+        <field name="mpn">RC0603FR-074M75L</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</field>
         <field name="Description"/>
@@ -1967,6 +2126,7 @@
       <property name="manufacturerName" value="YAGEO"/>
       <property name="octopartUrl" value="https://octopart.com/rc0603fr-074m75l-yageo-1187229"/>
       <property name="manufacturerPartNumber" value="RC0603FR-074M75L"/>
+      <property name="mpn" value="RC0603FR-074M75L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1982,6 +2142,7 @@
         <field name="manufacturerName">Vishay - Dale</field>
         <field name="octopartUrl">https://octopart.com/crcw06035m36fkea-vishay-39816157</field>
         <field name="manufacturerPartNumber">CRCW06035M36FKEA</field>
+        <field name="mpn">CRCW06035M36FKEA</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.vishay.com/doc?20035</field>
         <field name="Description"/>
@@ -1990,6 +2151,7 @@
       <property name="manufacturerName" value="Vishay - Dale"/>
       <property name="octopartUrl" value="https://octopart.com/crcw06035m36fkea-vishay-39816157"/>
       <property name="manufacturerPartNumber" value="CRCW06035M36FKEA"/>
+      <property name="mpn" value="CRCW06035M36FKEA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2005,6 +2167,7 @@
         <field name="manufacturerName">YAGEO</field>
         <field name="octopartUrl">https://octopart.com/rc0603fr-7w330rl-yageo-52751815</field>
         <field name="manufacturerPartNumber">RC0603FR-7W330RL</field>
+        <field name="mpn">RC0603FR-7W330RL</field>
         <field name="Footprint">1projectLibrary:R_0603_nominal</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/447/PYu_RC_Group_51_RoHS_L_12-3368608.pdf</field>
         <field name="Description"/>
@@ -2013,6 +2176,7 @@
       <property name="manufacturerName" value="YAGEO"/>
       <property name="octopartUrl" value="https://octopart.com/rc0603fr-7w330rl-yageo-52751815"/>
       <property name="manufacturerPartNumber" value="RC0603FR-7W330RL"/>
+      <property name="mpn" value="RC0603FR-7W330RL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2029,6 +2193,7 @@
         <field name="manufacturerName">Wurth Electronics</field>
         <field name="octopartUrl">https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp</field>
         <field name="manufacturerPartNumber">434331045822</field>
+        <field name="mpn">434331045822</field>
         <field name="Footprint">1projectLibrary:Wurth-4343X10458XX</field>
         <field name="Datasheet">https://www.we-online.com/katalog/datasheet/434331045822.pdf</field>
         <field name="Description">MCU Reset</field>
@@ -2037,6 +2202,7 @@
       <property name="manufacturerName" value="Wurth Electronics"/>
       <property name="octopartUrl" value="https://octopart.com/434331045822-wurth+elektronik-22866031?r=sp"/>
       <property name="manufacturerPartNumber" value="434331045822"/>
+      <property name="mpn" value="434331045822"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
@@ -2052,6 +2218,7 @@
         <field name="manufacturerName">Alps Alpine</field>
         <field name="octopartUrl">https://octopart.com/sllb510100-alps-1050713?r=sp</field>
         <field name="manufacturerPartNumber">SLLB510100</field>
+        <field name="mpn">SLLB510100</field>
         <field name="Footprint">1projectLibrary:SLLB510100</field>
         <field name="Datasheet">https://www.mouser.be/datasheet/2/15/SLLB5-1570014.pdf</field>
         <field name="Description">Application Navigation Button</field>
@@ -2060,6 +2227,7 @@
       <property name="manufacturerName" value="Alps Alpine"/>
       <property name="octopartUrl" value="https://octopart.com/sllb510100-alps-1050713?r=sp"/>
       <property name="manufacturerPartNumber" value="SLLB510100"/>
+      <property name="mpn" value="SLLB510100"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LoRa-V3-PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
