@@ -1,12 +1,10 @@
-name: "KiCad ERC/DRC Check and Outputs generation"
+name: "Create Release"
 on:
   workflow_dispatch:
-  push:
-    branches: [main, develop]
 
 jobs:
   drcerc:
-    name: Run DRC and ERC, Export Schematic as PDF
+    name: Run DRC and ERC, Export Schematic as PDF, and Create Release
     permissions: write-all
     runs-on: ubuntu-latest
     outputs:
@@ -23,7 +21,7 @@ jobs:
       nextpatchdigit: ${{ steps.selectversion.outputs.nextpatchdigit }}
       buildversion: ${{ steps.selectversion.outputs.buildversion }}
 
-    env: 
+    env:
       CI_COMMIT_MESSAGE: add workflow generated files
       CI_COMMIT_AUTHOR: CD Workflow
 
@@ -98,7 +96,7 @@ jobs:
           echo "nextmajordigit=$nextmajordigit" >> $GITHUB_OUTPUT
           echo "nextminordigit=$nextminordigit" >> $GITHUB_OUTPUT
           echo "buildversion=$buildversion" >> $GITHUB_OUTPUT
-  
+
       - name: Show Build info
         id: showbuildinfo
         run: |
@@ -155,3 +153,15 @@ jobs:
           git add .
           git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
+
+      - name: Create Release
+        id: createrelease
+        uses: actions/create-release@v1
+        if: ${{ steps.versioninfo.outputs.branchname == 'main'}}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.selectversion.outputs.buildversion }}
+          release_name: Release ${{ steps.selectversion.outputs.buildversion }}
+          draft: false
+          prerelease: false

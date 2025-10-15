@@ -1,17 +1,15 @@
-# https://github.com/INTI-CMNB/KiBot/tree/dev/tests/yaml_samples
-
 kibot:
   version: 1
 
 import:
   - file: preflights.kibot.yaml
- # - file: datasheets.kibot.yaml
+  - file: datasheets.kibot.yaml
   - file: schematic.kibot.yaml
   - file: bom.kibot.yaml
- #  - file: cost.kibot.yaml
-  - file: pcb_gerbers.kibot.yaml
-  - file: pcb_drill.kibot.yaml
   - file: pcb_step.kibot.yaml
   - file: pcb_images.kibot.yaml
-#  - file: pcb_renders.kibot.yaml
+  - file: pcb_renders.kibot.yaml
+ #  - file: cost.kibot.yaml
 
+
+# https://github.com/INTI-CMNB/KiBot/tree/dev/tests/yaml_samples

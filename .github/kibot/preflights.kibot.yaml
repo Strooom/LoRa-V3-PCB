@@ -20,16 +20,20 @@ preflight:
 
     - field: manufacturerPartNumber
       regex: '.+'
-      severity: error
+      severity_missing: error
+
+    - field: mpn
+      regex: '.*'
+      severity_missing: warning
 
     - field: genericPartNumber
       regex: '.*'
-      severity: error
+      severity_missing: warning
 
     - field: octopartUrl
       regex: '^(https://.*|NA)$'
       severity: error
-      
+
     - field: "*"
       severity_missing: error
 

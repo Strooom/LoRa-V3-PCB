@@ -1,0 +1,7 @@
+kibot:
+  version: 1
+
+import:
+  - file: preflights.kibot.yaml
+  - file: schematic.kibot.yaml
+  - file: bom.kibot.yaml

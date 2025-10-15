@@ -17410,6 +17410,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CL21B475KPFNFNE"
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01aa6381-5831-4fca-9957-1b6a673cab61")
 		)
@@ -17505,6 +17514,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
+			(at 513.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CGA3E1X7R1E105K080AC"
 			(at 513.08 144.78 0)
 			(effects
 				(font
@@ -17614,6 +17632,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "RC0603FR-074M75L"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b52800f7-0cc9-4c9a-a500-66d311f213fe")
 		)
@@ -17703,6 +17730,15 @@
 			)
 		)
 		(property "octopartUrl" "NA"
+			(at 189.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "NA"
 			(at 189.23 298.45 0)
 			(effects
 				(font
@@ -17816,6 +17852,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E2X7R1E104K080AA"
+			(at 210.82 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40444b72-4fd6-40dc-a6fc-5269fb86bef7")
 		)
@@ -17909,6 +17954,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"
+			(at 232.41 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "BR24G1MFVT-5AE2"
 			(at 232.41 372.11 0)
 			(effects
 				(font
@@ -18100,6 +18154,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "NA"
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1b4b4b5-c5a5-44b2-b4d6-fab631b74350")
 		)
@@ -18211,6 +18274,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E2X7R1E104K080AA"
+			(at 375.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4634aa6-8f0f-4847-a7bf-9336273b7ab0")
 		)
@@ -18306,6 +18378,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "SLLB510100"
+			(at 393.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "SLLB510100"
 			(at 393.7 48.26 0)
 			(effects
 				(font
@@ -18413,6 +18494,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "NA"
+			(at 565.15 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "NA"
 			(at 565.15 345.44 0)
 			(effects
 				(font
@@ -18588,6 +18678,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "NA"
+			(at 373.38 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81bf22a8-68b0-4d0c-adee-37b2b585c4da")
 		)
@@ -18696,6 +18795,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "NA"
+			(at 565.15 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "NA"
 			(at 565.15 340.36 0)
 			(effects
 				(font
@@ -18858,6 +18966,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "RC0603FR-071M69L"
+			(at 71.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "RC0603FR-071M69L"
 			(at 71.12 96.52 0)
 			(effects
 				(font
@@ -19083,6 +19200,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "VLS3010CX-470M-1"
+			(at 487.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e8815eb-e9f7-45b0-a8a7-329584e16a01")
 		)
@@ -19186,6 +19312,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "NA"
+			(at 518.16 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
@@ -19277,6 +19412,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
+			(at 185.42 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CL21B475KPFNFNE"
 			(at 185.42 186.69 0)
 			(effects
 				(font
@@ -19446,6 +19590,15 @@
 		)
 		(property "manufacturerPartNumber" "114993121"
 			(at 323.088 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "114993121"
+			(at 368.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19634,6 +19787,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "PJC7400_R1_00001"
+			(at 490.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48625241-e224-4df5-8229-7384169033f0")
 		)
@@ -19738,6 +19900,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
+			(at 529.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CGA3E1X7R1E105K080AC"
 			(at 529.59 127 0)
 			(effects
 				(font
@@ -19855,6 +20026,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "SR0603JR-071KL"
+			(at 161.29 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f43190b2-1cfe-4872-ad81-b6c53753d115")
 		)
@@ -19948,6 +20128,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"
+			(at 265.43 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "BR24G1MFVT-5AE2"
 			(at 265.43 372.11 0)
 			(effects
 				(font
@@ -20054,6 +20243,15 @@
 		)
 		(property "manufacturerPartNumber" "BC075-08-A-L-A"
 			(at 102.362 371.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "BC075-08-A-L-A"
+			(at 102.87 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20169,6 +20367,15 @@
 		)
 		(property "manufacturerPartNumber" "2460"
 			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "2460"
+			(at 256.54 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20334,6 +20541,15 @@
 		)
 		(property "manufacturerPartNumber" "SI2367DS-T1-GE3"
 			(at 500.38 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "SI2367DS-T1-GE3"
+			(at 500.38 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20513,6 +20729,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "NA"
+			(at 518.16 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
@@ -20594,6 +20819,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CRCW06035M36FKEA"
+			(at 134.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CRCW06035M36FKEA"
 			(at 134.62 105.41 0)
 			(effects
 				(font
@@ -20694,6 +20928,15 @@
 		)
 		(property "manufacturerPartNumber" "MCP73123T-22SI/MF"
 			(at 193.675 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "MCP73123T-22SI/MF"
+			(at 194.31 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20823,6 +21066,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CRCW06035M36FKEA"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6bb5ac8-41e6-44bb-9805-c9bc794077de")
 		)
@@ -20913,6 +21165,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "SM04B-SRSS-TB(LF)(DN)(P)"
+			(at 149.86 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "SM04B-SRSS-TB(LF)(DN)(P)"
 			(at 149.86 372.11 0)
 			(effects
 				(font
@@ -21044,6 +21305,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CL21B475KPFNFNE"
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b7bcc58-372e-4920-9e9e-bccd4daaad21")
 		)
@@ -21147,6 +21417,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CL21B475KPFNFNE"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CL21B475KPFNFNE"
 			(at 175.26 106.68 0)
 			(effects
 				(font
@@ -21324,6 +21603,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CR0603-JW-103ELF"
+			(at 496.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CR0603-JW-103ELF"
 			(at 496.57 140.97 0)
 			(effects
 				(font
@@ -21562,6 +21850,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "73391-0080"
+			(at 360.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fb37a76-8c56-48aa-b533-9cddb4c4a577")
 		)
@@ -21671,6 +21968,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E1X7R1E105K080AC"
+			(at 541.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aaa0ef15-8797-4c89-937a-9a0c5110f0a3")
 		)
@@ -21764,6 +22070,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/br24g1mfvt-5ae2-rohm-126430213"
+			(at 299.72 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "BR24G1MFVT-5AE2"
 			(at 299.72 372.11 0)
 			(effects
 				(font
@@ -21879,6 +22194,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CP2102N-A02-GQFN24R"
+			(at 175.26 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CP2102N-A02-GQFN24R"
 			(at 175.26 226.06 0)
 			(effects
 				(font
@@ -22049,6 +22373,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "RC0603FR-074M75L"
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "RC0603FR-074M75L"
 			(at 124.46 102.87 0)
 			(effects
 				(font
@@ -22228,6 +22561,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E2X7R1E104K080AA"
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d0a6ff5-6ed3-4edb-a626-2aa9a19eeba5")
 		)
@@ -22333,6 +22675,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CL21B475KPFNFNE"
+			(at 153.67 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a1e9b1f-d107-4b2e-8d67-73cc240ed20b")
 		)
@@ -22426,6 +22777,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "MSS1P3HM3_A/H"
+			(at 496.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "MSS1P3HM3_A/H"
 			(at 496.57 100.33 0)
 			(effects
 				(font
@@ -22537,6 +22897,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "AC0603DR-075K1L"
+			(at 342.9 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "AC0603DR-075K1L"
 			(at 342.9 337.82 0)
 			(effects
 				(font
@@ -22712,6 +23081,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "BR24G1MFVT-5AE2"
+			(at 198.12 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b533b97-c97f-488e-a4e8-abbd4b02edc3")
 		)
@@ -22831,6 +23209,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "MSS1P3HM3_A/H"
+			(at 513.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85c500b8-71e0-414c-9eff-c2d086ccd53b")
 		)
@@ -22934,6 +23321,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "AC0603FR-0747K5L"
+			(at 144.78 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "AC0603FR-0747K5L"
 			(at 144.78 241.3 0)
 			(effects
 				(font
@@ -23123,6 +23519,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E1X7R1E105K080AC"
+			(at 529.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c49c3c6-0a24-444e-b325-867342b48e43")
 		)
@@ -23232,6 +23637,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CL21B475KPFNFNE"
+			(at 496.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e35fa85f-5290-4a61-bf35-25753cb66d04")
 		)
@@ -23328,6 +23742,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "217179-0001"
+			(at 53.34 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "217179-0001"
 			(at 53.34 219.71 0)
 			(effects
 				(font
@@ -23598,6 +24021,15 @@
 			)
 		)
 		(property "octopartUrl" "https://octopart.com/bq25504rgtr-texas+instruments-20530455"
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "BQ25504RGTR"
 			(at 99.06 102.87 0)
 			(effects
 				(font
@@ -23891,6 +24323,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "2-1734839-4"
+			(at 552.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "0"
 			(uuid "76d8046a-7268-4765-b072-44288778f5b7")
 		)
@@ -24071,6 +24512,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E2X7R1E104K080AA"
+			(at 278.13 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "430e5bf2-ca31-4359-ba88-d1dcda538e45")
 		)
@@ -24167,6 +24617,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "AC0603DR-075K1L"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "AC0603DR-075K1L"
 			(at 208.28 116.84 0)
 			(effects
 				(font
@@ -24279,6 +24738,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "AC0603DR-075K1L"
+			(at 78.74 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f2ec703-575c-4a63-bd63-0d6b2ecd6565")
 		)
@@ -24374,6 +24842,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "B2B-XH-A(LF)(SN)"
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "B2B-XH-A(LF)(SN)"
 			(at 50.8 109.22 0)
 			(effects
 				(font
@@ -24547,6 +25024,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "SI2367DS-T1-GE3"
+			(at 246.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "732696d5-a98d-487e-a0c8-ebf06eec3fc3")
 		)
@@ -24647,6 +25133,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CL21B106KPQNNWE"
+			(at 397.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CL21B106KPQNNWE"
 			(at 397.51 74.93 0)
 			(effects
 				(font
@@ -24821,6 +25316,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "VLS3010CX-220M-1"
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "950f3c7e-a582-4d02-a226-cccc1fc48a42")
 		)
@@ -24918,6 +25422,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "NA"
+			(at 518.16 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
@@ -25000,6 +25513,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "RC0603FR-7W330RL"
+			(at 386.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "RC0603FR-7W330RL"
 			(at 386.08 123.19 0)
 			(effects
 				(font
@@ -25104,6 +25626,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "AC0603DR-075K1L"
+			(at 82.55 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "AC0603DR-075K1L"
 			(at 82.55 242.57 0)
 			(effects
 				(font
@@ -25223,6 +25754,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CL21B106KPQNNWE"
+			(at 198.12 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44854f8e-1e09-4bdc-b84d-af5ce6bbe9c3")
 		)
@@ -25326,6 +25866,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "AC0603JR-07330KL"
+			(at 495.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1286f0ab-266c-432e-b701-2b540317442d")
 		)
@@ -25421,6 +25970,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "AC0603JR-07330KL"
+			(at 168.91 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "AC0603JR-07330KL"
 			(at 168.91 293.37 0)
 			(effects
 				(font
@@ -25598,6 +26156,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "434331045822"
+			(at 387.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba36e097-8929-4bb3-959d-acc16c60ae19")
 		)
@@ -25707,6 +26274,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E1X7R1E105K080AC"
+			(at 530.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dde46520-2297-47ad-af9c-72e7268ce075")
 		)
@@ -25804,6 +26380,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "USBLC6-2SC6"
+			(at 105.41 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "USBLC6-2SC6"
 			(at 105.41 219.71 0)
 			(effects
 				(font
@@ -25922,6 +26507,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "NA"
+			(at 565.15 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "LoRa-V3-PCB"
 				(path "/8b98a678-96e2-411a-8566-924f77e9f267"
@@ -26009,6 +26603,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "MSS1P3HM3_A/H"
+			(at 508 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "MSS1P3HM3_A/H"
 			(at 508 104.14 0)
 			(effects
 				(font
@@ -26128,6 +26731,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CL21B475KPFNFNE"
+			(at 481.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc6182cb-a5be-495c-966a-912ac4a1b205")
 		)
@@ -26239,6 +26851,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E2X7R1E104K080AA"
+			(at 313.69 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9bc303f-3cb0-45a8-abda-7e62e7d615d4")
 		)
@@ -26331,6 +26952,15 @@
 		)
 		(property "manufacturerPartNumber" "SI2367DS-T1-GE3"
 			(at 176.53 305.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "SI2367DS-T1-GE3"
+			(at 176.53 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26436,6 +27066,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E1X7R1E105K080AC"
+			(at 502.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CGA3E1X7R1E105K080AC"
 			(at 502.92 144.78 0)
 			(effects
 				(font
@@ -26553,6 +27192,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E1X7R1E105K080AC"
+			(at 529.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "252a8943-945c-48be-a5b3-de8fd88c97ce")
 		)
@@ -26656,6 +27304,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "AC0603FR-0722K1L"
+			(at 144.78 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "AC0603FR-0722K1L"
 			(at 144.78 209.55 0)
 			(effects
 				(font
@@ -26845,6 +27502,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E1X7R1E105K080AC"
+			(at 529.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fc3e48f-f583-4524-86b7-a1079c3d9418")
 		)
@@ -26956,6 +27622,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CGA3E2X7R1E104K080AA"
+			(at 245.11 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "364f8638-f770-4c27-9667-a35030059e01")
 		)
@@ -27043,6 +27718,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "RC0603FR-078M45L"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "RC0603FR-078M45L"
 			(at 71.12 120.65 0)
 			(effects
 				(font
@@ -27148,6 +27832,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "AC0603DR-075K1L"
+			(at 347.98 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "AC0603DR-075K1L"
 			(at 347.98 337.82 0)
 			(effects
 				(font
@@ -27333,6 +28026,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CL21B475KPFNFNE"
+			(at 63.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52e5fff5-ac5e-4257-a991-080464194877")
 		)
@@ -27422,6 +28124,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "NA"
+			(at 518.16 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "NA"
 			(at 518.16 347.98 0)
 			(effects
 				(font
@@ -27521,6 +28232,15 @@
 			)
 		)
 		(property "genericPartNumber" "GPC0603104-25-X7R"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CGA3E2X7R1E104K080AA"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -27634,6 +28354,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "CL21B106KPQNNWE"
+			(at 518.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6996dc43-22bc-4ffd-af6e-22b89e6e502f")
 		)
@@ -27731,6 +28460,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "AC0603DR-075K1L"
+			(at 337.82 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "AC0603DR-075K1L"
 			(at 337.82 337.82 0)
 			(effects
 				(font
@@ -28036,6 +28774,15 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "ERJ-3RQJ2R2V"
+			(at 487.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb933508-a50d-4020-8b03-442d2dd1e17e")
 		)
@@ -28139,6 +28886,15 @@
 			)
 		)
 		(property "manufacturerPartNumber" "CGA3E2X7R1E104K080AA"
+			(at 388.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "CGA3E2X7R1E104K080AA"
 			(at 388.62 74.93 0)
 			(effects
 				(font

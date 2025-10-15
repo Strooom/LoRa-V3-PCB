@@ -20,11 +20,11 @@ outputs:
         resolution_x: 1000
         resolution_y: 1600
       point_of_view:
-        - rotate_z: -90
+        - rotate_z: 0
           rotate_x: 0
           rotate_y: 0
       fixed_auto_camera: false
-      auto_camera_z_axis_factor: 0.75
+      auto_camera_z_axis_factor: 1.2
       outputs:
         - type: render
           output: 'front.png'
@@ -50,11 +50,11 @@ outputs:
         resolution_x: 1000
         resolution_y: 1600
       point_of_view:
-        - rotate_z: -90
+        - rotate_z: 180
           rotate_x: 180
           rotate_y: 0
       fixed_auto_camera: false
-      auto_camera_z_axis_factor: 0.75
+      auto_camera_z_axis_factor: 1.2
       outputs:
         - type: render
           output: 'back.png'
