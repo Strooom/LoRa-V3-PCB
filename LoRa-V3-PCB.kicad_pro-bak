@@ -527,7 +527,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -591,6 +591,12 @@
           "label": "octopartUrl",
           "name": "octopartUrl",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mpn",
+          "name": "mpn",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -647,8 +653,8 @@
   "text_variables": {
     "githubUrl": "https://github.com/Strooom/LoRa-V3-PCB",
     "majorVersion": "2",
-    "minorVersion": "9",
-    "releaseDate": "Thu Sep 04 09:23:31 2025",
+    "minorVersion": "10",
+    "releaseDate": "Thu Sep 04 09:37:42 2025",
     "releaseDateShort": "2025-09-04"
   }
 }
