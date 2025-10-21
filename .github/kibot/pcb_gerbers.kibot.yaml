@@ -1,40 +1,107 @@
 outputs:
+  # Gerber files for PCB fabrication
   - name: 'gerber files'
-    comment: "Gerber"
+    comment: "Gerber files for PCB fabrication"
     type: gerber
     dir: gerber
     options:
-      output: '%i%I%v.%x'
+      # Clear file naming: ProjectName-LayerName.gbr
+      output: '%f-%i.%x'
+
+      # Job file helps manufacturers understand layer stackup
       create_gerber_job_file: true
-      gerber_job_file: 'job.%x'
+      gerber_job_file: '%f-job.%x'
+
+      # Standard precision: 4.6 format (1 micron resolution)
       gerber_precision: 4.6
 
-      # exclude_edge_layer: false
-      # exclude_pads_from_silkscreen: false
-      # use_aux_axis_as_origin: false
-      # plot_footprint_refs: true
-      # plot_footprint_values: true
-      # force_plot_invisible_refs_vals: false
-      # tent_vias: true
-      # line_width: 0.15
-      # subtract_mask_from_silk: true
-      # use_protel_extensions: false
-      # use_gerber_x2_attributes: true
-      # use_gerber_net_attributes: false
-      # output: '%f_%i.%x'
-      
-      # default options
-      plot_sheet_reference: false
+      # Use Protel extensions for better manufacturer compatibility
+      # .GTL/.GBL for copper, .GTO/.GBO for silkscreen, etc.
+      use_protel_extensions: true
 
-    # layers: all
+      # Modern Gerber X2 attributes for better layer identification
+      use_gerber_x2_attributes: true
+      use_gerber_net_attributes: true
+
+      # Standard fabrication options
+      exclude_edge_layer: false
+      exclude_pads_from_silkscreen: true
+      subtract_mask_from_silk: true
+      plot_sheet_reference: false
+      tent_vias: true
+      use_aux_axis_as_origin: false
+
     layers:
-      - 'copper'
+      # Copper layers (explicitly defined for 2-layer board)
+      - layer: 'F.Cu'
+        suffix: 'F_Cu'
+        description: 'Top copper layer'
+      - layer: 'B.Cu'
+        suffix: 'B_Cu'
+        description: 'Bottom copper layer'
+
+      # Solder mask layers
       - layer: 'F.Mask'
-      - layer: 'F.Paste'
-      - layer: 'F.Silkscreen'
+        suffix: 'F_Mask'
+        description: 'Top solder mask'
       - layer: 'B.Mask'
+        suffix: 'B_Mask'
+        description: 'Bottom solder mask'
+
+      # Solder paste layers (for stencil manufacturing)
+      - layer: 'F.Paste'
+        suffix: 'F_Paste'
+        description: 'Top solder paste'
       - layer: 'B.Paste'
+        suffix: 'B_Paste'
+        description: 'Bottom solder paste'
+
+      # Silkscreen layers
+      - layer: 'F.Silkscreen'
+        suffix: 'F_Silkscreen'
+        description: 'Top silkscreen'
       - layer: 'B.Silkscreen'
+        suffix: 'B_Silkscreen'
+        description: 'Bottom silkscreen'
+
+      # Board outline
       - layer: 'Edge.Cuts'
+        suffix: 'Edge_Cuts'
+        description: 'Board outline'
+
+  # Drill files (Excellon format - most widely supported)
+  - name: 'excellon drill files'
+    comment: "Drill files in Excellon format"
+    type: excellon
+    dir: gerber
+    options:
+      metric_units: true
+      pth_and_npth_single_file: false
+      pth_id: '-PTH'
+      npth_id: '-NPTH'
+      output: '%f%i.%x'
+
+  # Drill files (Gerber format - modern alternative)
+  - name: 'gerber drill files'
+    comment: "Drill files in Gerber X2 format"
+    type: gerb_drill
+    dir: gerber
+    options:
+      output: '%f-%i.%x'
+      use_gerber_x2_attributes: true
+      pth_id: 'PTH-Drill'
+      npth_id: 'NPTH-Drill'
+
+  # Drill map (PDF for visual reference)
+  - name: 'drill map'
+    comment: "Drill map for visual reference"
+    type: pdf_pcb_print
+    dir: gerber
+    options:
+      output: '%f-Drill_Map.%x'
+    layers:
+      - layer: 'Edge.Cuts'
+      - layer: 'F.Cu'
+      - layer: 'Dwgs.User'
 
 

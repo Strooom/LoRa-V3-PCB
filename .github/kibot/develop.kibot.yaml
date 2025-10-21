@@ -5,3 +5,4 @@ import:
   - file: preflights.kibot.yaml
   - file: schematic.kibot.yaml
   - file: bom.kibot.yaml
+  - file: pcb_gerbers.kibot.yaml
