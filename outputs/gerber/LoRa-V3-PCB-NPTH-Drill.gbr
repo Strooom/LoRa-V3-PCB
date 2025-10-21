@@ -1,0 +1,34 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.8+1*%
+%TF.CreationDate,Date%
+%TF.ProjectId,LoRa-V3-PCB,4c6f5261-2d56-4332-9d50-43422e6b6963,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,2,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,1.100000*%
+%TD*%
+%TA.AperFunction,ComponentDrill*%
+%ADD11C,2.000000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,SW2*%
+X162850000Y-118750000D03*
+X166650000Y-118750000D03*
+D11*
+%TO.C,H1*%
+X117000000Y-75000000D03*
+%TO.C,H3*%
+X117000000Y-119000000D03*
+%TO.C,H2*%
+X173000000Y-75000000D03*
+%TO.C,H4*%
+X173000000Y-119000000D03*
+M02*
