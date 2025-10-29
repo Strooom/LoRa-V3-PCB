@@ -7,8 +7,8 @@
     <textvar name="githubUrl">https://github.com/Strooom/LoRa-V3-PCB</textvar>
     <textvar name="majorVersion">2</textvar>
     <textvar name="minorVersion">11</textvar>
-    <textvar name="releaseDate">Mon Oct 27 08:44:57 2025</textvar>
-    <textvar name="releaseDateShort">2025-10-27</textvar>
+    <textvar name="releaseDate">Wed Oct 29 14:37:20 2025</textvar>
+    <textvar name="releaseDateShort">2025-10-29</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LoRa-v3</title>
